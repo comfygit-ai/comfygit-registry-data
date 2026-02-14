@@ -1,16 +1,16 @@
 [project]
-name = "comfydock-registry-data"
+name = "comfygit-registry-data"
 version = "1.0.0"
 description = "A repo to store and manage Comfy Registry cache data, as well as generate node_mappings.json for efficient node discovery."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "aiohttp>=3.12.15",
-    "comfydock-core>=1.0.0",
+    "comfygit-core>=1.0.0",
 ]
 
 [tool.uv.sources]
-comfydock-core = { path = "../comfydock/packages/core", editable = true }
+comfygit-core = { path = "/data/projects/comfygit-ai/comfygit/packages/core", editable = true }
 
 [dependency-groups]
 dev = [

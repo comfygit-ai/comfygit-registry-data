@@ -29,6 +29,7 @@ class RegistryOrchestrator:
         self.cache_file = data_dir / "full_registry_cache.json"
         self.mappings_file = data_dir / "node_mappings.json"
         self.manager_file = data_dir / ".temp_extension-node-map.json"  # Temporary file
+        self.community_file = Path("config/community_mappings.json")
         self.state_file = data_dir / ".update_state.json"
         self.stats: Dict[str, Any] = {"started_at": datetime.now().isoformat()}
 
@@ -176,7 +177,7 @@ class RegistryOrchestrator:
 
     async def _augment_mappings(self):
         """Augment mappings with Manager data."""
-        logger.info("🔄 Augmenting mappings with Manager data")
+        logger.info("🔄 Augmenting mappings with Manager and community fallback data")
 
         if not self.mappings_file.exists():
             logger.warning("Mappings file not found, skipping augmentation")
@@ -189,7 +190,7 @@ class RegistryOrchestrator:
         augment_start = datetime.now()
 
         # Run augmentation
-        augmenter = MappingsAugmenter(self.mappings_file, self.manager_file)
+        augmenter = MappingsAugmenter(self.mappings_file, self.manager_file, self.community_file)
         augmenter.load_data()
         augmenter.augment_mappings()
         augmenter.save_augmented_mappings(self.mappings_file, schema_config=self.schema_config)
@@ -198,6 +199,7 @@ class RegistryOrchestrator:
         self.stats["augmentation_completed_at"] = datetime.now().isoformat()
         self.stats["augmentation_duration_seconds"] = (datetime.now() - augment_start).total_seconds()
         self.stats["nodes_added_from_manager"] = augmenter.stats["nodes_added"]
+        self.stats["nodes_added_from_community"] = augmenter.stats["community_nodes_added"]
         self.stats["synthetic_packages_created"] = len(augmenter.stats["synthetic_packages_created"])
 
         # Update final mappings size after augmentation

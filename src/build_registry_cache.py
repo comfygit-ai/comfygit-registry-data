@@ -636,7 +636,7 @@ Progressive Enhancement Examples:
     parser.add_argument(
         "--output", "-o",
         type=Path,
-        default=Path("src/comfydock_core/data/registry_cache.json"),
+        default=Path("src/comfygit_core/data/registry_cache.json"),
         help="Output cache file"
     )
     parser.add_argument(

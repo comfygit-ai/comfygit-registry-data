@@ -1,4 +1,4 @@
-# ComfyDock Registry Data
+# ComfyGit Registry Data
 
 Automated data pipeline for ComfyUI node mappings and package discovery. Provides comprehensive, continuously updated registry data for efficient node resolution and package management.
 
@@ -26,6 +26,30 @@ The pipeline operates in phases:
 2. **Mapping Generation** - Create node signatures with input types
 3. **Community Integration** - Augment with ecosystem extensions
 4. **Validation** - Ensure data integrity and consistency
+
+### Curated Community Fallback Mappings
+
+This repository includes a curated fallback file at `config/community_mappings.json`.
+
+- Purpose: fill known blind spots when a common node type is still unresolved after registry + Manager augmentation.
+- Scope: fallback-only. Entries are added only when the node key does not already exist.
+- Precedence: registry and Manager mappings always win for existing keys.
+
+Current seeded examples:
+- `SetNode` -> `comfyui-kjnodes`
+- `GetNode` -> `comfyui-kjnodes`
+
+Each curated entry includes:
+- `node_type`
+- `input_signature`
+- `package_id`
+- `reason`
+- `source_url`
+- `added_at`
+
+Validation rules:
+- `package_id` must already exist in the generated `packages` table, or augmentation fails with a clear error.
+- Curated mappings should be reviewed as temporary blind-spot coverage, not a replacement for registry/manager metadata quality.
 
 ## Output Files
 
@@ -115,7 +139,7 @@ python src/validate_data.py --cache test_cache.json --mappings test_mappings.jso
 ## Requirements
 
 - Python 3.13+
-- Dependencies: `aiohttp`, `comfydock-core`
+- Dependencies: `aiohttp`, `comfygit-core`
 - UV package manager (recommended)
 
 ## License

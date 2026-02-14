@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List
 
-from comfydock_core.utils.input_signature import (
+from comfygit_core.utils.input_signature import (
     create_node_key,
     normalize_registry_inputs,
 )

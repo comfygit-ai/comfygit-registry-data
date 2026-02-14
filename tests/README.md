@@ -1,6 +1,6 @@
 # Tests
 
-Comprehensive test suite for the ComfyDock Registry Data Pipeline with multi-package support and recency scoring.
+Comprehensive test suite for the ComfyGit Registry Data Pipeline with multi-package support and recency scoring.
 
 ## Running Tests
 
@@ -176,7 +176,7 @@ All tests follow **TDD (Test-Driven Development)**:
 ```
 ============================== test session starts ==============================
 platform linux -- Python 3.13.3, pytest-8.4.2, pluggy-1.6.0
-rootdir: /home/akatzfey/projects/comfydock/comfydock-registry-data
+rootdir: /home/akatzfey/projects/comfygit/comfygit-registry-data
 configfile: pyproject.toml
 collected 42 items
 

@@ -5,6 +5,7 @@
 Progressive enhancement process for building node mappings efficiently:
 1. **build_registry_cache.py** - Three-phase progressive fetching of registry data
 2. **build_global_mappings.py** - Works entirely offline from cache to build mappings
+3. **augment_mappings.py** - Adds Manager data and curated community fallback mappings
 
 ## Usage
 
@@ -41,7 +42,7 @@ uv run scripts/build_registry_cache.py \
 ```bash
 # Traditional approach - all phases in one run
 uv run scripts/build_registry_cache.py \
-  --output src/comfydock_core/data/registry_cache.json \
+  --output src/comfygit_core/data/registry_cache.json \
   --concurrency 10 \
   --max-versions 10
 ```
@@ -51,18 +52,33 @@ uv run scripts/build_registry_cache.py \
 ```bash
 # Build mappings from cache
 uv run scripts/build_global_mappings.py \
-  --cache src/comfydock_core/data/registry_cache.json \
-  --output src/comfydock_core/data/node_mappings.json \
+  --cache src/comfygit_core/data/registry_cache.json \
+  --output src/comfygit_core/data/node_mappings.json \
   --concurrency 10 \
   --checkpoint-interval 20
 
 # Incremental update (only process new versions)
 uv run scripts/build_global_mappings.py \
-  --cache src/comfydock_core/data/registry_cache.json \
-  --input src/comfydock_core/data/node_mappings.json \
-  --output src/comfydock_core/data/node_mappings.json \
+  --cache src/comfygit_core/data/registry_cache.json \
+  --input src/comfygit_core/data/node_mappings.json \
+  --output src/comfygit_core/data/node_mappings.json \
   --max-versions 10
 ```
+
+### Step 3: Augment with Manager + Curated Community Fallback
+
+```bash
+uv run scripts/augment_mappings.py \
+  --mappings data/node_mappings.json \
+  --manager data/extension-node-map.json \
+  --community config/community_mappings.json \
+  --schema-config config/output_schema.toml
+```
+
+`config/community_mappings.json` is fallback-only:
+- It fills unresolved node keys after registry + Manager processing.
+- It never overwrites existing keys.
+- Every `package_id` must exist in `packages`, otherwise augmentation fails.
 
 ## Benefits
 

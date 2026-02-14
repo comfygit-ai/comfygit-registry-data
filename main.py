@@ -1,5 +1,5 @@
 def main():
-    print("Hello from comfydock-registry-data!")
+    print("Hello from comfygit-registry-data!")
 
 
 if __name__ == "__main__":

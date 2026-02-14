@@ -23,10 +23,10 @@ import argparse
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Optional
 from urllib.parse import urlparse, urlunparse
 
-from comfydock_core.utils.input_signature import create_node_key
+from comfygit_core.utils.input_signature import create_node_key
 from build_global_mappings import calculate_package_score
 from url_utils import (
     normalize_repository_url,
@@ -41,18 +41,22 @@ logger = getLogger(__name__)
 class MappingsAugmenter:
     """Augments node mappings with ComfyUI Manager data."""
 
-    def __init__(self, mappings_file: Path, manager_file: Path):
+    def __init__(self, mappings_file: Path, manager_file: Path, community_file: Optional[Path] = None):
         self.mappings_file = mappings_file
         self.manager_file = manager_file
+        self.community_file = community_file
         self.mappings_data = None
         self.manager_data = None
+        self.community_data = []
         self.stats = {
             'nodes_added': 0,
             'nodes_skipped_exists': 0,
             'packages_augmented': set(),
             'packages_not_found': set(),
             'synthetic_packages_created': set(),
-            'total_manager_nodes': 0
+            'total_manager_nodes': 0,
+            'community_nodes_added': 0,
+            'community_nodes_skipped_exists': 0
         }
 
     def load_data(self):
@@ -71,6 +75,16 @@ class MappingsAugmenter:
         else:
             self.manager_data = manager_raw
             logger.info(f"Loaded {len(self.manager_data)} extensions from Manager (raw format)")
+
+        if self.community_file and self.community_file.exists():
+            with open(self.community_file, 'r') as f:
+                community_raw = json.load(f)
+            self.community_data = community_raw.get("mappings", [])
+            if not isinstance(self.community_data, list):
+                raise ValueError(f"Invalid community mappings format in {self.community_file}: 'mappings' must be a list")
+            logger.info(f"Loaded {len(self.community_data)} curated community mappings from {self.community_file}")
+        elif self.community_file:
+            logger.warning(f"Community mappings file not found: {self.community_file}")
 
     def build_url_to_package_map(self) -> Dict[str, str]:
         """Build mapping from repository URLs to package IDs."""
@@ -261,8 +275,53 @@ class MappingsAugmenter:
             if nodes_added_for_package > 0:
                 logger.info(f"Synthetic package {package_id} mapped {nodes_added_for_package} nodes")
 
+        # Third pass: Curated community fallback mappings (only fill unresolved keys)
+        self._apply_community_fallback()
+
         # Re-rank all mappings
         self._rerank_all_mappings()
+
+    def _apply_community_fallback(self):
+        """Apply curated community mappings for unresolved node keys only."""
+        if not self.community_data:
+            return
+
+        for mapping_entry in self.community_data:
+            if not isinstance(mapping_entry, dict):
+                continue
+
+            node_type = mapping_entry.get("node_type")
+            package_id = mapping_entry.get("package_id")
+            input_signature = mapping_entry.get("input_signature") or "_"
+
+            if not node_type or not package_id:
+                continue
+
+            if package_id not in self.mappings_data["packages"]:
+                raise ValueError(
+                    f"Invalid community mapping: package_id '{package_id}' not found for node '{node_type}'"
+                )
+
+            node_key = create_node_key(node_type, input_signature)
+            if node_key in self.mappings_data["mappings"]:
+                self.stats['community_nodes_skipped_exists'] += 1
+                continue
+
+            package_info = self.mappings_data["packages"][package_id]
+            score = calculate_package_score(
+                package_info.get("downloads", 0),
+                package_info.get("github_stars", 0)
+            )
+
+            self.mappings_data["mappings"][node_key] = [{
+                "package_id": package_id,
+                "versions": [],
+                "_temp_score": score,
+                "rank": 0,
+                "source": "community"
+            }]
+            self.stats['community_nodes_added'] += 1
+            logger.info(f"Community fallback mapped {node_key} -> {package_id}")
 
     def _rerank_all_mappings(self):
         """Re-rank all package entries based on scores."""
@@ -293,6 +352,7 @@ class MappingsAugmenter:
         self.mappings_data['stats']['augmented'] = True
         self.mappings_data['stats']['augmentation_date'] = datetime.now().isoformat()
         self.mappings_data['stats']['nodes_from_manager'] = self.stats['nodes_added']
+        self.mappings_data['stats']['nodes_from_community'] = self.stats['community_nodes_added']
         self.mappings_data['stats']['signatures'] = len(self.mappings_data['mappings'])
         self.mappings_data['stats']['packages'] = len(self.mappings_data['packages'])
         self.mappings_data['stats']['synthetic_packages'] = len(self.stats['synthetic_packages_created'])
@@ -333,6 +393,8 @@ class MappingsAugmenter:
         print(f"Registry packages augmented: {len(self.stats['packages_augmented'])}")
         print(f"Synthetic packages created: {len(self.stats['synthetic_packages_created'])}")
         print(f"Packages failed to process: {len(self.stats['packages_not_found'])}")
+        print(f"Community fallback nodes added: {self.stats['community_nodes_added']}")
+        print(f"Community fallback nodes skipped: {self.stats['community_nodes_skipped_exists']}")
         print("=" * 60)
 
         if self.stats['synthetic_packages_created']:
@@ -349,13 +411,13 @@ def main():
     parser.add_argument(
         '--mappings',
         type=Path,
-        default=Path('src/comfydock_core/data/node_mappings.json'),
+        default=Path('src/comfygit_core/data/node_mappings.json'),
         help='Path to existing node_mappings.json'
     )
     parser.add_argument(
         '--manager',
         type=Path,
-        default=Path('src/comfydock_core/data/extension-node-map.json'),
+        default=Path('src/comfygit_core/data/extension-node-map.json'),
         help='Path to ComfyUI Manager extension-node-map.json'
     )
     parser.add_argument(
@@ -368,6 +430,12 @@ def main():
         type=Path,
         default=Path('config/output_schema.toml'),
         help='Schema configuration file (default: config/output_schema.toml)'
+    )
+    parser.add_argument(
+        '--community',
+        type=Path,
+        default=Path('config/community_mappings.json'),
+        help='Path to curated community mappings JSON (default: config/community_mappings.json)'
     )
     parser.add_argument(
         '--log-level',
@@ -385,7 +453,7 @@ def main():
     if not args.manager.exists():
         parser.error(f"Manager file not found: {args.manager}")
 
-    augmenter = MappingsAugmenter(args.mappings, args.manager)
+    augmenter = MappingsAugmenter(args.mappings, args.manager, args.community)
     augmenter.load_data()
     augmenter.augment_mappings()
     augmenter.save_augmented_mappings(args.output, schema_config=args.schema_config)
