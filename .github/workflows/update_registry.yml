@@ -58,7 +58,7 @@ jobs:
       - name: Update ComfyUI builtin version index
         run: |
           uv run --no-sources python src/build_builtin_versions.py \
-            --output config/comfyui_builtins_by_version.json \
+            --output data/comfyui_builtins_by_version.json \
             --min-version v0.3.0
 
       - name: Download previous cache from releases
@@ -181,7 +181,7 @@ jobs:
           stats = mappings.get('stats', {})
           print(f'✅ Mappings valid: {stats.get(\"packages\", 0)} packages, {stats.get(\"signatures\", 0)} signatures')
 
-          with open('../config/comfyui_builtins_by_version.json') as f:
+          with open('../data/comfyui_builtins_by_version.json') as f:
               builtins = json.load(f)
           bstats = builtins.get('stats', {})
           print(f'✅ Builtins valid: {bstats.get(\"total_builtins\", 0)} nodes, {bstats.get(\"versions_processed\", 0)} versions')
@@ -218,14 +218,14 @@ jobs:
           # Get file sizes
           cache_size=$(du -h data/full_registry_cache.json | cut -f1)
           mappings_size=$(du -h data/node_mappings.json | cut -f1)
-          builtins_size=$(du -h config/comfyui_builtins_by_version.json | cut -f1)
+          builtins_size=$(du -h data/comfyui_builtins_by_version.json | cut -f1)
 
           # Extract stats from files
           packages=$(jq -r '.node_count // 0' data/full_registry_cache.json)
           versions=$(jq -r '.versions_processed // 0' data/full_registry_cache.json)
           signatures=$(jq -r '.stats.signatures // 0' data/node_mappings.json)
-          builtin_nodes=$(jq -r '.stats.total_builtins // 0' config/comfyui_builtins_by_version.json)
-          builtin_versions=$(jq -r '.stats.versions_processed // 0' config/comfyui_builtins_by_version.json)
+          builtin_nodes=$(jq -r '.stats.total_builtins // 0' data/comfyui_builtins_by_version.json)
+          builtin_versions=$(jq -r '.stats.versions_processed // 0' data/comfyui_builtins_by_version.json)
 
           echo "## 📊 Registry Update Summary" >> update_summary.md
           echo "" >> update_summary.md
@@ -250,13 +250,13 @@ jobs:
           find data/ -name ".temp_*" -delete 2>/dev/null || true
 
           # Check for changes in tracked generated outputs
-          if git diff --quiet HEAD -- data/node_mappings.json config/comfyui_builtins_by_version.json; then
+          if git diff --quiet HEAD -- data/node_mappings.json data/comfyui_builtins_by_version.json; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "No changes detected in generated outputs"
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
             echo "Changes detected in generated outputs"
-            git diff --stat HEAD -- data/node_mappings.json config/comfyui_builtins_by_version.json
+            git diff --stat HEAD -- data/node_mappings.json data/comfyui_builtins_by_version.json
           fi
 
       - name: Commit and push changes
@@ -274,7 +274,7 @@ jobs:
             Full cache available in releases
 
             🤖 Generated with Claude Code
-          file_pattern: 'data/node_mappings.json,config/comfyui_builtins_by_version.json'
+          file_pattern: 'data/node_mappings.json,data/comfyui_builtins_by_version.json'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com>'

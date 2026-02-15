@@ -417,7 +417,7 @@ def main() -> int:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("config/comfyui_builtins_by_version.json"),
+        default=Path("data/comfyui_builtins_by_version.json"),
         help="Output JSON file path",
     )
     parser.add_argument(

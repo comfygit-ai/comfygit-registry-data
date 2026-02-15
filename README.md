@@ -30,7 +30,7 @@ The pipeline operates in phases:
 
 Version-indexed ComfyUI builtins are generated separately:
 - Source: ComfyUI git tags (`v0.3.0+`)
-- Output: `config/comfyui_builtins_by_version.json`
+- Output: `data/comfyui_builtins_by_version.json`
 - Purpose: downstream detection of version-gated builtin nodes
 
 ### Curated Community Fallback Mappings
@@ -101,7 +101,7 @@ Primary output file containing node signatures and package mappings.
 ### `data/full_registry_cache.json` (~65MB)
 Complete registry cache stored in GitHub Releases (not committed to git).
 
-### `config/comfyui_builtins_by_version.json`
+### `data/comfyui_builtins_by_version.json`
 Version-indexed ComfyUI builtin node metadata:
 - `introduced_in` for first appearance
 - `removed_in` for permanent removals

@@ -9,7 +9,7 @@ Progressive enhancement process for building node mappings efficiently:
 3. **augment_mappings.py** - Adds Manager data and curated community fallback mappings
 
 Builtin version index output:
-- `config/comfyui_builtins_by_version.json`
+- `data/comfyui_builtins_by_version.json`
 - Derived from ComfyUI git tags `v0.3.0+`
 - Used by downstream classifier logic to detect version-gated builtins
 
