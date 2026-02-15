@@ -18,6 +18,7 @@ python src/validate_data.py --data-dir data
 ## Data Pipeline
 
 ```
+ComfyUI Tags → Builtins by Version
 ComfyUI Registry API → Registry Cache → Node Mappings → Community Extensions
 ```
 
@@ -26,6 +27,11 @@ The pipeline operates in phases:
 2. **Mapping Generation** - Create node signatures with input types
 3. **Community Integration** - Augment with ecosystem extensions
 4. **Validation** - Ensure data integrity and consistency
+
+Version-indexed ComfyUI builtins are generated separately:
+- Source: ComfyUI git tags (`v0.3.0+`)
+- Output: `config/comfyui_builtins_by_version.json`
+- Purpose: downstream detection of version-gated builtin nodes
 
 ### Curated Community Fallback Mappings
 
@@ -95,6 +101,12 @@ Primary output file containing node signatures and package mappings.
 ### `data/full_registry_cache.json` (~65MB)
 Complete registry cache stored in GitHub Releases (not committed to git).
 
+### `config/comfyui_builtins_by_version.json`
+Version-indexed ComfyUI builtin node metadata:
+- `introduced_in` for first appearance
+- `removed_in` for permanent removals
+- `present_in` range exceptions for non-monotonic nodes
+
 ## Key Features
 
 - **Incremental Updates** - Never removes data, only adds new entries
@@ -131,6 +143,7 @@ python src/validate_data.py --cache test_cache.json --mappings test_mappings.jso
 | Script | Purpose |
 |--------|---------|
 | `update_registry.py` | Main orchestrator for complete pipeline |
+| `build_builtin_versions.py` | Build/refresh version-indexed ComfyUI builtins |
 | `build_registry_cache.py` | Fetch and cache registry data incrementally |
 | `build_global_mappings.py` | Generate node mappings from cache |
 | `augment_mappings.py` | Add community extensions |

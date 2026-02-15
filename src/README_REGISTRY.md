@@ -3,9 +3,15 @@
 ## Overview
 
 Progressive enhancement process for building node mappings efficiently:
+0. **build_builtin_versions.py** - Extract ComfyUI builtins across tags into version-indexed JSON
 1. **build_registry_cache.py** - Three-phase progressive fetching of registry data
 2. **build_global_mappings.py** - Works entirely offline from cache to build mappings
 3. **augment_mappings.py** - Adds Manager data and curated community fallback mappings
+
+Builtin version index output:
+- `config/comfyui_builtins_by_version.json`
+- Derived from ComfyUI git tags `v0.3.0+`
+- Used by downstream classifier logic to detect version-gated builtins
 
 ## Usage
 

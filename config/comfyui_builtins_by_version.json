@@ -1,0 +1,2705 @@
+{
+  "version": "2026.02.15",
+  "generated_at": "2026-02-15T04:46:11.425849+00:00",
+  "comfyui_versions_processed": [
+    "v0.3.0",
+    "v0.3.1",
+    "v0.3.2",
+    "v0.3.3",
+    "v0.3.4",
+    "v0.3.5",
+    "v0.3.6",
+    "v0.3.7",
+    "v0.3.8",
+    "v0.3.9",
+    "v0.3.10",
+    "v0.3.11",
+    "v0.3.12",
+    "v0.3.13",
+    "v0.3.14",
+    "v0.3.15",
+    "v0.3.16",
+    "v0.3.17",
+    "v0.3.18",
+    "v0.3.19",
+    "v0.3.20",
+    "v0.3.21",
+    "v0.3.22",
+    "v0.3.23",
+    "v0.3.24",
+    "v0.3.25",
+    "v0.3.26",
+    "v0.3.27",
+    "v0.3.28",
+    "v0.3.29",
+    "v0.3.30",
+    "v0.3.31",
+    "v0.3.32",
+    "v0.3.33",
+    "v0.3.34",
+    "v0.3.35",
+    "v0.3.36",
+    "v0.3.37",
+    "v0.3.38",
+    "v0.3.39",
+    "v0.3.40",
+    "v0.3.41",
+    "v0.3.42",
+    "v0.3.43",
+    "v0.3.44",
+    "v0.3.45",
+    "v0.3.46",
+    "v0.3.47",
+    "v0.3.48",
+    "v0.3.49",
+    "v0.3.50",
+    "v0.3.51",
+    "v0.3.52",
+    "v0.3.53",
+    "v0.3.54",
+    "v0.3.55",
+    "v0.3.56",
+    "v0.3.57",
+    "v0.3.58",
+    "v0.3.59",
+    "v0.3.60",
+    "v0.3.61",
+    "v0.3.62",
+    "v0.3.63",
+    "v0.3.64",
+    "v0.3.65",
+    "v0.3.66",
+    "v0.3.67",
+    "v0.3.68",
+    "v0.3.69",
+    "v0.3.70",
+    "v0.3.71",
+    "v0.3.72",
+    "v0.3.73",
+    "v0.3.74",
+    "v0.3.75",
+    "v0.3.76",
+    "v0.3.77",
+    "v0.4.0",
+    "v0.5.0",
+    "v0.5.1",
+    "v0.6.0",
+    "v0.7.0",
+    "v0.8.0",
+    "v0.8.1",
+    "v0.8.2",
+    "v0.9.0",
+    "v0.9.1",
+    "v0.9.2",
+    "v0.10.0",
+    "v0.11.0",
+    "v0.11.1",
+    "v0.12.0",
+    "v0.12.1",
+    "v0.12.2",
+    "v0.12.3",
+    "v0.13.0"
+  ],
+  "stats": {
+    "total_builtins": 643,
+    "versions_processed": 97,
+    "newest_version": "v0.13.0",
+    "nodes_added_in_latest": 3
+  },
+  "builtins": {
+    "APG": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "AddNoise": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "AddTextPrefix": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "AddTextSuffix": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "AdjustBrightness": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "AdjustContrast": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "AlignYourStepsScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "AudioAdjustVolume": {
+      "introduced_in": "v0.3.61",
+      "category": "extras"
+    },
+    "AudioConcat": {
+      "introduced_in": "v0.3.61",
+      "category": "extras"
+    },
+    "AudioEncoderEncode": {
+      "introduced_in": "v0.3.53",
+      "category": "extras"
+    },
+    "AudioEncoderLoader": {
+      "introduced_in": "v0.3.53",
+      "category": "extras"
+    },
+    "AudioMerge": {
+      "introduced_in": "v0.3.61",
+      "category": "extras"
+    },
+    "AutogrowNamesTestNode": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "AutogrowPrefixTestNode": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "BasicGuider": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "BasicScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "BatchImagesMasksLatentsNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "BatchImagesNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "BatchLatentsNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "BatchMasksNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "BetaSamplingScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "BriaImageEditNode": {
+      "introduced_in": "v0.10.0",
+      "category": "api"
+    },
+    "ByteDanceFirstLastFrameNode": {
+      "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "ByteDanceImageEditNode": {
+      "introduced_in": "v0.3.57",
+      "category": "api",
+      "removed_in": "v0.11.0"
+    },
+    "ByteDanceImageNode": {
+      "introduced_in": "v0.3.57",
+      "category": "api"
+    },
+    "ByteDanceImageReferenceNode": {
+      "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "ByteDanceImageToVideoNode": {
+      "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "ByteDanceSeedreamNode": {
+      "introduced_in": "v0.3.59",
+      "category": "api"
+    },
+    "ByteDanceTextToVideoNode": {
+      "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "CFGGuider": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CFGNorm": {
+      "introduced_in": "v0.3.45",
+      "category": "extras"
+    },
+    "CFGZeroStar": {
+      "introduced_in": "v0.3.28",
+      "category": "extras"
+    },
+    "CLIPAttentionMultiply": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "CLIPMergeAdd": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPMergeSimple": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPMergeSubtract": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPSave": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPSetLastLayer": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "CLIPTextEncode": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "CLIPTextEncodeControlnet": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPTextEncodeFlux": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPTextEncodeHiDream": {
+      "introduced_in": "v0.3.30",
+      "category": "extras"
+    },
+    "CLIPTextEncodeHunyuanDiT": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPTextEncodeKandinsky5": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "CLIPTextEncodeLumina2": {
+      "introduced_in": "v0.3.15",
+      "category": "extras"
+    },
+    "CLIPTextEncodePixArtAlpha": {
+      "introduced_in": "v0.3.10",
+      "category": "extras"
+    },
+    "CLIPTextEncodeSD3": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPTextEncodeSDXL": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPTextEncodeSDXLRefiner": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CLIPVisionEncode": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "CLIPVisionLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "Canny": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CaseConverter": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "CenterCropImages": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "CheckpointLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "CheckpointLoaderSimple": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "CheckpointSave": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ChromaRadianceOptions": {
+      "introduced_in": "v0.3.60",
+      "category": "extras"
+    },
+    "ColorToRGBInt": {
+      "introduced_in": "v0.12.0",
+      "category": "extras"
+    },
+    "CombineHooks2": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CombineHooks4": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CombineHooks8": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "ComboOptionTestNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "ComfySoftSwitchNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "ComfySwitchNode": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "ConditioningAverage": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningCombine": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningConcat": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningSetArea": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningSetAreaPercentage": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningSetAreaPercentageVideo": {
+      "introduced_in": "v0.3.19",
+      "category": "extras"
+    },
+    "ConditioningSetAreaStrength": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningSetDefaultCombine": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "ConditioningSetMask": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningSetProperties": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "ConditioningSetPropertiesAndCombine": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "ConditioningSetTimestepRange": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConditioningStableAudio": {
+      "introduced_in": "v0.3.8",
+      "category": "extras"
+    },
+    "ConditioningTimestepsRange": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "ConditioningZeroOut": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ContextWindowsManual": {
+      "introduced_in": "v0.3.51",
+      "category": "extras"
+    },
+    "ControlNetApply": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ControlNetApplyAdvanced": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ControlNetApplySD3": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ControlNetInpaintingAliMamaApply": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ControlNetLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ConvertStringToComboNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "CosmosImageToVideoLatent": {
+      "introduced_in": "v0.3.11",
+      "category": "extras"
+    },
+    "CosmosPredict2ImageToVideoLatent": {
+      "introduced_in": "v0.3.41",
+      "category": "extras"
+    },
+    "CreateHookKeyframe": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CreateHookKeyframesFromFloats": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CreateHookKeyframesInterpolated": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CreateHookLora": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CreateHookLoraModelOnly": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CreateHookModelAsLora": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CreateHookModelAsLoraModelOnly": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "CreateList": {
+      "introduced_in": "v0.13.0",
+      "category": "extras"
+    },
+    "CreateVideo": {
+      "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "CropMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "CustomCombo": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "DCTestNode": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "DiffControlNetLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "DifferentialDiffusion": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "DiffusersLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "DisableNoise": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "DualCFGGuider": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "DualCLIPLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "EasyCache": {
+      "introduced_in": "v0.3.52",
+      "category": "extras"
+    },
+    "EmptyAceStep1.5LatentAudio": {
+      "introduced_in": "v0.12.0",
+      "category": "extras"
+    },
+    "EmptyAceStepLatentAudio": {
+      "introduced_in": "v0.3.33",
+      "category": "extras"
+    },
+    "EmptyAudio": {
+      "introduced_in": "v0.3.61",
+      "category": "extras"
+    },
+    "EmptyChromaRadianceLatentImage": {
+      "introduced_in": "v0.3.60",
+      "category": "extras"
+    },
+    "EmptyCosmosLatentVideo": {
+      "introduced_in": "v0.3.11",
+      "category": "extras"
+    },
+    "EmptyFlux2LatentImage": {
+      "introduced_in": "v0.3.72",
+      "category": "extras"
+    },
+    "EmptyHunyuanImageLatent": {
+      "introduced_in": "v0.3.58",
+      "category": "extras"
+    },
+    "EmptyHunyuanLatentVideo": {
+      "introduced_in": "v0.3.8",
+      "category": "extras"
+    },
+    "EmptyHunyuanVideo15Latent": {
+      "introduced_in": "v0.3.71",
+      "category": "extras"
+    },
+    "EmptyImage": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "EmptyLTXVLatentVideo": {
+      "introduced_in": "v0.3.2",
+      "category": "extras"
+    },
+    "EmptyLatentAudio": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "EmptyLatentHunyuan3Dv2": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "EmptyLatentImage": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "EmptyMochiLatentVideo": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "EmptyQwenImageLayeredLatentImage": {
+      "introduced_in": "v0.6.0",
+      "category": "extras"
+    },
+    "EmptySD3LatentImage": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "Epsilon Scaling": {
+      "introduced_in": "v0.3.63",
+      "category": "extras"
+    },
+    "ExponentialScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ExtendIntermediateSigmas": {
+      "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "FeatherMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "FlipSigmas": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "Flux2ProImageNode": {
+      "introduced_in": "v0.3.72",
+      "category": "api"
+    },
+    "Flux2Scheduler": {
+      "introduced_in": "v0.3.72",
+      "category": "extras"
+    },
+    "FluxDisableGuidance": {
+      "introduced_in": "v0.3.13",
+      "category": "extras"
+    },
+    "FluxGuidance": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "FluxKontextImageScale": {
+      "introduced_in": "v0.3.42",
+      "category": "extras"
+    },
+    "FluxKontextMaxImageNode": {
+      "introduced_in": "v0.3.39",
+      "category": "api",
+      "removed_in": "v0.3.61"
+    },
+    "FluxKontextMultiReferenceLatentMethod": {
+      "introduced_in": "v0.3.51",
+      "category": "extras"
+    },
+    "FluxKontextProImageNode": {
+      "introduced_in": "v0.3.39",
+      "category": "api"
+    },
+    "FluxProCannyNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.3.67"
+    },
+    "FluxProDepthNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.3.67"
+    },
+    "FluxProExpandNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "FluxProFillNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "FluxProImageNode": {
+      "introduced_in": "v0.3.61",
+      "category": "api",
+      "removed_in": "v0.3.72"
+    },
+    "FluxProUltraImageNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "FreSca": {
+      "introduced_in": "v0.3.30",
+      "category": "extras"
+    },
+    "FreeU": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "FreeU_V2": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "GITSScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "GLIGENLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "GLIGENTextBoxApply": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "GeminiImage2Node": {
+      "introduced_in": "v0.3.71",
+      "category": "api"
+    },
+    "GeminiImageNode": {
+      "introduced_in": "v0.3.53",
+      "category": "api"
+    },
+    "GeminiInputFiles": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "GeminiNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "GenerateTracks": {
+      "introduced_in": "v0.5.0",
+      "category": "extras"
+    },
+    "GetImageSize": {
+      "introduced_in": "v0.3.40",
+      "category": "extras"
+    },
+    "GetVideoComponents": {
+      "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "GrokImageEditNode": {
+      "introduced_in": "v0.11.1",
+      "category": "api"
+    },
+    "GrokImageNode": {
+      "introduced_in": "v0.11.1",
+      "category": "api"
+    },
+    "GrokVideoEditNode": {
+      "introduced_in": "v0.11.1",
+      "category": "api"
+    },
+    "GrokVideoNode": {
+      "introduced_in": "v0.11.1",
+      "category": "api"
+    },
+    "GrowMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "HitPawGeneralImageEnhance": {
+      "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "HitPawVideoEnhance": {
+      "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "Hunyuan3Dv2Conditioning": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "Hunyuan3Dv2ConditioningMultiView": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "HunyuanImageToVideo": {
+      "introduced_in": "v0.3.23",
+      "category": "extras"
+    },
+    "HunyuanRefinerLatent": {
+      "introduced_in": "v0.3.60",
+      "category": "extras"
+    },
+    "HunyuanVideo15ImageToVideo": {
+      "introduced_in": "v0.3.71",
+      "category": "extras"
+    },
+    "HunyuanVideo15LatentUpscaleWithModel": {
+      "introduced_in": "v0.3.71",
+      "category": "extras"
+    },
+    "HunyuanVideo15SuperResolution": {
+      "introduced_in": "v0.3.71",
+      "category": "extras"
+    },
+    "HyperTile": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "HypernetworkLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "IdeogramV1": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "IdeogramV2": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "IdeogramV3": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "ImageAddNoise": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "ImageBatch": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ImageBlend": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageBlur": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageColorToMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageCompare": {
+      "introduced_in": "v0.9.0",
+      "category": "extras"
+    },
+    "ImageCompositeMasked": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageCrop": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageDeduplication": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ImageFlip": {
+      "introduced_in": "v0.3.44",
+      "category": "extras"
+    },
+    "ImageFromBatch": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageGrid": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ImageInvert": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ImageOnlyCheckpointLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageOnlyCheckpointSave": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImagePadForOutpaint": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ImageQuantize": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageRGBToYUV": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "ImageRotate": {
+      "introduced_in": "v0.3.44",
+      "category": "extras"
+    },
+    "ImageScale": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ImageScaleBy": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ImageScaleToMaxDimension": {
+      "introduced_in": "v0.3.57",
+      "category": "extras"
+    },
+    "ImageScaleToTotalPixels": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageSharpen": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageStitch": {
+      "introduced_in": "v0.3.40",
+      "category": "extras"
+    },
+    "ImageToMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageUpscaleWithModel": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageYUVToRGB": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "InpaintModelConditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "InstructPixToPixConditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "InvertBooleanNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "InvertMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "JoinAudioChannels": {
+      "introduced_in": "v0.9.0",
+      "category": "extras"
+    },
+    "JoinImageWithAlpha": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "KSampler": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "KSamplerAdvanced": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "KSamplerSelect": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "Kandinsky5ImageToVideo": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "KarrasScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "KlingCameraControlI2VNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingCameraControlT2VNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingCameraControls": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingDualCharacterVideoEffectNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingFirstLastFrameNode": {
+      "introduced_in": "v0.13.0",
+      "category": "api"
+    },
+    "KlingImage2VideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingImageGenerationNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingImageToVideoWithAudio": {
+      "introduced_in": "v0.5.0",
+      "category": "api"
+    },
+    "KlingLipSyncAudioToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingLipSyncTextToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingMotionControl": {
+      "introduced_in": "v0.7.0",
+      "category": "api"
+    },
+    "KlingOmniProEditVideoNode": {
+      "introduced_in": "v0.3.76",
+      "category": "api"
+    },
+    "KlingOmniProFirstLastFrameNode": {
+      "introduced_in": "v0.3.76",
+      "category": "api"
+    },
+    "KlingOmniProImageNode": {
+      "introduced_in": "v0.4.0",
+      "category": "api"
+    },
+    "KlingOmniProImageToVideoNode": {
+      "introduced_in": "v0.3.76",
+      "category": "api"
+    },
+    "KlingOmniProTextToVideoNode": {
+      "introduced_in": "v0.3.76",
+      "category": "api"
+    },
+    "KlingOmniProVideoToVideoNode": {
+      "introduced_in": "v0.3.76",
+      "category": "api"
+    },
+    "KlingSingleImageVideoEffectNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingStartEndFrameNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingTextToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingTextToVideoWithAudio": {
+      "introduced_in": "v0.5.0",
+      "category": "api"
+    },
+    "KlingVideoExtendNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "KlingVideoNode": {
+      "introduced_in": "v0.13.0",
+      "category": "api"
+    },
+    "KlingVirtualTryOnNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LTXAVTextEncoderLoader": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVAddGuide": {
+      "introduced_in": "v0.3.20",
+      "category": "extras"
+    },
+    "LTXVAudioVAEDecode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVAudioVAEEncode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVAudioVAELoader": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVConcatAVLatent": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVConditioning": {
+      "introduced_in": "v0.3.2",
+      "category": "extras"
+    },
+    "LTXVCropGuides": {
+      "introduced_in": "v0.3.20",
+      "category": "extras"
+    },
+    "LTXVEmptyLatentAudio": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVImgToVideo": {
+      "introduced_in": "v0.3.2",
+      "category": "extras"
+    },
+    "LTXVImgToVideoInplace": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVLatentUpsampler": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVPreprocess": {
+      "introduced_in": "v0.3.20",
+      "category": "extras"
+    },
+    "LTXVScheduler": {
+      "introduced_in": "v0.3.2",
+      "category": "extras"
+    },
+    "LTXVSeparateAVLatent": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LaplaceScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentAdd": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentApplyOperation": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentApplyOperationCFG": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentBatch": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentBatchSeedBehavior": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentBlend": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentComposite": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentCompositeMasked": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentConcat": {
+      "introduced_in": "v0.3.53",
+      "category": "extras"
+    },
+    "LatentCrop": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentCut": {
+      "introduced_in": "v0.3.55",
+      "category": "extras"
+    },
+    "LatentCutToBatch": {
+      "introduced_in": "v0.6.0",
+      "category": "extras"
+    },
+    "LatentFlip": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentFromBatch": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentInterpolate": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentMultiply": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentOperationSharpen": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentOperationTonemapReinhard": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentRotate": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentSubtract": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LatentUpscale": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentUpscaleBy": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LatentUpscaleModelLoader": {
+      "introduced_in": "v0.3.71",
+      "category": "extras"
+    },
+    "LazyCache": {
+      "introduced_in": "v0.3.52",
+      "category": "extras"
+    },
+    "Load3D": {
+      "introduced_in": "v0.3.8",
+      "category": "extras"
+    },
+    "Load3DAnimation": {
+      "introduced_in": "v0.3.8",
+      "category": "extras",
+      "removed_in": "v0.3.76"
+    },
+    "LoadAudio": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LoadImage": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LoadImageDataSetFromFolder": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "LoadImageMask": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LoadImageOutput": {
+      "introduced_in": "v0.3.15",
+      "category": "core"
+    },
+    "LoadImageSetFromFolderNode": {
+      "introduced_in": "v0.3.41",
+      "category": "extras",
+      "removed_in": "v0.3.76"
+    },
+    "LoadImageTextDataSetFromFolder": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "LoadImageTextSetFromFolderNode": {
+      "introduced_in": "v0.3.45",
+      "category": "extras",
+      "removed_in": "v0.3.76"
+    },
+    "LoadLatent": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LoadTrainingDataset": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "LoadVideo": {
+      "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "LoraLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LoraLoaderBypass": {
+      "introduced_in": "v0.11.0",
+      "category": "extras"
+    },
+    "LoraLoaderBypassModelOnly": {
+      "introduced_in": "v0.11.0",
+      "category": "extras"
+    },
+    "LoraLoaderModelOnly": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "LoraModelLoader": {
+      "introduced_in": "v0.3.41",
+      "category": "extras"
+    },
+    "LoraSave": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "LossGraphNode": {
+      "introduced_in": "v0.3.41",
+      "category": "extras"
+    },
+    "LotusConditioning": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "LtxvApiImageToVideo": {
+      "introduced_in": "v0.3.67",
+      "category": "api"
+    },
+    "LtxvApiTextToVideo": {
+      "introduced_in": "v0.3.67",
+      "category": "api"
+    },
+    "LumaConceptsNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LumaImageModifyNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LumaImageNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LumaImageToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LumaReferenceNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LumaVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "MagnificImageRelightNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "MagnificImageSkinEnhancerNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "MagnificImageStyleTransferNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "MagnificImageUpscalerCreativeNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "MagnificImageUpscalerPreciseV2Node": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "Mahiro": {
+      "introduced_in": "v0.3.8",
+      "category": "extras"
+    },
+    "MakeTrainingDataset": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ManualSigmas": {
+      "introduced_in": "v0.7.0",
+      "category": "extras"
+    },
+    "MarkdownNote": {
+      "introduced_in": "v0.3.0",
+      "category": "frontend"
+    },
+    "MaskComposite": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "MaskPreview": {
+      "introduced_in": "v0.3.30",
+      "category": "extras"
+    },
+    "MaskToImage": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "MergeImageLists": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "MergeTextLists": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "MeshyAnimateModelNode": {
+      "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MeshyImageToModelNode": {
+      "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MeshyMultiImageToModelNode": {
+      "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MeshyRefineNode": {
+      "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MeshyRigModelNode": {
+      "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MeshyTextToModelNode": {
+      "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MeshyTextureNode": {
+      "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MinimaxHailuoVideoNode": {
+      "introduced_in": "v0.3.51",
+      "category": "api"
+    },
+    "MinimaxImageToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "MinimaxSubjectToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "present_in": [
+        "v0.3.32-v0.3.50",
+        "v0.3.60+"
+      ]
+    },
+    "MinimaxTextToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "ModelComputeDtype": {
+      "introduced_in": "v0.3.15",
+      "category": "extras"
+    },
+    "ModelMergeAdd": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeAuraflow": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeBlocks": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeCosmos14B": {
+      "introduced_in": "v0.3.14",
+      "category": "extras"
+    },
+    "ModelMergeCosmos7B": {
+      "introduced_in": "v0.3.14",
+      "category": "extras"
+    },
+    "ModelMergeCosmosPredict2_14B": {
+      "introduced_in": "v0.3.42",
+      "category": "extras"
+    },
+    "ModelMergeCosmosPredict2_2B": {
+      "introduced_in": "v0.3.42",
+      "category": "extras"
+    },
+    "ModelMergeFlux1": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeLTXV": {
+      "introduced_in": "v0.3.6",
+      "category": "extras"
+    },
+    "ModelMergeMochiPreview": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeQwenImage": {
+      "introduced_in": "v0.3.50",
+      "category": "extras"
+    },
+    "ModelMergeSD1": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeSD2": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeSD35_Large": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeSD3_2B": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeSDXL": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeSimple": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeSubtract": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelMergeWAN2_1": {
+      "introduced_in": "v0.3.28",
+      "category": "extras"
+    },
+    "ModelPatchLoader": {
+      "introduced_in": "v0.3.52",
+      "category": "extras"
+    },
+    "ModelSamplingAuraFlow": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelSamplingContinuousEDM": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelSamplingContinuousV": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelSamplingDiscrete": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelSamplingFlux": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelSamplingLTXV": {
+      "introduced_in": "v0.3.2",
+      "category": "extras"
+    },
+    "ModelSamplingSD3": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelSamplingStableCascade": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ModelSave": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "MoonvalleyImg2VideoNode": {
+      "introduced_in": "v0.3.44",
+      "category": "api"
+    },
+    "MoonvalleyTxt2VideoNode": {
+      "introduced_in": "v0.3.44",
+      "category": "api"
+    },
+    "MoonvalleyVideo2VideoNode": {
+      "introduced_in": "v0.3.44",
+      "category": "api"
+    },
+    "Morphology": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "NormalizeImages": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "NormalizeVideoLatentStart": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "Note": {
+      "introduced_in": "v0.3.0",
+      "category": "frontend"
+    },
+    "OpenAIChatConfig": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "OpenAIChatNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "OpenAIDalle2": {
+      "introduced_in": "v0.3.30",
+      "category": "api"
+    },
+    "OpenAIDalle3": {
+      "introduced_in": "v0.3.30",
+      "category": "api"
+    },
+    "OpenAIGPTImage1": {
+      "introduced_in": "v0.3.30",
+      "category": "api"
+    },
+    "OpenAIInputFiles": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "OpenAIVideoSora2": {
+      "introduced_in": "v0.3.64",
+      "category": "api"
+    },
+    "OptimalStepsScheduler": {
+      "introduced_in": "v0.3.28",
+      "category": "extras"
+    },
+    "PairConditioningCombine": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "PairConditioningSetDefaultCombine": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "PairConditioningSetProperties": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "PairConditioningSetPropertiesAndCombine": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "PatchModelAddDownscale": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PerpNeg": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PerpNegGuider": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PerturbedAttentionGuidance": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PhotoMakerEncode": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PhotoMakerLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PikaImageToVideoNode2_2": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.5.0"
+    },
+    "PikaScenesV2_2": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.5.0"
+    },
+    "PikaStartEndFrameNode2_2": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.5.0"
+    },
+    "PikaTextToVideoNode2_2": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.5.0"
+    },
+    "Pikadditions": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.5.0"
+    },
+    "Pikaffects": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.5.0"
+    },
+    "Pikaswaps": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.5.0"
+    },
+    "PixverseImageToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "PixverseTemplateNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "PixverseTextToVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "PixverseTransitionVideoNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "PolyexponentialScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PorterDuffImageComposite": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "Preview3D": {
+      "introduced_in": "v0.3.8",
+      "category": "extras"
+    },
+    "Preview3DAnimation": {
+      "introduced_in": "v0.3.14",
+      "category": "extras",
+      "removed_in": "v0.3.76"
+    },
+    "PreviewAny": {
+      "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "PreviewAudio": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "PreviewImage": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "PrimitiveBoolean": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "PrimitiveFloat": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "PrimitiveInt": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "PrimitiveNode": {
+      "introduced_in": "v0.3.0",
+      "category": "frontend"
+    },
+    "PrimitiveString": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "PrimitiveStringMultiline": {
+      "introduced_in": "v0.3.32",
+      "category": "extras"
+    },
+    "QuadrupleCLIPLoader": {
+      "introduced_in": "v0.3.29",
+      "category": "extras"
+    },
+    "QwenImageDiffsynthControlnet": {
+      "introduced_in": "v0.3.52",
+      "category": "extras"
+    },
+    "RandomCropImages": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "RandomNoise": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "RebatchImages": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "RebatchLatents": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "RecordAudio": {
+      "introduced_in": "v0.3.51",
+      "category": "extras"
+    },
+    "RecraftColorRGB": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftControls": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftCreateStyleNode": {
+      "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "RecraftCreativeUpscaleNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftCrispUpscaleNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftImageInpaintingNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftImageToImageNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftRemoveBackgroundNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftReplaceBackgroundNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftStyleV3DigitalIllustration": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftStyleV3InfiniteStyleLibrary": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftStyleV3LogoRaster": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftStyleV3RealisticImage": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftStyleV3VectorIllustrationNode": {
+      "introduced_in": "v0.3.68",
+      "category": "api"
+    },
+    "RecraftTextToImageNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftTextToVectorNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "RecraftVectorizeImageNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "ReferenceLatent": {
+      "introduced_in": "v0.3.42",
+      "category": "extras"
+    },
+    "ReferenceTimbreAudio": {
+      "introduced_in": "v0.12.0",
+      "category": "extras"
+    },
+    "RegexExtract": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "RegexMatch": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "RegexReplace": {
+      "introduced_in": "v0.3.40",
+      "category": "extras"
+    },
+    "RenormCFG": {
+      "introduced_in": "v0.3.15",
+      "category": "extras"
+    },
+    "RepeatImageBatch": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "RepeatLatentBatch": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "ReplaceText": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ReplaceVideoLatentFrames": {
+      "introduced_in": "v0.4.0",
+      "category": "extras"
+    },
+    "Reroute": {
+      "introduced_in": "v0.3.0",
+      "category": "frontend"
+    },
+    "RescaleCFG": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ResizeAndPadImage": {
+      "introduced_in": "v0.3.42",
+      "category": "extras"
+    },
+    "ResizeImageMaskNode": {
+      "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "ResizeImagesByLongerEdge": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ResizeImagesByShorterEdge": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ResolutionBucket": {
+      "introduced_in": "v0.6.0",
+      "category": "extras"
+    },
+    "Rodin3D_Detail": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "Rodin3D_Gen2": {
+      "introduced_in": "v0.3.61",
+      "category": "api"
+    },
+    "Rodin3D_Regular": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "Rodin3D_Sketch": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "Rodin3D_Smooth": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "RunwayFirstLastFrameNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "RunwayImageToVideoNodeGen3a": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "RunwayImageToVideoNodeGen4": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "RunwayTextToImageNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "SDTurboScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SD_4XUpscale_Conditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SV3D_Conditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SVD_img2vid_Conditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerCustom": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerCustomAdvanced": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerDPMAdaptative": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerDPMPP_2M_SDE": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerDPMPP_2S_Ancestral": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerDPMPP_3M_SDE": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerDPMPP_SDE": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerER_SDE": {
+      "introduced_in": "v0.3.44",
+      "category": "extras"
+    },
+    "SamplerEulerAncestral": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerEulerAncestralCFGPP": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerEulerCFGpp": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerLCMUpscale": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerLMS": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerSASolver": {
+      "introduced_in": "v0.3.45",
+      "category": "extras"
+    },
+    "SamplerSEEDS2": {
+      "introduced_in": "v0.5.0",
+      "category": "extras"
+    },
+    "SamplingPercentToSigma": {
+      "introduced_in": "v0.3.45",
+      "category": "extras"
+    },
+    "SaveAnimatedPNG": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SaveAnimatedWEBP": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SaveAudio": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SaveAudioMP3": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "SaveAudioOpus": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "SaveGLB": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "SaveImage": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "SaveImageDataSetToFolder": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "SaveImageTextDataSetToFolder": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "SaveImageWebsocket": {
+      "introduced_in": "v0.3.0",
+      "category": "custom"
+    },
+    "SaveLatent": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "SaveLoRA": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "SaveLoRANode": {
+      "introduced_in": "v0.3.41",
+      "category": "extras",
+      "removed_in": "v0.3.76"
+    },
+    "SaveSVG": {
+      "introduced_in": "v0.3.32",
+      "category": "api",
+      "removed_in": "v0.3.34"
+    },
+    "SaveSVGNode": {
+      "introduced_in": "v0.3.34",
+      "category": "extras"
+    },
+    "SaveTrainingDataset": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "SaveVideo": {
+      "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "SaveWEBM": {
+      "introduced_in": "v0.3.15",
+      "category": "extras"
+    },
+    "ScaleROPE": {
+      "introduced_in": "v0.3.68",
+      "category": "extras"
+    },
+    "SelfAttentionGuidance": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SetClipHooks": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "SetFirstSigma": {
+      "introduced_in": "v0.3.11",
+      "category": "extras"
+    },
+    "SetHookKeyframes": {
+      "introduced_in": "v0.3.7",
+      "category": "extras"
+    },
+    "SetLatentNoiseMask": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "SetUnionControlNetType": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ShuffleDataset": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ShuffleImageTextDataset": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "SkipLayerGuidanceDiT": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SkipLayerGuidanceDiTSimple": {
+      "introduced_in": "v0.3.44",
+      "category": "extras"
+    },
+    "SkipLayerGuidanceSD3": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SolidMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SplitAudioChannels": {
+      "introduced_in": "v0.3.61",
+      "category": "extras"
+    },
+    "SplitImageWithAlpha": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SplitSigmas": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SplitSigmasDenoise": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StabilityAudioInpaint": {
+      "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "StabilityAudioToAudio": {
+      "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "StabilityStableImageSD_3_5Node": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "StabilityStableImageUltraNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "StabilityTextToAudio": {
+      "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "StabilityUpscaleConservativeNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "StabilityUpscaleCreativeNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "StabilityUpscaleFastNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "StableCascade_EmptyLatentImage": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StableCascade_StageB_Conditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StableCascade_StageC_VAEEncode": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StableCascade_SuperResolutionControlnet": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StableZero123_Conditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StableZero123_Conditioning_Batched": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StringCompare": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StringConcatenate": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StringContains": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StringLength": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StringReplace": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StringSubstring": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StringTrim": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StripWhitespace": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "StyleModelApply": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "StyleModelLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "T5TokenizerOptions": {
+      "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "TCFG": {
+      "introduced_in": "v0.3.44",
+      "category": "extras"
+    },
+    "TemporalScoreRescaling": {
+      "introduced_in": "v0.3.66",
+      "category": "extras"
+    },
+    "TencentImageToModelNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "TencentTextToModelNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "TextEncodeAceStepAudio": {
+      "introduced_in": "v0.3.33",
+      "category": "extras"
+    },
+    "TextEncodeAceStepAudio1.5": {
+      "introduced_in": "v0.12.0",
+      "category": "extras"
+    },
+    "TextEncodeHunyuanVideo_ImageToVideo": {
+      "introduced_in": "v0.3.23",
+      "category": "extras"
+    },
+    "TextEncodeQwenImageEdit": {
+      "introduced_in": "v0.3.51",
+      "category": "extras"
+    },
+    "TextEncodeQwenImageEditPlus": {
+      "introduced_in": "v0.3.60",
+      "category": "extras"
+    },
+    "TextEncodeZImageOmni": {
+      "introduced_in": "v0.11.0",
+      "category": "extras"
+    },
+    "TextToLowercase": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "TextToUppercase": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "ThresholdMask": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "TomePatchModel": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "TopazImageEnhance": {
+      "introduced_in": "v0.3.71",
+      "category": "api"
+    },
+    "TopazVideoEnhance": {
+      "introduced_in": "v0.3.71",
+      "category": "api"
+    },
+    "TorchCompileModel": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "TrainLoraNode": {
+      "introduced_in": "v0.3.41",
+      "category": "extras"
+    },
+    "TrimAudioDuration": {
+      "introduced_in": "v0.3.61",
+      "category": "extras"
+    },
+    "TrimVideoLatent": {
+      "introduced_in": "v0.3.30",
+      "category": "extras"
+    },
+    "TripleCLIPLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "TripoConversionNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoImageToModelNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoMultiviewToModelNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoRefineNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoRetargetNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoRigNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoTextToModelNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoTextureNode": {
+      "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TruncateText": {
+      "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "UNETLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "UNetCrossAttentionMultiply": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "UNetSelfAttentionMultiply": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "UNetTemporalAttentionMultiply": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "USOStyleReference": {
+      "introduced_in": "v0.3.57",
+      "category": "extras"
+    },
+    "UpscaleModelLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VAEDecode": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "VAEDecodeAudio": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VAEDecodeAudioTiled": {
+      "introduced_in": "v0.12.3",
+      "category": "extras"
+    },
+    "VAEDecodeHunyuan3D": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "VAEDecodeTiled": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "VAEEncode": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "VAEEncodeAudio": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VAEEncodeForInpaint": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "VAEEncodeTiled": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "VAELoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "VAESave": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VPScheduler": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "Veo3FirstLastFrameNode": {
+      "introduced_in": "v0.3.76",
+      "category": "api"
+    },
+    "Veo3VideoGenerationNode": {
+      "introduced_in": "v0.3.49",
+      "category": "api"
+    },
+    "VeoVideoGenerationNode": {
+      "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "VideoLinearCFGGuidance": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VideoTriangleCFGGuidance": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "Vidu2ImageToVideoNode": {
+      "introduced_in": "v0.9.0",
+      "category": "api"
+    },
+    "Vidu2ReferenceVideoNode": {
+      "introduced_in": "v0.9.0",
+      "category": "api"
+    },
+    "Vidu2StartEndToVideoNode": {
+      "introduced_in": "v0.9.0",
+      "category": "api"
+    },
+    "Vidu2TextToVideoNode": {
+      "introduced_in": "v0.9.0",
+      "category": "api"
+    },
+    "Vidu3ImageToVideoNode": {
+      "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "Vidu3TextToVideoNode": {
+      "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "ViduExtendVideoNode": {
+      "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "ViduImageToVideoNode": {
+      "introduced_in": "v0.3.51",
+      "category": "api"
+    },
+    "ViduMultiFrameVideoNode": {
+      "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "ViduReferenceVideoNode": {
+      "introduced_in": "v0.3.51",
+      "category": "api"
+    },
+    "ViduStartEndToVideoNode": {
+      "introduced_in": "v0.3.51",
+      "category": "api"
+    },
+    "ViduTextToVideoNode": {
+      "introduced_in": "v0.3.51",
+      "category": "api"
+    },
+    "VoxelToMesh": {
+      "introduced_in": "v0.3.28",
+      "category": "extras"
+    },
+    "VoxelToMeshBasic": {
+      "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "Wan22FunControlToVideo": {
+      "introduced_in": "v0.3.50",
+      "category": "extras"
+    },
+    "Wan22ImageToVideoLatent": {
+      "introduced_in": "v0.3.46",
+      "category": "extras"
+    },
+    "WanAnimateToVideo": {
+      "introduced_in": "v0.3.60",
+      "category": "extras"
+    },
+    "WanCameraEmbedding": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "WanCameraImageToVideo": {
+      "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "WanContextWindowsManual": {
+      "introduced_in": "v0.3.51",
+      "category": "extras"
+    },
+    "WanFirstLastFrameToVideo": {
+      "introduced_in": "v0.3.29",
+      "category": "extras"
+    },
+    "WanFunControlToVideo": {
+      "introduced_in": "v0.3.28",
+      "category": "extras"
+    },
+    "WanFunInpaintToVideo": {
+      "introduced_in": "v0.3.28",
+      "category": "extras"
+    },
+    "WanHuMoImageToVideo": {
+      "introduced_in": "v0.3.60",
+      "category": "extras"
+    },
+    "WanImageToImageApi": {
+      "introduced_in": "v0.3.61",
+      "category": "api"
+    },
+    "WanImageToVideo": {
+      "introduced_in": "v0.3.16",
+      "category": "extras"
+    },
+    "WanImageToVideoApi": {
+      "introduced_in": "v0.3.60",
+      "category": "api"
+    },
+    "WanInfiniteTalkToVideo": {
+      "introduced_in": "v0.11.0",
+      "category": "extras"
+    },
+    "WanMoveConcatTrack": {
+      "introduced_in": "v0.5.0",
+      "category": "extras"
+    },
+    "WanMoveTrackToVideo": {
+      "introduced_in": "v0.5.0",
+      "category": "extras"
+    },
+    "WanMoveTracksFromCoords": {
+      "introduced_in": "v0.5.0",
+      "category": "extras"
+    },
+    "WanMoveVisualizeTracks": {
+      "introduced_in": "v0.5.0",
+      "category": "extras"
+    },
+    "WanPhantomSubjectToVideo": {
+      "introduced_in": "v0.3.39",
+      "category": "extras"
+    },
+    "WanReferenceVideoApi": {
+      "introduced_in": "v0.8.0",
+      "category": "api"
+    },
+    "WanSoundImageToVideo": {
+      "introduced_in": "v0.3.53",
+      "category": "extras"
+    },
+    "WanSoundImageToVideoExtend": {
+      "introduced_in": "v0.3.55",
+      "category": "extras"
+    },
+    "WanTextToImageApi": {
+      "introduced_in": "v0.3.60",
+      "category": "api"
+    },
+    "WanTextToVideoApi": {
+      "introduced_in": "v0.3.60",
+      "category": "api"
+    },
+    "WanTrackToVideo": {
+      "introduced_in": "v0.3.46",
+      "category": "extras"
+    },
+    "WanVaceToVideo": {
+      "introduced_in": "v0.3.30",
+      "category": "extras"
+    },
+    "WavespeedFlashVSRNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "WavespeedImageUpscaleNode": {
+      "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "WebcamCapture": {
+      "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ZImageFunControlnet": {
+      "introduced_in": "v0.5.0",
+      "category": "extras"
+    },
+    "unCLIPCheckpointLoader": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "unCLIPConditioning": {
+      "introduced_in": "v0.3.0",
+      "category": "core"
+    },
+    "wanBlockSwap": {
+      "introduced_in": "v0.3.70",
+      "category": "extras"
+    }
+  }
+}
