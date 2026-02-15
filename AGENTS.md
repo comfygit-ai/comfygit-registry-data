@@ -34,6 +34,21 @@ When adding fallback mappings for common unresolved nodes:
    - Run `src/augment_mappings.py` against a copy of `data/node_mappings.json` with `--community config/community_mappings.json`.
    - Confirm expected keys are added and no existing keys are overwritten.
 
+## Commit Convention — Bead References
+
+**When a commit implements, fixes, or closes a bead, include the bead ID(s) in the commit message.** This creates traceability between git history and issue tracking.
+
+Format: `<description> [<bead-id>]` or `<description> [<bead-id>, <bead-id>]`
+
+```
+Add version-indexed builtins pipeline [crd-5pa]
+Update community mappings for unresolved nodes [crd-abc]
+```
+
+- Place bead ID(s) at the end of the first line in square brackets
+- Use this for commits that directly address bead work — skip for unrelated housekeeping commits
+- If a commit fully resolves a bead, also close it with `bd close`
+
 ## Landing the Plane (Session Completion)
 
 **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.
