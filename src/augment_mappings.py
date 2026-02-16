@@ -23,8 +23,8 @@ import argparse
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Optional
-from urllib.parse import urlparse, urlunparse
+from typing import Any, Dict, Optional
+from urllib.parse import urlparse
 
 from comfygit_core.utils.input_signature import create_node_key
 from build_global_mappings import calculate_package_score
@@ -41,13 +41,24 @@ logger = getLogger(__name__)
 class MappingsAugmenter:
     """Augments node mappings with ComfyUI Manager data."""
 
-    def __init__(self, mappings_file: Path, manager_file: Path, community_file: Optional[Path] = None):
+    def __init__(
+        self,
+        mappings_file: Path,
+        manager_file: Path,
+        community_file: Optional[Path] = None,
+        alias_file: Optional[Path] = None,
+        override_file: Optional[Path] = None,
+    ):
         self.mappings_file = mappings_file
         self.manager_file = manager_file
         self.community_file = community_file
+        self.alias_file = alias_file
+        self.override_file = override_file
         self.mappings_data = None
         self.manager_data = None
         self.community_data = []
+        self.package_aliases = {}
+        self.mapping_overrides = []
         self.stats = {
             'nodes_added': 0,
             'nodes_skipped_exists': 0,
@@ -56,7 +67,9 @@ class MappingsAugmenter:
             'synthetic_packages_created': set(),
             'total_manager_nodes': 0,
             'community_nodes_added': 0,
-            'community_nodes_skipped_exists': 0
+            'community_nodes_skipped_exists': 0,
+            'aliases_applied': 0,
+            'mapping_overrides_applied': 0
         }
 
     def load_data(self):
@@ -86,6 +99,151 @@ class MappingsAugmenter:
         elif self.community_file:
             logger.warning(f"Community mappings file not found: {self.community_file}")
 
+        if self.alias_file and self.alias_file.exists():
+            with open(self.alias_file, 'r') as f:
+                alias_raw = json.load(f)
+
+            if isinstance(alias_raw, dict):
+                aliases = alias_raw.get("aliases", alias_raw)
+            else:
+                raise ValueError(f"Invalid alias format in {self.alias_file}: expected object")
+
+            self.package_aliases = self._normalize_aliases(aliases)
+            logger.info(f"Loaded {len(self.package_aliases)} package aliases from {self.alias_file}")
+        elif self.alias_file:
+            logger.warning(f"Package alias file not found: {self.alias_file}")
+
+        if self.override_file and self.override_file.exists():
+            with open(self.override_file, 'r') as f:
+                override_raw = json.load(f)
+
+            if isinstance(override_raw, dict):
+                self.mapping_overrides = override_raw.get("overrides", [])
+            elif isinstance(override_raw, list):
+                self.mapping_overrides = override_raw
+            else:
+                raise ValueError(f"Invalid mapping override format in {self.override_file}: expected list or object")
+
+            if not isinstance(self.mapping_overrides, list):
+                raise ValueError(f"Invalid mapping override format in {self.override_file}: 'overrides' must be a list")
+            logger.info(f"Loaded {len(self.mapping_overrides)} node mapping overrides from {self.override_file}")
+        elif self.override_file:
+            logger.warning(f"Node mapping override file not found: {self.override_file}")
+
+    @staticmethod
+    def _normalize_aliases(raw_aliases: Dict[str, Any]) -> Dict[str, str]:
+        """Normalize raw alias map to direct legacy->canonical IDs."""
+        if not isinstance(raw_aliases, dict):
+            raise ValueError("Invalid alias format: 'aliases' must be an object")
+
+        aliases = {}
+        for legacy_id, canonical_id in raw_aliases.items():
+            if not isinstance(legacy_id, str) or not isinstance(canonical_id, str):
+                continue
+            if legacy_id == canonical_id:
+                continue
+            aliases[legacy_id] = canonical_id
+
+        normalized = {}
+        for legacy_id in aliases:
+            seen = set()
+            current = legacy_id
+            while current in aliases:
+                if current in seen:
+                    logger.warning(f"Skipping cyclic alias mapping for {legacy_id}")
+                    current = legacy_id
+                    break
+                seen.add(current)
+                next_id = aliases[current]
+                if next_id == current:
+                    break
+                current = next_id
+
+            if current != legacy_id:
+                normalized[legacy_id] = current
+
+        return normalized
+
+    def _canonicalize_package_id(self, package_id: Optional[str]) -> Optional[str]:
+        """Return canonical package ID using loaded aliases."""
+        if not package_id:
+            return package_id
+        return self.package_aliases.get(package_id, package_id)
+
+    @staticmethod
+    def _merge_package_data(target: Dict[str, Any], source: Dict[str, Any]) -> None:
+        """Merge package metadata for alias-collapsed package IDs."""
+        target_versions = target.get("versions", {})
+        source_versions = source.get("versions", {})
+        if isinstance(target_versions, dict) and isinstance(source_versions, dict):
+            for version, version_data in source_versions.items():
+                target_versions.setdefault(version, version_data)
+            target["versions"] = target_versions
+
+        for field, value in source.items():
+            if field == "versions":
+                continue
+            if field in ("downloads", "github_stars", "rating") and isinstance(value, (int, float)):
+                target[field] = max(target.get(field, 0), value)
+                continue
+            if field not in target or target[field] in (None, "", [], {}):
+                target[field] = value
+
+    @staticmethod
+    def _merge_mapping_entry(target: Dict[str, Any], source: Dict[str, Any]) -> None:
+        """Merge duplicate mapping rows after alias canonicalization."""
+        target_versions = target.get("versions", []) or []
+        source_versions = source.get("versions", []) or []
+        target["versions"] = list(dict.fromkeys([*target_versions, *source_versions]))
+
+        if source.get("_temp_score", 0) > target.get("_temp_score", 0):
+            target["_temp_score"] = source["_temp_score"]
+
+        # If any merged row is registry-backed (no source), keep it as registry.
+        source_tag = source.get("source")
+        if not source_tag:
+            target.pop("source", None)
+        elif "source" not in target:
+            target["source"] = source_tag
+
+    def _apply_package_aliases(self):
+        """Canonicalize package IDs in packages and mappings using alias map."""
+        self.mappings_data["package_aliases"] = dict(sorted(self.package_aliases.items()))
+        if not self.package_aliases:
+            return
+
+        packages = self.mappings_data["packages"]
+        for legacy_id, canonical_id in self.package_aliases.items():
+            if legacy_id == canonical_id:
+                continue
+
+            legacy_package = packages.pop(legacy_id, None)
+            if not legacy_package:
+                continue
+
+            if canonical_id not in packages:
+                packages[canonical_id] = legacy_package
+            else:
+                self._merge_package_data(packages[canonical_id], legacy_package)
+            self.stats["aliases_applied"] += 1
+
+        for node_key, entries in self.mappings_data["mappings"].items():
+            deduped_entries = {}
+            for entry in entries:
+                canonical_package_id = self._canonicalize_package_id(entry.get("package_id"))
+                if not canonical_package_id:
+                    continue
+                candidate = dict(entry)
+                candidate["package_id"] = canonical_package_id
+
+                existing = deduped_entries.get(canonical_package_id)
+                if existing is None:
+                    deduped_entries[canonical_package_id] = candidate
+                    continue
+                self._merge_mapping_entry(existing, candidate)
+
+            self.mappings_data["mappings"][node_key] = list(deduped_entries.values())
+
     def build_url_to_package_map(self) -> Dict[str, str]:
         """Build mapping from repository URLs to package IDs."""
         url_map = {}
@@ -95,7 +253,7 @@ class MappingsAugmenter:
             if repo_url:
                 # Repository URLs should already be normalized from build phase
                 normalized_url = normalize_repository_url(repo_url)
-                url_map[normalized_url] = package_id
+                url_map[normalized_url] = self._canonicalize_package_id(package_id)
 
         logger.info(f"Built URL map with {len(url_map)} repositories")
         return url_map
@@ -275,8 +433,14 @@ class MappingsAugmenter:
             if nodes_added_for_package > 0:
                 logger.info(f"Synthetic package {package_id} mapped {nodes_added_for_package} nodes")
 
-        # Third pass: Curated community fallback mappings (only fill unresolved keys)
+        # Third pass: Canonicalize legacy package IDs before fallback/overrides/ranking
+        self._apply_package_aliases()
+
+        # Fourth pass: Curated community fallback mappings (only fill unresolved keys)
         self._apply_community_fallback()
+
+        # Fifth pass: Apply explicit per-node mapping overrides
+        self._apply_mapping_overrides()
 
         # Re-rank all mappings
         self._rerank_all_mappings()
@@ -291,7 +455,7 @@ class MappingsAugmenter:
                 continue
 
             node_type = mapping_entry.get("node_type")
-            package_id = mapping_entry.get("package_id")
+            package_id = self._canonicalize_package_id(mapping_entry.get("package_id"))
             input_signature = mapping_entry.get("input_signature") or "_"
 
             if not node_type or not package_id:
@@ -323,6 +487,51 @@ class MappingsAugmenter:
             self.stats['community_nodes_added'] += 1
             logger.info(f"Community fallback mapped {node_key} -> {package_id}")
 
+    def _apply_mapping_overrides(self):
+        """Apply explicit per-node package override rules."""
+        if not self.mapping_overrides:
+            return
+
+        for override in self.mapping_overrides:
+            if not isinstance(override, dict):
+                continue
+
+            node_type = override.get("node_type")
+            package_id = self._canonicalize_package_id(override.get("package_id"))
+            input_signature = override.get("input_signature") or "_"
+
+            if not node_type or not package_id:
+                continue
+
+            if package_id not in self.mappings_data["packages"]:
+                raise ValueError(
+                    f"Invalid override mapping: package_id '{package_id}' not found for node '{node_type}'"
+                )
+
+            node_key = create_node_key(node_type, input_signature)
+            entries = self.mappings_data["mappings"].setdefault(node_key, [])
+
+            override_entry = None
+            remaining_entries = []
+            for entry in entries:
+                if entry.get("package_id") == package_id and override_entry is None:
+                    override_entry = dict(entry)
+                else:
+                    remaining_entries.append(entry)
+
+            if override_entry is None:
+                override_entry = {
+                    "package_id": package_id,
+                    "versions": [],
+                    "source": "override",
+                }
+            else:
+                override_entry["source"] = "override"
+
+            self.mappings_data["mappings"][node_key] = [override_entry, *remaining_entries]
+            self.stats["mapping_overrides_applied"] += 1
+            logger.info(f"Override mapped {node_key} -> {package_id}")
+
     def _rerank_all_mappings(self):
         """Re-rank all package entries based on scores."""
         for node_key, entries in self.mappings_data['mappings'].items():
@@ -336,8 +545,11 @@ class MappingsAugmenter:
                     )
                     entry['_temp_score'] = score
 
-            # Sort and rank
-            entries.sort(key=lambda x: x['_temp_score'], reverse=True)
+            # Sort and rank (explicit overrides always stay at the top).
+            entries.sort(
+                key=lambda x: (x.get("source") == "override", x['_temp_score']),
+                reverse=True,
+            )
             for rank, entry in enumerate(entries, 1):
                 entry['rank'] = rank
                 del entry['_temp_score']  # Remove score from output
@@ -393,6 +605,8 @@ class MappingsAugmenter:
         print(f"Registry packages augmented: {len(self.stats['packages_augmented'])}")
         print(f"Synthetic packages created: {len(self.stats['synthetic_packages_created'])}")
         print(f"Packages failed to process: {len(self.stats['packages_not_found'])}")
+        print(f"Package aliases applied: {self.stats['aliases_applied']}")
+        print(f"Mapping overrides applied: {self.stats['mapping_overrides_applied']}")
         print(f"Community fallback nodes added: {self.stats['community_nodes_added']}")
         print(f"Community fallback nodes skipped: {self.stats['community_nodes_skipped_exists']}")
         print("=" * 60)
@@ -438,6 +652,18 @@ def main():
         help='Path to curated community mappings JSON (default: config/community_mappings.json)'
     )
     parser.add_argument(
+        '--aliases',
+        type=Path,
+        default=Path('config/package_aliases.json'),
+        help='Path to package aliases JSON (default: config/package_aliases.json)'
+    )
+    parser.add_argument(
+        '--overrides',
+        type=Path,
+        default=Path('config/node_mapping_overrides.json'),
+        help='Path to node mapping overrides JSON (default: config/node_mapping_overrides.json)'
+    )
+    parser.add_argument(
         '--log-level',
         default='INFO',
         help='Logging level'
@@ -453,7 +679,13 @@ def main():
     if not args.manager.exists():
         parser.error(f"Manager file not found: {args.manager}")
 
-    augmenter = MappingsAugmenter(args.mappings, args.manager, args.community)
+    augmenter = MappingsAugmenter(
+        args.mappings,
+        args.manager,
+        args.community,
+        args.aliases,
+        args.overrides,
+    )
     augmenter.load_data()
     augmenter.augment_mappings()
     augmenter.save_augmented_mappings(args.output, schema_config=args.schema_config)

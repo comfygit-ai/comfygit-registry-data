@@ -54,6 +54,7 @@ class SchemaFilter:
             "version": data.get("version"),
             "generated_at": data.get("generated_at"),
             "stats": data.get("stats"),
+            "package_aliases": data.get("package_aliases", {}),
             "mappings": self.filter_mappings_section(data.get("mappings", {})),
             "packages": self.filter_packages_section(data.get("packages", {}))
         }

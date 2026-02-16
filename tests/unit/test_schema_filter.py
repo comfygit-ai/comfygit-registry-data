@@ -184,6 +184,9 @@ source = true
                 "packages": 1,
                 "signatures": 1
             },
+            "package_aliases": {
+                "legacy-package": "canonical-package"
+            },
             "mappings": {
                 "TestNode::_": [self.full_mapping]
             },
@@ -198,8 +201,13 @@ source = true
         self.assertIn("version", filtered)
         self.assertIn("generated_at", filtered)
         self.assertIn("stats", filtered)
+        self.assertIn("package_aliases", filtered)
         self.assertIn("mappings", filtered)
         self.assertIn("packages", filtered)
+        self.assertEqual(
+            filtered["package_aliases"]["legacy-package"],
+            "canonical-package"
+        )
 
         # Package should be filtered
         pkg = filtered["packages"]["test-package"]

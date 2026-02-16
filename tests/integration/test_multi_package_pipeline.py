@@ -455,6 +455,10 @@ class TestFullPipelineWithAugmentation:
         with open(temp_mappings_file, 'r') as f:
             final_data = json.load(f)
 
+        # Alias metadata should always be present for downstream canonicalization.
+        assert "package_aliases" in final_data
+        assert final_data["package_aliases"] == {}
+
         # Verify Add now has 2 packages (1 from registry, 1 from manager)
         add_entries = final_data["mappings"]["Add::_"]
         assert len(add_entries) == 2
@@ -529,6 +533,8 @@ class TestFullPipelineWithAugmentation:
         # Verify
         with open(temp_mappings_file, 'r') as f:
             final_data = json.load(f)
+
+        assert "package_aliases" in final_data
 
         # All 3 nodes should exist
         assert "CustomNode1::_" in final_data["mappings"]

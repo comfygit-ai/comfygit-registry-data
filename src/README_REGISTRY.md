@@ -78,6 +78,8 @@ uv run scripts/augment_mappings.py \
   --mappings data/node_mappings.json \
   --manager data/extension-node-map.json \
   --community config/community_mappings.json \
+  --aliases config/package_aliases.json \
+  --overrides config/node_mapping_overrides.json \
   --schema-config config/output_schema.toml
 ```
 
@@ -85,6 +87,16 @@ uv run scripts/augment_mappings.py \
 - It fills unresolved node keys after registry + Manager processing.
 - It never overwrites existing keys.
 - Every `package_id` must exist in `packages`, otherwise augmentation fails.
+
+`config/package_aliases.json` defines canonical IDs for legacy package IDs:
+- Format: `{ "schema_version": 1, "aliases": { "legacy_id": "canonical_id" } }`
+- Aliases are applied before community fallback and overrides.
+- Output includes top-level `package_aliases` for downstream canonicalization.
+
+`config/node_mapping_overrides.json` defines explicit signature remaps:
+- Format: `{ "schema_version": 1, "overrides": [ ... ] }`
+- Override fields: `node_type`, optional `input_signature` (defaults `_`), `package_id`.
+- Overrides force the selected package to rank first for the target node key.
 
 ## Benefits
 

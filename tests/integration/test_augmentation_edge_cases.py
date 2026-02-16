@@ -2,6 +2,7 @@
 
 import json
 import sys
+import tempfile
 from pathlib import Path
 
 import pytest
@@ -501,6 +502,166 @@ class TestAugmentationEdgeCases:
         assert len(augmenter.stats['packages_augmented']) == 1  # pkg-a
         assert len(augmenter.stats['synthetic_packages_created']) == 2  # synthetic-1, synthetic-2
         assert augmenter.stats['total_manager_nodes'] == 5  # All nodes from Manager
+
+
+class TestAliasAndOverrideBehavior:
+    """Test alias canonicalization and explicit mapping overrides."""
+
+    @staticmethod
+    def _write_alias_file(aliases):
+        temp_file = tempfile.NamedTemporaryFile(mode='w', suffix='_aliases.json', delete=False)
+        temp_path = Path(temp_file.name)
+        temp_file.close()
+
+        with open(temp_path, 'w') as f:
+            json.dump({"schema_version": 1, "aliases": aliases}, f, indent=2)
+
+        return temp_path
+
+    @staticmethod
+    def _write_override_file(overrides):
+        temp_file = tempfile.NamedTemporaryFile(mode='w', suffix='_overrides.json', delete=False)
+        temp_path = Path(temp_file.name)
+        temp_file.close()
+
+        with open(temp_path, 'w') as f:
+            json.dump({"schema_version": 1, "overrides": overrides}, f, indent=2)
+
+        return temp_path
+
+    def test_aliases_canonicalize_packages_and_mapping_entries(
+        self,
+        temp_cache_file,
+        temp_mappings_file,
+        temp_manager_file,
+        sample_packages,
+        sample_node,
+        write_cache_helper,
+        write_manager_helper,
+    ):
+        """Legacy package IDs are rewritten to canonical IDs with merged entries."""
+        nodes = [
+            sample_packages(
+                "comfyui_ryanonyheinside",
+                "Ryan Canonical",
+                downloads=100,
+                github_stars=10,
+                versions=[{"version": "2.2.0", "comfy_nodes": [sample_node("AudioInfo")]}],
+            ),
+            sample_packages(
+                "comfyui_ryanontheinside",
+                "Ryan Legacy",
+                downloads=50,
+                github_stars=5,
+                versions=[{"version": "2.0.2", "comfy_nodes": [sample_node("AudioInfo")]}],
+            ),
+        ]
+
+        write_cache_helper(temp_cache_file, nodes)
+        builder = GlobalMappingsBuilder()
+        mappings_data = builder.build_mappings(temp_cache_file)
+        with open(temp_mappings_file, 'w') as f:
+            json.dump(mappings_data, f, indent=2)
+
+        write_manager_helper(temp_manager_file, {})
+        alias_file = self._write_alias_file(
+            {"comfyui_ryanontheinside": "comfyui_ryanonyheinside"}
+        )
+
+        try:
+            augmenter = MappingsAugmenter(
+                temp_mappings_file,
+                temp_manager_file,
+                alias_file=alias_file,
+            )
+            augmenter.load_data()
+            augmenter.augment_mappings()
+            augmenter.save_augmented_mappings(temp_mappings_file)
+        finally:
+            alias_file.unlink(missing_ok=True)
+
+        with open(temp_mappings_file, 'r') as f:
+            final_data = json.load(f)
+
+        assert final_data["package_aliases"] == {
+            "comfyui_ryanontheinside": "comfyui_ryanonyheinside"
+        }
+        assert "comfyui_ryanontheinside" not in final_data["packages"]
+        assert "comfyui_ryanonyheinside" in final_data["packages"]
+
+        entries = final_data["mappings"]["AudioInfo::_"]
+        assert len(entries) == 1
+        assert entries[0]["package_id"] == "comfyui_ryanonyheinside"
+        assert "2.2.0" in entries[0]["versions"]
+        assert "2.0.2" in entries[0]["versions"]
+
+    def test_override_forces_preferred_package_to_rank_one(
+        self,
+        temp_cache_file,
+        temp_mappings_file,
+        temp_manager_file,
+        sample_packages,
+        sample_node,
+        write_cache_helper,
+        write_manager_helper,
+    ):
+        """Overrides place configured package first even when ranking would differ."""
+        nodes = [
+            sample_packages(
+                "audio-general-ComfyUI",
+                "Audio General",
+                downloads=1000,
+                github_stars=100,
+                versions=[{"version": "1.0.0", "comfy_nodes": [sample_node("AudioInfo")]}],
+            ),
+            sample_packages(
+                "comfyui_ryanonyheinside",
+                "Ryan Canonical",
+                downloads=100,
+                github_stars=10,
+                versions=[{"version": "2.2.0", "comfy_nodes": [sample_node("AudioInfo")]}],
+            ),
+        ]
+
+        write_cache_helper(temp_cache_file, nodes)
+        builder = GlobalMappingsBuilder()
+        mappings_data = builder.build_mappings(temp_cache_file)
+        with open(temp_mappings_file, 'w') as f:
+            json.dump(mappings_data, f, indent=2)
+
+        write_manager_helper(temp_manager_file, {})
+        override_file = self._write_override_file(
+            [
+                {
+                    "node_type": "AudioInfo",
+                    "input_signature": "_",
+                    "package_id": "comfyui_ryanonyheinside",
+                }
+            ]
+        )
+
+        try:
+            augmenter = MappingsAugmenter(
+                temp_mappings_file,
+                temp_manager_file,
+                override_file=override_file,
+            )
+            augmenter.load_data()
+            augmenter.augment_mappings()
+            augmenter.save_augmented_mappings(temp_mappings_file)
+        finally:
+            override_file.unlink(missing_ok=True)
+
+        with open(temp_mappings_file, 'r') as f:
+            final_data = json.load(f)
+
+        entries = final_data["mappings"]["AudioInfo::_"]
+        assert len(entries) == 2
+        assert entries[0]["package_id"] == "comfyui_ryanonyheinside"
+        assert entries[0]["rank"] == 1
+        assert entries[0]["source"] == "override"
+        assert entries[1]["package_id"] == "audio-general-ComfyUI"
+        assert entries[1]["rank"] == 2
 
 
 if __name__ == "__main__":

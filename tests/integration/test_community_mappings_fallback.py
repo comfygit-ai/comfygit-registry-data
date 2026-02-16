@@ -32,6 +32,17 @@ class TestCommunityMappingsFallback:
 
         return temp_path
 
+    @staticmethod
+    def _write_alias_file(aliases):
+        temp_file = tempfile.NamedTemporaryFile(mode='w', suffix='_aliases.json', delete=False)
+        temp_path = Path(temp_file.name)
+        temp_file.close()
+
+        with open(temp_path, 'w') as f:
+            json.dump({"schema_version": 1, "aliases": aliases}, f, indent=2)
+
+        return temp_path
+
     def test_seeded_set_get_inserted_when_missing(
         self,
         temp_cache_file,
@@ -241,3 +252,65 @@ class TestCommunityMappingsFallback:
                 augmenter.augment_mappings()
         finally:
             community_file.unlink(missing_ok=True)
+
+    def test_community_fallback_resolves_aliased_package_id(
+        self,
+        temp_cache_file,
+        temp_mappings_file,
+        temp_manager_file,
+        sample_packages,
+        write_cache_helper,
+        write_manager_helper,
+    ):
+        """Fallback community package references can use legacy IDs when alias exists."""
+        nodes = [
+            sample_packages(
+                "comfyui_ryanonyheinside",
+                "Ryan Canonical",
+                versions=[{"version": "2.2.0", "comfy_nodes": []}],
+            )
+        ]
+
+        write_cache_helper(temp_cache_file, nodes)
+        builder = GlobalMappingsBuilder()
+        mappings_data = builder.build_mappings(temp_cache_file)
+        with open(temp_mappings_file, 'w') as f:
+            json.dump(mappings_data, f, indent=2)
+
+        write_manager_helper(temp_manager_file, {})
+        community_file = self._write_community_file(
+            [
+                {
+                    "node_type": "AudioInfo",
+                    "input_signature": "_",
+                    "package_id": "comfyui_ryanontheinside",
+                    "reason": "Legacy ID test",
+                    "source_url": "https://example.com",
+                    "added_at": "2026-02-15",
+                }
+            ]
+        )
+        alias_file = self._write_alias_file(
+            {"comfyui_ryanontheinside": "comfyui_ryanonyheinside"}
+        )
+
+        try:
+            augmenter = MappingsAugmenter(
+                temp_mappings_file,
+                temp_manager_file,
+                community_file,
+                alias_file=alias_file,
+            )
+            augmenter.load_data()
+            augmenter.augment_mappings()
+            augmenter.save_augmented_mappings(temp_mappings_file)
+        finally:
+            community_file.unlink(missing_ok=True)
+            alias_file.unlink(missing_ok=True)
+
+        with open(temp_mappings_file, 'r') as f:
+            final_data = json.load(f)
+
+        entry = final_data["mappings"]["AudioInfo::_"][0]
+        assert entry["package_id"] == "comfyui_ryanonyheinside"
+        assert entry["source"] == "community"

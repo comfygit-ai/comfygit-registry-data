@@ -30,6 +30,8 @@ class RegistryOrchestrator:
         self.mappings_file = data_dir / "node_mappings.json"
         self.manager_file = data_dir / ".temp_extension-node-map.json"  # Temporary file
         self.community_file = Path("config/community_mappings.json")
+        self.alias_file = Path("config/package_aliases.json")
+        self.override_file = Path("config/node_mapping_overrides.json")
         self.state_file = data_dir / ".update_state.json"
         self.stats: Dict[str, Any] = {"started_at": datetime.now().isoformat()}
 
@@ -190,7 +192,13 @@ class RegistryOrchestrator:
         augment_start = datetime.now()
 
         # Run augmentation
-        augmenter = MappingsAugmenter(self.mappings_file, self.manager_file, self.community_file)
+        augmenter = MappingsAugmenter(
+            self.mappings_file,
+            self.manager_file,
+            self.community_file,
+            self.alias_file,
+            self.override_file,
+        )
         augmenter.load_data()
         augmenter.augment_mappings()
         augmenter.save_augmented_mappings(self.mappings_file, schema_config=self.schema_config)
