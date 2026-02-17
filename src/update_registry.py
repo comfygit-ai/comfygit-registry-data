@@ -29,9 +29,10 @@ class RegistryOrchestrator:
         self.cache_file = data_dir / "full_registry_cache.json"
         self.mappings_file = data_dir / "node_mappings.json"
         self.manager_file = data_dir / ".temp_extension-node-map.json"  # Temporary file
-        self.community_file = Path("config/community_mappings.json")
-        self.alias_file = Path("config/package_aliases.json")
-        self.override_file = Path("config/node_mapping_overrides.json")
+        repo_root = Path(__file__).resolve().parent.parent
+        self.community_file = repo_root / "config/community_mappings.json"
+        self.alias_file = repo_root / "config/package_aliases.json"
+        self.override_file = repo_root / "config/node_mapping_overrides.json"
         self.state_file = data_dir / ".update_state.json"
         self.stats: Dict[str, Any] = {"started_at": datetime.now().isoformat()}
 

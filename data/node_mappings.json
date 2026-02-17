@@ -2,16 +2,18 @@
   "version": "2026.02.16",
   "generated_at": "2026-02-16T14:01:28.486988",
   "stats": {
-    "packages": 5024,
-    "signatures": 52677,
-    "total_nodes": 55106,
+    "packages": 5025,
+    "signatures": 52823,
+    "total_nodes": 55125,
     "augmented": true,
-    "augmentation_date": "2026-02-16T14:01:29.396236",
-    "nodes_from_manager": 29505,
-    "nodes_from_community": 0,
-    "synthetic_packages": 1234
+    "augmentation_date": "2026-02-16T17:19:14.121063",
+    "nodes_from_manager": 164,
+    "nodes_from_community": 2,
+    "synthetic_packages": 2
   },
-  "package_aliases": {},
+  "package_aliases": {
+    "comfyui_ryanontheinside": "comfyui_ryanonyheinside"
+  },
   "mappings": {
     "(Down)Load Hibiki Model::_": [
       {
@@ -4547,6 +4549,14 @@
         "source": "manager"
       }
     ],
+    "ACES2OutputTransform::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ACES2OutputTransform::dfa73a30": [
       {
         "package_id": "radiance",
@@ -4573,6 +4583,22 @@
           "2.2.0"
         ],
         "rank": 1
+      }
+    ],
+    "ACEStep15GenerationSteering::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ACEStep15KeystoneConfig::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ACEStep15KeystoneConfig::d2db0e8b": [
@@ -4602,6 +4628,14 @@
         "rank": 1
       }
     ],
+    "ACEStep15LatentChannelEQ::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ACEStep15LatentChannelEQ::acf1e2f8": [
       {
         "package_id": "comfyui_ryanonyheinside",
@@ -4619,6 +4653,14 @@
           "2.2.0"
         ],
         "rank": 1
+      }
+    ],
+    "ACEStep15MusicalControls::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ACEStep15NativeCoverGuider::_": [
@@ -5117,6 +5159,14 @@
         "rank": 1
       }
     ],
+    "ACE_STEP_Captioner::_": [
+      {
+        "package_id": "manager_kana112233_comfyui_kaola_ace_step",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ACE_STEP_ClearVRAM::4f4b8e6b": [
       {
         "package_id": "comfyui-kaola-ace-step",
@@ -5124,6 +5174,22 @@
           "0.6.0"
         ],
         "rank": 1
+      }
+    ],
+    "ACE_STEP_ClearVRAM::_": [
+      {
+        "package_id": "manager_kana112233_comfyui_kaola_ace_step",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ACE_STEP_Complete::_": [
+      {
+        "package_id": "manager_kana112233_comfyui_kaola_ace_step",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ACE_STEP_Complete::dee4ead9": [
@@ -5191,6 +5257,14 @@
         "rank": 1
       }
     ],
+    "ACE_STEP_Extract::_": [
+      {
+        "package_id": "manager_kana112233_comfyui_kaola_ace_step",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ACE_STEP_Extract::bc12b746": [
       {
         "package_id": "comfyui-kaola-ace-step",
@@ -5244,6 +5318,14 @@
           "0.6.0"
         ],
         "rank": 1
+      }
+    ],
+    "ACE_STEP_Lego::_": [
+      {
+        "package_id": "manager_kana112233_comfyui_kaola_ace_step",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ACE_STEP_LoRALoader::4b792c2e": [
@@ -5374,6 +5456,14 @@
           "0.2.0"
         ],
         "rank": 1
+      }
+    ],
+    "ACE_STEP_Transcriber::_": [
+      {
+        "package_id": "manager_kana112233_comfyui_kaola_ace_step",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ACE_STEP_Transcriber::d25df576": [
@@ -11910,6 +12000,14 @@
         "source": "manager"
       }
     ],
+    "AIIA_ASR::_": [
+      {
+        "package_id": "aiia",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "AIIA_ASR::e989b042": [
       {
         "package_id": "aiia",
@@ -12405,6 +12503,14 @@
         "rank": 1
       }
     ],
+    "AIIA_Emotion_Annotator::_": [
+      {
+        "package_id": "aiia",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "AIIA_FloatProcess_InMemory::2bd78259": [
       {
         "package_id": "aiia",
@@ -12564,6 +12670,14 @@
         "rank": 1
       }
     ],
+    "AIIA_Podcast_Splitter::_": [
+      {
+        "package_id": "aiia",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "AIIA_Podcast_Stitcher::0a6496d7": [
       {
         "package_id": "aiia",
@@ -12571,6 +12685,14 @@
           "1.13.0"
         ],
         "rank": 1
+      }
+    ],
+    "AIIA_Podcast_Stitcher::_": [
+      {
+        "package_id": "aiia",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "AIIA_Qwen_Dialogue_TTS::_": [
@@ -12762,6 +12884,14 @@
           "1.13.0"
         ],
         "rank": 1
+      }
+    ],
+    "AIIA_Text_Splitter::_": [
+      {
+        "package_id": "aiia",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "AIIA_Utils_Image_Concanate::_": [
@@ -13865,6 +13995,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_huchukato_comfyui_qwenvl_mod",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "AILab_QwenVL::b41127ad": [
@@ -13890,6 +14026,12 @@
         "package_id": "ComfyUI-QwenVL",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_huchukato_comfyui_qwenvl_mod",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -13922,6 +14064,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_huchukato_comfyui_qwenvl_mod",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "AILab_QwenVL_GGUF_Advanced::_": [
@@ -13929,6 +14077,12 @@
         "package_id": "ComfyUI-QwenVL",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_huchukato_comfyui_qwenvl_mod",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -13949,6 +14103,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_huchukato_comfyui_qwenvl_mod",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "AILab_QwenVL_PromptEnhancer::_": [
@@ -13956,6 +14116,12 @@
         "package_id": "ComfyUI-QwenVL",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_huchukato_comfyui_qwenvl_mod",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -16610,6 +16776,14 @@
         "rank": 1
       }
     ],
+    "ARRIWideGamut4::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ARReadAudio::_": [
       {
         "package_id": "ComfyUI-AudioReactive",
@@ -18978,19 +19152,19 @@
     ],
     "AccumulationGetItemNode::f4e70247": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -19017,19 +19191,19 @@
     ],
     "AccumulationGetLengthNode::0bf61a1d": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -19056,19 +19230,19 @@
     ],
     "AccumulationHeadNode::0bf61a1d": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -19103,19 +19277,19 @@
     ],
     "AccumulationSetItemNode::509399c9": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -19173,19 +19347,19 @@
     ],
     "AccumulationToListNode::0bf61a1d": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -21312,6 +21486,14 @@
         "rank": 1
       }
     ],
+    "AdvancedFeatureCombiner::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "AdvancedFilmGrainNode::_": [
       {
         "package_id": "comfyui-eric-image-processing-nodes",
@@ -21458,28 +21640,22 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AdvancedLyingSigmaSampler::47e75b6b": [
       {
-        "package_id": "comfyui-kynode",
+        "package_id": "comfuinoda-Navyblue",
         "versions": [
           "1.0.0"
         ],
         "rank": 1
       },
       {
-        "package_id": "comfuinoda-Navyblue",
+        "package_id": "comfyui-kynode",
         "versions": [
           "1.0.0"
         ],
@@ -22043,13 +22219,13 @@
     ],
     "AesthetlcScoreSorter::_": [
       {
-        "package_id": "comfyui-lextools",
+        "package_id": "ComfyUI-Strimmlarns-Aesthetic-Score",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Strimmlarns-Aesthetic-Score",
+        "package_id": "comfyui-lextools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -23671,6 +23847,14 @@
           "2.1.6"
         ],
         "rank": 1
+      }
+    ],
+    "AnimatedFloatPreview::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "AnimatedFloatPreview::ef6260c8": [
@@ -25424,6 +25608,14 @@
     "AppendLatentBatch::_": [
       {
         "package_id": "manager_vantagewithai_vantage_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "AppendPaletteNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -31213,13 +31405,13 @@
     ],
     "AspectRatio::_": [
       {
-        "package_id": "ComfyUI_AspectRatioToSize",
+        "package_id": "ComfyUI_Lam",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_Lam",
+        "package_id": "ComfyUI_AspectRatioToSize",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -32548,16 +32740,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioChannelSplit::_": [
@@ -32580,16 +32766,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioClassificationPipeline::_": [
@@ -32802,16 +32982,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioDither::_": [
@@ -32927,16 +33101,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioFade::_": [
@@ -32982,16 +33150,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioFeatureVisualizer::_": [
@@ -33022,16 +33184,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioFrameAdjuster::_": [
@@ -33072,16 +33228,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioGain::_": [
@@ -33123,16 +33273,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioInfo::_": [
@@ -33141,7 +33285,8 @@
         "versions": [
           "2.1.6"
         ],
-        "rank": 1
+        "rank": 1,
+        "source": "override"
       },
       {
         "package_id": "audio-general-ComfyUI",
@@ -33152,17 +33297,17 @@
     ],
     "AudioInfo::b4205519": [
       {
-        "package_id": "audio-general-ComfyUI",
-        "versions": [
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "ComfyUI-Qwen-TTS",
         "versions": [
           "1.0.4",
           "1.0.2"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "audio-general-ComfyUI",
+        "versions": [
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -33311,6 +33456,14 @@
           "2.2.1"
         ],
         "rank": 1
+      }
+    ],
+    "AudioLatentStretch::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "AudioListCombine::54bda0a2": [
@@ -33583,16 +33736,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioPitch::651baef6": [
@@ -33632,16 +33779,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioPitchShift::_": [
@@ -33772,13 +33913,13 @@
     ],
     "AudioRecorder::_": [
       {
-        "package_id": "stepaudiotts_mw",
+        "package_id": "ComfyUI-Gemini_Flash_2.0_Exp",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Gemini_Flash_2.0_Exp",
+        "package_id": "stepaudiotts_mw",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -33865,16 +34006,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioSampleRate::021fc60a": [
@@ -34066,16 +34201,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioSeparatorSimple::_": [
@@ -34141,16 +34270,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioSubtract::_": [
@@ -34236,16 +34359,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioTimeStretch::_": [
@@ -34467,16 +34584,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "AudioVolumeNormalization::_": [
@@ -34669,16 +34780,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "Audio_Concatenate::0438dc3a": [
@@ -34692,16 +34797,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "Audio_Concatenate::_": [
@@ -37506,20 +37605,20 @@
     ],
     "BLVAEEncode::0b6b7bb1": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -50240,6 +50339,15 @@
     ],
     "BatchImageLoaderToLocalFiles::_": [
       {
+        "package_id": "qwen3-vl-nsfw",
+        "versions": [
+          "1.4.0",
+          "1.3.1",
+          "1.2.2"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "qwen2_5-vl",
         "versions": [
           "1.0.4",
@@ -50247,15 +50355,6 @@
           "1.0.2",
           "1.0.1",
           "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "qwen3-vl-nsfw",
-        "versions": [
-          "1.4.0",
-          "1.3.1",
-          "1.2.2"
         ],
         "rank": 2
       }
@@ -51660,6 +51759,14 @@
     "BeatSceneDurationNode::_": [
       {
         "package_id": "manager_vrgamegirl19_comfyui_vrgamedevgirl",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "BeatWaveFeatureExtractor::_": [
+      {
+        "package_id": "comfyui_ryanonyheinside",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -57875,9 +57982,15 @@
     ],
     "Blur::_": [
       {
-        "package_id": "comfyui-post-processing-nodes",
+        "package_id": "masquerade-nodes-comfyui",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "comfyui-post-processing-nodes",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       },
       {
@@ -57888,13 +58001,7 @@
           "1.0.4",
           "1.0.3"
         ],
-        "rank": 2
-      },
-      {
-        "package_id": "masquerade-nodes-comfyui",
-        "versions": [],
-        "rank": 3,
-        "source": "manager"
+        "rank": 3
       }
     ],
     "BlurByMask::_": [
@@ -60601,6 +60708,22 @@
           "2.1.14"
         ],
         "rank": 1
+      }
+    ],
+    "BriaRemoveImageBackground::_": [
+      {
+        "package_id": "lth_extended_prompting_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "BriaRemoveVideoBackground::_": [
+      {
+        "package_id": "lth_extended_prompting_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "BriaTailoredGen::_": [
@@ -63562,20 +63685,20 @@
     ],
     "CLIPTextEncodeList::ea5d4a75": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -63787,20 +63910,20 @@
     ],
     "CLIPTextEncodeSequence2::607c8c1a": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -71266,13 +71389,13 @@
     ],
     "CalculateAestheticScore::_": [
       {
-        "package_id": "comfyui-lextools",
+        "package_id": "ComfyUI-Strimmlarns-Aesthetic-Score",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Strimmlarns-Aesthetic-Score",
+        "package_id": "comfyui-lextools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -72019,13 +72142,13 @@
     ],
     "CameraWatermark::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-html2image",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-html2image",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -78631,6 +78754,22 @@
         "rank": 2
       }
     ],
+    "Clear Folder By Pattern::_": [
+      {
+        "package_id": "manager_huyl3_cpu_comfyui_sortlist",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "Clear Folder::_": [
+      {
+        "package_id": "manager_huyl3_cpu_comfyui_sortlist",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Clear Tag::_": [
       {
         "package_id": "ComfyUI-Aimidi-nodes",
@@ -81868,7 +82007,7 @@
     ],
     "ColorPicker::4ba6d5b4": [
       {
-        "package_id": "comfyui_ryanontheinside",
+        "package_id": "comfyui_ryanonyheinside",
         "versions": [
           "2.0.2"
         ],
@@ -82054,6 +82193,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "ColorSpaceConvert::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ColorSpaceConverter::63d9a8a4": [
@@ -84016,19 +84163,19 @@
     ],
     "Comfly_mjstyle::5ef95668": [
       {
-        "package_id": "Comfyui_Comfly",
-        "versions": [
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "zhenzhen",
         "versions": [
           "1.0.8",
           "1.0.6",
           "1.0.3",
           "1.0.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "Comfyui_Comfly",
+        "versions": [
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -89125,20 +89272,20 @@
     ],
     "ConditioningBlend::afc77428": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -91114,16 +91261,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ContextModifier::_": [
@@ -93270,6 +93411,14 @@
         "rank": 1
       }
     ],
+    "CopySubsetNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "CoralColorTransfer::3b837fda": [
       {
         "package_id": "comfyui-styletransferplus",
@@ -94021,13 +94170,13 @@
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_CosyVoice2",
+        "package_id": "ComfyUI_CosyVoice",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_CosyVoice",
+        "package_id": "ComfyUI_CosyVoice2",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -95341,6 +95490,14 @@
         "rank": 1
       }
     ],
+    "CreateGradientPaletteNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "CreateImage::_": [
       {
         "package_id": "manager_rizzlord_comfyui_rizznodes",
@@ -96257,13 +96414,13 @@
     ],
     "CropFaces::_": [
       {
-        "package_id": "comfyui_sunxAI_facetools",
+        "package_id": "comfyui_facetools",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_facetools",
+        "package_id": "comfyui_sunxAI_facetools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -97659,6 +97816,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "CustomCropArea::df331fbc": [
@@ -97855,6 +98018,15 @@
     ],
     "CustomModelPromptGenerator::28186564": [
       {
+        "package_id": "kontext-super-prompt",
+        "versions": [
+          "1.4.0",
+          "1.3.5",
+          "1.3.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "super-prompt-canvas",
         "versions": [
           "1.5.2",
@@ -97863,15 +98035,6 @@
           "1.4.4",
           "1.4.3",
           "1.4.0"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "kontext-super-prompt",
-        "versions": [
-          "1.4.0",
-          "1.3.5",
-          "1.3.4"
         ],
         "rank": 2
       }
@@ -98047,6 +98210,12 @@
         "package_id": "ComfyUI-SuperUltimateVaceTools",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -99419,6 +99588,14 @@
           "28.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "D2 Load Diffusion Model::_": [
+      {
+        "package_id": "d2-nodes-comfyui",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "D2 Load Folder Images::74395418": [
@@ -105072,6 +105249,14 @@
         "source": "manager"
       }
     ],
+    "DaVinciWideGamut::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "DaVinciWideGamut::c693ddc6": [
       {
         "package_id": "radiance",
@@ -107521,6 +107706,22 @@
         "source": "manager"
       }
     ],
+    "DavchaQwenVL3::_": [
+      {
+        "package_id": "comfyui_davcha",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "DavchaQwenVL3Loader::_": [
+      {
+        "package_id": "comfyui_davcha",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "DavchaRescaleSigmas::_": [
       {
         "package_id": "comfyui_davcha",
@@ -107889,20 +108090,20 @@
     ],
     "DebugInput::c71da43a": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -108032,19 +108233,19 @@
     ],
     "DebugPrint::7f6c96e4": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -108852,13 +109053,13 @@
     ],
     "DeepseekNode::_": [
       {
-        "package_id": "ComfyUI_to_webui",
+        "package_id": "yichengup_Comfyui-Deepseek",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "yichengup_Comfyui-Deepseek",
+        "package_id": "ComfyUI_to_webui",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -110158,16 +110359,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "DepthBlender::_": [
@@ -110360,16 +110555,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "DepthInjection::_": [
@@ -110551,16 +110740,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "DepthShapeModifier::3d935e44": [
@@ -110573,16 +110756,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "DepthShapeModifier::_": [
@@ -110604,16 +110781,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "DepthShapeModifierPrecise::_": [
@@ -111459,13 +111630,13 @@
     ],
     "DetectFaces::_": [
       {
-        "package_id": "comfyui_sunxAI_facetools",
+        "package_id": "comfyui_facetools",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_facetools",
+        "package_id": "comfyui_sunxAI_facetools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -114481,16 +114652,6 @@
     ],
     "DisplayAny::7e1b35a4": [
       {
-        "package_id": "comfyui_essentials_mb",
-        "versions": [
-          "1.1.2",
-          "1.1.1",
-          "1.1.0",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "kikotools",
         "versions": [
           "1.0.28",
@@ -114500,6 +114661,16 @@
           "1.0.20",
           "1.0.19",
           "1.0.18"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "comfyui_essentials_mb",
+        "versions": [
+          "1.1.2",
+          "1.1.1",
+          "1.1.0",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -114607,13 +114778,13 @@
     ],
     "DisplayText::_": [
       {
-        "package_id": "kikotools",
+        "package_id": "comfyui-crewai",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-crewai",
+        "package_id": "kikotools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -115453,16 +115624,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "Dot::_": [
@@ -116929,16 +117094,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "DownloadPechaKucha::4d4bf80a": [
@@ -119124,16 +119283,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "DyeImage::_": [
@@ -124303,19 +124456,19 @@
     ],
     "EdgeDetection::_": [
       {
+        "package_id": "TextureAlchemy",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      },
+      {
         "package_id": "steaked-nodes",
         "versions": [
           "1.2.5",
           "1.2.3",
           "1.2.1"
         ],
-        "rank": 1
-      },
-      {
-        "package_id": "TextureAlchemy",
-        "versions": [],
-        "rank": 2,
-        "source": "manager"
+        "rank": 2
       }
     ],
     "EdgeDetection::ee305ae9": [
@@ -124718,7 +124871,7 @@
     ],
     "EffectVisualizer::db72a710": [
       {
-        "package_id": "comfyui_ryanontheinside",
+        "package_id": "comfyui_ryanonyheinside",
         "versions": [
           "2.0.2"
         ],
@@ -126548,16 +126701,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "EmbeddingLoader::_": [
@@ -126830,16 +126977,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "EmitterEmissionRateModulation::_": [
@@ -126861,16 +127002,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "EmitterMovement::_": [
@@ -127034,13 +127169,13 @@
     ],
     "Empty Images::_": [
       {
-        "package_id": "comfyui_soze",
+        "package_id": "Comfy_KepListStuff",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "Comfy_KepListStuff",
+        "package_id": "comfyui_soze",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -127350,16 +127485,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "EmptyImageAndMaskFromAudio::_": [
@@ -127390,16 +127519,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "EmptyImageFromAudio::_": [
@@ -127760,16 +127883,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "EmptyMaskFromAudio::_": [
@@ -130834,16 +130951,16 @@
     ],
     "Example::8b1f5200": [
       {
-        "package_id": "example_custom_nodepack",
+        "package_id": "displayHistory_ComfyUI",
         "versions": [
-          "0.0.1"
+          "1.0.0"
         ],
         "rank": 1
       },
       {
-        "package_id": "displayHistory_ComfyUI",
+        "package_id": "example_custom_nodepack",
         "versions": [
-          "1.0.0"
+          "0.0.1"
         ],
         "rank": 2
       },
@@ -130864,31 +130981,31 @@
     ],
     "Example::_": [
       {
-        "package_id": "comfyui_sunxAI_facetools",
+        "package_id": "ComfyUI-Keyframed",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Keyframed",
+        "package_id": "comfy_clip_blip_node",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "comfyuinetworkguardian",
+        "package_id": "ComfyUI-TacoNodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
       },
       {
-        "package_id": "comfy_clip_blip_node",
+        "package_id": "comfyui_sunxAI_facetools",
         "versions": [],
         "rank": 4,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-TacoNodes",
+        "package_id": "comfyuinetworkguardian",
         "versions": [],
         "rank": 5,
         "source": "manager"
@@ -141335,6 +141452,14 @@
         "source": "manager"
       }
     ],
+    "FXTDAIUpscale::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDAIUpscale::fda6b350": [
       {
         "package_id": "radiance",
@@ -141355,6 +141480,14 @@
         "rank": 1
       }
     ],
+    "FXTDBitDepthConvert::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDCameraShake::01e539af": [
       {
         "package_id": "radiance",
@@ -141363,6 +141496,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDCameraShake::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDCinematicPromptEncoder::49f521a3": [
@@ -141383,6 +141524,14 @@
         "rank": 1
       }
     ],
+    "FXTDCinematicPromptEncoder::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDCompressionArtifacts::72d5abc0": [
       {
         "package_id": "radiance",
@@ -141393,6 +141542,22 @@
         "rank": 1
       }
     ],
+    "FXTDCompressionArtifacts::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTDDepthOfField::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDDepthOfField::a9984618": [
       {
         "package_id": "radiance",
@@ -141401,6 +141566,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDDownscale32bit::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDDownscale32bit::d9c55510": [
@@ -141423,6 +141596,14 @@
         "rank": 1
       }
     ],
+    "FXTDEXRChannelMerge::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDFilmGrain::9fc0c058": [
       {
         "package_id": "radiance",
@@ -141431,6 +141612,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDFilmGrain::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDFilmGrainAdvanced::067dbd86": [
@@ -141443,6 +141632,14 @@
         "rank": 1
       }
     ],
+    "FXTDFilmGrainAdvanced::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDFilmLook::44a8ec53": [
       {
         "package_id": "radiance",
@@ -141451,6 +141648,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDFilmLook::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDHelp::12e11805": [
@@ -141463,6 +141668,14 @@
         "rank": 1
       }
     ],
+    "FXTDHelp::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDLensEffects::42803cd3": [
       {
         "package_id": "radiance",
@@ -141471,6 +141684,22 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDLensEffects::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTDMotionBlur::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDMotionBlur::a37ed54d": [
@@ -141483,6 +141712,14 @@
         "rank": 1
       }
     ],
+    "FXTDPhysicalCamera::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDPhysicalCamera::f45a5e1c": [
       {
         "package_id": "radiance",
@@ -141491,6 +141728,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDProFilmEffects::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDProFilmEffects::a8478d1a": [
@@ -141513,6 +141758,22 @@
         "rank": 1
       }
     ],
+    "FXTDProUpscale::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTDRadianceLoader::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDRadianceLoader::b87634ff": [
       {
         "package_id": "radiance",
@@ -141530,6 +141791,22 @@
           "1.0.1"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDRealisticGrain::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTDResolution::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDResolution::e41b306b": [
@@ -141552,6 +141829,22 @@
         "rank": 1
       }
     ],
+    "FXTDRollingShutter::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTDSaveEXR::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDSaveEXR::bd75a0bf": [
       {
         "package_id": "radiance",
@@ -141570,6 +141863,22 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDSaveEXRCryptomatte::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTDSaveEXRMultiLayer::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDSaveEXRMultiLayer::d504b438": [
@@ -141591,6 +141900,14 @@
         "rank": 1
       }
     ],
+    "FXTDSaveEXRSequence::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDSaveEXRSequence::dc02fc34": [
       {
         "package_id": "radiance",
@@ -141598,6 +141915,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTDUpscaleBySize::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTDUpscaleBySize::c95a21e9": [
@@ -141620,6 +141945,22 @@
         "rank": 1
       }
     ],
+    "FXTDUpscaleTiled::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTDWhiteBalance::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTDWhiteBalance::d3dc85db": [
       {
         "package_id": "radiance",
@@ -141638,6 +141979,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTD_DepthMapGenerator::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "FXTD_DepthMapGenerator::f6735192": [
@@ -141668,6 +142017,22 @@
         "rank": 1
       }
     ],
+    "FXTD_Grade::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FXTD_RadianceViewer::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FXTD_RadianceViewer::b69ed2b9": [
       {
         "package_id": "radiance",
@@ -141686,6 +142051,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "FXTD_Radiance_Sampler_Pro::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "Face Body Aspect Bounds::_": [
@@ -145288,16 +145661,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureAccumulate::_": [
@@ -145336,16 +145703,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureCombine::_": [
@@ -145376,16 +145737,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureExtraction::_": [
@@ -145424,16 +145779,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureInfoNode::_": [
@@ -145456,16 +145805,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureInterpolateMulti::47dbbab9": [
@@ -145502,16 +145845,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureInterpolator::_": [
@@ -145542,16 +145879,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureMixer::_": [
@@ -145575,16 +145906,10 @@
           "2.1.3",
           "2.0.12",
           "2.0.10",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureOscillator::56db1f03": [
@@ -145598,16 +145923,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureOscillator::_": [
@@ -145629,16 +145948,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeaturePeakDetector::_": [
@@ -145660,16 +145973,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureRebase::_": [
@@ -145691,16 +145998,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureRenormalize::_": [
@@ -145722,16 +146023,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureScaler::_": [
@@ -145753,16 +146048,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureSmoothing::_": [
@@ -145808,16 +146097,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureToFlexFloatParam::_": [
@@ -145848,16 +146131,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureToFloat::_": [
@@ -145879,16 +146156,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureToLatentKeyframe::_": [
@@ -145919,16 +146190,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureToSplineData::9c9caa30": [
@@ -145942,16 +146207,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureToSplineData::_": [
@@ -145991,16 +146250,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeatureTruncateOrExtend::_": [
@@ -146022,16 +146275,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FeedbackEffect::44aa642b": [
@@ -148200,6 +148447,30 @@
         "source": "manager"
       }
     ],
+    "FitDiT_GenerateMask::_": [
+      {
+        "package_id": "ComfyUI-FitDiTx",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FitDiT_LoadModel::_": [
+      {
+        "package_id": "ComfyUI-FitDiTx",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FitDiT_TryOn::_": [
+      {
+        "package_id": "ComfyUI-FitDiTx",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FitMaskToImage::_": [
       {
         "package_id": "comfyui-dazzlenodes",
@@ -148717,16 +148988,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexAudioPitchShift::_": [
@@ -148748,16 +149013,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexAudioTimeStretch::_": [
@@ -148779,16 +149038,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexAudioVisualizerCircular::_": [
@@ -148810,16 +149063,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexAudioVisualizerContour::_": [
@@ -148841,16 +149088,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexAudioVisualizerLine::_": [
@@ -148905,16 +149146,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageChromaticAberration::94beca44": [
@@ -148927,16 +149162,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageChromaticAberration::_": [
@@ -148958,16 +149187,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageColorGrade::_": [
@@ -148989,16 +149212,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageContrast::_": [
@@ -149020,16 +149237,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageDepthWarp::_": [
@@ -149061,16 +149272,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageGlitch::_": [
@@ -149092,16 +149297,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageHorizontalToVertical::_": [
@@ -149123,16 +149322,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageHueShift::55ad1613": [
@@ -149146,16 +149339,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageHueShift::_": [
@@ -149178,16 +149365,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageKaleidoscope::_": [
@@ -149209,16 +149390,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageParallax::_": [
@@ -149249,16 +149424,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImagePosterize::_": [
@@ -149280,16 +149449,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageTiltShift::_": [
@@ -149312,32 +149475,20 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageTransform::0a6653ab": [
       {
         "package_id": "comfyui_ryanonyheinside",
         "versions": [
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageTransform::89bb4ea9": [
@@ -149373,16 +149524,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexImageVignette::_": [
@@ -149414,16 +149559,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexLatentBlend::_": [
@@ -149445,16 +149584,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexLatentInterpolate::_": [
@@ -149476,16 +149609,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexLatentNoise::_": [
@@ -149508,16 +149635,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexLoraLoader::_": [
@@ -149546,16 +149667,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskBinary::_": [
@@ -149578,16 +149693,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskDepthChamber::_": [
@@ -149609,16 +149718,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskEmanatingRings::_": [
@@ -149649,16 +149752,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskMath::59653552": [
@@ -149672,16 +149769,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskMath::_": [
@@ -149703,16 +149794,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskMorph::_": [
@@ -149734,16 +149819,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskOpacity::_": [
@@ -149765,16 +149844,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskRandomShapes::_": [
@@ -149796,16 +149869,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskTransform::_": [
@@ -149837,16 +149904,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskWarp::_": [
@@ -149868,16 +149929,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexMaskWavePropagation::_": [
@@ -149899,16 +149954,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexPainter::_": [
@@ -149939,16 +149988,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexVideoFrameBlend::_": [
@@ -149970,16 +150013,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexVideoSeek::263491bf": [
@@ -149994,16 +150031,10 @@
           "2.1.3",
           "2.0.12",
           "2.0.10",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexVideoSeek::_": [
@@ -150025,16 +150056,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FlexVideoSpeed::_": [
@@ -151800,6 +151825,14 @@
         "rank": 1
       }
     ],
+    "Float32ColorCorrect::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Float::2378c4ee": [
       {
         "package_id": "comfyui-logic",
@@ -152467,13 +152500,13 @@
     ],
     "FloatToString::_": [
       {
-        "package_id": "comfyui-ollama-nodes",
+        "package_id": "ComfyUI-Transformers",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Transformers",
+        "package_id": "comfyui-ollama-nodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -154764,16 +154797,16 @@
     ],
     "FluxKontextDiffMerge::2f201fd4": [
       {
-        "package_id": "mgnodes",
+        "package_id": "flux-kontext-diff-merge",
         "versions": [
-          "2.0.0"
+          "1.0.0"
         ],
         "rank": 1
       },
       {
-        "package_id": "flux-kontext-diff-merge",
+        "package_id": "mgnodes",
         "versions": [
-          "1.0.0"
+          "2.0.0"
         ],
         "rank": 2
       }
@@ -158043,6 +158076,22 @@
         "source": "manager"
       }
     ],
+    "FossielDenoisePrecisionKSampler::_": [
+      {
+        "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FossielLevelMatcher::_": [
+      {
+        "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FossielLevelMatchmaker::_": [
       {
         "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
@@ -158051,7 +158100,23 @@
         "source": "manager"
       }
     ],
+    "FossielResolutionWrangler::_": [
+      {
+        "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FossielSequenceWrangler::_": [
+      {
+        "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "FossielVideoDeflicker::_": [
       {
         "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
         "versions": [],
@@ -159815,16 +159880,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FrequencyFilterCustom::_": [
@@ -159846,16 +159905,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FrequencyFilterPreset::_": [
@@ -159898,16 +159951,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "FrequencyRange::_": [
@@ -162418,13 +162465,13 @@
     ],
     "GPTImageEditNode::_": [
       {
-        "package_id": "externalapi-helpers",
+        "package_id": "ComfyUI-MidjourneyHub",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-MidjourneyHub",
+        "package_id": "externalapi-helpers",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -162582,6 +162629,14 @@
     "GPUTemperatureProtectionEnhanced::_": [
       {
         "package_id": "manager_mdmachine_comfyui_md_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "GPUTensorOps::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -163583,13 +163638,13 @@
     ],
     "GaussianBlur::_": [
       {
-        "package_id": "comfyui-background-edit",
+        "package_id": "virtuoso-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "virtuoso-nodes",
+        "package_id": "comfyui-background-edit",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -172609,6 +172664,14 @@
         "rank": 1
       }
     ],
+    "GetNode::_": [
+      {
+        "package_id": "comfyui-kjnodes",
+        "versions": [],
+        "rank": 1,
+        "source": "community"
+      }
+    ],
     "GetNodesFromImage::25df4306": [
       {
         "package_id": "comfyui-get-meta",
@@ -174625,6 +174688,14 @@
         "rank": 1
       }
     ],
+    "GradientBetweenNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "GradientBlur::_": [
       {
         "package_id": "manager_badxprogramm_comfyui_gradientblur",
@@ -174900,16 +174971,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "GrayScaler::_": [
@@ -179969,6 +180034,14 @@
         "rank": 1
       }
     ],
+    "HDR360Generate::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "HDRCreate::8091a894": [
       {
         "package_id": "comfyui_colormod",
@@ -180011,6 +180084,14 @@
         "source": "manager"
       }
     ],
+    "HDRExpandDynamicRange::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "HDRExpandDynamicRange::bce10c8d": [
       {
         "package_id": "radiance",
@@ -180024,6 +180105,14 @@
     "HDRExportNode::_": [
       {
         "package_id": "manager_sumitchatterjee13_luminance_stack_processor",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "HDRExposureBlend::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -180066,6 +180155,14 @@
         "rank": 1
       }
     ],
+    "HDRHistogram::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "HDRIToIrradianceFast::99f19358": [
       {
         "package_id": "TextureAlchemy",
@@ -180093,6 +180190,14 @@
         "rank": 1
       }
     ],
+    "HDRShadowHighlightRecovery::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "HDRToneMap::411bfad8": [
       {
         "package_id": "radiance",
@@ -180101,6 +180206,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "HDRToneMap::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "HEDPreprocessor::_": [
@@ -185685,6 +185798,14 @@
       }
     ],
     "HunyuanPromptRewriter::_": [
+      {
+        "package_id": "hunyuanimage3",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "HunyuanRAMDiagnostic::_": [
       {
         "package_id": "hunyuanimage3",
         "versions": [],
@@ -191808,48 +191929,48 @@
     ],
     "IPAEncodeBatch::ac920d8f": [
       {
-        "package_id": "pah-nodes",
+        "package_id": "ComfyUI-sselpah-nodes",
         "versions": [
-          "1.0.0"
+          "1.0.1"
         ],
         "rank": 1
       },
       {
-        "package_id": "ComfyUI-sselpah-nodes",
+        "package_id": "pah-nodes",
         "versions": [
-          "1.0.1"
+          "1.0.0"
         ],
         "rank": 2
       }
     ],
     "IPALoadEmbeds::105fe547": [
       {
-        "package_id": "pah-nodes",
+        "package_id": "ComfyUI-sselpah-nodes",
         "versions": [
-          "1.0.0"
+          "1.0.1"
         ],
         "rank": 1
       },
       {
-        "package_id": "ComfyUI-sselpah-nodes",
+        "package_id": "pah-nodes",
         "versions": [
-          "1.0.1"
+          "1.0.0"
         ],
         "rank": 2
       }
     ],
     "IPASaveEmbeds::22ec5ab8": [
       {
-        "package_id": "pah-nodes",
+        "package_id": "ComfyUI-sselpah-nodes",
         "versions": [
-          "1.0.0"
+          "1.0.1"
         ],
         "rank": 1
       },
       {
-        "package_id": "ComfyUI-sselpah-nodes",
+        "package_id": "pah-nodes",
         "versions": [
-          "1.0.1"
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -193527,6 +193648,14 @@
       }
     ],
     "IW_ModelHook::_": [
+      {
+        "package_id": "ComfyUI_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "IW_OllamaGenerateString::_": [
       {
         "package_id": "ComfyUI_nodes",
         "versions": [],
@@ -197024,19 +197153,19 @@
         "source": "manager"
       },
       {
-        "package_id": "comfyui-quadmoons-nodes",
+        "package_id": "Comfy_KepListStuff",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_soze",
+        "package_id": "comfyui-quadmoons-nodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
       },
       {
-        "package_id": "Comfy_KepListStuff",
+        "package_id": "comfyui_soze",
         "versions": [],
         "rank": 4,
         "source": "manager"
@@ -197473,19 +197602,19 @@
     ],
     "Image Remove Background (rembg)::_": [
       {
-        "package_id": "batchimg-rembg-comfyui-nodes",
+        "package_id": "rembg-comfyui-node",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "rembg-comfyui-node",
+        "package_id": "rembg-comfyui-node-better",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "rembg-comfyui-node-better",
+        "package_id": "batchimg-rembg-comfyui-nodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -198154,16 +198283,16 @@
     ],
     "Image Selector::e1fb370e": [
       {
-        "package_id": "comfyui-hh-image-selector",
+        "package_id": "displayHistory_ComfyUI",
         "versions": [
-          "1.0.1",
           "1.0.0"
         ],
         "rank": 1
       },
       {
-        "package_id": "displayHistory_ComfyUI",
+        "package_id": "comfyui-hh-image-selector",
         "versions": [
+          "1.0.1",
           "1.0.0"
         ],
         "rank": 2
@@ -199780,6 +199909,14 @@
         "rank": 1
       }
     ],
+    "ImageBatchExtendWithOverlap_UTK::_": [
+      {
+        "package_id": "universaltoolkit",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ImageBatchFilter::_": [
       {
         "package_id": "comfyui-kjnodes",
@@ -200181,13 +200318,13 @@
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-loras-loader",
+        "package_id": "ComfyUI-Voxels",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Voxels",
+        "package_id": "ComfyUI-loras-loader",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -200691,16 +200828,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ImageCASharpening+::5c59938b": [
@@ -200817,17 +200948,17 @@
     ],
     "ImageCaptioner::_": [
       {
+        "package_id": "ComfyUI-Addoor",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      },
+      {
         "package_id": "comfyui-image-captioner",
         "versions": [
           "1.0.2"
         ],
-        "rank": 1
-      },
-      {
-        "package_id": "ComfyUI-Addoor",
-        "versions": [],
-        "rank": 2,
-        "source": "manager"
+        "rank": 2
       },
       {
         "package_id": "manager_aiexplorer25_comfyui_imagecaptioner",
@@ -200915,16 +201046,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ImageChunk::_": [
@@ -201269,13 +201394,13 @@
     ],
     "ImageComparer::_": [
       {
-        "package_id": "llm-toolkit",
+        "package_id": "skbundle",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "skbundle",
+        "package_id": "llm-toolkit",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -202481,16 +202606,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ImageDifference::_": [
@@ -204402,16 +204521,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ImageIntervalSelectPercentage::_": [
@@ -204433,16 +204546,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ImageInvert::_": [
@@ -206277,13 +206384,13 @@
     ],
     "ImageMosaic::_": [
       {
-        "package_id": "mosaic-blur",
+        "package_id": "ComfyUI-YCNodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-YCNodes",
+        "package_id": "mosaic-blur",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -207867,25 +207974,25 @@
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-WtlNodes",
+        "package_id": "image-resize-comfyui",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "image-resize-comfyui",
+        "package_id": "ComfyUI-Addoor",
         "versions": [],
         "rank": 3,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Addoor",
+        "package_id": "ComfyUI-tbox",
         "versions": [],
         "rank": 4,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-tbox",
+        "package_id": "ComfyUI-WtlNodes",
         "versions": [],
         "rank": 5,
         "source": "manager"
@@ -208366,19 +208473,19 @@
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-WtlNodes",
+        "package_id": "ComfyUI-YCNodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-YCNodes",
+        "package_id": "ComfyUI-Nai-Production-Nodes-Pack",
         "versions": [],
         "rank": 3,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Nai-Production-Nodes-Pack",
+        "package_id": "ComfyUI-WtlNodes",
         "versions": [],
         "rank": 4,
         "source": "manager"
@@ -208960,16 +209067,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ImageScaleToTotalPixels::_": [
@@ -209142,13 +209243,13 @@
     ],
     "ImageSelector::_": [
       {
-        "package_id": "comfyui-image-selector",
+        "package_id": "comfyui_lg_tools",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_lg_tools",
+        "package_id": "comfyui-image-selector",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -209704,13 +209805,13 @@
     ],
     "ImageSwitch::_": [
       {
-        "package_id": "comfyui-extended",
+        "package_id": "LCM_Inpaint_Outpaint_Comfy",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "LCM_Inpaint_Outpaint_Comfy",
+        "package_id": "comfyui-extended",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -210162,6 +210263,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "ImageToFloat32::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ImageToGzippedBase64::_": [
@@ -211808,16 +211917,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "Image_Size_Extractor::499010cc": [
@@ -215431,13 +215534,13 @@
     ],
     "Incrementer \ud83e\udeb4::_": [
       {
-        "package_id": "comfyui-fofr-toolkit",
+        "package_id": "ComfyUI-Addoor",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Addoor",
+        "package_id": "comfyui-fofr-toolkit",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -217607,6 +217710,14 @@
         "source": "manager"
       }
     ],
+    "InsertPaletteNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "InsertTEConds::850d85a9": [
       {
         "package_id": "ComfyUI_CondsUtils",
@@ -218999,13 +219110,13 @@
     ],
     "IntToString::_": [
       {
-        "package_id": "comfyui-ollama-nodes",
+        "package_id": "ComfyUI-Transformers",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Transformers",
+        "package_id": "comfyui-ollama-nodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -220322,13 +220433,13 @@
     ],
     "InvertMask (segment anything)::_": [
       {
-        "package_id": "comfyui-sam2",
+        "package_id": "comfyui_segment_anything",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_segment_anything",
+        "package_id": "comfyui-sam2",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -220620,13 +220731,13 @@
     ],
     "IsMaskEmpty::_": [
       {
-        "package_id": "comfyui-sam2",
+        "package_id": "comfyui_segment_anything",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_segment_anything",
+        "package_id": "comfyui-sam2",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -222866,13 +222977,13 @@
         "source": "manager"
       },
       {
-        "package_id": "comfyui-dazzlenodes",
+        "package_id": "ComfyUI-ARZUMATA",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-ARZUMATA",
+        "package_id": "comfyui-dazzlenodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -227455,13 +227566,13 @@
         "rank": 1
       },
       {
-        "package_id": "ComfyUI-VideoChatWrapper",
+        "package_id": "comfyui-waveform-extensions",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-waveform-extensions",
+        "package_id": "ComfyUI-VideoChatWrapper",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -228452,13 +228563,13 @@
     ],
     "JsonToCSV::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -230237,20 +230348,20 @@
     ],
     "KSamplerSeq2::50596550": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -230265,20 +230376,20 @@
     ],
     "KSamplerSeq::7df19236": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -233534,14 +233645,14 @@
     ],
     "KontextSuperPrompt::3a7de60a": [
       {
-        "package_id": "super-prompt-canvas",
+        "package_id": "kontext-super-prompt",
         "versions": [
           "1.4.0"
         ],
         "rank": 1
       },
       {
-        "package_id": "kontext-super-prompt",
+        "package_id": "super-prompt-canvas",
         "versions": [
           "1.4.0"
         ],
@@ -233558,6 +233669,15 @@
     ],
     "KontextSuperPrompt::abf2e527": [
       {
+        "package_id": "kontext-super-prompt",
+        "versions": [
+          "1.3.5",
+          "1.3.4",
+          "1.3.2"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "super-prompt-canvas",
         "versions": [
           "1.5.2",
@@ -233565,15 +233685,6 @@
           "1.5.0",
           "1.4.4",
           "1.4.3"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "kontext-super-prompt",
-        "versions": [
-          "1.3.5",
-          "1.3.4",
-          "1.3.2"
         ],
         "rank": 2
       }
@@ -238364,13 +238475,13 @@
     ],
     "LLMChat::_": [
       {
-        "package_id": "comfyui-yallm-node",
+        "package_id": "ComfyUI-nhknodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-nhknodes",
+        "package_id": "comfyui-yallm-node",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -240510,18 +240621,6 @@
     ],
     "LRPGCanvas::499010cc": [
       {
-        "package_id": "super-prompt-canvas",
-        "versions": [
-          "1.5.2",
-          "1.5.1",
-          "1.5.0",
-          "1.4.4",
-          "1.4.3",
-          "1.4.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "kontext-super-prompt",
         "versions": [
           "1.4.0",
@@ -240530,6 +240629,18 @@
           "1.3.3",
           "1.3.2",
           "1.3.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "super-prompt-canvas",
+        "versions": [
+          "1.5.2",
+          "1.5.1",
+          "1.5.0",
+          "1.4.4",
+          "1.4.3",
+          "1.4.0"
         ],
         "rank": 2
       }
@@ -243945,16 +244056,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "LatentFrequencyBlender::_": [
@@ -244449,13 +244554,13 @@
     ],
     "LatentNoise::_": [
       {
-        "package_id": "ComfyUI-WtlNodes",
+        "package_id": "comfyui-skoogeer-noise",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-skoogeer-noise",
+        "package_id": "ComfyUI-WtlNodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -245419,13 +245524,13 @@
         "source": "manager"
       },
       {
-        "package_id": "comfyui-quadmoons-nodes",
+        "package_id": "SD-Latent-Upscaler",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "SD-Latent-Upscaler",
+        "package_id": "comfyui-quadmoons-nodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -251751,19 +251856,19 @@
     ],
     "LazyConditional::15ef6842": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -251790,19 +251895,19 @@
     ],
     "LazyIndexSwitch::c9acb01e": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -251847,6 +251952,14 @@
           "0.4.0"
         ],
         "rank": 1
+      }
+    ],
+    "LazyPromptSaver::_": [
+      {
+        "package_id": "Vsaan212-workflow-utilities",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "LazyPromptSaver::ed03a290": [
@@ -254011,13 +254124,13 @@
         "source": "manager"
       },
       {
-        "package_id": "comfyui-ic-light-video",
+        "package_id": "ComfyUI-Gaffer",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Gaffer",
+        "package_id": "comfyui-ic-light-video",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -255392,19 +255505,19 @@
     ],
     "ListToAccumulationNode::975c39c5": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -256469,6 +256582,14 @@
     "LoRA Enable With Prefix::_": [
       {
         "package_id": "ComfyUI_Fictiverse",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "LoRA Extract and Save::_": [
+      {
+        "package_id": "ComfyUI-Nader-Tagging",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -259007,13 +259128,13 @@
     ],
     "LoadAesteticModel::_": [
       {
-        "package_id": "comfyui-lextools",
+        "package_id": "ComfyUI-Strimmlarns-Aesthetic-Score",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Strimmlarns-Aesthetic-Score",
+        "package_id": "comfyui-lextools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -259236,35 +259357,35 @@
         "source": "manager"
       },
       {
-        "package_id": "comfy-rvc",
-        "versions": [
-          "1.0.0"
-        ],
-        "rank": 2
-      },
-      {
         "package_id": "ComfyUI-Hallo",
         "versions": [],
-        "rank": 3,
+        "rank": 2,
         "source": "manager"
       },
       {
         "package_id": "ComfyUI-GPT_SoVITS",
         "versions": [],
-        "rank": 4,
+        "rank": 3,
         "source": "manager"
       },
       {
         "package_id": "ComfyUI_wav2lip",
         "versions": [],
-        "rank": 5,
+        "rank": 4,
         "source": "manager"
       },
       {
         "package_id": "ComfyUI-FishSpeech",
         "versions": [],
-        "rank": 6,
+        "rank": 5,
         "source": "manager"
+      },
+      {
+        "package_id": "comfy-rvc",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 6
       },
       {
         "package_id": "ComfyUI-RVC",
@@ -261294,17 +261415,17 @@
         "source": "manager"
       },
       {
+        "package_id": "ComfyUI-Fooocus",
+        "versions": [],
+        "rank": 3,
+        "source": "manager"
+      },
+      {
         "package_id": "glm_prompt",
         "versions": [
           "1.0.1"
         ],
-        "rank": 3
-      },
-      {
-        "package_id": "ComfyUI-Fooocus",
-        "versions": [],
-        "rank": 4,
-        "source": "manager"
+        "rank": 4
       },
       {
         "package_id": "manager_iacoposk8_comfyui_fooocus_inpaint_wrapper",
@@ -261581,6 +261702,14 @@
         "rank": 1
       }
     ],
+    "LoadImageEXR::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "LoadImageEXR::c41a162f": [
       {
         "package_id": "radiance",
@@ -261599,15 +261728,23 @@
         "rank": 1
       }
     ],
+    "LoadImageEXRSequence::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "LoadImageExtended::_": [
       {
-        "package_id": "comfyui-save-file-extended",
+        "package_id": "ComfyUI-Chibi-Nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Chibi-Nodes",
+        "package_id": "comfyui-save-file-extended",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -265311,13 +265448,13 @@
     ],
     "LoadRandomImage::_": [
       {
-        "package_id": "comfyui_prnodes",
+        "package_id": "eden_comfy_pipelines",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "eden_comfy_pipelines",
+        "package_id": "comfyui_prnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -265387,16 +265524,16 @@
     ],
     "LoadReduxEmb::7ab36267": [
       {
-        "package_id": "ComfyUI_ReduxEmbedToolkit",
+        "package_id": "ComfyUI_CondsUtils",
         "versions": [
-          "1.0.0"
+          "0.0.4"
         ],
         "rank": 1
       },
       {
-        "package_id": "ComfyUI_CondsUtils",
+        "package_id": "ComfyUI_ReduxEmbedToolkit",
         "versions": [
-          "0.0.4"
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -265491,6 +265628,14 @@
           "1.1.0"
         ],
         "rank": 1
+      }
+    ],
+    "LoadRemoteCLIP::_": [
+      {
+        "package_id": "remotecliploader",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "LoadRemoteImage::_": [
@@ -268180,16 +268325,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "LocationFromMask::_": [
@@ -268211,16 +268350,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "LocationFromPoint::_": [
@@ -268252,16 +268385,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "Lock::cd3a0afa": [
@@ -268335,6 +268462,14 @@
         "source": "manager"
       }
     ],
+    "LogCurveDecode::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "LogCurveDecode::fe3dc541": [
       {
         "package_id": "radiance",
@@ -268353,6 +268488,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "LogCurveEncode::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "LogFloat::_": [
@@ -269631,18 +269774,18 @@
     ],
     "Loop::_": [
       {
+        "package_id": "ComfyUI-DragNUWA",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      },
+      {
         "package_id": "comfyui-book-tools",
         "versions": [
           "1.1.1",
           "1.0.0"
         ],
-        "rank": 1
-      },
-      {
-        "package_id": "ComfyUI-DragNUWA",
-        "versions": [],
-        "rank": 2,
-        "source": "manager"
+        "rank": 2
       },
       {
         "package_id": "mm-comfyui-loopback",
@@ -270714,6 +270857,14 @@
         "source": "manager"
       }
     ],
+    "LoraLoaderCLIPOnly::_": [
+      {
+        "package_id": "remotecliploader",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "LoraLoaderCLIPOnly::fe813add": [
       {
         "package_id": "remotecliploader",
@@ -271273,6 +271424,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "ComfyUI-Nader-Tagging",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "LoraSaver::_": [
@@ -271474,13 +271631,13 @@
     ],
     "LoraTagLoader::_": [
       {
-        "package_id": "comfyui-mnemic-nodes",
+        "package_id": "comfyui_lora_tag_loader",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_lora_tag_loader",
+        "package_id": "comfyui-mnemic-nodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -272375,6 +272532,14 @@
           "1.1.0"
         ],
         "rank": 1
+      }
+    ],
+    "LumiLoadImage::_": [
+      {
+        "package_id": "comfyui-lumi-tools",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "LumiNoiseToSeed::_": [
@@ -276204,19 +276369,19 @@
     ],
     "MakeListNode::a81ffc12": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -276580,16 +276745,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ManualFeatureFromPipe::_": [
@@ -276635,16 +276794,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ManualFeaturePipe::_": [
@@ -276682,16 +276835,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ManualWhisperAlignmentData::_": [
@@ -280078,16 +280225,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "MaskMathOps::20b20568": [
@@ -280121,16 +280262,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "MaskMorphologyNodeLK::_": [
@@ -280542,16 +280677,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "MaskRings::_": [
@@ -281145,16 +281274,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "MaskTranslation::34849fe2": [
@@ -281207,16 +281330,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "MaskWarp::_": [
@@ -282444,19 +282561,19 @@
     ],
     "Math Operation::_": [
       {
-        "package_id": "havocscall_custom_nodes",
+        "package_id": "ComfyUI_Fictiverse",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_Fictiverse",
+        "package_id": "ComfyUI-Nai-Production-Nodes-Pack",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Nai-Production-Nodes-Pack",
+        "package_id": "havocscall_custom_nodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -285851,6 +285968,20 @@
         "rank": 1
       }
     ],
+    "MeuxRMBG::_": [
+      {
+        "package_id": "baidu_meux_comfy_tools",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_fchangjun_baidu_meux_comfytools",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
+      }
+    ],
     "MeuxRealESRGANUpscale::64fc7344": [
       {
         "package_id": "baidu_meux_comfy_tools",
@@ -285858,6 +285989,20 @@
           "1.5.0"
         ],
         "rank": 1
+      }
+    ],
+    "MeuxRealESRGANUpscale::_": [
+      {
+        "package_id": "baidu_meux_comfy_tools",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_fchangjun_baidu_meux_comfytools",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "MeuxSimpleLLMNode::24abfdcb": [
@@ -287350,6 +287495,14 @@
         "source": "manager"
       }
     ],
+    "MixColorsNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "MixConsistencyMaps::_": [
       {
         "package_id": "comfywarp",
@@ -287477,6 +287630,14 @@
     "MixNoiseNode::_": [
       {
         "package_id": "ComfyUI-InversedNoise",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "MixPaletteNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -293115,16 +293276,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "MovingShape::_": [
@@ -295099,18 +295254,18 @@
     ],
     "MultiText::_": [
       {
+        "package_id": "ComfyUI_AIDocsClinicalTools",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      },
+      {
         "package_id": "The-AI-Doctors-Clinical-Tools",
         "versions": [
           "2.0.1",
           "2.0.0"
         ],
-        "rank": 1
-      },
-      {
-        "package_id": "ComfyUI_AIDocsClinicalTools",
-        "versions": [],
-        "rank": 2,
-        "source": "manager"
+        "rank": 2
       }
     ],
     "MultiText::bdeaf5ea": [
@@ -295135,13 +295290,13 @@
     ],
     "MultiTextEncode::_": [
       {
-        "package_id": "comfyui_emojiiii_custom_nodes",
+        "package_id": "ComfyUI_Lam",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_Lam",
+        "package_id": "comfyui_emojiiii_custom_nodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -296830,6 +296985,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "NAGParamtersSetting::cd0e75c3": [
@@ -297445,13 +297606,13 @@
         "source": "manager"
       },
       {
-        "package_id": "comfyui-quadmoons-nodes",
+        "package_id": "Ttl_ComfyUi_NNLatentUpscale",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "Ttl_ComfyUi_NNLatentUpscale",
+        "package_id": "comfyui-quadmoons-nodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -297465,13 +297626,13 @@
         "source": "manager"
       },
       {
-        "package_id": "comfyui-quadmoons-nodes",
+        "package_id": "Ttl_ComfyUi_NNLatentUpscale",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "Ttl_ComfyUi_NNLatentUpscale",
+        "package_id": "comfyui-quadmoons-nodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -299843,6 +300004,14 @@
       }
     ],
     "NilorUserInput_Int::_": [
+      {
+        "package_id": "nilor-nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "NilorUserInput_Seed::_": [
       {
         "package_id": "nilor-nodes",
         "versions": [],
@@ -303338,6 +303507,14 @@
         "source": "manager"
       }
     ],
+    "NukeOCIOFileTransform::_": [
+      {
+        "package_id": "manager_sumitchatterjee13_nuke_nodes_comfyui",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "NukeOCIOInfo::_": [
       {
         "package_id": "manager_sumitchatterjee13_nuke_nodes_comfyui",
@@ -304991,6 +305168,14 @@
         "rank": 1
       }
     ],
+    "OCIOColorTransform::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "OCIOConfigInfo::_": [
       {
         "package_id": "manager_apzmedia_comfyui_color_tools",
@@ -305007,6 +305192,14 @@
           "1.0.0"
         ],
         "rank": 1
+      }
+    ],
+    "OCIOListColorspaces::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "OCRLocNode::_": [
@@ -306834,6 +307027,13 @@
     ],
     "OllamaKontextPromptGenerator::c0f81300": [
       {
+        "package_id": "kontext-super-prompt",
+        "versions": [
+          "1.4.0"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "super-prompt-canvas",
         "versions": [
           "1.5.2",
@@ -306841,13 +307041,6 @@
           "1.5.0",
           "1.4.4",
           "1.4.3",
-          "1.4.0"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "kontext-super-prompt",
-        "versions": [
           "1.4.0"
         ],
         "rank": 2
@@ -307112,6 +307305,16 @@
     ],
     "OllamaServiceManager::_": [
       {
+        "package_id": "kontext-super-prompt",
+        "versions": [
+          "1.4.0",
+          "1.3.5",
+          "1.3.4",
+          "1.3.3"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "super-prompt-canvas",
         "versions": [
           "1.5.2",
@@ -307120,16 +307323,6 @@
           "1.4.4",
           "1.4.3",
           "1.4.0"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "kontext-super-prompt",
-        "versions": [
-          "1.4.0",
-          "1.3.5",
-          "1.3.4",
-          "1.3.3"
         ],
         "rank": 2
       }
@@ -310393,16 +310586,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "OpticalFlowDirectionMask::_": [
@@ -310425,16 +310612,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "OpticalFlowMaskModulation::_": [
@@ -310475,16 +310656,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "OpticalGeometricNode::_": [
@@ -317012,6 +317187,14 @@
         "source": "manager"
       }
     ],
+    "PaletteViewNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "PaliGemma3bCaptioner::_": [
       {
         "package_id": "ComfyUI_DW_Chat",
@@ -320608,16 +320791,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ParticleColorModulation::_": [
@@ -320639,16 +320816,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ParticleEmissionMask::_": [
@@ -320670,16 +320841,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ParticleEmitter::_": [
@@ -320701,16 +320866,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "ParticleSizeModulation::_": [
@@ -320741,16 +320900,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "Pass Audio // RvTools::b4205519": [
@@ -322077,13 +322230,13 @@
     ],
     "PersonaLiveCheckpointLoader::_": [
       {
-        "package_id": "aiia",
+        "package_id": "ComfyUI-PersonaLive",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-PersonaLive",
+        "package_id": "aiia",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -322091,13 +322244,13 @@
     ],
     "PersonaLivePhotoSampler::_": [
       {
-        "package_id": "aiia",
+        "package_id": "ComfyUI-PersonaLive",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-PersonaLive",
+        "package_id": "aiia",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -324805,16 +324958,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "PitchRange::_": [
@@ -324836,16 +324983,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "PitchRangeByNoteNode::_": [
@@ -324876,16 +325017,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "PitchShiftAudioFX::_": [
@@ -324944,16 +325079,10 @@
       {
         "package_id": "comfyui_ryanonyheinside",
         "versions": [
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "PixArtCheckpointLoader::_": [
@@ -327331,16 +327460,6 @@
     ],
     "PlotParameters+::a53b1969": [
       {
-        "package_id": "comfyui_essentials_mb",
-        "versions": [
-          "1.1.2",
-          "1.1.1",
-          "1.1.0",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "kikotools",
         "versions": [
           "1.0.28",
@@ -327351,6 +327470,16 @@
           "1.0.19",
           "1.0.18",
           "1.0.17"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "comfyui_essentials_mb",
+        "versions": [
+          "1.1.2",
+          "1.1.1",
+          "1.1.0",
+          "1.0.0"
         ],
         "rank": 2
       },
@@ -330867,6 +330996,14 @@
         "source": "manager"
       }
     ],
+    "Preview (webm)::_": [
+      {
+        "package_id": "manager_mister_link_link_comfy_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Preview Audio::_": [
       {
         "package_id": "ComfyUI-SoundHub",
@@ -331300,16 +331437,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "PreviewFloat::_": [
@@ -331789,13 +331920,13 @@
     ],
     "PreviewMask::_": [
       {
-        "package_id": "comfyui-extended",
+        "package_id": "lightx02-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "lightx02-nodes",
+        "package_id": "comfyui-extended",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -334657,14 +334788,14 @@
     ],
     "Prompt Truncate::2aa63e17": [
       {
-        "package_id": "comfyui-textnodes",
+        "package_id": "comfyui-colornodes",
         "versions": [
           "0.0.2"
         ],
         "rank": 1
       },
       {
-        "package_id": "comfyui-colornodes",
+        "package_id": "comfyui-textnodes",
         "versions": [
           "0.0.2"
         ],
@@ -335516,13 +335647,13 @@
     ],
     "PromptComposer::_": [
       {
-        "package_id": "promptcomposer",
+        "package_id": "comfyui-lora-visualizer",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-lora-visualizer",
+        "package_id": "promptcomposer",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -339181,7 +339312,7 @@
     ],
     "ProximityVisualizer::50993fab": [
       {
-        "package_id": "comfyui_ryanontheinside",
+        "package_id": "comfyui_ryanonyheinside",
         "versions": [
           "2.0.2"
         ],
@@ -348244,6 +348375,14 @@
         "source": "manager"
       }
     ],
+    "QwenImageSizeSimple::_": [
+      {
+        "package_id": "manager_rzgarespo_comfyui_qwen_image_size_picker",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "QwenImageStartSettings::1f1e73de": [
       {
         "package_id": "comfyui_starnodes",
@@ -352163,6 +352302,22 @@
         "rank": 1
       }
     ],
+    "RadianceGPUColorMatrix::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "RadianceLUTApply::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "RadianceLUTApply::b38b9e0b": [
       {
         "package_id": "radiance",
@@ -352170,6 +352325,22 @@
           "1.0.1"
         ],
         "rank": 1
+      }
+    ],
+    "RadianceLogCurveDecode::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "RadianceOCIOColorTransformV2::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "RadianceShiftScheduler::84c82af6": [
@@ -352184,6 +352355,14 @@
     "RadianceShiftScheduler::_": [
       {
         "package_id": "ComfyUI_PowerShiftScheduler",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "RadianceVAEDecode::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -352205,6 +352384,14 @@
           "1.0.1"
         ],
         "rank": 1
+      }
+    ],
+    "RadianceVAEEncode::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "Raffle::2bd7bdfa": [
@@ -354292,13 +354479,13 @@
     ],
     "Range(Num Steps) - Float::_": [
       {
-        "package_id": "comfyui_soze",
+        "package_id": "Comfy_KepListStuff",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "Comfy_KepListStuff",
+        "package_id": "comfyui_soze",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -354317,13 +354504,13 @@
     ],
     "Range(Num Steps) - Int::_": [
       {
-        "package_id": "comfyui_soze",
+        "package_id": "Comfy_KepListStuff",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "Comfy_KepListStuff",
+        "package_id": "comfyui_soze",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -354342,13 +354529,13 @@
     ],
     "Range(Step) - Float::_": [
       {
-        "package_id": "comfyui_soze",
+        "package_id": "Comfy_KepListStuff",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "Comfy_KepListStuff",
+        "package_id": "comfyui_soze",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -354367,13 +354554,13 @@
     ],
     "Range(Step) - Int::_": [
       {
-        "package_id": "comfyui_soze",
+        "package_id": "Comfy_KepListStuff",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "Comfy_KepListStuff",
+        "package_id": "comfyui_soze",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -356871,6 +357058,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "Refine_Prompt::_": [
@@ -357303,6 +357496,12 @@
         "package_id": "ComfyUI-SuperUltimateVaceTools",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -360263,6 +360462,14 @@
         "rank": 1
       }
     ],
+    "ReplaceColorAtNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ReplaceColorBBTools::70e00235": [
       {
         "package_id": "ComfyUI-BBTools",
@@ -361504,13 +361711,13 @@
         "rank": 1
       },
       {
-        "package_id": "ComfyUI-VideoChatWrapper",
+        "package_id": "comfyui-waveform-extensions",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-waveform-extensions",
+        "package_id": "ComfyUI-VideoChatWrapper",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -364289,6 +364496,14 @@
         "source": "manager"
       }
     ],
+    "RizzAudioEditor::_": [
+      {
+        "package_id": "manager_rizzlord_comfyui_rizznodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "RizzAudioMixer::_": [
       {
         "package_id": "manager_rizzlord_comfyui_rizznodes",
@@ -366116,6 +366331,14 @@
         "source": "manager"
       }
     ],
+    "Runware Load Mesh::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Runware Lora Combine::_": [
       {
         "package_id": "ComfyUI-Runware",
@@ -366622,6 +366845,14 @@
       }
     ],
     "RunwareLightricksProviderSettings::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "RunwareLoadMesh::_": [
       {
         "package_id": "ComfyUI-Runware",
         "versions": [],
@@ -369469,6 +369700,14 @@
           "2.1.7"
         ],
         "rank": 1
+      }
+    ],
+    "SBS_V2_External_Depth_by_SamSeen::_": [
+      {
+        "package_id": "manager_mrsamseen_comfyui_ssstereoscope",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "SBS_V2_by_SamSeen::109b1053": [
@@ -373267,13 +373506,13 @@
         "source": "manager"
       },
       {
-        "package_id": "kikotools",
+        "package_id": "sdxlcustomaspectratio",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "sdxlcustomaspectratio",
+        "package_id": "kikotools",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -373515,13 +373754,13 @@
     ],
     "SDXLPromptStyler::_": [
       {
-        "package_id": "comfyui-art-venture",
+        "package_id": "sdxl_prompt_styler",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "sdxl_prompt_styler",
+        "package_id": "comfyui-art-venture",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -374930,6 +375169,14 @@
         "source": "manager"
       }
     ],
+    "SFTextAnalyzer::_": [
+      {
+        "package_id": "comfyui-stillfront",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "SFVertexAIImagen3TextToImage::819b0a8f": [
       {
         "package_id": "comfyui-stillfront",
@@ -375480,6 +375727,14 @@
         "source": "manager"
       }
     ],
+    "SGD_Any_List_Selector::_": [
+      {
+        "package_id": "manager_5agado_comfyui_sagado_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "SGD_Any_Type_Switch::_": [
       {
         "package_id": "manager_5agado_comfyui_sagado_nodes",
@@ -375545,6 +375800,14 @@
       }
     ],
     "SGD_Step_Every_N::_": [
+      {
+        "package_id": "manager_5agado_comfyui_sagado_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SGD_String_Splitter::_": [
       {
         "package_id": "manager_5agado_comfyui_sagado_nodes",
         "versions": [],
@@ -382037,13 +382300,13 @@
     ],
     "SamplerInversedEulerNode::_": [
       {
-        "package_id": "comfyui_InversedSampler",
+        "package_id": "ComfyUI-InversedNoise",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-InversedNoise",
+        "package_id": "comfyui_InversedSampler",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -382960,13 +383223,13 @@
     ],
     "SanaTextEncode::_": [
       {
-        "package_id": "flux-lightning",
+        "package_id": "ComfyUI_ExtraModels",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_ExtraModels",
+        "package_id": "flux-lightning",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -383454,13 +383717,13 @@
     ],
     "Save Image w/Metadata::_": [
       {
-        "package_id": "comfyui_prnodes",
+        "package_id": "comfy-image-saver",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfy-image-saver",
+        "package_id": "comfyui_prnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -384819,6 +385082,14 @@
         "source": "manager"
       }
     ],
+    "SaveHDRI::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "SaveHDRI::ffe3524e": [
       {
         "package_id": "radiance",
@@ -384876,6 +385147,14 @@
           "0.1.2"
         ],
         "rank": 1
+      }
+    ],
+    "SaveImage16bit::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "SaveImage16bit::c7abc80e": [
@@ -385145,6 +385424,14 @@
     "SaveImageDir::_": [
       {
         "package_id": "manager_owlvchirotha_comfyui_owlv_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SaveImageEXR::_": [
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -385495,13 +385782,13 @@
     ],
     "SaveImagePlus::_": [
       {
-        "package_id": "comfyui-saveimage-plus",
+        "package_id": "comfyui-imgmake",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-imgmake",
+        "package_id": "comfyui-saveimage-plus",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -386948,16 +387235,16 @@
     ],
     "SaveReduxEmb::5c0b211a": [
       {
-        "package_id": "ComfyUI_ReduxEmbedToolkit",
+        "package_id": "ComfyUI_CondsUtils",
         "versions": [
-          "1.0.0"
+          "0.0.4"
         ],
         "rank": 1
       },
       {
-        "package_id": "ComfyUI_CondsUtils",
+        "package_id": "ComfyUI_ReduxEmbedToolkit",
         "versions": [
-          "0.0.4"
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -391833,17 +392120,17 @@
     ],
     "SeedListGeneratorNode::aa976b68": [
       {
-        "package_id": "comfyui-execution-inversion",
+        "package_id": "comfyui-deforum",
         "versions": [
-          "0.0.2",
-          "0.0.1"
+          "0.2.4"
         ],
         "rank": 1
       },
       {
-        "package_id": "comfyui-deforum",
+        "package_id": "comfyui-execution-inversion",
         "versions": [
-          "0.2.4"
+          "0.0.2",
+          "0.0.1"
         ],
         "rank": 2
       }
@@ -394183,6 +394470,14 @@
         "source": "manager"
       }
     ],
+    "SendRemoteCLIP::_": [
+      {
+        "package_id": "remotecliploader",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "SendRemoteCLIP::e79cccd8": [
       {
         "package_id": "remotecliploader",
@@ -394841,6 +395136,22 @@
         "source": "manager"
       }
     ],
+    "Set Value For MC I2V::_": [
+      {
+        "package_id": "manager_huyl3_cpu_comfyui_sortlist",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "Set Value For MC V2V::_": [
+      {
+        "package_id": "manager_huyl3_cpu_comfyui_sortlist",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Set Value For MC::_": [
       {
         "package_id": "manager_huyl3_cpu_comfyui_sortlist",
@@ -395324,6 +395635,14 @@
         "rank": 1
       }
     ],
+    "SetNode::_": [
+      {
+        "package_id": "comfyui-kjnodes",
+        "versions": [],
+        "rank": 1,
+        "source": "community"
+      }
+    ],
     "SetNode::edbe7f8a": [
       {
         "package_id": "promptmodels",
@@ -395689,13 +396008,13 @@
     ],
     "Shadertoy::_": [
       {
-        "package_id": "comfyui-shadertoygl",
+        "package_id": "ComfyUI-AudioReactor",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-AudioReactor",
+        "package_id": "comfyui-shadertoygl",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -397263,25 +397582,25 @@
         "source": "manager"
       },
       {
-        "package_id": "comfyui-text-randomizer",
+        "package_id": "ComfyUI_fsdymy",
         "versions": [],
         "rank": 2,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-SwissArmyKnife",
+        "package_id": "ComfyUI-Text",
         "versions": [],
         "rank": 3,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_fsdymy",
+        "package_id": "ComfyUI-SwissArmyKnife",
         "versions": [],
         "rank": 4,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Text",
+        "package_id": "comfyui-text-randomizer",
         "versions": [],
         "rank": 5,
         "source": "manager"
@@ -397469,13 +397788,13 @@
     ],
     "ShowTranslateString::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -399938,32 +400257,20 @@
     ],
     "SimpleGenImageInterface::_": [
       {
+        "package_id": "comfyui_extra_api",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      },
+      {
         "package_id": "comfyui_api_tools",
         "versions": [
           "1.0.6"
         ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_extra_api",
-        "versions": [],
-        "rank": 2,
-        "source": "manager"
+        "rank": 2
       }
     ],
     "SimpleGenImageInterface::bc9973b0": [
-      {
-        "package_id": "comfyui_api_tools",
-        "versions": [
-          "1.1.3",
-          "1.1.1",
-          "1.1.0",
-          "1.0.9",
-          "1.0.8",
-          "1.0.7"
-        ],
-        "rank": 1
-      },
       {
         "package_id": "comfyui_extra_api",
         "versions": [
@@ -399973,6 +400280,18 @@
           "1.0.4",
           "1.0.3",
           "1.0.0"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "comfyui_api_tools",
+        "versions": [
+          "1.1.3",
+          "1.1.1",
+          "1.1.0",
+          "1.0.9",
+          "1.0.8",
+          "1.0.7"
         ],
         "rank": 2
       }
@@ -406221,6 +406540,14 @@
         "source": "manager"
       }
     ],
+    "SortPaletteNode::_": [
+      {
+        "package_id": "manager_ranska_pixel_palette_art",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "SoulXPodcastGenerate::_": [
       {
         "package_id": "soulx-podcast",
@@ -407060,16 +407387,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "SplineFeatureModulator::_": [
@@ -407092,16 +407413,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "SplineRhythmModulator::_": [
@@ -407949,16 +408264,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "SpriteGenerator::_": [
@@ -409050,16 +409359,16 @@
     ],
     "StableAnimatorDWPoseDetectorAlignedModels::_": [
       {
-        "package_id": "stableanimator",
+        "package_id": "HJH_StableAnimator",
         "versions": [
+          "0.0.3",
           "0.0.2"
         ],
         "rank": 1
       },
       {
-        "package_id": "HJH_StableAnimator",
+        "package_id": "stableanimator",
         "versions": [
-          "0.0.3",
           "0.0.2"
         ],
         "rank": 2
@@ -409067,16 +409376,16 @@
     ],
     "StableAnimatorLoadFramesFromFolderNode::6f602880": [
       {
-        "package_id": "stableanimator",
+        "package_id": "HJH_StableAnimator",
         "versions": [
+          "0.0.3",
           "0.0.2"
         ],
         "rank": 1
       },
       {
-        "package_id": "HJH_StableAnimator",
+        "package_id": "stableanimator",
         "versions": [
-          "0.0.3",
           "0.0.2"
         ],
         "rank": 2
@@ -409092,36 +409401,36 @@
     ],
     "StableAnimatorModels::_": [
       {
-        "package_id": "stableanimator",
-        "versions": [
-          "0.0.2",
-          "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "HJH_StableAnimator",
         "versions": [
           "0.0.3",
           "0.0.2"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "stableanimator",
+        "versions": [
+          "0.0.2",
+          "0.0.1"
         ],
         "rank": 2
       }
     ],
     "StableAnimatorNode::_": [
       {
-        "package_id": "stableanimator",
-        "versions": [
-          "0.0.2",
-          "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "HJH_StableAnimator",
         "versions": [
           "0.0.3",
           "0.0.2"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "stableanimator",
+        "versions": [
+          "0.0.2",
+          "0.0.1"
         ],
         "rank": 2
       }
@@ -409136,16 +409445,16 @@
     ],
     "StableAnimatorSkeletonNode::e89e59d7": [
       {
-        "package_id": "stableanimator",
+        "package_id": "HJH_StableAnimator",
         "versions": [
+          "0.0.3",
           "0.0.2"
         ],
         "rank": 1
       },
       {
-        "package_id": "HJH_StableAnimator",
+        "package_id": "stableanimator",
         "versions": [
-          "0.0.3",
           "0.0.2"
         ],
         "rank": 2
@@ -413738,16 +414047,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "StaticNumberFloat::e38a5cca": [
@@ -414670,6 +414973,14 @@
     "StorySamplerSimple::_": [
       {
         "package_id": "ComfyUI_StoryCreator",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "StorySplitNode::_": [
+      {
+        "package_id": "manager_huchukato_comfyui_qwenvl_mod",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -416629,13 +416940,13 @@
     ],
     "StringConverter::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -416750,13 +417061,13 @@
     ],
     "StringFormatter::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -416919,7 +417230,7 @@
     ],
     "StringList::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "ComfyUI-Video-Editing-X-Attention",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -416931,7 +417242,7 @@
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Video-Editing-X-Attention",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 3,
         "source": "manager"
@@ -416975,13 +417286,13 @@
     ],
     "StringListFromCSV::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -417055,13 +417366,13 @@
     ],
     "StringListToCSV::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -417146,13 +417457,13 @@
     ],
     "StringMatcher::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -418207,13 +418518,13 @@
     ],
     "StringTranslate::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -418694,13 +419005,13 @@
     ],
     "StyleAlignedBatchAlign::_": [
       {
-        "package_id": "comfyui-visionatrix",
+        "package_id": "style_aligned_comfy",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "style_aligned_comfy",
+        "package_id": "comfyui-visionatrix",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -420029,6 +420340,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "SuperUltimateVACEUpscale::d2427b7c": [
@@ -420212,16 +420529,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "SwapFaceImage::327f1dc3": [
@@ -422105,13 +422416,13 @@
     ],
     "TCDScheduler::_": [
       {
-        "package_id": "comfyui-tcd-sampler",
+        "package_id": "comfyui-tcd-scheduler",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-tcd-scheduler",
+        "package_id": "comfyui-tcd-sampler",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -427784,13 +428095,13 @@
     ],
     "TemplateToImage::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-html2image",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-html2image",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -427958,7 +428269,31 @@
         "source": "manager"
       }
     ],
+    "Tencent3DPartNode::_": [
+      {
+        "package_id": "lth_extended_prompting_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "Tencent3DTextureEditNode::_": [
+      {
+        "package_id": "lth_extended_prompting_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "TencentImageToModelNode::_": [
+      {
+        "package_id": "lth_extended_prompting_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "TencentModelTo3DUVNode::_": [
       {
         "package_id": "lth_extended_prompting_nodes",
         "versions": [],
@@ -432835,6 +433170,17 @@
     ],
     "TextGenWebUIFluxKontextEnhancer::74979cb9": [
       {
+        "package_id": "kontext-super-prompt",
+        "versions": [
+          "1.4.0",
+          "1.3.5",
+          "1.3.4",
+          "1.3.3",
+          "1.3.2"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "super-prompt-canvas",
         "versions": [
           "1.5.2",
@@ -432843,17 +433189,6 @@
           "1.4.4",
           "1.4.3",
           "1.4.0"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "kontext-super-prompt",
-        "versions": [
-          "1.4.0",
-          "1.3.5",
-          "1.3.4",
-          "1.3.3",
-          "1.3.2"
         ],
         "rank": 2
       }
@@ -433037,13 +433372,13 @@
     ],
     "TextInput::_": [
       {
-        "package_id": "kikotools",
+        "package_id": "NodeGPT",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "NodeGPT",
+        "package_id": "kikotools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -433055,13 +433390,13 @@
         "source": "manager"
       },
       {
-        "package_id": "artist_randomizer",
+        "package_id": "ComfyUI_Memeplex_DALLE",
         "versions": [],
         "rank": 4,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI_Memeplex_DALLE",
+        "package_id": "artist_randomizer",
         "versions": [],
         "rank": 5,
         "source": "manager"
@@ -433412,16 +433747,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "TextMaskNode::_": [
@@ -433806,13 +434135,13 @@
     ],
     "TextPromptNode::_": [
       {
-        "package_id": "comfyui-promptbuilder",
+        "package_id": "EzAudio-ComfyUI",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "EzAudio-ComfyUI",
+        "package_id": "comfyui-promptbuilder",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -435684,14 +436013,14 @@
     ],
     "Tidy Tags::c5d5eb09": [
       {
-        "package_id": "comfyui-textnodes",
+        "package_id": "comfyui-colornodes",
         "versions": [
           "0.0.2"
         ],
         "rank": 1
       },
       {
-        "package_id": "comfyui-colornodes",
+        "package_id": "comfyui-textnodes",
         "versions": [
           "0.0.2"
         ],
@@ -436314,13 +436643,13 @@
     ],
     "TimeFormatter::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-string-helper",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-string-helper",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -438875,16 +439204,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "TranslucentComposite::_": [
@@ -439615,6 +439938,14 @@
         "source": "manager"
       }
     ],
+    "Trellis2WeldVertices::_": [
+      {
+        "package_id": "manager_visualbruno_comfyui_trellis2",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Trellis_LoadModel::_": [
       {
         "package_id": "ComfyUI_TRELLIS",
@@ -439776,16 +440107,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "TriggerNextWorkflow::1261e078": [
@@ -446417,6 +446742,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "VACEControlImageCombine::e1403807": [
@@ -446494,6 +446825,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "VACEPromptCheckTotalFrame::e57da90e": [
@@ -446552,6 +446889,12 @@
         "package_id": "ComfyUI-SuperUltimateVaceTools",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -447104,20 +447447,20 @@
     ],
     "VAEEncodeForInpaint (WAS)::68c6df50": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -451224,6 +451567,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "VaceFunLongVideo::f7c29658": [
@@ -451262,6 +451611,12 @@
         "package_id": "ComfyUI-SuperUltimateVaceTools",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_malkuthro_comfyui_koolook",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -453228,16 +453583,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.9"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.9",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "VideoChunk::_": [
@@ -456538,20 +456887,20 @@
     ],
     "VividSharpen::08cb407d": [
       {
-        "package_id": "was_extras",
-        "versions": [
-          "1.0.1",
-          "1.0.0"
-        ],
-        "rank": 1
-      },
-      {
         "package_id": "was-extras",
         "versions": [
           "1.3.0",
           "1.2.5",
           "1.2.4",
           "1.2.1"
+        ],
+        "rank": 1
+      },
+      {
+        "package_id": "was_extras",
+        "versions": [
+          "1.0.1",
+          "1.0.0"
         ],
         "rank": 2
       }
@@ -457458,16 +457807,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "Vortex::_": [
@@ -462705,6 +463048,14 @@
           "1.0.0"
         ],
         "rank": 2
+      }
+    ],
+    "Wan22 Noise Scheduler::_": [
+      {
+        "package_id": "ComfyUI-Nader-Tagging",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "Wan22 cfg Scheduler List JK::945873bd": [
@@ -468829,13 +469180,13 @@
     ],
     "WarpFacesBack::_": [
       {
-        "package_id": "comfyui_sunxAI_facetools",
+        "package_id": "comfyui_facetools",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_facetools",
+        "package_id": "comfyui_sunxAI_facetools",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -472453,13 +472804,13 @@
     ],
     "WebpageScreenshot::_": [
       {
-        "package_id": "qhnodes",
+        "package_id": "comfyui-html2image",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-html2image",
+        "package_id": "qhnodes",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -472762,19 +473113,19 @@
     ],
     "WhileLoopClose::1f8114c9": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -472801,19 +473152,19 @@
     ],
     "WhileLoopOpen::59ae564c": [
       {
+        "package_id": "comfyui-deforum",
+        "versions": [
+          "0.2.4"
+        ],
+        "rank": 1
+      },
+      {
         "package_id": "comfyui-execution-inversion",
         "versions": [
           "0.0.4",
           "0.0.3",
           "0.0.2",
           "0.0.1"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui-deforum",
-        "versions": [
-          "0.2.4"
         ],
         "rank": 2
       }
@@ -472881,16 +473232,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "WhisperFeature::97754886": [
@@ -472979,16 +473324,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "WhisperTimeAdjuster::690ca9ba": [
@@ -473001,16 +473340,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "WhisperTimeAdjuster::_": [
@@ -473033,16 +473366,10 @@
           "2.1.5",
           "2.1.3",
           "2.0.12",
-          "2.0.10"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.10",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "WhisperToPromptTravel::_": [
@@ -473244,13 +473571,13 @@
     ],
     "Width and height for scaling image to ideal resolution \ud83e\udeb4::_": [
       {
-        "package_id": "comfyui-fofr-toolkit",
+        "package_id": "ComfyUI-Addoor",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Addoor",
+        "package_id": "comfyui-fofr-toolkit",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -473267,13 +473594,13 @@
     ],
     "Width and height from aspect ratio \ud83e\udeb4::_": [
       {
-        "package_id": "comfyui-fofr-toolkit",
+        "package_id": "ComfyUI-Addoor",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Addoor",
+        "package_id": "comfyui-fofr-toolkit",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -478202,6 +478529,14 @@
         "rank": 1
       }
     ],
+    "Y7Nodes_ColorMatchMasked::_": [
+      {
+        "package_id": "comfyui-y7nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Y7Nodes_CropToNearestMultiple::8a1827a8": [
       {
         "package_id": "comfyui-y7nodes",
@@ -478209,6 +478544,14 @@
           "1.0.29"
         ],
         "rank": 1
+      }
+    ],
+    "Y7Nodes_CropToNearestMultiple::_": [
+      {
+        "package_id": "comfyui-y7nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "Y7Nodes_Grid2Batch::_": [
@@ -478285,6 +478628,14 @@
         "rank": 1
       }
     ],
+    "Y7Nodes_LMStudioText::_": [
+      {
+        "package_id": "comfyui-y7nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Y7Nodes_LMStudioVision::5bb72921": [
       {
         "package_id": "comfyui-y7nodes",
@@ -478292,6 +478643,22 @@
           "1.0.29"
         ],
         "rank": 1
+      }
+    ],
+    "Y7Nodes_LMStudioVision::_": [
+      {
+        "package_id": "comfyui-y7nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "Y7Nodes_PromptEnhancerFlux2::_": [
+      {
+        "package_id": "comfyui-y7nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "Y7Nodes_PromptEnhancerFlux2::f05dea14": [
@@ -478334,6 +478701,14 @@
           "1.0.29"
         ],
         "rank": 1
+      }
+    ],
+    "Y7Nodes_SelectLMSModel::_": [
+      {
+        "package_id": "comfyui-y7nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "Y7Nodes_ShowAnything::_": [
@@ -482507,6 +482882,14 @@
         "source": "manager"
       }
     ],
+    "ZImageLoRA Manager Advanced::_": [
+      {
+        "package_id": "manager_graftingrayman_comfyui_zimage_bake_extract",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ZImageLoRAMergeToSingle::_": [
       {
         "package_id": "manager_danrisiua_comfyui_zimage_lora_merger",
@@ -482559,6 +482942,22 @@
     "ZImageLoader::_": [
       {
         "package_id": "z-image-turbo",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageLoraManagerAdvanced::_": [
+      {
+        "package_id": "manager_graftingrayman_comfyui_zimage_bake_extract",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageLoraMergerAdvanced::_": [
+      {
+        "package_id": "manager_graftingrayman_comfyui_zimage_bake_extract",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -485622,7 +486021,23 @@
         "source": "manager"
       }
     ],
+    "ZSamplerTurbo2::_": [
+      {
+        "package_id": "z-image-power-nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ZSamplerTurbo::_": [
+      {
+        "package_id": "z-image-power-nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZSamplerTurboAdvanced2::_": [
       {
         "package_id": "z-image-power-nodes",
         "versions": [],
@@ -486910,16 +487325,10 @@
           "2.1.8",
           "2.1.5",
           "2.1.3",
-          "2.0.12"
-        ],
-        "rank": 1
-      },
-      {
-        "package_id": "comfyui_ryanontheinside",
-        "versions": [
+          "2.0.12",
           "2.0.2"
         ],
-        "rank": 2
+        "rank": 1
       }
     ],
     "_mfc::_": [
@@ -493669,13 +494078,13 @@
     ],
     "comfyui-easy-padding::_": [
       {
-        "package_id": "comfyui-easy-padding",
+        "package_id": "ComfyUI-Addoor",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-Addoor",
+        "package_id": "comfyui-easy-padding",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -502570,13 +502979,13 @@
     ],
     "float::_": [
       {
-        "package_id": "primitive-types",
+        "package_id": "comfyui_glslnodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_glslnodes",
+        "package_id": "primitive-types",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -506069,13 +506478,13 @@
     ],
     "int::_": [
       {
-        "package_id": "primitive-types",
+        "package_id": "comfyui_glslnodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui_glslnodes",
+        "package_id": "primitive-types",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -507849,13 +508258,13 @@
     ],
     "llava::_": [
       {
-        "package_id": "comfyui-ollama-llms",
+        "package_id": "NodeGPT",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "NodeGPT",
+        "package_id": "comfyui-ollama-llms",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -509262,13 +509671,13 @@
     ],
     "menus::_": [
       {
-        "package_id": "all-in-one-style",
+        "package_id": "comfyui-styles-all",
         "versions": [],
         "rank": 1,
         "source": "manager"
       },
       {
-        "package_id": "comfyui-styles-all",
+        "package_id": "all-in-one-style",
         "versions": [],
         "rank": 2,
         "source": "manager"
@@ -574826,19 +575235,6 @@
         }
       }
     },
-    "comfyui_ryanontheinside": {
-      "display_name": "RyanOnTheInside",
-      "description": "Custom nodes introducing everything-reactivity and timelines to ComfyUI",
-      "repository": "https://github.com/ryanontheinside/comfyui_ryanontheinside",
-      "github_stars": 567,
-      "versions": {
-        "2.0.2": {
-          "version": "2.0.2",
-          "deprecated": false,
-          "download_url": "https://cdn.comfy.org/ryanontheinside/comfyui_ryanontheinside/2.0.2/node.zip"
-        }
-      }
-    },
     "ComfyUI_FaceAlignPaste": {
       "display_name": "ComfyUI_FaceAlignPaste",
       "description": "Smart Face Alignment and Pasting Node",
@@ -598455,6 +598851,11 @@
           "version": "1.13.2",
           "deprecated": false,
           "download_url": "https://cdn.comfy.org/ryanontheinside/comfyui_ryanonyheinside/1.13.2/node.zip"
+        },
+        "2.0.2": {
+          "version": "2.0.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ryanontheinside/comfyui_ryanontheinside/2.0.2/node.zip"
         }
       }
     },
@@ -639220,6 +639621,22 @@
       "display_name": "ComfyUI-zw-tools",
       "description": "",
       "repository": "https://github.com/zzw5516/comfyui-zw-tools",
+      "github_stars": 0,
+      "source": "manager",
+      "versions": {}
+    },
+    "manager_graftingrayman_comfyui_zimage_bake_extract": {
+      "display_name": "ComfyUI-ZImage-Bake-Extract",
+      "description": "",
+      "repository": "https://github.com/graftingrayman/comfyui-zimage-bake-extract",
+      "github_stars": 0,
+      "source": "manager",
+      "versions": {}
+    },
+    "manager_huchukato_comfyui_qwenvl_mod": {
+      "display_name": "QwenVL-Mod: Enhanced Vision-Language",
+      "description": "",
+      "repository": "https://github.com/huchukato/comfyui-qwenvl-mod",
       "github_stars": 0,
       "source": "manager",
       "versions": {}
