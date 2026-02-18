@@ -1,6 +1,6 @@
 {
-  "version": "2026.02.15",
-  "generated_at": "2026-02-15T04:46:11.425849+00:00",
+  "version": "2026.02.18",
+  "generated_at": "2026-02-18T04:14:21.999970+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -98,12 +98,14 @@
     "v0.12.1",
     "v0.12.2",
     "v0.12.3",
-    "v0.13.0"
+    "v0.13.0",
+    "v0.14.0",
+    "v0.14.1"
   ],
   "stats": {
-    "total_builtins": 643,
-    "versions_processed": 97,
-    "newest_version": "v0.13.0",
+    "total_builtins": 655,
+    "versions_processed": 99,
+    "newest_version": "v0.14.1",
     "nodes_added_in_latest": 3
   },
   "builtins": {
@@ -193,6 +195,14 @@
     },
     "BriaImageEditNode": {
       "introduced_in": "v0.10.0",
+      "category": "api"
+    },
+    "BriaRemoveImageBackground": {
+      "introduced_in": "v0.14.0",
+      "category": "api"
+    },
+    "BriaRemoveVideoBackground": {
+      "introduced_in": "v0.14.0",
       "category": "api"
     },
     "ByteDanceFirstLastFrameNode": {
@@ -1239,7 +1249,10 @@
     "Load3DAnimation": {
       "introduced_in": "v0.3.8",
       "category": "extras",
-      "removed_in": "v0.3.76"
+      "present_in": [
+        "v0.3.8-v0.3.75",
+        "v0.14.0+"
+      ]
     },
     "LoadAudio": {
       "introduced_in": "v0.3.0",
@@ -1591,6 +1604,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "NAGuidance": {
+      "introduced_in": "v0.14.0",
+      "category": "extras"
+    },
     "NormalizeImages": {
       "introduced_in": "v0.3.76",
       "category": "extras"
@@ -1741,7 +1758,10 @@
     "Preview3DAnimation": {
       "introduced_in": "v0.3.14",
       "category": "extras",
-      "removed_in": "v0.3.76"
+      "present_in": [
+        "v0.3.14-v0.3.75",
+        "v0.14.0+"
+      ]
     },
     "PreviewAny": {
       "introduced_in": "v0.3.31",
@@ -1871,6 +1891,14 @@
       "introduced_in": "v0.3.32",
       "category": "api"
     },
+    "RecraftV4TextToImageNode": {
+      "introduced_in": "v0.14.1",
+      "category": "api"
+    },
+    "RecraftV4TextToVectorNode": {
+      "introduced_in": "v0.14.1",
+      "category": "api"
+    },
     "RecraftVectorizeImageNode": {
       "introduced_in": "v0.3.32",
       "category": "api"
@@ -1981,6 +2009,10 @@
     },
     "SDTurboScheduler": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SDV_img2vid_Conditioning": {
+      "introduced_in": "v0.14.0",
       "category": "extras"
     },
     "SD_4XUpscale_Conditioning": {
@@ -2297,6 +2329,10 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "T2IAdapterLoader": {
+      "introduced_in": "v0.14.0",
+      "category": "extras"
+    },
     "T5TokenizerOptions": {
       "introduced_in": "v0.3.31",
       "category": "extras"
@@ -2309,8 +2345,20 @@
       "introduced_in": "v0.3.66",
       "category": "extras"
     },
+    "Tencent3DPartNode": {
+      "introduced_in": "v0.14.0",
+      "category": "api"
+    },
+    "Tencent3DTextureEditNode": {
+      "introduced_in": "v0.14.0",
+      "category": "api"
+    },
     "TencentImageToModelNode": {
       "introduced_in": "v0.11.0",
+      "category": "api"
+    },
+    "TencentModelTo3DUVNode": {
+      "introduced_in": "v0.14.0",
       "category": "api"
     },
     "TencentTextToModelNode": {
@@ -2505,6 +2553,10 @@
       "introduced_in": "v0.3.32",
       "category": "api"
     },
+    "Video Slice": {
+      "introduced_in": "v0.14.0",
+      "category": "extras"
+    },
     "VideoLinearCFGGuidance": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -2531,6 +2583,10 @@
     },
     "Vidu3ImageToVideoNode": {
       "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "Vidu3StartEndToVideoNode": {
+      "introduced_in": "v0.14.1",
       "category": "api"
     },
     "Vidu3TextToVideoNode": {
