@@ -58,7 +58,12 @@ class TestCommunityMappingsFallback:
                 "comfyui-kjnodes",
                 "KJ Nodes",
                 versions=[{"version": "1.0.0", "comfy_nodes": []}],
-            )
+            ),
+            sample_packages(
+                "rgthree-comfy",
+                "rgthree Comfy",
+                versions=[{"version": "1.0.0", "comfy_nodes": []}],
+            ),
         ]
 
         write_cache_helper(temp_cache_file, nodes)
@@ -114,6 +119,11 @@ class TestCommunityMappingsFallback:
                 versions=[{"version": "1.0.0", "comfy_nodes": []}],
             ),
             sample_packages(
+                "rgthree-comfy",
+                "rgthree Comfy",
+                versions=[{"version": "1.0.0", "comfy_nodes": []}],
+            ),
+            sample_packages(
                 "registry-setnode",
                 "Registry SetNode",
                 versions=[{"version": "1.0.0", "comfy_nodes": [sample_node("SetNode")]}],
@@ -163,7 +173,12 @@ class TestCommunityMappingsFallback:
                 "comfyui-kjnodes",
                 "KJ Nodes",
                 versions=[{"version": "1.0.0", "comfy_nodes": []}],
-            )
+            ),
+            sample_packages(
+                "rgthree-comfy",
+                "rgthree Comfy",
+                versions=[{"version": "1.0.0", "comfy_nodes": []}],
+            ),
         ]
 
         write_cache_helper(temp_cache_file, nodes)
