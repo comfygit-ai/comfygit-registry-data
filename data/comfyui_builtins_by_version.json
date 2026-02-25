@@ -1,6 +1,6 @@
 {
-  "version": "2026.02.19",
-  "generated_at": "2026-02-19T04:13:10.517921+00:00",
+  "version": "2026.02.25",
+  "generated_at": "2026-02-25T04:13:24.752974+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -101,13 +101,14 @@
     "v0.13.0",
     "v0.14.0",
     "v0.14.1",
-    "v0.14.2"
+    "v0.14.2",
+    "v0.15.0"
   ],
   "stats": {
-    "total_builtins": 655,
-    "versions_processed": 100,
-    "newest_version": "v0.14.2",
-    "nodes_added_in_latest": 0
+    "total_builtins": 672,
+    "versions_processed": 101,
+    "newest_version": "v0.15.0",
+    "nodes_added_in_latest": 17
   },
   "builtins": {
     "APG": {
@@ -152,6 +153,10 @@
     },
     "AudioEncoderLoader": {
       "introduced_in": "v0.3.53",
+      "category": "extras"
+    },
+    "AudioEqualizer3Band": {
+      "introduced_in": "v0.15.0",
       "category": "extras"
     },
     "AudioMerge": {
@@ -555,6 +560,38 @@
       "introduced_in": "v0.3.52",
       "category": "extras"
     },
+    "ElevenLabsAudioIsolation": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
+    "ElevenLabsInstantVoiceClone": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
+    "ElevenLabsSpeechToSpeech": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
+    "ElevenLabsSpeechToText": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
+    "ElevenLabsTextToDialogue": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
+    "ElevenLabsTextToSoundEffects": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
+    "ElevenLabsTextToSpeech": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
+    "ElevenLabsVoiceSelector": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
+    },
     "EmptyAceStep1.5LatentAudio": {
       "introduced_in": "v0.12.0",
       "category": "extras"
@@ -727,6 +764,10 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "GLSLShader": {
+      "introduced_in": "v0.15.0",
+      "category": "extras"
+    },
     "GeminiImage2Node": {
       "introduced_in": "v0.3.71",
       "category": "api"
@@ -863,6 +904,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "ImageCropV2": {
+      "introduced_in": "v0.15.0",
+      "category": "extras"
+    },
     "ImageDeduplication": {
       "introduced_in": "v0.3.76",
       "category": "extras"
@@ -882,6 +927,10 @@
     "ImageInvert": {
       "introduced_in": "v0.3.0",
       "category": "core"
+    },
+    "ImageMergeTileList": {
+      "introduced_in": "v0.15.0",
+      "category": "extras"
     },
     "ImageOnlyCheckpointLoader": {
       "introduced_in": "v0.3.0",
@@ -986,6 +1035,10 @@
     "KarrasScheduler": {
       "introduced_in": "v0.3.0",
       "category": "extras"
+    },
+    "KlingAvatarNode": {
+      "introduced_in": "v0.15.0",
+      "category": "api"
     },
     "KlingCameraControlI2VNode": {
       "introduced_in": "v0.3.32",
@@ -1780,6 +1833,10 @@
       "introduced_in": "v0.3.27",
       "category": "extras"
     },
+    "PrimitiveBoundingBox": {
+      "introduced_in": "v0.15.0",
+      "category": "extras"
+    },
     "PrimitiveFloat": {
       "introduced_in": "v0.3.27",
       "category": "extras"
@@ -2222,6 +2279,10 @@
       "introduced_in": "v0.3.61",
       "category": "extras"
     },
+    "SplitImageToTileList": {
+      "introduced_in": "v0.15.0",
+      "category": "extras"
+    },
     "SplitImageWithAlpha": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -2388,6 +2449,14 @@
     },
     "TextEncodeZImageOmni": {
       "introduced_in": "v0.11.0",
+      "category": "extras"
+    },
+    "TextGenerate": {
+      "introduced_in": "v0.15.0",
+      "category": "extras"
+    },
+    "TextGenerateLTX2Prompt": {
+      "introduced_in": "v0.15.0",
       "category": "extras"
     },
     "TextToLowercase": {
