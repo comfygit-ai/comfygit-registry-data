@@ -1,15 +1,15 @@
 {
-  "version": "2026.02.26",
-  "generated_at": "2026-02-26T04:20:30.568522",
+  "version": "2026.02.27",
+  "generated_at": "2026-02-27T04:21:13.172757",
   "stats": {
-    "packages": 5104,
-    "signatures": 53750,
-    "total_nodes": 56105,
+    "packages": 5113,
+    "signatures": 53841,
+    "total_nodes": 56207,
     "augmented": true,
-    "augmentation_date": "2026-02-26T04:20:32.595856",
-    "nodes_from_manager": 29874,
+    "augmentation_date": "2026-02-27T04:21:15.627781",
+    "nodes_from_manager": 29921,
     "nodes_from_community": 4,
-    "synthetic_packages": 1269
+    "synthetic_packages": 1270
   },
   "package_aliases": {
     "comfyui_ryanontheinside": "comfyui_ryanonyheinside"
@@ -20065,33 +20065,69 @@
         "source": "manager"
       }
     ],
+    "ActualDenoise::94b2c636": [
+      {
+        "package_id": "actual-denoise",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "ActualDenoise::_": [
       {
-        "package_id": "manager_mozhaa_comfyui_actual_denoise",
+        "package_id": "actual-denoise",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "ActualDenoiseInverse::6d8cafc7": [
+      {
+        "package_id": "actual-denoise",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "ActualDenoiseInverse::_": [
       {
-        "package_id": "manager_mozhaa_comfyui_actual_denoise",
+        "package_id": "actual-denoise",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "ActualDenoiseInverseStep::65c8de85": [
+      {
+        "package_id": "actual-denoise",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "ActualDenoiseInverseStep::_": [
       {
-        "package_id": "manager_mozhaa_comfyui_actual_denoise",
+        "package_id": "actual-denoise",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "ActualDenoiseStep::9c4fe481": [
+      {
+        "package_id": "actual-denoise",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "ActualDenoiseStep::_": [
       {
-        "package_id": "manager_mozhaa_comfyui_actual_denoise",
+        "package_id": "actual-denoise",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -20598,6 +20634,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7"
@@ -20657,6 +20694,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -26457,6 +26495,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1"
         ],
         "rank": 1
@@ -26566,6 +26605,15 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "ApplyBendsFromJSON::7ad6c137": [
+      {
+        "package_id": "ComfyUI-Model-Bending",
+        "versions": [
+          "0.2.0"
+        ],
+        "rank": 1
       }
     ],
     "ApplyBlindWatermark::0aee1346": [
@@ -36854,6 +36902,14 @@
         "rank": 1
       }
     ],
+    "AutoMosaic::_": [
+      {
+        "package_id": "comfyui-auto-mosaic",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "AutoNegativePrompt::_": [
       {
         "package_id": "onebuttonprompt",
@@ -38048,6 +38104,14 @@
           "1.0.3"
         ],
         "rank": 2
+      }
+    ],
+    "BEN2RemoveBackground::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "BETACrop::_": [
@@ -53356,6 +53420,14 @@
         "rank": 1
       }
     ],
+    "BiRefNetGetMask::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "BiRefNetRMBG::682c8c56": [
       {
         "package_id": "comfyui-rmbg",
@@ -53386,6 +53458,14 @@
           "2.9.3"
         ],
         "rank": 1
+      }
+    ],
+    "BiRefNetRemoveBackground::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "BiRefNetUltraV3_RBS::dfc706e1": [
@@ -59227,6 +59307,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "BlurFusionForegroundEstimationForBen::7787c2c6": [
@@ -62469,6 +62555,7 @@
       {
         "package_id": "burve_tools",
         "versions": [
+          "1.4.0",
           "1.3.0"
         ],
         "rank": 1
@@ -62478,6 +62565,7 @@
       {
         "package_id": "burve_tools",
         "versions": [
+          "1.4.0",
           "1.3.0",
           "1.2.0",
           "1.1.0",
@@ -62498,10 +62586,20 @@
         "rank": 1
       }
     ],
+    "BurveGoogleImageGen::f57d5976": [
+      {
+        "package_id": "burve_tools",
+        "versions": [
+          "1.4.0"
+        ],
+        "rank": 1
+      }
+    ],
     "BurveImageRefPack::97a878e9": [
       {
         "package_id": "burve_tools",
         "versions": [
+          "1.4.0",
           "1.3.0",
           "1.2.0",
           "1.1.0",
@@ -62514,9 +62612,19 @@
       {
         "package_id": "burve_tools",
         "versions": [
+          "1.4.0",
           "1.3.0",
           "1.2.0",
           "1.1.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "BurvePromptSelector14::439c1a86": [
+      {
+        "package_id": "burve_tools",
+        "versions": [
+          "1.4.0"
         ],
         "rank": 1
       }
@@ -62525,6 +62633,7 @@
       {
         "package_id": "burve_tools",
         "versions": [
+          "1.4.0",
           "1.3.0",
           "1.2.0",
           "1.1.0"
@@ -62536,6 +62645,7 @@
       {
         "package_id": "burve_tools",
         "versions": [
+          "1.4.0",
           "1.3.0",
           "1.2.0",
           "1.1.0"
@@ -62673,7 +62783,7 @@
         "source": "manager"
       }
     ],
-    "ByteslikeDecoder::_": [
+    "ByteslikeDecode::_": [
       {
         "package_id": "arg-toolkit",
         "versions": [],
@@ -62681,7 +62791,7 @@
         "source": "manager"
       }
     ],
-    "ByteslikeEncoder::_": [
+    "ByteslikeEncode::_": [
       {
         "package_id": "arg-toolkit",
         "versions": [],
@@ -64327,9 +64437,15 @@
         "source": "manager"
       },
       {
-        "package_id": "manager_kael558_comfyui_gguf_fantasytalking",
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 2,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_kael558_comfyui_gguf_fantasytalking",
+        "versions": [],
+        "rank": 3,
         "source": "manager"
       }
     ],
@@ -64666,6 +64782,14 @@
     "CLIPScaleQwenBlock::_": [
       {
         "package_id": "comfyui-easygoing-nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "CLIPScoreNode::_": [
+      {
+        "package_id": "manager_emniko_comfyui_clipscore",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -74952,6 +75076,7 @@
       {
         "package_id": "ComfyUI-IMGNR-Utils",
         "versions": [
+          "3.3.2",
           "3.3.1",
           "3.2.4",
           "3.2.2",
@@ -85245,6 +85370,7 @@
       {
         "package_id": "comfyui_mittimi_load_preset2",
         "versions": [
+          "1.0.4",
           "1.0.3",
           "1.0.2",
           "1.0.0",
@@ -90304,6 +90430,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8"
         ],
@@ -91366,6 +91493,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -104611,6 +104739,7 @@
       {
         "package_id": "ComfyUI-IMGNR-Utils",
         "versions": [
+          "3.3.2",
           "3.3.1",
           "3.2.4",
           "3.2.2",
@@ -104631,6 +104760,7 @@
       {
         "package_id": "ComfyUI-IMGNR-Utils",
         "versions": [
+          "3.3.2",
           "3.3.1",
           "3.2.4",
           "3.2.2",
@@ -110757,6 +110887,7 @@
       {
         "package_id": "comfyui-doctor",
         "versions": [
+          "1.6.8",
           "1.6.5",
           "1.6.3",
           "1.6.1",
@@ -116117,6 +116248,15 @@
         "rank": 1
       }
     ],
+    "DiffusionBoostV1::_": [
+      {
+        "package_id": "VisionPlaid",
+        "versions": [
+          "1.0.1"
+        ],
+        "rank": 1
+      }
+    ],
     "DiffusionCG::55959300": [
       {
         "package_id": "comfyui-vectorscope-cc",
@@ -116463,6 +116603,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -119954,6 +120095,7 @@
       {
         "package_id": "Dragos-SceneBuilder",
         "versions": [
+          "1.1.2",
           "1.1.0",
           "1.0.4",
           "1.0.0"
@@ -119965,6 +120107,7 @@
       {
         "package_id": "Dragos-SceneBuilder",
         "versions": [
+          "1.1.2",
           "1.1.0",
           "1.0.4",
           "1.0.0"
@@ -119976,6 +120119,7 @@
       {
         "package_id": "Dragos-SceneBuilder",
         "versions": [
+          "1.1.2",
           "1.1.0",
           "1.0.4",
           "1.0.0"
@@ -119987,6 +120131,7 @@
       {
         "package_id": "Dragos-SceneBuilder",
         "versions": [
+          "1.1.2",
           "1.1.0",
           "1.0.4",
           "1.0.0"
@@ -119998,6 +120143,7 @@
       {
         "package_id": "Dragos-SceneBuilder",
         "versions": [
+          "1.1.2",
           "1.1.0",
           "1.0.4",
           "1.0.0"
@@ -121431,6 +121577,12 @@
         "package_id": "ComfyUI-GGUF",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -123884,14 +124036,6 @@
         "rank": 1
       }
     ],
-    "ERPK Foreground Refinement (BlurFusion)::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "ERPK Get Mask (BiRefNet)::1b7601d9": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -123907,22 +124051,6 @@
           "2026.1.28"
         ],
         "rank": 1
-      }
-    ],
-    "ERPK Get Mask (BiRefNet)::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
-    "ERPK Remove Background (BEN2)::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "ERPK Remove Background (BiRefNet)::4e42549d": [
@@ -123955,14 +124083,6 @@
         "rank": 1
       }
     ],
-    "ERPK Remove Background (BiRefNet)::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "ERPK Remove Background (InSPyReNet)::25654f25": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -123985,14 +124105,6 @@
         "rank": 1
       }
     ],
-    "ERPK Remove Background (InSPyReNet)::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "ERPK Remove Background (rembg)::48c0ac94": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -124013,22 +124125,6 @@
           "2025.12.28"
         ],
         "rank": 1
-      }
-    ],
-    "ERPK Remove Background (rembg)::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
-    "ERPK SHARP Predict::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "ERPK SHARP Predict::c7239f3c": [
@@ -124075,14 +124171,6 @@
         "rank": 1
       }
     ],
-    "ERPK SHARP Render Video::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "ERPK SHARP Render Views::4658fffa": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -124103,14 +124191,6 @@
           "2025.12.28"
         ],
         "rank": 1
-      }
-    ],
-    "ERPK SHARP Render Views::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "ERPK_ConcatenateStrings::89edb5cd": [
@@ -133244,6 +133324,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -143962,6 +144043,7 @@
       {
         "package_id": "ComfyUI_FMJ_SP",
         "versions": [
+          "1.13.0",
           "1.12.0"
         ],
         "rank": 1
@@ -148327,14 +148409,6 @@
     "Fast Image to Noise::_": [
       {
         "package_id": "ComfyUI-Tensor-Operations",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
-    "FastAbsoluteSaver::_": [
-      {
-        "package_id": "manager_ethanfel_comfyui_sharp_selector",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -161911,6 +161985,14 @@
         "source": "manager"
       }
     ],
+    "FossielResolutionWranglerXP::_": [
+      {
+        "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "FossielSequenceWrangler::_": [
       {
         "package_id": "manager_fossiel_comfyui_fossiel_qol_nodes",
@@ -163163,6 +163245,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -163218,6 +163301,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -176069,6 +176153,14 @@
         "source": "manager"
       }
     ],
+    "GetImageSizePlus+::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "GetImageSizeRatio::499010cc": [
       {
         "package_id": "controlaltai-nodes",
@@ -178930,6 +179022,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -183003,6 +183096,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -185393,6 +185487,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8"
         ],
@@ -195575,6 +195670,7 @@
       {
         "package_id": "ComfyUI-IMGNR-Utils",
         "versions": [
+          "3.3.2",
           "3.3.1"
         ],
         "rank": 1
@@ -200711,6 +200807,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -211809,6 +211906,14 @@
         "rank": 1
       }
     ],
+    "ImagePadToMultiple::_": [
+      {
+        "package_id": "manager_mr_september_comfyui_pad_to_multiple",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ImagePadToResolution::_": [
       {
         "package_id": "manager_duanyll_duanyll_nodepack",
@@ -220424,6 +220529,14 @@
         "rank": 1
       }
     ],
+    "InSPyReNetRemoveBackground::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "IncrementBatch::_": [
       {
         "package_id": "tbg-etur",
@@ -224686,6 +224799,15 @@
         "source": "manager"
       }
     ],
+    "InteractiveBendingWebUI::9b9bf5cc": [
+      {
+        "package_id": "ComfyUI-Model-Bending",
+        "versions": [
+          "0.2.0"
+        ],
+        "rank": 1
+      }
+    ],
     "InteractiveCrop::abe1aa7a": [
       {
         "package_id": "comfyui-ugleh-interactive-crop",
@@ -228314,6 +228436,14 @@
     "JHTwoWaySwitchNode::_": [
       {
         "package_id": "ComfyUI-JH-Misc-Nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "JJC_DownloadAndLoadJoyCaptionModel::_": [
+      {
+        "package_id": "joycaption_comfyui",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -237412,6 +237542,14 @@
     "KeywordLoader-Akki::_": [
       {
         "package_id": "manager_routhakash_akkinodes_llm_suite_for_comfyui",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "KeywordMatchGate::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -248788,6 +248926,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -248800,6 +248939,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7"
@@ -248811,6 +248951,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -248823,6 +248964,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7"
@@ -248834,6 +248976,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -248846,6 +248989,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -248858,6 +249002,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -249214,6 +249359,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7"
@@ -258165,31 +258311,67 @@
     ],
     "Leon_DALLE_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_DALLE_Image_API_Node::bb7f6367": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Flux_2_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Flux_2_Image_API_Node::f46c7873": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "Leon_Flux_Image_API_Node::5c99dd4c": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Flux_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "Leon_Flux_Kontext_API_Node::12471499": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "Leon_Flux_Kontext_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -258197,55 +258379,118 @@
     ],
     "Leon_GPT_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_GPT_Image_API_Node::a197ed42": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "Leon_Google_Image_API_Node::33acc8ed": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Google_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Grok2_Image_API_Node::10b683ac": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Grok2_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Hypr_Upload_Node::1f417b43": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Hypr_Upload_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Ideogram_Image_API_Node::99fe8c56": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Ideogram_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Image_Array_Builder_Node::348d7316": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Image_Array_Builder_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "Leon_Image_Split_4Grid_Node::499010cc": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "Leon_Image_Split_4Grid_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -258253,15 +258498,33 @@
     ],
     "Leon_ImgBB_Upload_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "Leon_ImgBB_Upload_Node::b90cdb80": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "Leon_LLM_Chat_API_Node::1c16eabe": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "Leon_LLM_Chat_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -258269,23 +258532,50 @@
     ],
     "Leon_LLM_JSON_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_LLM_JSON_API_Node::d8368457": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "Leon_Luma_AI_Image_API_Node::79fb83a8": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Luma_AI_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "Leon_Midjourney_Describe_API_Node::27ccd372": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "Leon_Midjourney_Describe_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -258293,23 +258583,50 @@
     ],
     "Leon_Midjourney_Proxy_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Midjourney_Proxy_API_Node::b121fa00": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "Leon_Midjourney_Upload_API_Node::57b2af8b": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Midjourney_Upload_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "Leon_Model_Selector_Node::1a313d89": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "Leon_Model_Selector_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -258317,47 +258634,101 @@
     ],
     "Leon_Nano_Banana_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Nano_Banana_API_Node::e89bc173": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "Leon_Nano_Banana_Edit_Tuzi_API_Node::7d03b0d9": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Nano_Banana_Edit_Tuzi_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Nano_Banana_Tuzi_API_Node::30d3eec9": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Nano_Banana_Tuzi_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Qwen_Image_API_Node::10b683ac": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Qwen_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Qwen_Image_Edit_API_Node::445c67df": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Qwen_Image_Edit_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "Leon_Recraft_Image_API_Node::5163d371": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "Leon_Recraft_Image_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -258365,50 +258736,104 @@
     ],
     "Leon_Seedream3_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Seedream3_API_Node::e0d39e1b": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_Seedream4_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_Seedream4_API_Node::f9264726": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_StableDiffusion_35_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_StableDiffusion_35_API_Node::c3b56066": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_StableDiffusion_3_Ultra_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_StableDiffusion_3_Ultra_API_Node::c3b56066": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Leon_StableDiffusion_XL_API_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
       }
     ],
+    "Leon_StableDiffusion_XL_API_Node::c389e7fb": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
+      }
+    ],
     "Leon_String_Combine_Node::_": [
       {
-        "package_id": "manager_l3ony2k_comfyui_leon_nodes",
+        "package_id": "comfyui-leon-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "Leon_String_Combine_Node::ae0fdad7": [
+      {
+        "package_id": "comfyui-leon-nodes",
+        "versions": [
+          "1.0.0"
+        ],
+        "rank": 1
       }
     ],
     "Lerp::_": [
@@ -262247,10 +262672,20 @@
         "source": "manager"
       }
     ],
+    "LoRA Bending (list)::e71431b0": [
+      {
+        "package_id": "ComfyUI-Model-Bending",
+        "versions": [
+          "0.2.0"
+        ],
+        "rank": 1
+      }
+    ],
     "LoRA Bending::4b451de2": [
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7"
@@ -266122,6 +266557,15 @@
         "source": "manager"
       }
     ],
+    "LoadDiffusionModel::_": [
+      {
+        "package_id": "VisionPlaid",
+        "versions": [
+          "1.0.1"
+        ],
+        "rank": 1
+      }
+    ],
     "LoadDiffusionModelShared //Inspire::4d1fc9ff": [
       {
         "package_id": "comfyui-inspire-pack",
@@ -268322,6 +268766,7 @@
       {
         "package_id": "comfyui_mittimi_load_preset2",
         "versions": [
+          "1.0.4",
           "1.0.3"
         ],
         "rank": 1
@@ -269756,6 +270201,15 @@
         "rank": 1
       }
     ],
+    "LoadLLMModel::710b6d64": [
+      {
+        "package_id": "comfyui-prompt-translator-enhancer",
+        "versions": [
+          "0.0.2"
+        ],
+        "rank": 1
+      }
+    ],
     "LoadLUTFromMatplotlib::7bb05092": [
       {
         "package_id": "comfyui-mosaica",
@@ -270006,6 +270460,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -270032,6 +270487,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -270055,6 +270511,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -270102,6 +270559,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -270120,6 +270578,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -270151,6 +270610,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -271929,6 +272389,7 @@
       {
         "package_id": "comfyui_mittimi_load_preset2",
         "versions": [
+          "1.0.4",
           "1.0.3",
           "1.0.2",
           "1.0.0",
@@ -276122,6 +276583,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3"
         ],
@@ -277558,14 +278020,6 @@
         "source": "manager"
       }
     ],
-    "LoraStackLoader10::_": [
-      {
-        "package_id": "comfy_PoP",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "LoraStackLoader10_PoP::_": [
       {
         "package_id": "comfy_PoP",
@@ -278842,6 +279296,22 @@
     "LuminaTextAreaAppend::_": [
       {
         "package_id": "comfyui-luminawrapper",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "LuminaXOFMNode::_": [
+      {
+        "package_id": "manager_mrlonglegland_comfyui_luminaxstudio",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "LuminaXPromptsNode::_": [
+      {
+        "package_id": "manager_mrlonglegland_comfyui_luminaxstudio",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -294332,6 +294802,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -294354,6 +294825,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1"
         ],
         "rank": 1
@@ -294412,6 +294884,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -294582,6 +295055,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -294594,6 +295068,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8"
         ],
@@ -297512,6 +297987,7 @@
       {
         "package_id": "comfyui-openclaw",
         "versions": [
+          "0.6.0",
           "0.5.5",
           "0.5.0",
           "0.4.0",
@@ -297530,6 +298006,7 @@
       {
         "package_id": "comfyui-openclaw",
         "versions": [
+          "0.6.0",
           "0.5.5",
           "0.5.0",
           "0.4.0",
@@ -297548,6 +298025,7 @@
       {
         "package_id": "comfyui-openclaw",
         "versions": [
+          "0.6.0",
           "0.5.5",
           "0.5.0",
           "0.4.0",
@@ -297566,6 +298044,7 @@
       {
         "package_id": "comfyui-openclaw",
         "versions": [
+          "0.6.0",
           "0.5.5",
           "0.5.0",
           "0.4.0",
@@ -302818,6 +303297,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -305893,6 +306373,7 @@
       {
         "package_id": "comfystereo",
         "versions": [
+          "2.1.3",
           "2.1.2"
         ],
         "rank": 1
@@ -305921,6 +306402,7 @@
       {
         "package_id": "comfystereo",
         "versions": [
+          "2.1.3",
           "2.1.2",
           "2.0.2",
           "2.0.1",
@@ -305941,6 +306423,7 @@
       {
         "package_id": "comfystereo",
         "versions": [
+          "2.1.3",
           "2.1.2",
           "2.0.2",
           "2.0.1",
@@ -308911,6 +309394,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7"
@@ -311792,6 +312276,7 @@
       {
         "package_id": "comfyui-nunchaku-unofficial-loader",
         "versions": [
+          "3.0.0",
           "2.6.6",
           "2.6.4"
         ],
@@ -313646,6 +314131,22 @@
           "1.0.1"
         ],
         "rank": 1
+      }
+    ],
+    "OliPromptLinePick::_": [
+      {
+        "package_id": "manager_magicoli_comfyui_oli_prompt_tools",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "OliVideoFrameLimit::_": [
+      {
+        "package_id": "manager_magicoli_comfyui_oli_prompt_tools",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "Ollama VL Prompt::_": [
@@ -321773,6 +322274,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321790,6 +322292,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321807,6 +322310,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0"
         ],
         "rank": 1
@@ -321832,6 +322336,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321849,6 +322354,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321875,6 +322381,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321892,6 +322399,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321909,6 +322417,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321926,6 +322435,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321943,6 +322453,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321960,6 +322471,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321977,6 +322489,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -321994,6 +322507,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322011,6 +322525,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322028,6 +322543,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322045,6 +322561,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322062,6 +322579,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322089,6 +322607,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322124,6 +322643,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322138,6 +322658,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322157,6 +322678,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322184,6 +322706,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0"
         ],
         "rank": 1
@@ -322193,8 +322716,18 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1"
+        ],
+        "rank": 1
+      }
+    ],
+    "PT_DynamicBus::6f0b4f0c": [
+      {
+        "package_id": "tojioo-passthrough",
+        "versions": [
+          "1.7.1"
         ],
         "rank": 1
       }
@@ -322216,6 +322749,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322238,6 +322772,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322262,6 +322797,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322289,6 +322825,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322311,6 +322848,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322338,6 +322876,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322365,6 +322904,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322408,6 +322948,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322422,6 +322963,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322449,6 +322991,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322476,6 +323019,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322508,6 +323052,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322535,6 +323080,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322558,6 +323104,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -322571,6 +323118,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0"
         ],
         "rank": 1
@@ -322593,6 +323141,7 @@
       {
         "package_id": "tojioo-passthrough",
         "versions": [
+          "1.7.1",
           "1.7.0",
           "1.6.1",
           "1.6.0",
@@ -327734,6 +328283,24 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "ParallelKSampler::_": [
+      {
+        "package_id": "VisionPlaid",
+        "versions": [
+          "1.0.1"
+        ],
+        "rank": 1
+      }
+    ],
+    "ParallelKSamplerAdvanced::_": [
+      {
+        "package_id": "VisionPlaid",
+        "versions": [
+          "1.0.1"
+        ],
+        "rank": 1
       }
     ],
     "ParallelSharpnessLoader::_": [
@@ -339111,6 +339678,7 @@
       {
         "package_id": "ComfyUI-IMGNR-Utils",
         "versions": [
+          "3.3.2",
           "3.3.1",
           "3.2.4",
           "3.2.2",
@@ -339150,6 +339718,7 @@
       {
         "package_id": "ComfyUI-IMGNR-Utils",
         "versions": [
+          "3.3.2",
           "3.3.1",
           "3.2.4",
           "3.2.2",
@@ -339204,6 +339773,7 @@
       {
         "package_id": "ComfyUI-IMGNR-Utils",
         "versions": [
+          "3.3.2",
           "3.3.1"
         ],
         "rank": 1
@@ -339712,9 +340282,15 @@
         "source": "manager"
       },
       {
-        "package_id": "manager_khanhlvg_vertex_ai_comfyui_nodes",
+        "package_id": "comfyui-nodes-erpk",
         "versions": [],
         "rank": 2,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_khanhlvg_vertex_ai_comfyui_nodes",
+        "versions": [],
+        "rank": 3,
         "source": "manager"
       }
     ],
@@ -341117,6 +341693,14 @@
     "PrimitiveText::_": [
       {
         "package_id": "comfyui-extended",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "PrimitiveWidgetToString::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -343760,6 +344344,15 @@
         "source": "manager"
       }
     ],
+    "PromptEnhancerFromModel::d5d353fa": [
+      {
+        "package_id": "comfyui-prompt-translator-enhancer",
+        "versions": [
+          "0.0.2"
+        ],
+        "rank": 1
+      }
+    ],
     "PromptEnhancerI2I::_": [
       {
         "package_id": "manager_ryan_seungyong_lee_comfyui_promptenhancer",
@@ -343774,6 +344367,15 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "PromptEnhancerTranslator::ab403cc2": [
+      {
+        "package_id": "comfyui-prompt-translator-enhancer",
+        "versions": [
+          "0.0.2"
+        ],
+        "rank": 1
       }
     ],
     "PromptEnhancer_ytr::d3894141": [
@@ -352739,6 +353341,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "QuadrupleCLIPLoaderGGUF::e9542699": [
@@ -355890,6 +356498,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "QwenImageEditNode::d7d4def4": [
@@ -355912,6 +356526,14 @@
     "QwenImageEditPlusLoRA_fal::_": [
       {
         "package_id": "fal-api",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "QwenImageEditPlusNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -356110,6 +356732,14 @@
         "source": "manager"
       }
     ],
+    "QwenImageLayeredNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "QwenImageLayered_LengthMapper::_": [
       {
         "package_id": "manager_benjiyaya_comfyui_qwenimagelayeredtolength",
@@ -356129,9 +356759,25 @@
         "rank": 1
       }
     ],
+    "QwenImageLoraNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "QwenImageModelLoader::_": [
       {
         "package_id": "manager_comfyui_rh_qwen_image",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "QwenImageMultipleAnglesNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -356282,6 +356928,14 @@
     "QwenImageTextEncode::_": [
       {
         "package_id": "manager_veridyia_comfyui_qwen_image_df11",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "QwenImageTextToImageNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -361149,6 +361803,14 @@
         "rank": 1
       }
     ],
+    "Random Tag Picker (Image Saver)::_": [
+      {
+        "package_id": "comfyui-image-saver",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Random Video Path::dcea08c0": [
       {
         "package_id": "comfyui-get-random-file",
@@ -365170,6 +365832,22 @@
         "source": "manager"
       }
     ],
+    "ReedSolomonDecode::_": [
+      {
+        "package_id": "arg-toolkit",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ReedSolomonEncode::_": [
+      {
+        "package_id": "arg-toolkit",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ReencodeLatent::05516693": [
       {
         "package_id": "comfyui-impact-pack",
@@ -366440,14 +367118,6 @@
         "source": "manager"
       }
     ],
-    "ReiImageStitch::_": [
-      {
-        "package_id": "manager_femreiyadev_comfyui_reiyanodes",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "ReimagineNode::7dcdf810": [
       {
         "package_id": "comfyui-bria-api",
@@ -366999,6 +367669,14 @@
     "RembgNode_Mix::_": [
       {
         "package_id": "comfyui-mixlab-nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "RembgRemoveBackground::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -373731,6 +374409,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -374629,6 +375308,30 @@
         "source": "manager"
       }
     ],
+    "Runware Audio Inference Settings Voice Modify::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "Runware Audio Inference Settings::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "Runware Audio Inference Speech::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Runware Audio Inference::_": [
       {
         "package_id": "ComfyUI-Runware",
@@ -374654,14 +375357,6 @@
       }
     ],
     "Runware Audio Sections::_": [
-      {
-        "package_id": "ComfyUI-Runware",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
-    "Runware Audio Settings::_": [
       {
         "package_id": "ComfyUI-Runware",
         "versions": [],
@@ -375197,6 +375892,14 @@
         "source": "manager"
       }
     ],
+    "Runware Video Inference Settings::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "Runware Video Inference::_": [
       {
         "package_id": "ComfyUI-Runware",
@@ -375358,6 +376061,14 @@
         "source": "manager"
       }
     ],
+    "RunwareAudioInferenceSpeech::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "RunwareAudioInput::_": [
       {
         "package_id": "ComfyUI-Runware",
@@ -375375,6 +376086,14 @@
       }
     ],
     "RunwareAudioSettings::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "RunwareAudioSettingsVoiceModify::_": [
       {
         "package_id": "ComfyUI-Runware",
         "versions": [],
@@ -375679,6 +376398,14 @@
       }
     ],
     "RunwareVideoInputsReferences::_": [
+      {
+        "package_id": "ComfyUI-Runware",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "RunwareVideoSettings::_": [
       {
         "package_id": "ComfyUI-Runware",
         "versions": [],
@@ -383047,12 +383774,31 @@
         "source": "manager"
       }
     ],
-    "SD_IdeogramCharacter::_": [
+    "SD_LLMBackend::556b4f1b": [
       {
-        "package_id": "manager_anilstream_comfyui_ideogram_character",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
+        "package_id": "comfyui-studiodeep",
+        "versions": [
+          "0.1.2"
+        ],
+        "rank": 1
+      }
+    ],
+    "SD_N8NBackend::5b3bbb18": [
+      {
+        "package_id": "comfyui-studiodeep",
+        "versions": [
+          "0.1.2"
+        ],
+        "rank": 1
+      }
+    ],
+    "SD_T2VPromptBuilder::6800418d": [
+      {
+        "package_id": "comfyui-studiodeep",
+        "versions": [
+          "0.1.2"
+        ],
+        "rank": 1
       }
     ],
     "SDstarsampler::_": [
@@ -384779,6 +385525,30 @@
           "1.1.41"
         ],
         "rank": 1
+      }
+    ],
+    "SHARPPredict::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SHARPRenderVideo::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SHARPRenderViews::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "SID_Anthropic_LLM::cb34fd41": [
@@ -393271,9 +394041,15 @@
         "source": "manager"
       },
       {
-        "package_id": "ComfyUI-SoundHub",
+        "package_id": "comfyui-nodes-erpk",
         "versions": [],
         "rank": 2,
+        "source": "manager"
+      },
+      {
+        "package_id": "ComfyUI-SoundHub",
+        "versions": [],
+        "rank": 3,
         "source": "manager"
       }
     ],
@@ -394690,6 +395466,7 @@
       {
         "package_id": "comfyui_mittimi_load_preset2",
         "versions": [
+          "1.0.4",
           "1.0.3"
         ],
         "rank": 1
@@ -395673,6 +396450,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -395806,6 +396584,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -396065,6 +396844,7 @@
       {
         "package_id": "comfyui_mittimi_load_preset2",
         "versions": [
+          "1.0.4",
           "1.0.3",
           "1.0.2",
           "1.0.0"
@@ -396334,6 +397114,7 @@
       {
         "package_id": "comfyui-snapshot-manager",
         "versions": [
+          "3.0.0",
           "2.4.0",
           "2.3.0"
         ],
@@ -397484,6 +398265,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7"
@@ -401869,6 +402651,22 @@
         "source": "manager"
       }
     ],
+    "SeedreamV4EditNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SeedreamV4EditSequentialNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "SeedreamV4Edit_fal::4d9b6bbc": [
       {
         "package_id": "fal-api",
@@ -401882,6 +402680,54 @@
     "SeedreamV4Edit_fal::_": [
       {
         "package_id": "fal-api",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SeedreamV4Node::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SeedreamV4SequentialNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SeedreamV4_5EditNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SeedreamV4_5EditSequentialNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SeedreamV4_5Node::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "SeedreamV4_5SequentialNode::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -414769,6 +415615,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -424013,6 +424860,7 @@
       {
         "package_id": "comfystereo",
         "versions": [
+          "2.1.3",
           "2.1.2"
         ],
         "rank": 1
@@ -424066,6 +424914,15 @@
           "2.0.2",
           "2.0.1",
           "2.0.0"
+        ],
+        "rank": 1
+      }
+    ],
+    "StereoImageNode::9f2c26fb": [
+      {
+        "package_id": "comfystereo",
+        "versions": [
+          "2.1.3"
         ],
         "rank": 1
       }
@@ -446108,6 +446965,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8",
           "0.0.7",
@@ -449327,6 +450185,7 @@
       {
         "package_id": "comfyui-translategemma",
         "versions": [
+          "1.2.3",
           "1.2.2"
         ],
         "rank": 1
@@ -450681,6 +451540,12 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      },
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 2,
+        "source": "manager"
       }
     ],
     "TripleCLIPLoaderGGUF::dc248a5b": [
@@ -450942,6 +451807,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7"
         ],
@@ -451020,6 +451886,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451081,6 +451948,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451142,6 +452010,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451178,6 +452047,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451194,6 +452064,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451226,6 +452097,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451455,6 +452327,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451487,6 +452360,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -451549,6 +452423,7 @@
       {
         "package_id": "comfyui-tripo",
         "versions": [
+          "1.2.9",
           "1.2.8",
           "1.2.7",
           "1.2.6",
@@ -454064,9 +454939,15 @@
         "source": "manager"
       },
       {
-        "package_id": "manager_kael558_comfyui_gguf_fantasytalking",
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 2,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_kael558_comfyui_gguf_fantasytalking",
+        "versions": [],
+        "rank": 3,
         "source": "manager"
       }
     ],
@@ -454143,6 +455024,12 @@
         "package_id": "ComfyUI-GGUF",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -455986,6 +456873,14 @@
           "1.4.0"
         ],
         "rank": 1
+      }
+    ],
+    "UploadImage::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "UploadImageCryptIO::_": [
@@ -458003,6 +458898,14 @@
     "VAEEncodeOptional::_": [
       {
         "package_id": "ComfyUI-TkNodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "VAEEncodeSoftInpainting::_": [
+      {
+        "package_id": "z-image-power-nodes",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -463850,6 +464753,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3"
         ],
@@ -464697,6 +465601,12 @@
         "package_id": "egregora-frames-animation-nodes",
         "versions": [],
         "rank": 1,
+        "source": "manager"
+      },
+      {
+        "package_id": "manager_zhihui6_zhihui_nodes_comfyui",
+        "versions": [],
+        "rank": 2,
         "source": "manager"
       }
     ],
@@ -467405,6 +468315,7 @@
       {
         "package_id": "ComfyUI-Model-Bending",
         "versions": [
+          "0.2.0",
           "0.1.1",
           "0.0.8"
         ],
@@ -468974,6 +469885,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -468986,6 +469898,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469006,6 +469919,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469035,6 +469949,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469055,6 +469970,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469075,6 +469991,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469088,6 +470005,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469117,6 +470035,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11"
@@ -469137,6 +470056,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469165,6 +470085,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469178,6 +470099,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11"
@@ -469205,6 +470127,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469225,6 +470148,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469247,6 +470171,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469259,6 +470184,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469280,6 +470206,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469300,6 +470227,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469320,6 +470248,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469340,6 +470269,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469360,6 +470290,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469381,6 +470312,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469402,6 +470334,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469423,6 +470356,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469451,6 +470385,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11"
@@ -469462,6 +470397,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469491,6 +470427,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469504,6 +470441,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469525,6 +470463,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469553,6 +470492,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469574,6 +470514,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469596,6 +470537,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11"
@@ -469634,6 +470576,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11"
@@ -469653,6 +470596,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469682,6 +470626,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469695,6 +470640,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469717,6 +470663,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469746,6 +470693,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469760,6 +470708,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469780,6 +470729,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469802,6 +470752,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469823,6 +470774,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469844,6 +470796,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469865,6 +470818,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12"
         ],
@@ -469893,6 +470847,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469909,10 +470864,20 @@
         "source": "manager"
       }
     ],
+    "VrchLiveConsoleControlNode::441c7714": [
+      {
+        "package_id": "comfyui-web-viewer",
+        "versions": [
+          "1.1.14"
+        ],
+        "rank": 1
+      }
+    ],
     "VrchMicLoaderNode::68a027b3": [
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469933,6 +470898,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469954,6 +470920,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469974,6 +470941,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -469995,6 +470963,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470016,6 +470985,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470037,6 +471007,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470065,6 +471036,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470079,6 +471051,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470099,6 +471072,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470119,6 +471093,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470139,6 +471114,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470160,6 +471136,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470189,6 +471166,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470219,6 +471197,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470231,6 +471210,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470248,6 +471228,15 @@
         "source": "manager"
       }
     ],
+    "VrchWorkflowApiExportNode::00dacb08": [
+      {
+        "package_id": "comfyui-web-viewer",
+        "versions": [
+          "1.1.14"
+        ],
+        "rank": 1
+      }
+    ],
     "VrchXYOSCControlNode::_": [
       {
         "package_id": "comfyui-web-viewer",
@@ -470260,6 +471249,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470272,6 +471262,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470292,6 +471283,7 @@
       {
         "package_id": "comfyui-web-viewer",
         "versions": [
+          "1.1.14",
           "1.1.13",
           "1.1.12",
           "1.1.11",
@@ -470533,6 +471525,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -470546,6 +471539,15 @@
         "versions": [],
         "rank": 1,
         "source": "manager"
+      }
+    ],
+    "WAN22_I2V_Match_Resolution_MXD::cd051cdd": [
+      {
+        "package_id": "ComfyUI-MaxedOut",
+        "versions": [
+          "1.8.9"
+        ],
+        "rank": 1
       }
     ],
     "WAN22_I2V_Video_Prep_Advanced_MXD::_": [
@@ -474340,6 +475342,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -481570,14 +482573,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom Client::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom Client::e9d9e893": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -481601,14 +482596,6 @@
           "2025.12.8"
         ],
         "rank": 1
-      }
-    ],
-    "WaveSpeed Custom Preview Video::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "WaveSpeed Custom Preview Video::f219d8ea": [
@@ -481636,14 +482623,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom QwenImageEdit::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom QwenImageEdit::f52ef107": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -481667,14 +482646,6 @@
           "2025.12.8"
         ],
         "rank": 1
-      }
-    ],
-    "WaveSpeed Custom QwenImageEditPlus::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "WaveSpeed Custom QwenImageEditPlus::e528ea1c": [
@@ -481702,14 +482673,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom QwenImageT2I::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom QwenImageT2I::c7d3816d": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -481735,14 +482698,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom Save Audio::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom Save Audio::ee16bd39": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -481766,14 +482721,6 @@
           "2025.12.8"
         ],
         "rank": 1
-      }
-    ],
-    "WaveSpeed Custom SeedreamV4::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "WaveSpeed Custom SeedreamV4::c3539f40": [
@@ -481834,14 +482781,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom SeedreamV4Edit::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom SeedreamV4EditSequential::043e85c3": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -481875,14 +482814,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom SeedreamV4EditSequential::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom SeedreamV4Sequential::1dae9dad": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -481906,22 +482837,6 @@
           "2025.12.8"
         ],
         "rank": 1
-      }
-    ],
-    "WaveSpeed Custom SeedreamV4Sequential::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
-    "WaveSpeed Custom SeedreamV4_5::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "WaveSpeed Custom SeedreamV4_5::c3539f40": [
@@ -481982,14 +482897,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom SeedreamV4_5Edit::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom SeedreamV4_5EditSequential::043e85c3": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -482023,14 +482930,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom SeedreamV4_5EditSequential::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom SeedreamV4_5Sequential::1dae9dad": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -482056,14 +482955,6 @@
         "rank": 1
       }
     ],
-    "WaveSpeed Custom SeedreamV4_5Sequential::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
-      }
-    ],
     "WaveSpeed Custom Upload Image::2d44d4cb": [
       {
         "package_id": "comfyui-nodes-erpk",
@@ -482087,14 +482978,6 @@
           "2025.12.8"
         ],
         "rank": 1
-      }
-    ],
-    "WaveSpeed Custom Upload Image::_": [
-      {
-        "package_id": "comfyui-nodes-erpk",
-        "versions": [],
-        "rank": 1,
-        "source": "manager"
       }
     ],
     "WaveSpeedAI Alibaba Wan 2.5 Image Edit::_": [
@@ -483595,6 +484478,14 @@
           "1.3.7"
         ],
         "rank": 1
+      }
+    ],
+    "WaveSpeedAIAPIClient::_": [
+      {
+        "package_id": "comfyui-nodes-erpk",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "WaveSpeedAIPredictor::_": [
@@ -493997,6 +494888,46 @@
         "source": "manager"
       }
     ],
+    "ZImageAITKLoRALoader::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageAdvancedConditioning::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageComfyInjector::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageComfyUninjector::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageConditioningContrast::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ZImageControlSampler::_": [
       {
         "package_id": "videox-fun",
@@ -494013,6 +494944,22 @@
         "source": "manager"
       }
     ],
+    "ZImageDiffSynthLoader::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageDiffusersLoader::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ZImageEmptyLatent::_": [
       {
         "package_id": "manager_fblissjr_comfyui_qwenimagewanbridge",
@@ -494024,6 +494971,22 @@
     "ZImageFunControlnet::_": [
       {
         "package_id": "lth_extended_prompting_nodes",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageGGUFInjector::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageGGUFStandaloneLoader::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -494119,6 +495082,14 @@
         "source": "manager"
       }
     ],
+    "ZImageLoaderAndPatcher::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ZImageLoraManagerAdvanced::_": [
       {
         "package_id": "manager_graftingrayman_comfyui_zimage_bake_extract",
@@ -494138,6 +495109,14 @@
     "ZImageLoraModelOnly::_": [
       {
         "package_id": "manager_hasasasa_comfyui_dashuaitools",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageLycorisStacker::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -494202,6 +495181,30 @@
           "1.0.24"
         ],
         "rank": 1
+      }
+    ],
+    "ZImageQwenTELoRALoader::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageRawClipMerge::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageRawModelMerge::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
       }
     ],
     "ZImageSDNQCannyPreprocess::_": [
@@ -494323,6 +495326,22 @@
         "rank": 1
       }
     ],
+    "ZImageSaveTextEncoder::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageSaveTransformer::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
     "ZImageSelectiveLoRALoader::_": [
       {
         "package_id": "manager_shootthesound_comfyui_realtime_lora",
@@ -494334,6 +495353,14 @@
     "ZImageT2ISampler::_": [
       {
         "package_id": "videox-fun",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageTIESMerge::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -494513,6 +495540,22 @@
     "ZImageTurnBuilder::_": [
       {
         "package_id": "manager_fblissjr_comfyui_qwenimagewanbridge",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageUniversalLoRALoader::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
+        "versions": [],
+        "rank": 1,
+        "source": "manager"
+      }
+    ],
+    "ZImageVectorMerge::_": [
+      {
+        "package_id": "manager_tripleheadedmonkey_comfyui_zlycoris",
         "versions": [],
         "rank": 1,
         "source": "manager"
@@ -533920,6 +534963,7 @@
       {
         "package_id": "ComfyUI-MaxedOut",
         "versions": [
+          "1.8.9",
           "1.8.5",
           "1.8.3",
           "1.7.2"
@@ -536553,7 +537597,7 @@
       "display_name": "ComfyUI-Frame-Interpolation",
       "description": "A custom node suite for Video Frame Interpolation in ComfyUI",
       "repository": "https://github.com/fannovel16/comfyui-frame-interpolation",
-      "github_stars": 965,
+      "github_stars": 971,
       "versions": {
         "1.0.7": {
           "version": "1.0.7",
@@ -536916,7 +537960,7 @@
       "display_name": "ComfyUI-HunyuanVideoWrapper",
       "description": "ComfyUI diffusers wrapper nodes for [a/HunyuanVideo](https://github.com/Tencent/HunyuanVideo)",
       "repository": "https://github.com/kijai/comfyui-hunyuanvideowrapper",
-      "github_stars": 2576,
+      "github_stars": 2580,
       "versions": {
         "1.0.8": {
           "version": "1.0.8",
@@ -537174,7 +538218,7 @@
       "display_name": "ComfyUI-FluxTrainer",
       "description": "Currently supports LoRA training, and untested full finetune with code from kohya's scripts: [a/https://github.com/kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts)",
       "repository": "https://github.com/kijai/comfyui-fluxtrainer",
-      "github_stars": 1113,
+      "github_stars": 1114,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -537655,7 +538699,7 @@
       "display_name": "ComfyUI-Easy-IndexTTS2",
       "description": "A ComfyUI custom node for zero-shot text-to-speech synthesis system.",
       "repository": "https://github.com/yolain/comfyui-easy-indextts2",
-      "github_stars": 227,
+      "github_stars": 228,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -537818,7 +538862,7 @@
       "display_name": "KayTool",
       "description": "KayTool boosts ComfyUI workflow efficiency with powerful tools like: image processing (resize, color, blur, expand, merge, crop), background/mask tasks via BiRefNet/RemBG, wireless data transfer (Set&Get), AI translation (Tencent/Baidu), Professional high-precision resource monitoring, dynamic math operations, flexible text handling, precision sliders, metadata/color profile-supported image saving, batch processing via folder loading, canvas node map export as PNG with metadata, quick Run options via right-click, node alignment toolbar with custom styles, and custom ComfyUI logo integration.",
       "repository": "https://github.com/kk8bit/kaytool",
-      "github_stars": 328,
+      "github_stars": 332,
       "versions": {
         "0.70.17": {
           "version": "0.70.17",
@@ -539992,7 +541036,7 @@
       "display_name": "Comfyui-Resolution-Master",
       "description": "ResolutionMaster is for total control over resolution and aspect ratio. It provides an intuitive interface with an interactive canvas, advanced scaling options, extensive presets (SDXL, Flux, WAN), and model-specific optimizations for high-quality AI image generation.",
       "repository": "https://github.com/azornes/comfyui-resolution-master",
-      "github_stars": 239,
+      "github_stars": 242,
       "versions": {
         "1.5.14": {
           "version": "1.5.14",
@@ -540175,7 +541219,7 @@
       "display_name": "ComfyUI-Inspyrenet-Rembg",
       "description": "ComfyUI node for background removal implementing [a/InSPyReNet](https://github.com/plemeri/InSPyReNet)",
       "repository": "https://github.com/john-mnz/comfyui-inspyrenet-rembg",
-      "github_stars": 710,
+      "github_stars": 712,
       "versions": {
         "1.1.1": {
           "version": "1.1.1",
@@ -545693,7 +546737,7 @@
       "display_name": "ComfyUI-JDCN",
       "description": "ComfyUI-JDCN, Custom Utility Nodes for Artists, Designers and Animators.",
       "repository": "https://github.com/daxcay/comfyui-jdcn",
-      "github_stars": 144,
+      "github_stars": 145,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -545725,7 +546769,7 @@
       "display_name": "ComfyUI-ComfyUI-Hunyuan3DWrapper",
       "description": "Wrapper nodes for https://github.com/Tencent/Hunyuan3D-2, additional installation steps needed, please check the github repository",
       "repository": "https://github.com/kijai/comfyui-hunyuan3dwrapper",
-      "github_stars": 955,
+      "github_stars": 958,
       "versions": {
         "1.0.6": {
           "version": "1.0.6",
@@ -545991,7 +547035,7 @@
       "display_name": "Basic data handling",
       "description": "Basic Python functions for manipulating data that every programmer is used to, lightweight with no additional dependencies.\n\nSupported data types:\n- ComfyUI native: BOOLEAN, FLOAT, INT, STRING, and data lists\n- Python types as custom data types: DICT, LIST, SET, DATETIME, TIMEDELTA\n- PyTorch: TENSOR\n\nFeature categories:\n- Boolean logic operations\n- Type casting/conversion between all supported data types\n- Comparison operations\n- Data container manipulation\n- Flow control (conditionals, branching, execution order)\n- Mathematical operations\n- Mathematical formula node in a safe implementation\n- String manipulation\n- File system path handling, including STRING, IMAGE and MASK load and save\n- SET operations\n- time and date handling\n- PyTorch Tensor manipulation (arithmetic, slicing, reshaping)",
       "repository": "https://github.com/stablellama/comfyui-basic_data_handling",
-      "github_stars": 37,
+      "github_stars": 38,
       "versions": {
         "1.4.0": {
           "version": "1.4.0",
@@ -546512,7 +547556,7 @@
       "display_name": "ComfyUI-Custom-Scripts",
       "description": "Enhancements & experiments for ComfyUI, mostly focusing on UI features",
       "repository": "https://github.com/pythongosssss/comfyui-custom-scripts",
-      "github_stars": 2960,
+      "github_stars": 2968,
       "versions": {
         "1.2.5": {
           "version": "1.2.5",
@@ -547149,7 +548193,7 @@
       "display_name": "ComfyUI-1hewNodes",
       "description": "This is a custom node collection for ComfyUI that provides some utility nodes.",
       "repository": "https://github.com/1hew/comfyui-1hewnodes",
-      "github_stars": 21,
+      "github_stars": 22,
       "versions": {
         "3.3.1": {
           "version": "3.3.1",
@@ -547936,7 +548980,7 @@
       "display_name": "comfyui-mixlab-nodes",
       "description": "3D, ScreenShareNode & FloatingVideoNode, SpeechRecognition & SpeechSynthesis, GPT, LoadImagesFromLocal, Layers, Other Nodes, ...",
       "repository": "https://github.com/shadowcz007/comfyui-mixlab-nodes",
-      "github_stars": 1804,
+      "github_stars": 1809,
       "versions": {
         "0.46.0": {
           "version": "0.46.0",
@@ -548092,7 +549136,7 @@
       "display_name": "ComfyUI-IC-Light",
       "description": "ComfyUI native nodes for IC-Light",
       "repository": "https://github.com/kijai/comfyui-ic-light",
-      "github_stars": 1136,
+      "github_stars": 1137,
       "versions": {
         "1.0.5": {
           "version": "1.0.5",
@@ -548143,7 +549187,7 @@
       "display_name": "HunyuanVideo-Foley",
       "description": "ComfyUI custom node for HunyuanVideo-Foley text-video-to-audio synthesis",
       "repository": "https://github.com/if-ai/comfyui_hunyuanvideofoley",
-      "github_stars": 148,
+      "github_stars": 151,
       "versions": {
         "1.0.3": {
           "version": "1.0.3",
@@ -548285,7 +549329,7 @@
       "display_name": "ComfyUI-Align",
       "description": "A powerful node alignment and color management plugin for ComfyUI, designed to enhance your workflow efficiency",
       "repository": "https://github.com/moooonet/comfyui-align",
-      "github_stars": 257,
+      "github_stars": 259,
       "versions": {
         "3.0.4": {
           "version": "3.0.4",
@@ -548737,7 +549781,7 @@
       "display_name": "qq-nodes-comfyui",
       "description": "Collection of nodes for generating XY Grids",
       "repository": "https://github.com/kenjiqq/qq-nodes-comfyui",
-      "github_stars": 68,
+      "github_stars": 69,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -550241,7 +551285,7 @@
       "display_name": "ComfyUI-Detail-Daemon",
       "description": "A port of muerrilla's sd-webui-Detail-Daemon as a node for ComfyUI, to adjust sigmas that generally enhance details, and possibly remove unwanted bokeh or background blurring.",
       "repository": "https://github.com/jonseed/comfyui-detail-daemon",
-      "github_stars": 931,
+      "github_stars": 935,
       "versions": {
         "1.1.3": {
           "version": "1.1.3",
@@ -550777,8 +551821,13 @@
       "display_name": "ComfyUI-KJNodes",
       "description": "Various quality of life -nodes for ComfyUI, mostly just visual stuff to improve usability.",
       "repository": "https://github.com/kijai/comfyui-kjnodes",
-      "github_stars": 2325,
+      "github_stars": 2336,
       "versions": {
+        "1.3.1": {
+          "version": "1.3.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/kijai/comfyui-kjnodes/1.3.1/node.zip"
+        },
         "1.3.0": {
           "version": "1.3.0",
           "deprecated": false,
@@ -551670,7 +552719,7 @@
       "display_name": "comfyui-ollama",
       "description": "Custom ComfyUI Nodes for interacting with [a/Ollama](https://ollama.com/) using the [a/ollama python client](https://github.com/ollama/ollama-python).\nIntegrate the power of LLMs into CompfyUI workflows easily.",
       "repository": "https://github.com/stavsap/comfyui-ollama",
-      "github_stars": 772,
+      "github_stars": 777,
       "versions": {
         "2.1.0": {
           "version": "2.1.0",
@@ -551934,7 +552983,7 @@
       "display_name": "ComfyUI Browser",
       "description": "This is an image/video/workflow browser and manager for ComfyUI. You could add image/video/workflow to collections and load it to ComfyUI. You will be able to use your collections everywhere.",
       "repository": "https://github.com/talesofai/comfyui-browser",
-      "github_stars": 652,
+      "github_stars": 653,
       "versions": {}
     },
     "comfyui-consistency-decoder": {
@@ -551993,7 +553042,7 @@
       "display_name": "ComfyUI-Advanced-ControlNet",
       "description": "Nodes for scheduling ControlNet strength across timesteps and batched latents, as well as applying custom weights and attention masks.",
       "repository": "https://github.com/kosinkadink/comfyui-advanced-controlnet",
-      "github_stars": 942,
+      "github_stars": 945,
       "versions": {
         "1.5.6": {
           "version": "1.5.6",
@@ -554153,7 +555202,7 @@
       "display_name": "comfyui-prompt-reader-node",
       "description": "The ultimate solution for managing image metadata and multi-tool compatibility. ComfyUI node version of the SD Prompt Reader.",
       "repository": "https://github.com/receyuki/comfyui-prompt-reader-node",
-      "github_stars": 440,
+      "github_stars": 442,
       "versions": {
         "1.3.4": {
           "version": "1.3.4",
@@ -554499,7 +555548,7 @@
       "display_name": "ComfyUI-AnimateDiff-Evolved",
       "description": "Improved AnimateDiff integration for ComfyUI.",
       "repository": "https://github.com/kosinkadink/comfyui-animatediff-evolved",
-      "github_stars": 3385,
+      "github_stars": 3397,
       "versions": {
         "1.5.6": {
           "version": "1.5.6",
@@ -559599,7 +560648,7 @@
       "display_name": "ComfyUI-enricos-nodes",
       "description": "pass up to 8 images and visually place, rotate and scale them to build the perfect composition. group move and group rescale. remember their position and scaling value across generations to easy swap images. use the buffer zone to to park an asset you don't want to use or easily reach transformations controls",
       "repository": "https://github.com/erosdiffusion/comfyui-enricos-nodes",
-      "github_stars": 597,
+      "github_stars": 598,
       "versions": {
         "4.0.1": {
           "version": "4.0.1",
@@ -561479,7 +562528,7 @@
       "display_name": "ComfyUI_Custom_Nodes_AlekPet",
       "description": "Nodes: PoseNode, PainterNode, TranslateTextNode, TranslateCLIPTextEncodeNode, DeepTranslatorTextNode, DeepTranslatorCLIPTextEncodeNode, ArgosTranslateTextNode, ArgosTranslateCLIPTextEncodeNode, ChatGLM4TranslateCLIPTextEncodeNode, ChatGLM4TranslateTextNode, ChatGLM4InstructNode, ChatGLM4InstructMediaNode, ChatGLMImageGenerateNode, ChatGLMVideoGenerateNode, PreviewTextNode, HexToHueNode, ColorsCorrectNode, IDENode.",
       "repository": "https://github.com/alekpet/comfyui_custom_nodes_alekpet",
-      "github_stars": 1459,
+      "github_stars": 1460,
       "versions": {
         "1.0.92": {
           "version": "1.0.92",
@@ -562234,7 +563283,7 @@
       "display_name": "ComfyUI-Cloud-APIs",
       "description": "Nodes for using models from online providers. Flux, Auraflow, SoteDiffusion, etc.",
       "repository": "https://github.com/betadoggo/comfyui-cloud-apis",
-      "github_stars": 38,
+      "github_stars": 39,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -562858,7 +563907,7 @@
       "display_name": "Prompt Assistant",
       "description": "\u63d0\u793a\u8bcd\u5c0f\u52a9\u624b\u53ef\u4ee5\u4e00\u952e\u8c03\u7528GLM\u3001gemini\u3001ChatGPT\u3001Grok\u3001Qwen\u7b49\u5728\u7ebf\u5927\u6a21\u578b\u4ee5\u53ca\u672c\u5730Ollama\u5927\u6a21\u578b\u3002\u5b9e\u73b0\u63d0\u793a\u8bcd\u3001markdown\u8282\u70b9\u7ffb\u8bd1\u3001\u6da6\u8272\u6269\u5199\u3001\u56fe\u7247\u89c6\u9891\u53cd\u63a8\u3002\u652f\u6301\u63d0\u793a\u8bcd\u9884\u8bbe\u5b9e\u73b0\u4e00\u952e\u63d2\u5165\u3001\u5386\u53f2\u63d0\u793a\u8bcd\u67e5\u627e\u7b49\u529f\u80fd\u3002\u662f\u4e00\u4e2a\u5168\u80fd\u578b\u63d0\u793a\u8bcd\u63d2\u4ef6\u3002This prompt assistant plugin supports one-click access to online LLMs including GLM, Gemini, ChatGPT, Grok, Qwen, and local Ollama models. It provides prompt generation, Markdown node translation, polishing, expansion, image and video prompt reverse engineering, and more. The plugin also features prompt presets for one\u2011click insertion and prompt history search, making it an all\u2011in\u2011one prompt utility for ComfyUI.",
       "repository": "https://github.com/yawiii/comfyui-prompt-assistant",
-      "github_stars": 1550,
+      "github_stars": 1578,
       "versions": {
         "2.0.4": {
           "version": "2.0.4",
@@ -563985,7 +565034,7 @@
       "display_name": "comfyui-portrait-master",
       "description": "ComfyUI Portrait Master. A node designed to help AI image creators to generate prompts for human portraits.",
       "repository": "https://github.com/florestefano1975/comfyui-portrait-master",
-      "github_stars": 1183,
+      "github_stars": 1184,
       "versions": {}
     },
     "comfyui-previewlatent": {
@@ -563999,7 +565048,7 @@
       "display_name": "refiners",
       "description": "ComfyUI custom nodes for refiners models",
       "repository": "https://github.com/finegrain-ai/refiners",
-      "github_stars": 836,
+      "github_stars": 835,
       "versions": {
         "1.0.4": {
           "version": "1.0.4",
@@ -564073,7 +565122,7 @@
       "display_name": "ComfyUI-ControlnetAux",
       "description": "This ComfyUI custom node, named ControlNet Auxiliar, is designed to provide auxiliary functionalities for image processing tasks. It is particularly useful for various image manipulation and enhancement operations. The node is integrated with functionalities for converting images between different formats and applying various image processing techniques.",
       "repository": "https://github.com/madtunebk/comfyui-controlnetaux",
-      "github_stars": 16,
+      "github_stars": 17,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -564337,14 +565386,14 @@
       "display_name": "Don't Download this",
       "description": "DRMN became DataSet\n\nComfyUI-DataSet\n\nhttps://github.com/daxcay/ComfyUI-DataSet",
       "repository": "https://github.com/daxcay/comfyui-dataset",
-      "github_stars": 56,
+      "github_stars": 57,
       "versions": {}
     },
     "comfyui-advancedliveportrait": {
       "display_name": "ComfyUI-AdvancedLivePortrait",
       "description": "AdvancedLivePortrait with Facial expression editor",
       "repository": "https://github.com/powerhouseman/comfyui-advancedliveportrait",
-      "github_stars": 2601,
+      "github_stars": 2604,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -564370,7 +565419,7 @@
       "display_name": "DynamicPrompts Custom Nodes",
       "description": "Nodes: Random Prompts, Combinatorial Prompts, I'm Feeling Lucky, Magic Prompt, Jinja2 Templates. ComfyUI-DynamicPrompts is a custom nodes library that integrates into your existing ComfyUI Library. It provides nodes that enable the use of Dynamic Prompts in your ComfyUI.",
       "repository": "https://github.com/adieyal/comfyui-dynamicprompts",
-      "github_stars": 397,
+      "github_stars": 400,
       "versions": {}
     },
     "ComfyUI-OpenCut": {
@@ -566146,8 +567195,13 @@
       "display_name": "ComfyUI-Tripo",
       "description": "Custom nodes for using [a/Tripo](https://www.tripo3d.ai/) in ComfyUI to create 3D from text and image prompts.",
       "repository": "https://github.com/vast-ai-research/comfyui-tripo",
-      "github_stars": 320,
+      "github_stars": 319,
       "versions": {
+        "1.2.9": {
+          "version": "1.2.9",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/seed93/comfyui-tripo/1.2.9/node.zip"
+        },
         "1.2.8": {
           "version": "1.2.8",
           "deprecated": false,
@@ -566372,7 +567426,7 @@
       "display_name": "comfyui-tensorop",
       "description": "Nodes to perform tensor operations in ComfyUI",
       "repository": "https://github.com/un-seen/comfyui-tensorops",
-      "github_stars": 41,
+      "github_stars": 42,
       "versions": {}
     },
     "comfyui-transceiver": {
@@ -566440,7 +567494,7 @@
       "display_name": "Various ComfyUI Nodes by Type",
       "description": "Nodes: JWInteger, JWFloat, JWString, JWImageLoadRGB, JWImageResize, ...",
       "repository": "https://github.com/jameswalker55/comfyui-various",
-      "github_stars": 179,
+      "github_stars": 180,
       "versions": {}
     },
     "comfyui-vidu-nodes": {
@@ -569227,7 +570281,7 @@
       "display_name": "comfyui_sunxAI_facetools",
       "description": "Face detection & restoration tools for ComfyUI by Sunx.ai",
       "repository": "https://github.com/upseem/comfyui_sunxai_facetools",
-      "github_stars": 10,
+      "github_stars": 11,
       "versions": {
         "0.2.7": {
           "version": "0.2.7",
@@ -569616,7 +570670,7 @@
       "display_name": "comfyui-photoshop",
       "description": "Powerfull bridge to Photoshop by NimaNzrii",
       "repository": "https://github.com/nimanzrii/comfyui-photoshop",
-      "github_stars": 1508,
+      "github_stars": 1515,
       "versions": {}
     },
     "comfyui-et_dynamicprompts": {
@@ -570044,7 +571098,7 @@
       "display_name": "ComfyUI-MimicMotionWrapper",
       "description": "Optimized wrapper nodes for MimicMotion: [a/https://github.com/tencent/MimicMotion](https://github.com/tencent/MimicMotion)",
       "repository": "https://github.com/kijai/comfyui-mimicmotionwrapper",
-      "github_stars": 515,
+      "github_stars": 516,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -570076,7 +571130,7 @@
       "display_name": "comfyui-portrait-master-zh-cn",
       "description": "ComfyUI Portrait Master \u7b80\u4f53\u4e2d\u6587\u7248.",
       "repository": "https://github.com/zho-zho-zho/comfyui-portrait-master-zh-cn",
-      "github_stars": 1797,
+      "github_stars": 1798,
       "versions": {}
     },
     "comfyui_davcha": {
@@ -572941,7 +573995,7 @@
       "display_name": "Jovimetrix",
       "description": "Animation via tick. Parameter manipulation with wave generator. Unary and Binary math support. Value convert int/float/bool, VectorN and Image, Mask types. Shape mask generator. Stack images, do channel ops, split, merge and randomize arrays and batches. Load images & video from anywhere. Dynamic bus routing. Save output anywhere! Flatten, crop, transform; check colorblindness or linear interpolate values.",
       "repository": "https://github.com/amorano/jovimetrix",
-      "github_stars": 389,
+      "github_stars": 388,
       "versions": {
         "2.1.25": {
           "version": "2.1.25",
@@ -573752,7 +574806,7 @@
       "display_name": "ComfyUI-Nexus",
       "description": "Node to enable seamless multiuser workflow collaboration",
       "repository": "https://github.com/daxcay/comfyui-nexus",
-      "github_stars": 93,
+      "github_stars": 94,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -574317,7 +575371,7 @@
       "display_name": "ComfyUI-Blender",
       "description": "Custom nodes and add-on to use ComfyUI from Blender.",
       "repository": "https://github.com/alexisrolland/comfyui-blender",
-      "github_stars": 137,
+      "github_stars": 139,
       "versions": {
         "4.5.0": {
           "version": "4.5.0",
@@ -574788,7 +575842,7 @@
       "display_name": "ComfyUI-Deforum",
       "description": "Custom nodes for deforum workflows",
       "repository": "https://github.com/deforum-art/deforum-comfy-nodes",
-      "github_stars": 25,
+      "github_stars": 26,
       "versions": {
         "0.4.1": {
           "version": "0.4.1",
@@ -575038,7 +576092,7 @@
       "display_name": "ComfyUI-LivePortraitKJ",
       "description": "Nodes for [a/LivePortrait](https://github.com/KwaiVGI/LivePortrait)",
       "repository": "https://github.com/kijai/comfyui-liveportraitkj",
-      "github_stars": 2125,
+      "github_stars": 2131,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -575591,7 +576645,7 @@
       "display_name": "ComfyUI-openpose-editor",
       "description": "Port of [a/https://github.com/huchenlei/sd-webui-openpose-editor](https://github.com/huchenlei/sd-webui-openpose-editor) in ComfyUI",
       "repository": "https://github.com/huchenlei/comfyui-openpose-editor",
-      "github_stars": 145,
+      "github_stars": 146,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -576416,7 +577470,7 @@
       "display_name": "ComfyUI-UniversalToolkit",
       "description": "A comprehensive toolkit based on ComfyUI, providing image, mask, audio, and tools nodes, fully modular and v3 compatible.",
       "repository": "https://github.com/whmc76/comfyui-universaltoolkit",
-      "github_stars": 62,
+      "github_stars": 63,
       "versions": {
         "1.4.10": {
           "version": "1.4.10",
@@ -576959,7 +578013,7 @@
       "display_name": "wavespeed-comfyui",
       "description": "This is a custom node for ComfyUI that allows you to use the WaveSpeed AI API directly in ComfyUI. WaveSpeed AI is a high-performance AI image and video generation service platform offering industry-leading generation speeds. For more information, see [a/WaveSpeed AI Documentation](https://wavespeed.ai/docs).",
       "repository": "https://github.com/wavespeedai/wavespeed-comfyui",
-      "github_stars": 52,
+      "github_stars": 53,
       "versions": {
         "1.5.0": {
           "version": "1.5.0",
@@ -577730,7 +578784,7 @@
       "display_name": "ComfyUI-Texture-Simple",
       "description": "Visualize your textures inside ComfyUI",
       "repository": "https://github.com/gokayfem/comfyui-texture-simple",
-      "github_stars": 53,
+      "github_stars": 54,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -577748,7 +578802,7 @@
       "display_name": "ComfyUI-DataSet",
       "description": "Data research, preparation, and manipulation nodes for model trainers and artists.",
       "repository": "https://github.com/daxcay/comfyui-dataset",
-      "github_stars": 56,
+      "github_stars": 57,
       "versions": {
         "1.1.1": {
           "version": "1.1.1",
@@ -580111,7 +581165,7 @@
       "display_name": "ComfyUI-mape-Helpers",
       "description": "Multi-monitor image preview, Variable Assigment/Wireless Nodes, Prompt Tweaking, Command Palette, Pinned favourite nodes, Node navigation, Fuzzy search, Node time tracking, Organizing and Error management. For more info visit: [a/https://comfyui.ma.pe/](https://comfyui.ma.pe/)",
       "repository": "https://github.com/mape/comfyui-mape-helpers",
-      "github_stars": 185,
+      "github_stars": 184,
       "versions": {
         "0.5.1": {
           "version": "0.5.1",
@@ -580260,7 +581314,7 @@
       "display_name": "ComfyUI-EasyCivitai-XTNodes",
       "description": "Load your model with image previews, or directly download and import Civitai models via URL. This custom ComfyUI node supports Checkpoint, LoRA, and LoRA Stack models, offering features like bypass options.",
       "repository": "https://github.com/x-t-e-r/comfyui-easycivitai-xtnodes",
-      "github_stars": 47,
+      "github_stars": 48,
       "versions": {
         "0.2.0": {
           "version": "0.2.0",
@@ -581424,7 +582478,7 @@
       "display_name": "ComfyUI-EnhancedLinksandNodes",
       "description": "A visually stunning ComfyUI extension that adds customizable animations to links and nodes, featuring 9 unique link animations, 4 node animation styles, and comprehensive customization options. No extra packages required.",
       "repository": "https://github.com/aemotionstudio/comfyui-enhancedlinksandnodes",
-      "github_stars": 64,
+      "github_stars": 65,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -581703,7 +582757,7 @@
       "display_name": "ComfyUI-Anyline",
       "description": "A Fast, Accurate, and Detailed Line Detection Preprocessor.\nAnyline is a ControlNet line preprocessor that accurately extracts object edges, image details, and textual content from most images. Users can input any type of image to quickly obtain line drawings with clear edges, sufficient detail preservation, and high fidelity text, which are then used as input for conditional generation in Stable Diffusion.",
       "repository": "https://github.com/themistoai/comfyui-anyline",
-      "github_stars": 491,
+      "github_stars": 492,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -582272,7 +583326,7 @@
       "display_name": "Comfyui-In-Context-Lora-Utils",
       "description": "NODES: Add Mask For IC Lora, Create Context Window, Concatenate Context Window, Auto Patch",
       "repository": "https://github.com/lrzjason/comfyui-in-context-lora-utils",
-      "github_stars": 243,
+      "github_stars": 244,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -582341,7 +583395,7 @@
       "display_name": "ComfyUI-ToSVG",
       "description": "This project converts raster images into SVG format using the [a/VTracer](https://github.com/visioncortex/vtracer) library and [a/Potracer](https://github.com/tatarize/potrace). It's a handy tool for designers and developers who need to work with vector graphics programmatically.",
       "repository": "https://github.com/yanick112/comfyui-tosvg",
-      "github_stars": 276,
+      "github_stars": 278,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -582972,7 +584026,7 @@
       "display_name": "ComfyUI-post-processing-nodes",
       "description": "A collection of post processing nodes for ComfyUI, which enable a variety of visually striking image effects",
       "repository": "https://github.com/ellangok/comfyui-post-processing-nodes",
-      "github_stars": 245,
+      "github_stars": 246,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -584168,7 +585222,7 @@
       "display_name": "ComfyUI-PersianText",
       "description": "A powerful ComfyUI node for rendering text with advanced styling options, including full support for Persian/Farsi and Arabic scripts.",
       "repository": "https://github.com/shahkoorosh/comfyui-persiantext",
-      "github_stars": 27,
+      "github_stars": 28,
       "versions": {
         "2.0.1": {
           "version": "2.0.1",
@@ -584529,7 +585583,7 @@
       "display_name": "GlitchNodes",
       "description": "GlitchNodes is a collection of image processing nodes designed for ComfyUI that specializes in creating glitch art and retro effects.",
       "repository": "https://github.com/pxl-pshr/glitchnodes",
-      "github_stars": 62,
+      "github_stars": 63,
       "versions": {
         "1.0.5": {
           "version": "1.0.5",
@@ -584826,7 +585880,7 @@
       "display_name": "ComfyUI-TG",
       "description": "Comfy UI in Telegram",
       "repository": "https://github.com/daxcay/comfyui-tg",
-      "github_stars": 28,
+      "github_stars": 29,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -585624,6 +586678,11 @@
       "repository": "https://github.com/imagineernl/comfyui-imgnr-utils",
       "github_stars": 8,
       "versions": {
+        "3.3.2": {
+          "version": "3.3.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/imagineernl/ComfyUI-IMGNR-Utils/3.3.2/node.zip"
+        },
         "3.3.1": {
           "version": "3.3.1",
           "deprecated": false,
@@ -586474,7 +587533,7 @@
       "display_name": "ComfyUI-EvTexture",
       "description": "Wrapper for EvTexture Video Upscaler: [a/https://github.com/DachunKai/EvTexture](https://github.com/DachunKai/EvTexture)",
       "repository": "https://github.com/tocubed/comfyui-evtexture",
-      "github_stars": 17,
+      "github_stars": 18,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -586903,7 +587962,7 @@
       "display_name": "ComfyUI-Image-Captioner",
       "description": "A ComfyUI extension for generating captions for your images. Runs on your own system, no external services used, no filter.\nUses various VLMs with APIs to generate captions for images. You can give instructions or ask questions in natural language.",
       "repository": "https://github.com/neverbiasu/comfyui-image-captioner",
-      "github_stars": 25,
+      "github_stars": 26,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -586988,7 +588047,7 @@
       "display_name": "ComfyUI-NODEJS",
       "description": "This node allows the execution of Node.js application within ComfyUI by leveraging the ComfyUI-NODEJS, which starts alongside ComfyUI and facilitates the installation of Node.js. The integration enables Python subprocesses to execute Node.js scripts.",
       "repository": "https://github.com/daxcay/comfyui-nodejs",
-      "github_stars": 15,
+      "github_stars": 16,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -588255,10 +589314,15 @@
     },
     "ComfyUI-Model-Bending": {
       "display_name": "ComfyUI Model Bending",
-      "description": "Use model bending to push your model beyond its visuals limits. These nodes allow you to manipulate the inner weights of models (e.g., UNet, VAE) or interject the denoising process with operations like add, multiplty, scale, rotate, dilate, erode ..etc.",
+      "description": "Use model bending to push your model beyond its visuals limits. These nodes allow you to interactivly manipulate the low-level activations of models (e.g., UNet, VAE, LoRAs) to create creative variations that are hard to achieve with other methods",
       "repository": "https://github.com/abuzreq/comfyui-model-bending",
       "github_stars": 15,
       "versions": {
+        "0.2.0": {
+          "version": "0.2.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/abuzreq/ComfyUI-Model-Bending/0.2.0/node.zip"
+        },
         "0.1.1": {
           "version": "0.1.1",
           "deprecated": false,
@@ -588783,7 +589847,7 @@
       "display_name": "ComfyUI-Layers",
       "description": "This custom node for ComfyUI allows you to create layers of an image based on input masks and save them into a PSD file.",
       "repository": "https://github.com/alessandrozonta/comfyui-layers",
-      "github_stars": 56,
+      "github_stars": 57,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -589329,8 +590393,13 @@
       "display_name": "ComfyStereo",
       "description": "Stereoscopic 3D toolkit for ComfyUI combining depth-based stereo generation with GPU acceleration, native VR viewing via PyOpenXR, and AI-powered StereoDiffusion. Supports 6+ modes for stereo conversion, VR headset viewing, and diffusion model stereo generation.",
       "repository": "https://github.com/dobidop/comfystereo",
-      "github_stars": 38,
+      "github_stars": 39,
       "versions": {
+        "2.1.3": {
+          "version": "2.1.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/dobidop/comfystereo/2.1.3/node.zip"
+        },
         "2.1.2": {
           "version": "2.1.2",
           "deprecated": false,
@@ -590366,7 +591435,7 @@
       "display_name": "ComfyUI-Restart-Sampler",
       "description": "This extension is a node that directly expands the functionality of KSampler, rather than being in the form of a custom node. [w/Workflows created using this feature are not compatible with other users.]",
       "repository": "https://github.com/licyk/comfyui-restart-sampler",
-      "github_stars": 12,
+      "github_stars": 13,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -591143,7 +592212,7 @@
       "display_name": "ComfyUI-disty-Flow",
       "description": "Flow is a custom node designed to provide a more user-friendly interface for ComfyUI by acting as an alternative user interface for running workflows. It is not a replacement for workflow creation.\nFlow is currently in the early stages of development, so expect bugs and ongoing feature enhancements. With your support and feedback, Flow will settle into a steady stream.",
       "repository": "https://github.com/distyapps/comfyui-disty-flow",
-      "github_stars": 577,
+      "github_stars": 579,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -592137,7 +593206,7 @@
       "display_name": "ComfyUI-TCD",
       "description": "TCD sampler plugin for ComfyUI",
       "repository": "https://github.com/jetthu/comfyui-tcd",
-      "github_stars": 139,
+      "github_stars": 140,
       "versions": {
         "0.1.0": {
           "version": "0.1.0",
@@ -592163,7 +593232,7 @@
       "display_name": "IF_Trellis",
       "description": "ComfyUI IF Trellis creates a 3d mesh from a single view or multi angle pictures",
       "repository": "https://github.com/if-ai/comfyui-if_trellis",
-      "github_stars": 449,
+      "github_stars": 448,
       "versions": {
         "0.2.5": {
           "version": "0.2.5",
@@ -593087,7 +594156,7 @@
       "display_name": "comfy-portal-endpoint",
       "description": "This is a ComfyUI extension that provides additional API endpoints functionality, primarily designed to support Comfy Portal - a modern iOS client application for ComfyUI.",
       "repository": "https://github.com/shunl12324/comfy-portal-endpoint",
-      "github_stars": 15,
+      "github_stars": 16,
       "versions": {
         "1.2.0": {
           "version": "1.2.0",
@@ -595437,7 +596506,7 @@
       "display_name": "ComfyUI-ListHelper",
       "description": "The ListHelper collection is a comprehensive set of custom nodes for ComfyUI that provides powerful list manipulation capabilities. This collection includes audio processing, text splitting, and number generation tools for enhanced workflow automation.Qwen/GGUF Node For LLM function,SimpleWildCardSystem,BatchToPSDForQwenLayer",
       "repository": "https://github.com/dseditor/comfyui-listhelper",
-      "github_stars": 58,
+      "github_stars": 59,
       "versions": {
         "1.3.1": {
           "version": "1.3.1",
@@ -595996,7 +597065,7 @@
       "display_name": "Comfyui-SAL-VTON",
       "description": "Dressup your models!\nThis is my quick implementation of the SAL-VTON node for ComfyUI.\nBased on the paper [a/Keyu Y. Tingwei G. et al. (2023). Linking Garment with Person via Semantically Associated Landmakrs for Virtual Try-On](https://openaccess.thecvf.com/content/CVPR2023/papers/Yan_Linking_Garment_With_Person_via_Semantically_Associated_Landmarks_for_Virtual_CVPR_2023_paper.pdf)",
       "repository": "https://github.com/ratulrafsan/comfyui-sal-vton",
-      "github_stars": 90,
+      "github_stars": 91,
       "versions": {
         "1.0.3": {
           "version": "1.0.3",
@@ -596195,7 +597264,7 @@
       "display_name": "ExtractStoryboards",
       "description": "A tool for decomposing video storyboards, which can obtain storyboards and keyframes",
       "repository": "https://github.com/gitadmini/comfyui_extractstoryboards",
-      "github_stars": 83,
+      "github_stars": 84,
       "versions": {
         "1.0.5": {
           "version": "1.0.5",
@@ -596793,7 +597862,7 @@
       "display_name": "comfyui-simswap",
       "description": "A hacky implementation of Simswap based on [a/Comfyui ReActor Node 0.5.1](https://github.com/Gourieff/comfyui-reactor-node) and [a/Simswap](https://github.com/neuralchen/SimSwap).",
       "repository": "https://github.com/taitair/comfyui-simswap",
-      "github_stars": 13,
+      "github_stars": 14,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -596909,7 +597978,7 @@
       "display_name": "LanPaint",
       "description": "Achieve seamless inpainting results without needing a specialized inpainting model.",
       "repository": "https://github.com/scraed/lanpaint",
-      "github_stars": 991,
+      "github_stars": 1012,
       "versions": {
         "1.4.13": {
           "version": "1.4.13",
@@ -599165,7 +600234,7 @@
       "display_name": "ComfyUI-Replicate",
       "description": "Run Replicate models in ComfyUI",
       "repository": "https://github.com/replicate/comfyui-replicate",
-      "github_stars": 207,
+      "github_stars": 208,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -600037,7 +601106,7 @@
       "display_name": "ComfyUI-Fluxpromptenhancer",
       "description": "This custom node for ComfyUI integrates the Flux-Prompt-Enhance model, allowing you to enhance your prompts directly within your ComfyUI workflows.",
       "repository": "https://github.com/marduk191/comfyui-fluxpromptenhancer",
-      "github_stars": 118,
+      "github_stars": 119,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -600286,6 +601355,11 @@
       "repository": "https://github.com/vrchstudio/comfyui-web-viewer",
       "github_stars": 340,
       "versions": {
+        "1.1.14": {
+          "version": "1.1.14",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/vrchdev/comfyui-web-viewer/1.1.14/node.zip"
+        },
         "1.1.13": {
           "version": "1.1.13",
           "deprecated": false,
@@ -601046,7 +602120,7 @@
       "display_name": "ComfyUI-CogVideoXWrapper",
       "description": "Diffusers wrapper for CogVideoX -models: https://github.com/THUDM/CogVideo",
       "repository": "https://github.com/kijai/comfyui-cogvideoxwrapper",
-      "github_stars": 1539,
+      "github_stars": 1542,
       "versions": {
         "1.5.1": {
           "version": "1.5.1",
@@ -601798,7 +602872,7 @@
       "display_name": "ComfyUI-LG_HotReload",
       "description": "An extension for ComfyUI that allows hot reloading. Once installed, you can preview changes in real-time while developing custom nodes or installing plugins without restarting ComfyUI.",
       "repository": "https://github.com/laogou-666/comfyui-lg_hotreload",
-      "github_stars": 291,
+      "github_stars": 292,
       "versions": {
         "1.8.1": {
           "version": "1.8.1",
@@ -602025,7 +603099,7 @@
       "display_name": "ComfyUI-Ollama-Describer",
       "description": "This is an extension for ComfyUI that makes it possible to use some LLM models provided by Ollama, such as Gemma, Llava (multimodal), Llama2, Llama3 or Mistral. Speaking specifically of the LLaVa - Large Language and Vision Assistant model, although trained on a relatively small dataset, it demonstrates exceptional capabilities in understanding images and answering questions about them. This model presents similar behaviors to multimodal models such as GPT-4, even when presented with invisible images and instructions.",
       "repository": "https://github.com/alisson-anjos/comfyui-ollama-describer",
-      "github_stars": 103,
+      "github_stars": 104,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -602061,7 +603135,7 @@
       "display_name": "ComfyUI-TextOverlay",
       "description": "This extension provides a node that allows you to overlay text on an image or a batch of images with support for custom fonts and styles.",
       "repository": "https://github.com/munkyfoot/comfyui-textoverlay",
-      "github_stars": 54,
+      "github_stars": 55,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -602597,7 +603671,7 @@
       "display_name": "ComfyUI-Kimara-AI-Advanced-Watermarks",
       "description": "The KimaraAIWatermarker custom node allows you to apply watermark text and logo overlays to images and videos. Optionally, the watermark can be moved by the move_watermark_step amount of pixels after each generated image.",
       "repository": "https://github.com/kimara-ai/comfyui-kimara-ai-advanced-watermarks",
-      "github_stars": 22,
+      "github_stars": 23,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -602610,7 +603684,7 @@
       "display_name": "comfyui-lama-remover",
       "description": "A very simple ComfyUI node to remove item with mask.",
       "repository": "https://github.com/layer-norm/comfyui-lama-remover",
-      "github_stars": 149,
+      "github_stars": 150,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -602649,7 +603723,7 @@
       "display_name": "ComfyUI-IDM-VTON",
       "description": "ComfyUI adaptation of [a/IDM-VTON](https://github.com/yisol/IDM-VTON) for virtual try-on.",
       "repository": "https://github.com/temryl/comfyui-idm-vton",
-      "github_stars": 566,
+      "github_stars": 568,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -602667,7 +603741,7 @@
       "display_name": "ComfyUI-Video-Matting",
       "description": "A minimalistic implementation of [a/Robust Video Matting (RVM)](https://github.com/PeterL1n/RobustVideoMatting/) in ComfyUI",
       "repository": "https://github.com/fannovel16/comfyui-video-matting",
-      "github_stars": 221,
+      "github_stars": 222,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -602955,7 +604029,7 @@
       "display_name": "ComfyUI-layerdiffuse",
       "description": "Transparent Image Layer Diffusion using Latent Transparency",
       "repository": "https://github.com/huchenlei/comfyui-layerdiffuse",
-      "github_stars": 1760,
+      "github_stars": 1762,
       "versions": {
         "1.0.4": {
           "version": "1.0.4",
@@ -603115,7 +604189,7 @@
       "display_name": "IF_LLM",
       "description": "Run Local and API LLMs, Features Gemini2 image generation, DEEPSEEK R1, QwenVL2.5, QWQ32B, Ollama, LlamaCPP LMstudio, Koboldcpp, TextGen, Transformers or via APIs Anthropic, Groq, OpenAI, Google Gemini, Mistral, xAI and create your own charcters assistants (SystemPrompts) with custom presets and muchmore",
       "repository": "https://github.com/if-ai/comfyui-if_llm",
-      "github_stars": 150,
+      "github_stars": 149,
       "versions": {
         "0.2.4": {
           "version": "0.2.4",
@@ -603284,7 +604358,7 @@
       "display_name": "ComfyUI-CoreMLSuite",
       "description": "This extension contains a set of custom nodes for ComfyUI that allow you to use Core ML models in your ComfyUI workflows.",
       "repository": "https://github.com/aszc-dev/comfyui-coremlsuite",
-      "github_stars": 175,
+      "github_stars": 177,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -603865,7 +604939,7 @@
       "display_name": "ComfyUI F5-TTS",
       "description": "Text to speech with F5-TTS",
       "repository": "https://github.com/niknah/comfyui-f5-tts",
-      "github_stars": 256,
+      "github_stars": 257,
       "versions": {
         "1.0.26": {
           "version": "1.0.26",
@@ -604094,7 +605168,7 @@
       "display_name": "ComfyUI-seamless-tiling",
       "description": "Node for generating seamless textures, based on similar setting from A1111.",
       "repository": "https://github.com/spinagon/comfyui-seamless-tiling",
-      "github_stars": 257,
+      "github_stars": 258,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -604133,7 +605207,7 @@
       "display_name": "ComfyUI-Marigold",
       "description": "This is a wrapper node for Marigold depth estimation: [https://github.com/prs-eth/Marigold](https://github.com/kijai/ComfyUI-Marigold). Currently using the same diffusers pipeline as in the original implementation, so in addition to the custom node, you need the model in diffusers format.\nNOTE: See details in repo to install.",
       "repository": "https://github.com/kijai/comfyui-marigold",
-      "github_stars": 567,
+      "github_stars": 568,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -604368,7 +605442,7 @@
       "display_name": "ComfyUI-CLIPSeg",
       "description": "The CLIPSeg node generates a binary mask for a given input image and text prompt.",
       "repository": "https://github.com/alessandrozonta/comfyui-clipseg",
-      "github_stars": 9,
+      "github_stars": 10,
       "versions": {
         "1.1.1": {
           "version": "1.1.1",
@@ -604536,7 +605610,7 @@
       "display_name": "ComfyUI-DynamiCrafterWrapper",
       "description": "Wrapper nodes to use Dynami/ToonCrafter image2video and frame interpolation models in ComfyUI",
       "repository": "https://github.com/kijai/comfyui-dynamicrafterwrapper",
-      "github_stars": 682,
+      "github_stars": 681,
       "versions": {
         "1.0.3": {
           "version": "1.0.3",
@@ -605081,7 +606155,7 @@
       "display_name": "Image Size Tool",
       "description": "Resolution calculators and image size detection for AI models (SD 1.5, SDXL, Flux.1 Dev, WAN2.1)",
       "repository": "https://github.com/thelustriva/comfyui-image-size-tools",
-      "github_stars": 8,
+      "github_stars": 9,
       "versions": {
         "0.3.4": {
           "version": "0.3.4",
@@ -605793,7 +606867,7 @@
       "display_name": "ComfyUI-Model-Manager",
       "description": "Manage models: browsing, download and delete.",
       "repository": "https://github.com/hayden-fr/comfyui-model-manager",
-      "github_stars": 182,
+      "github_stars": 183,
       "versions": {
         "2.8.3": {
           "version": "2.8.3",
@@ -606022,7 +607096,7 @@
       "display_name": "z-tipo-extension",
       "description": "A general extension to utilize TIPO or DanTagGen to do 'text-presampling' based on KGen library: [a/https://github.com/KohakuBlueleaf/KGen](https://github.com/KohakuBlueleaf/KGen)",
       "repository": "https://github.com/kohakublueleaf/z-tipo-extension",
-      "github_stars": 560,
+      "github_stars": 562,
       "versions": {
         "1.0.3": {
           "version": "1.0.3",
@@ -606098,7 +607172,7 @@
       "display_name": "ComfyUI-MotionDiff",
       "description": "Implementation of 4DHuman, MDM, MotionDiffuse and ReMoDiffuse into ComfyUI.",
       "repository": "https://github.com/fannovel16/comfyui-motiondiff",
-      "github_stars": 212,
+      "github_stars": 213,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -607885,7 +608959,7 @@
       "display_name": "comfyui-nodes-docs",
       "description": "This is a plugin for displaying documentation for each comfyui node. ",
       "repository": "https://github.com/cavinhuang/comfyui-nodes-docs",
-      "github_stars": 271,
+      "github_stars": 272,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -611476,7 +612550,7 @@
       "display_name": "ComfyUI-OmniGen",
       "description": "OmniGen node for AI image generation",
       "repository": "https://github.com/1038lab/comfyui-omnigen",
-      "github_stars": 297,
+      "github_stars": 298,
       "versions": {
         "1.2.2": {
           "version": "1.2.2",
@@ -612021,6 +613095,11 @@
       "repository": "https://github.com/mittimi/comfyui_mittimiloadpreset2",
       "github_stars": 4,
       "versions": {
+        "1.0.4": {
+          "version": "1.0.4",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/mittimi/comfyui_mittimi_load_preset2/1.0.4/node.zip"
+        },
         "1.0.3": {
           "version": "1.0.3",
           "deprecated": false,
@@ -617462,7 +618541,7 @@
       "display_name": "ComfyUI_SongGeneration",
       "description": "SongGeneration:High-Quality Song Generation with Multi-Preference Alignment (SOTA),you can try VRAM>12G",
       "repository": "https://github.com/smthemex/comfyui_songgeneration",
-      "github_stars": 135,
+      "github_stars": 137,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -618685,7 +619764,7 @@
       "display_name": "ComfyUI-QwenVL",
       "description": "ComfyUI-QwenVL custom node: Integrates the Qwen-VL series, including Qwen2.5-VL and the latest Qwen3-VL, with GGUF support for advanced multimodal AI in text generation, image understanding, and video analysis.",
       "repository": "https://github.com/1038lab/comfyui-qwenvl",
-      "github_stars": 654,
+      "github_stars": 667,
       "versions": {
         "2.1.1": {
           "version": "2.1.1",
@@ -619146,7 +620225,7 @@
       "display_name": "VNCCS - Visual Novel Character Creation Suite",
       "description": "VNCCS - Visual Novel Character Creation Suite",
       "repository": "https://github.com/ahekot/comfyui_vnccs",
-      "github_stars": 761,
+      "github_stars": 785,
       "versions": {
         "2.1.0": {
           "version": "2.1.0",
@@ -619345,6 +620424,11 @@
       "repository": "https://github.com/tojioo/tojioo_passthrough",
       "github_stars": 9,
       "versions": {
+        "1.7.1": {
+          "version": "1.7.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/tojioo/tojioo-passthrough/1.7.1/node.zip"
+        },
         "1.7.0": {
           "version": "1.7.0",
           "deprecated": false,
@@ -619703,7 +620787,7 @@
       "display_name": "ComfyUI-Simple-IndexTTs",
       "description": "Bilibili IndexTTS2 ComfyUI Version, for text to speech,Auto-downloads models, support multiple roles,simple to use. support transformers <4.57.1",
       "repository": "https://github.com/newnovicechen/comfyui-simple-indextts",
-      "github_stars": 10,
+      "github_stars": 11,
       "versions": {
         "1.0.6": {
           "version": "1.0.6",
@@ -620286,6 +621370,11 @@
       "repository": "https://github.com/fkxianzhou/comfyui-jimeng-api",
       "github_stars": 20,
       "versions": {
+        "2.2.2": {
+          "version": "2.2.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/fkxianzhou/ComfyUI-Jimeng-API/2.2.2/node.zip"
+        },
         "2.2.1": {
           "version": "2.2.1",
           "deprecated": false,
@@ -621917,6 +623006,26 @@
       "repository": "https://github.com/r-vage/comfyui_eclipse",
       "github_stars": 8,
       "versions": {
+        "2.4.3": {
+          "version": "2.4.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_Eclipse/2.4.3/node.zip"
+        },
+        "2.4.2": {
+          "version": "2.4.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_Eclipse/2.4.2/node.zip"
+        },
+        "2.4.1": {
+          "version": "2.4.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_Eclipse/2.4.1/node.zip"
+        },
+        "2.4.0": {
+          "version": "2.4.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_Eclipse/2.4.0/node.zip"
+        },
         "2.3.25": {
           "version": "2.3.25",
           "deprecated": false,
@@ -622494,7 +623603,7 @@
       "display_name": "\u5927\u70ae-Qwen3VL",
       "description": "\ud83c\udf6d \u5927\u70ae-Qwen3VL ComfyUI \u81ea\u5b9a\u4e49\u8282\u70b9\u96c6\u5408\uff0c\u96c6\u6210\u4e86\u963f\u91cc\u4e91 Qwen \u56e2\u961f\u5f00\u53d1\u7684 Qwen3-VL \u591a\u6a21\u6001\u5927\u8bed\u8a00\u6a21\u578b\u7cfb\u5217\u3002",
       "repository": "https://github.com/paolaoshi/comfyui-qwen3vl-dp",
-      "github_stars": 93,
+      "github_stars": 94,
       "versions": {
         "1.0.6": {
           "version": "1.0.6",
@@ -622968,7 +624077,7 @@
       "display_name": "Video Output Bridge",
       "description": "Bridge VHS_VideoCombine video outputs to standard image payloads for serverless runners (RunPod, Modal). Enables automatic S3 uploads of MP4/WebP files in worker-comfyui deployments.",
       "repository": "https://github.com/arthurtravers/comfyui-videooutputbridge",
-      "github_stars": 1,
+      "github_stars": 2,
       "versions": {
         "0.2.6": {
           "version": "0.2.6",
@@ -624489,7 +625598,7 @@
       "display_name": "ComfyUI-Simple_Readable_Metadata-SG",
       "description": "View Image Metadata of ComfyUI as well as of ForgeUI or Automatic 1111 generated images in Easily Readable Format",
       "repository": "https://github.com/shammig/comfyui-simple_readable_metadata-sg",
-      "github_stars": 47,
+      "github_stars": 49,
       "versions": {
         "2.5.4": {
           "version": "2.5.4",
@@ -624866,6 +625975,11 @@
       "repository": "https://github.com/bulldog68/comfyui_fmj_sp",
       "github_stars": 1,
       "versions": {
+        "1.13.0": {
+          "version": "1.13.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/bulldog68/ComfyUI_FMJ_SP/1.13.0/node.zip"
+        },
         "1.12.0": {
           "version": "1.12.0",
           "deprecated": false,
@@ -625942,7 +627056,7 @@
       "display_name": "ComfyUI Text Processor",
       "description": "A comprehensive suite of utility nodes for ComfyUI: Text Processing, Logic Evaluation, and Image Tools.",
       "repository": "https://github.com/rookiestar28/comfyui_text_processor",
-      "github_stars": 6,
+      "github_stars": 13,
       "versions": {
         "1.3.8": {
           "version": "1.3.8",
@@ -626853,7 +627967,7 @@
       "display_name": "Dapao-Toolbox",
       "description": "Comfyui\u5927\u70ae\u5de5\u5177\u7bb1\uff0c\u96c6\u5408comfyui\u642d\u5efa\u8fc7\u7a0b\u4e2d\u5e38\u7528\u5de5\u5177\uff0c\u4e0d\u65ad\u66f4\u65b0\u4e2d\u2026\u2026",
       "repository": "https://github.com/paolaoshi/dapao-toolbox",
-      "github_stars": 33,
+      "github_stars": 34,
       "versions": {
         "1.4.20": {
           "version": "1.4.20",
@@ -627210,7 +628324,7 @@
       "display_name": "Kiko Prompt Builder",
       "description": "A visual prompt builder ComfyUI custom node for structured JSON prompt generation. Build photography-style prompts with camera settings, lighting, composition, and color palettes. Compatible with FLUX (Black Forest Labs), z-image, and other JSON-prompt models.",
       "repository": "https://github.com/comfyassets/kiko-flux2-prompt-builder",
-      "github_stars": 45,
+      "github_stars": 46,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -627481,7 +628595,7 @@
       "display_name": "ComfyUI_Dynamic-RAMCache",
       "description": "A custom node for ComfyUI that dynamically manages RAM usage by intelligently controlling cache purging based on available system memory.",
       "repository": "https://github.com/windecay/comfyui_dynamic-ramcache",
-      "github_stars": 66,
+      "github_stars": 68,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -627852,10 +628966,15 @@
     },
     "burve_tools": {
       "display_name": "ComfyUI_Burve_Tools",
-      "description": "A collection of ComfyUI helper nodes, including Google Gemini 3 Pro API image generation and related utilities.",
+      "description": "A collection of ComfyUI helper nodes with Gemini image generation, including Gemini 3.1 Flash Image, Google Image Search grounding, and thinking controls.",
       "repository": "https://github.com/burve/comfyui_burve_tools",
       "github_stars": 4,
       "versions": {
+        "1.4.0": {
+          "version": "1.4.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/burve/burve_tools/1.4.0/node.zip"
+        },
         "1.3.0": {
           "version": "1.3.0",
           "deprecated": false,
@@ -627882,7 +629001,7 @@
       "display_name": "ComfyUI-ZImageLatent",
       "description": "A super simple node that outputs official zimage resolutions as a latent",
       "repository": "https://github.com/hellercommaa/comfyui-zimagelatent",
-      "github_stars": 30,
+      "github_stars": 34,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -628075,7 +629194,7 @@
       "display_name": "Comfyui Mesh2Motion",
       "description": "Integrates Mesh2motion into ComfyUI for 3D model animation rigging",
       "repository": "https://github.com/jtydhr88/comfyui-mesh2motion",
-      "github_stars": 46,
+      "github_stars": 48,
       "versions": {
         "0.3.0": {
           "version": "0.3.0",
@@ -628880,6 +629999,31 @@
       "repository": "https://github.com/erepublik-labs/comfyui-nodes-erpk",
       "github_stars": 0,
       "versions": {
+        "2026.2.20": {
+          "version": "2026.2.20",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/erpk/comfyui-nodes-erpk/2026.2.20/node.zip"
+        },
+        "2026.2.19": {
+          "version": "2026.2.19",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/erpk/comfyui-nodes-erpk/2026.2.19/node.zip"
+        },
+        "2026.2.18": {
+          "version": "2026.2.18",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/erpk/comfyui-nodes-erpk/2026.2.18/node.zip"
+        },
+        "2026.2.17": {
+          "version": "2026.2.17",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/erpk/comfyui-nodes-erpk/2026.2.17/node.zip"
+        },
+        "2026.2.16": {
+          "version": "2026.2.16",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/erpk/comfyui-nodes-erpk/2026.2.16/node.zip"
+        },
         "2026.2.15": {
           "version": "2026.2.15",
           "deprecated": false,
@@ -629495,7 +630639,7 @@
       "display_name": "ComfyUI-TiledVaeLite",
       "description": "A faster tiled VAE decode node for ComfyUI based on LTXV, optimized for low VRAM scenarios with configurable tiling, progress bar, and improved logging for decoding large images and videos.",
       "repository": "https://github.com/hum-ma/comfyui-tiledvaelite",
-      "github_stars": 3,
+      "github_stars": 4,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -631597,7 +632741,7 @@
       "display_name": "Comfy_HunyuanImage3",
       "description": "Professional ComfyUI custom nodes for Tencent's HunyuanImage-3.0 80B multimodal model \u00e2\u20ac\u201d text-to-image, Instruct editing, multi-image fusion, block swap, multiple quantization modes (BF16/INT8/NF4), smart memory management, and high-res generation.",
       "repository": "https://github.com/ericrollei/comfy_hunyuanimage3",
-      "github_stars": 25,
+      "github_stars": 28,
       "versions": {
         "1.2.0": {
           "version": "1.2.0",
@@ -631925,7 +633069,7 @@
       "display_name": "ComfyUI-SuperNodes",
       "description": "A miscellaneous node pack of custom implementations needed for workflows released by my SuperComfy YouTube channel.",
       "repository": "https://github.com/sonnybox/comfyui-supernodes",
-      "github_stars": 4,
+      "github_stars": 5,
       "versions": {
         "0.2.1": {
           "version": "0.2.1",
@@ -631976,7 +633120,7 @@
     },
     "arctenoxs-essentials-comfyui": {
       "display_name": "Arctenox's Essentials",
-      "description": "A collection of efficient workflow nodes for ComfyUI with advanced sampling, seed management, temporal prompt processing, workflow optimization tool and more.",
+      "description": "A collection of efficient workflow nodes for ComfyUI with advanced sampling, seed management, temporal prompt processing, workflow optimization tool and more. Also includes autocomplete that uses E621 and Danbooru Tags.",
       "repository": "https://github.com/arctenox/arctenoxs-essentials_comfyui",
       "github_stars": 1,
       "versions": {
@@ -632664,7 +633808,7 @@
       "display_name": "ComfyUI-FlashPortrait",
       "description": "ComfyUI nodes for FlashPortrait that enable infinite-length portrait animation generation driven by video with automatic model downloading and flexible input options.",
       "repository": "https://github.com/okdalto/comfyui-flashportrait",
-      "github_stars": 23,
+      "github_stars": 24,
       "versions": {
         "1.0.2": {
           "version": "1.0.2",
@@ -633174,8 +634318,13 @@
       "display_name": "ComfyUI Doctor",
       "description": "A real-time debugging assistant for ComfyUI, featuring interactive debugging chat, and 50+ fix patterns. Automatically intercepts terminal output from startup, and delivers prioritized fix suggestions with node-level context extraction. Now supports JSON-based pattern management with hot-reload and full i18n support for 9 languages.",
       "repository": "https://github.com/rookiestar28/comfyui-doctor",
-      "github_stars": 57,
+      "github_stars": 58,
       "versions": {
+        "1.6.8": {
+          "version": "1.6.8",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rookiestar/comfyui-doctor/1.6.8/node.zip"
+        },
         "1.6.5": {
           "version": "1.6.5",
           "deprecated": false,
@@ -634934,7 +636083,7 @@
       "display_name": "Comfyui-PixNodes",
       "description": "\u8282\u70b9\u5de5\u5177\u7bb1\u3001\u89c6\u9891\u56fe\u50cf\u6279\u5904\u7406\u3001JSON\u6570\u636e\u5904\u7406",
       "repository": "https://github.com/pixixai/comfyui-pixnodes",
-      "github_stars": 13,
+      "github_stars": 15,
       "versions": {
         "1.0.9": {
           "version": "1.0.9",
@@ -635045,7 +636194,7 @@
       "display_name": "Flux2 Fun ControlNet",
       "description": "ComfyUI implementation of FLUX.2-dev-Fun-Controlnet-Union from Alibaba's VideoX-Fun",
       "repository": "https://github.com/bryanmcguire/comfyui-flux2fun-controlnet",
-      "github_stars": 8,
+      "github_stars": 9,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -635436,7 +636585,7 @@
       "display_name": "ComfyUI_FMJ_SaveImageVersions",
       "description": "Sauvegarde d\u2019images avec m\u00e9tadonn\u00e9es compl\u00e8tes (prompt, Workflow, versions logicielles, commit)",
       "repository": "https://github.com/bulldog68/comfyui_fmj_saveimageversions",
-      "github_stars": 0,
+      "github_stars": 1,
       "versions": {
         "1.0.4": {
           "version": "1.0.4",
@@ -636395,7 +637544,7 @@
       "display_name": "ComfyUI Storyboard",
       "description": "A modern, powerful, and easy-to-use Storyboard extension for ComfyUI.",
       "repository": "https://github.com/colorai/comfyui-storyboard",
-      "github_stars": 36,
+      "github_stars": 37,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -636984,7 +638133,7 @@
       "display_name": "EasyKit-NodeAlign-Pro",
       "description": "Node2.0-based professional alignment & real-time node color picker - innovative first support: A must-have plugin for managing node layout and color schemes in ComfyUI. Features a real-time color picker, alignment, 7 preset colors, grayscale/custom modes, and one-click reverse alignment.",
       "repository": "https://github.com/artstich/comfyui_easykitht_nodealignpro",
-      "github_stars": 44,
+      "github_stars": 45,
       "versions": {
         "2.1.17": {
           "version": "2.1.17",
@@ -637118,7 +638267,7 @@
       "display_name": "ComfyUI-Majoor-AssetsManager",
       "description": "Majoor Assets Manager is an advanced asset browser for ComfyUI that provides a comprehensive solution for managing, organizing, and viewing your generated assets. It integrates directly into ComfyUI, offering features like full-text search, metadata extraction, rating and tagging systems, and advanced viewing capabilities.",
       "repository": "https://github.com/majoorwaldi/comfyui-majoor-assetsmanager",
-      "github_stars": 48,
+      "github_stars": 51,
       "versions": {
         "2.3.3": {
           "version": "2.3.3",
@@ -637193,6 +638342,11 @@
       "repository": "https://github.com/capitan01r/comfyui-capitanzit-scheduler",
       "github_stars": 109,
       "versions": {
+        "1.1.3": {
+          "version": "1.1.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/capitan01r/ComfyUI-CapitanZiT-Scheduler/1.1.3/node.zip"
+        },
         "1.1.2": {
           "version": "1.1.2",
           "deprecated": false,
@@ -637224,7 +638378,7 @@
       "display_name": "Mickmumpitz-Nodes",
       "description": "A collection of custom nodes for ComfyUI by Mickmumpitz",
       "repository": "https://github.com/mickmumpitz/comfyui-mickmumpitz-nodes",
-      "github_stars": 0,
+      "github_stars": 1,
       "versions": {
         "1.0.5": {
           "version": "1.0.5",
@@ -637346,6 +638500,11 @@
       "repository": "https://github.com/ussoewwin/comfyui-nunchaku-unofficial-loader",
       "github_stars": 7,
       "versions": {
+        "3.0.0": {
+          "version": "3.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ussoewwin/comfyui-nunchaku-unofficial-loader/3.0.0/node.zip"
+        },
         "2.6.6": {
           "version": "2.6.6",
           "deprecated": false,
@@ -637785,8 +638944,13 @@
       "display_name": "ComfyUI TranslateGemma",
       "description": "ComfyUI node for TranslateGemma \u2014 Google's open source translation models with 55 languages & multimodal image translation.",
       "repository": "https://github.com/rookiestar28/comfyui-translategemma",
-      "github_stars": 22,
+      "github_stars": 23,
       "versions": {
+        "1.2.3": {
+          "version": "1.2.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rookiestar/comfyui-translategemma/1.2.3/node.zip"
+        },
         "1.2.2": {
           "version": "1.2.2",
           "deprecated": false,
@@ -637935,7 +639099,7 @@
       "display_name": "ComfyUI-AlignLayout",
       "description": "\u8282\u70b9\u5bf9\u9f50\u3001\u8282\u70b9\u62c9\u4f38\u3001\u5feb\u6377\u83dc\u5355\u3001\u6536\u85cf\u83dc\u5355\u3001\u81ea\u52a8\u5e03\u5c40\u3001\u9009\u62e9\u76f8\u540c\u3001\u66ff\u6362\u8282\u70b9\u3001\u5feb\u901f\u8fde\u63a5",
       "repository": "https://github.com/pixixai/comfyui-alignlayout",
-      "github_stars": 62,
+      "github_stars": 64,
       "versions": {
         "1.0.9": {
           "version": "1.0.9",
@@ -638406,7 +639570,7 @@
       "display_name": "Halo-Lipsy",
       "description": "AMD unified memory lip sync for ComfyUI. Native Wav2Lip inference with no subprocesses - works on Strix Halo, ROCm, and all AMD APUs.",
       "repository": "https://github.com/bkpaine1/halo-lipsy",
-      "github_stars": 3,
+      "github_stars": 4,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -641097,8 +642261,13 @@
       "display_name": "ComfyUI OpenClaw",
       "description": "Your own personal AIGC Factory. Any picture. Any reel. The Comfy way.\u00a9\ufe0f",
       "repository": "https://github.com/rookiestar28/comfyui-openclaw",
-      "github_stars": 400,
+      "github_stars": 404,
       "versions": {
+        "0.6.0": {
+          "version": "0.6.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rookiestar/comfyui-openclaw/0.6.0/node.zip"
+        },
         "0.5.5": {
           "version": "0.5.5",
           "deprecated": false,
@@ -641210,7 +642379,7 @@
       "display_name": "ComfyUI-VoiceBridge",
       "description": "Convert spoken audio to translated speech in any language via ASR + LLM + TTS pipeline",
       "repository": "https://github.com/yantianlong-01/comfyui_voicebridge",
-      "github_stars": 2,
+      "github_stars": 4,
       "versions": {
         "0.2.3": {
           "version": "0.2.3",
@@ -641505,6 +642674,16 @@
       "repository": "https://github.com/r-vage/comfyui_smartlml",
       "github_stars": 0,
       "versions": {
+        "2.4.1": {
+          "version": "2.4.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_SmartLML/2.4.1/node.zip"
+        },
+        "2.4.0": {
+          "version": "2.4.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_SmartLML/2.4.0/node.zip"
+        },
         "2.3.22": {
           "version": "2.3.22",
           "deprecated": false,
@@ -641738,7 +642917,7 @@
       "display_name": "ComfyUI_OmnimatteZero",
       "description": "Training-Free Video Matting and Compositing via Latent Diffusion Models",
       "repository": "https://github.com/smthemex/comfyui_omnimattezero",
-      "github_stars": 12,
+      "github_stars": 13,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -641774,7 +642953,7 @@
       "display_name": "ComfyUI-TP-OmnimatteZero",
       "description": "Nodes to run native weights of LTX's OmnimatteZero.\nWorkflow:\nhttps://github.com/tpc2233/ComfyUI-TP-OmnimatteZero/tree/main/workflows",
       "repository": "https://github.com/tpc2233/comfyui-tp-omnimattezero",
-      "github_stars": 23,
+      "github_stars": 27,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -642135,6 +643314,26 @@
       "repository": "https://github.com/maxed-out-99/comfyui-maxedout",
       "github_stars": 7,
       "versions": {
+        "1.8.9": {
+          "version": "1.8.9",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/maxedout/ComfyUI-MaxedOut/1.8.9/node.zip"
+        },
+        "1.8.8": {
+          "version": "1.8.8",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/maxedout/ComfyUI-MaxedOut/1.8.8/node.zip"
+        },
+        "1.8.7": {
+          "version": "1.8.7",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/maxedout/ComfyUI-MaxedOut/1.8.7/node.zip"
+        },
+        "1.8.6": {
+          "version": "1.8.6",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/maxedout/ComfyUI-MaxedOut/1.8.6/node.zip"
+        },
         "1.8.5": {
           "version": "1.8.5",
           "deprecated": false,
@@ -643085,6 +644284,11 @@
       "repository": "https://github.com/drago87/dragos-scenebuilder",
       "github_stars": 0,
       "versions": {
+        "1.1.2": {
+          "version": "1.1.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/drdrago87/Dragos-SceneBuilder/1.1.2/node.zip"
+        },
         "1.1.0": {
           "version": "1.1.0",
           "deprecated": false,
@@ -643515,6 +644719,11 @@
       "repository": "https://github.com/ethanfel/comfyui-workflow-snapshot-manager",
       "github_stars": 1,
       "versions": {
+        "3.0.0": {
+          "version": "3.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ethanfel/comfyui-snapshot-manager/3.0.0/node.zip"
+        },
         "2.4.0": {
           "version": "2.4.0",
           "deprecated": false,
@@ -643587,7 +644796,7 @@
       "display_name": "Visual Model Merge",
       "description": "A ComfyUI custom node that provides an interactive curve editor for SDXL model block weight merging.",
       "repository": "https://github.com/jeremy-strang/comfyui-visualmodelmerge",
-      "github_stars": 0,
+      "github_stars": 2,
       "versions": {
         "1.0.3": {
           "version": "1.0.3",
@@ -643640,6 +644849,16 @@
       "repository": "https://github.com/jimpi-dev/workflowuiplugin",
       "github_stars": 0,
       "versions": {
+        "1.0.3": {
+          "version": "1.0.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/jimpi/WorkflowUIPlugin/1.0.3/node.zip"
+        },
+        "1.0.2": {
+          "version": "1.0.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/jimpi/WorkflowUIPlugin/1.0.2/node.zip"
+        },
         "1.0.1": {
           "version": "1.0.1",
           "deprecated": false,
@@ -643714,6 +644933,115 @@
           "version": "1.0.0",
           "deprecated": false,
           "download_url": "https://cdn.comfy.org/sugarknight/comfyui-auto-mosaic/1.0.0/node.zip"
+        }
+      }
+    },
+    "comfyui-prometheus-exporter": {
+      "display_name": "ComfyUI Prometheus Exporter",
+      "description": "A standalone custom node that creates a Prometheus-compatible metrics endpoint within the ComfyUI installation.",
+      "repository": "https://github.com/olivergee/comfyui-prometheus-exporter",
+      "github_stars": 1,
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/olivergee/comfyui-prometheus-exporter/1.0.0/node.zip"
+        }
+      }
+    },
+    "comfyui-leon-nodes": {
+      "display_name": "ComfyUI Leon Nodes",
+      "description": "ComfyUI custom nodes with multiple API integrations: Google Imagen (via HyprLab), FLUX Image & Kontext, Luma AI, Midjourney proxy, ImgBB upload, HyprLab upload, and utility nodes for string manipulation and image splitting.",
+      "repository": "https://github.com/l3ony2k/comfyui-leon-nodes",
+      "github_stars": 3,
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lok/comfyui-leon-nodes/1.0.0/node.zip"
+        }
+      }
+    },
+    "pm-manager": {
+      "display_name": "ComfyUI-PM-Manager",
+      "description": "ComfyUI\u8282\u70b9",
+      "repository": "https://github.com/pixel-magician/comfyui-pm-manager",
+      "github_stars": 0,
+      "versions": {
+        "0.0.1": {
+          "version": "0.0.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pixel-magician/pm-manager/0.0.1/node.zip"
+        }
+      }
+    },
+    "VisionPlaid": {
+      "display_name": "ComfyUI-VisionPlaid",
+      "description": "Boost diffusion inference through quantization, parallelization, etc.",
+      "repository": "git@gitlab.alibaba-inc.com:xcode-ml/comfy-visionplaid",
+      "github_stars": 0,
+      "versions": {
+        "1.0.1": {
+          "version": "1.0.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/linade/VisionPlaid/1.0.1/node.zip"
+        }
+      }
+    },
+    "pm-nodes": {
+      "display_name": "ComfyUI-PM-Nodes",
+      "description": "ComfyUI\u8282\u70b9",
+      "repository": "https://github.com/pixel-magician/comfyui-pm-nodes",
+      "github_stars": 0,
+      "versions": {
+        "0.0.2": {
+          "version": "0.0.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pixel-magician/pm-nodes/0.0.2/node.zip"
+        }
+      }
+    },
+    "actual-denoise": {
+      "display_name": "Actual Denoise",
+      "description": "Simple ComfyUI nodes to set the actual amount of noise in img2img, ensuring consistent behavior when changing schedulers.",
+      "repository": "https://github.com/mozhaa/comfyui-actual-denoise",
+      "github_stars": 15,
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/mozhaa/actual-denoise/1.0.0/node.zip"
+        }
+      }
+    },
+    "comfyui-studiodeep": {
+      "display_name": "StudioDeep",
+      "description": "StudioDeep nodes for ComfyUI \u2014 AI-assisted text-to-video prompt building and LLM/N8N backend integration.",
+      "repository": "https://github.com/studiodeep-ai/comfyui-studiodeep",
+      "github_stars": 0,
+      "versions": {
+        "0.1.2": {
+          "version": "0.1.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/studiodeep/comfyui-studiodeep/0.1.2/node.zip"
+        }
+      }
+    },
+    "comfyui-prompt-translator-enhancer": {
+      "display_name": "Prompt Translator & Enhancer",
+      "description": "Translates and enhances prompts from multiple languages to English using local GGUF models.",
+      "repository": "https://github.com/ezetojo/comfyui-prompttranslatorenhancer",
+      "github_stars": 0,
+      "versions": {
+        "0.0.2": {
+          "version": "0.0.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ezetojo/comfyui-prompt-translator-enhancer/0.0.2/node.zip"
+        },
+        "0.0.1": {
+          "version": "0.0.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ezetojo/comfyui-prompt-translator-enhancer/0.0.1/node.zip"
         }
       }
     },
@@ -644817,14 +646145,6 @@
       "display_name": "ComfyUI MaskAIFingerprint",
       "description": "",
       "repository": "https://github.com/fearl0rd/comfyui-maskaifingerprint",
-      "github_stars": 0,
-      "source": "manager",
-      "versions": {}
-    },
-    "manager_femreiyadev_comfyui_reiyanodes": {
-      "display_name": "ComfyUI-ReiyaNodes",
-      "description": "",
-      "repository": "https://github.com/femreiyadev/comfyui-reiyanodes",
       "github_stars": 0,
       "source": "manager",
       "versions": {}
@@ -647237,6 +648557,14 @@
       "source": "manager",
       "versions": {}
     },
+    "manager_tripleheadedmonkey_comfyui_zlycoris": {
+      "display_name": "ComfyUI-Zlycoris",
+      "description": "",
+      "repository": "https://github.com/tripleheadedmonkey/comfyui-zlycoris",
+      "github_stars": 0,
+      "source": "manager",
+      "versions": {}
+    },
     "manager_trophihunter_comfyui_photography_nodes": {
       "display_name": "Photography Nodes",
       "description": "",
@@ -647977,14 +649305,6 @@
       "display_name": "ComfyUI Empty Latent Advanced",
       "description": "",
       "repository": "https://github.com/ameyukisora/comfyui-empty-latent-advanced",
-      "github_stars": 0,
-      "source": "manager",
-      "versions": {}
-    },
-    "manager_anilstream_comfyui_ideogram_character": {
-      "display_name": "ComfyUI-Ideogram-Character",
-      "description": "",
-      "repository": "https://github.com/anilstream/comfyui-ideogram-character",
       "github_stars": 0,
       "source": "manager",
       "versions": {}
@@ -649169,6 +650489,14 @@
       "display_name": "comfyui-prompt-splitter",
       "description": "",
       "repository": "https://github.com/elgalardi/comfyui-prompt-splitter",
+      "github_stars": 0,
+      "source": "manager",
+      "versions": {}
+    },
+    "manager_emniko_comfyui_clipscore": {
+      "display_name": "ComfyUI-CLIPScore",
+      "description": "",
+      "repository": "https://github.com/emniko/comfyui-clipscore",
       "github_stars": 0,
       "source": "manager",
       "versions": {}
@@ -650509,14 +651837,6 @@
       "source": "manager",
       "versions": {}
     },
-    "manager_l3ony2k_comfyui_leon_nodes": {
-      "display_name": "Leon's Utility and API Integration Nodes",
-      "description": "",
-      "repository": "https://github.com/l3ony2k/comfyui-leon-nodes",
-      "github_stars": 0,
-      "source": "manager",
-      "versions": {}
-    },
     "manager_lakkiy_comfyui_rwimages3": {
       "display_name": "ComfyUI-RWImageS3",
       "description": "",
@@ -650845,6 +652165,14 @@
       "source": "manager",
       "versions": {}
     },
+    "manager_magicoli_comfyui_oli_prompt_tools": {
+      "display_name": "comfyui-oli-prompt-tools",
+      "description": "",
+      "repository": "https://github.com/magicoli/comfyui-oli-prompt-tools",
+      "github_stars": 0,
+      "source": "manager",
+      "versions": {}
+    },
     "manager_maikgreubel_comfyui_loaddds": {
       "display_name": "Load DDS File Node",
       "description": "",
@@ -651085,10 +652413,10 @@
       "source": "manager",
       "versions": {}
     },
-    "manager_mozhaa_comfyui_actual_denoise": {
-      "display_name": "ComfyUI-Actual-Denoise",
+    "manager_mr_september_comfyui_pad_to_multiple": {
+      "display_name": "ComfyUI Pad to Multiple",
       "description": "",
-      "repository": "https://github.com/mozhaa/comfyui-actual-denoise",
+      "repository": "https://github.com/mr-september/comfyui-pad-to-multiple",
       "github_stars": 0,
       "source": "manager",
       "versions": {}
@@ -651097,6 +652425,14 @@
       "display_name": "ComfyPoe",
       "description": "",
       "repository": "https://github.com/mrf/comfypoe",
+      "github_stars": 0,
+      "source": "manager",
+      "versions": {}
+    },
+    "manager_mrlonglegland_comfyui_luminaxstudio": {
+      "display_name": "ComfyUI-LuminaXStudio",
+      "description": "",
+      "repository": "https://github.com/mrlonglegland/comfyui-luminaxstudio",
       "github_stars": 0,
       "source": "manager",
       "versions": {}
