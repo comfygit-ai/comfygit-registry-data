@@ -1,6 +1,6 @@
 {
-  "version": "2026.02.27",
-  "generated_at": "2026-02-27T04:06:59.190562+00:00",
+  "version": "2026.03.06",
+  "generated_at": "2026-03-06T04:03:00.460080+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -103,13 +103,17 @@
     "v0.14.1",
     "v0.14.2",
     "v0.15.0",
-    "v0.15.1"
+    "v0.15.1",
+    "v0.16.0",
+    "v0.16.1",
+    "v0.16.2",
+    "v0.16.3"
   ],
   "stats": {
-    "total_builtins": 673,
-    "versions_processed": 102,
-    "newest_version": "v0.15.1",
-    "nodes_added_in_latest": 1
+    "total_builtins": 679,
+    "versions_processed": 106,
+    "newest_version": "v0.16.3",
+    "nodes_added_in_latest": 0
   },
   "builtins": {
     "APG": {
@@ -519,6 +523,10 @@
     },
     "CreateVideo": {
       "introduced_in": "v0.3.31",
+      "category": "extras"
+    },
+    "CropByBBoxes": {
+      "introduced_in": "v0.16.0",
       "category": "extras"
     },
     "CropMask": {
@@ -2034,6 +2042,10 @@
       "introduced_in": "v0.6.0",
       "category": "extras"
     },
+    "ResolutionSelector": {
+      "introduced_in": "v0.16.0",
+      "category": "extras"
+    },
     "Rodin3D_Detail": {
       "introduced_in": "v0.3.37",
       "category": "api"
@@ -2069,6 +2081,18 @@
     "RunwayTextToImageNode": {
       "introduced_in": "v0.3.37",
       "category": "api"
+    },
+    "SDPoseDrawKeypoints": {
+      "introduced_in": "v0.16.0",
+      "category": "extras"
+    },
+    "SDPoseFaceBBoxes": {
+      "introduced_in": "v0.16.0",
+      "category": "extras"
+    },
+    "SDPoseKeypointExtractor": {
+      "introduced_in": "v0.16.0",
+      "category": "extras"
     },
     "SDTurboScheduler": {
       "introduced_in": "v0.3.0",
@@ -2779,6 +2803,10 @@
     "WanReferenceVideoApi": {
       "introduced_in": "v0.8.0",
       "category": "api"
+    },
+    "WanSCAILToVideo": {
+      "introduced_in": "v0.16.0",
+      "category": "extras"
     },
     "WanSoundImageToVideo": {
       "introduced_in": "v0.3.53",
