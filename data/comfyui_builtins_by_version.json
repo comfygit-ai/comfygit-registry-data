@@ -1,6 +1,6 @@
 {
-  "version": "2026.03.06",
-  "generated_at": "2026-03-06T04:03:00.460080+00:00",
+  "version": "2026.03.08",
+  "generated_at": "2026-03-08T04:04:43.299942+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -107,13 +107,14 @@
     "v0.16.0",
     "v0.16.1",
     "v0.16.2",
-    "v0.16.3"
+    "v0.16.3",
+    "v0.16.4"
   ],
   "stats": {
-    "total_builtins": 679,
-    "versions_processed": 106,
-    "newest_version": "v0.16.3",
-    "nodes_added_in_latest": 0
+    "total_builtins": 681,
+    "versions_processed": 107,
+    "newest_version": "v0.16.4",
+    "nodes_added_in_latest": 2
   },
   "builtins": {
     "APG": {
@@ -383,6 +384,10 @@
     },
     "ComboOptionTestNode": {
       "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "ComfyMathExpression": {
+      "introduced_in": "v0.16.4",
       "category": "extras"
     },
     "ComfySoftSwitchNode": {
@@ -2450,6 +2455,10 @@
     },
     "TencentModelTo3DUVNode": {
       "introduced_in": "v0.14.0",
+      "category": "api"
+    },
+    "TencentSmartTopologyNode": {
+      "introduced_in": "v0.16.4",
       "category": "api"
     },
     "TencentTextToModelNode": {
