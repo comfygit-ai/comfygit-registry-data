@@ -1,6 +1,6 @@
 {
-  "version": "2026.03.08",
-  "generated_at": "2026-03-08T04:04:43.299942+00:00",
+  "version": "2026.03.13",
+  "generated_at": "2026-03-13T04:05:41.743871+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -108,13 +108,14 @@
     "v0.16.1",
     "v0.16.2",
     "v0.16.3",
-    "v0.16.4"
+    "v0.16.4",
+    "v0.17.0"
   ],
   "stats": {
-    "total_builtins": 681,
-    "versions_processed": 107,
-    "newest_version": "v0.16.4",
-    "nodes_added_in_latest": 2
+    "total_builtins": 686,
+    "versions_processed": 108,
+    "newest_version": "v0.17.0",
+    "nodes_added_in_latest": 5
   },
   "builtins": {
     "APG": {
@@ -708,6 +709,10 @@
     },
     "FluxGuidance": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "FluxKVCache": {
+      "introduced_in": "v0.17.0",
       "category": "extras"
     },
     "FluxKontextImageScale": {
@@ -1724,6 +1729,10 @@
       "introduced_in": "v0.3.28",
       "category": "extras"
     },
+    "Painter": {
+      "introduced_in": "v0.17.0",
+      "category": "extras"
+    },
     "PairConditioningCombine": {
       "introduced_in": "v0.3.7",
       "category": "extras"
@@ -2050,6 +2059,18 @@
     "ResolutionSelector": {
       "introduced_in": "v0.16.0",
       "category": "extras"
+    },
+    "ReveImageCreateNode": {
+      "introduced_in": "v0.17.0",
+      "category": "api"
+    },
+    "ReveImageEditNode": {
+      "introduced_in": "v0.17.0",
+      "category": "api"
+    },
+    "ReveImageRemixNode": {
+      "introduced_in": "v0.17.0",
+      "category": "api"
     },
     "Rodin3D_Detail": {
       "introduced_in": "v0.3.37",
