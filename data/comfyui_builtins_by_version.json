@@ -1,6 +1,6 @@
 {
-  "version": "2026.03.15",
-  "generated_at": "2026-03-15T04:26:51.337563+00:00",
+  "version": "2026.03.21",
+  "generated_at": "2026-03-21T03:59:06.705939+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -111,13 +111,14 @@
     "v0.16.4",
     "v0.17.0",
     "v0.17.1",
-    "v0.17.2"
+    "v0.17.2",
+    "v0.18.0"
   ],
   "stats": {
-    "total_builtins": 686,
-    "versions_processed": 110,
-    "newest_version": "v0.17.2",
-    "nodes_added_in_latest": 0
+    "total_builtins": 688,
+    "versions_processed": 111,
+    "newest_version": "v0.18.0",
+    "nodes_added_in_latest": 2
   },
   "builtins": {
     "APG": {
@@ -1889,6 +1890,14 @@
     "QuadrupleCLIPLoader": {
       "introduced_in": "v0.3.29",
       "category": "extras"
+    },
+    "QuiverImageToSVGNode": {
+      "introduced_in": "v0.18.0",
+      "category": "api"
+    },
+    "QuiverTextToSVGNode": {
+      "introduced_in": "v0.18.0",
+      "category": "api"
     },
     "QwenImageDiffsynthControlnet": {
       "introduced_in": "v0.3.52",
