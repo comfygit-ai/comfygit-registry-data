@@ -1,6 +1,6 @@
 {
-  "version": "2026.03.22",
-  "generated_at": "2026-03-22T04:12:44.638257+00:00",
+  "version": "2026.03.25",
+  "generated_at": "2026-03-25T04:13:02.563907+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -113,13 +113,14 @@
     "v0.17.1",
     "v0.17.2",
     "v0.18.0",
-    "v0.18.1"
+    "v0.18.1",
+    "v0.18.2"
   ],
   "stats": {
-    "total_builtins": 688,
-    "versions_processed": 112,
-    "newest_version": "v0.18.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 690,
+    "versions_processed": 113,
+    "newest_version": "v0.18.2",
+    "nodes_added_in_latest": 2
   },
   "builtins": {
     "APG": {
@@ -835,8 +836,16 @@
       "introduced_in": "v0.11.1",
       "category": "api"
     },
+    "GrokVideoExtendNode": {
+      "introduced_in": "v0.18.2",
+      "category": "api"
+    },
     "GrokVideoNode": {
       "introduced_in": "v0.11.1",
+      "category": "api"
+    },
+    "GrokVideoReferenceNode": {
+      "introduced_in": "v0.18.2",
       "category": "api"
     },
     "GrowMask": {
