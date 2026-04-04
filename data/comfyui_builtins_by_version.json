@@ -1,6 +1,6 @@
 {
-  "version": "2026.03.27",
-  "generated_at": "2026-03-27T04:28:35.451977+00:00",
+  "version": "2026.04.04",
+  "generated_at": "2026-04-04T04:10:28.551695+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -115,12 +115,14 @@
     "v0.18.0",
     "v0.18.1",
     "v0.18.2",
-    "v0.18.3"
+    "v0.18.3",
+    "v0.18.4",
+    "v0.18.5"
   ],
   "stats": {
-    "total_builtins": 690,
-    "versions_processed": 114,
-    "newest_version": "v0.18.3",
+    "total_builtins": 695,
+    "versions_processed": 116,
+    "newest_version": "v0.18.5",
     "nodes_added_in_latest": 0
   },
   "builtins": {
@@ -2783,6 +2785,26 @@
     "Wan22ImageToVideoLatent": {
       "introduced_in": "v0.3.46",
       "category": "extras"
+    },
+    "Wan2ImageToVideoApi": {
+      "introduced_in": "v0.18.4",
+      "category": "api"
+    },
+    "Wan2ReferenceVideoApi": {
+      "introduced_in": "v0.18.4",
+      "category": "api"
+    },
+    "Wan2TextToVideoApi": {
+      "introduced_in": "v0.18.4",
+      "category": "api"
+    },
+    "Wan2VideoContinuationApi": {
+      "introduced_in": "v0.18.4",
+      "category": "api"
+    },
+    "Wan2VideoEditApi": {
+      "introduced_in": "v0.18.4",
+      "category": "api"
     },
     "WanAnimateToVideo": {
       "introduced_in": "v0.3.60",
