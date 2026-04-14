@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.04",
-  "generated_at": "2026-04-04T04:10:28.551695+00:00",
+  "version": "2026.04.14",
+  "generated_at": "2026-04-14T04:40:34.139697+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -117,13 +117,14 @@
     "v0.18.2",
     "v0.18.3",
     "v0.18.4",
-    "v0.18.5"
+    "v0.18.5",
+    "v0.19.0"
   ],
   "stats": {
-    "total_builtins": 695,
-    "versions_processed": 116,
-    "newest_version": "v0.18.5",
-    "nodes_added_in_latest": 0
+    "total_builtins": 704,
+    "versions_processed": 117,
+    "newest_version": "v0.19.0",
+    "nodes_added_in_latest": 9
   },
   "builtins": {
     "APG": {
@@ -224,6 +225,18 @@
     },
     "BriaRemoveVideoBackground": {
       "introduced_in": "v0.14.0",
+      "category": "api"
+    },
+    "ByteDance2FirstLastFrameNode": {
+      "introduced_in": "v0.19.0",
+      "category": "api"
+    },
+    "ByteDance2ReferenceNode": {
+      "introduced_in": "v0.19.0",
+      "category": "api"
+    },
+    "ByteDance2TextToVideoNode": {
+      "introduced_in": "v0.19.0",
       "category": "api"
     },
     "ByteDanceFirstLastFrameNode": {
@@ -399,6 +412,10 @@
       "introduced_in": "v0.16.4",
       "category": "extras"
     },
+    "ComfyNumberConvert": {
+      "introduced_in": "v0.19.0",
+      "category": "extras"
+    },
     "ComfySoftSwitchNode": {
       "introduced_in": "v0.8.0",
       "category": "extras"
@@ -547,6 +564,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "CurveEditor": {
+      "introduced_in": "v0.19.0",
+      "category": "extras"
+    },
     "CustomCombo": {
       "introduced_in": "v0.8.0",
       "category": "extras"
@@ -569,6 +590,10 @@
     },
     "DisableNoise": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "DrawBBoxes": {
+      "introduced_in": "v0.19.0",
       "category": "extras"
     },
     "DualCFGGuider": {
@@ -963,6 +988,10 @@
       "introduced_in": "v0.3.76",
       "category": "extras"
     },
+    "ImageHistogram": {
+      "introduced_in": "v0.19.0",
+      "category": "extras"
+    },
     "ImageInvert": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -1225,6 +1254,10 @@
     },
     "LTXVPreprocess": {
       "introduced_in": "v0.3.20",
+      "category": "extras"
+    },
+    "LTXVReferenceAudio": {
+      "introduced_in": "v0.19.0",
       "category": "extras"
     },
     "LTXVScheduler": {
@@ -1914,6 +1947,10 @@
     },
     "QwenImageDiffsynthControlnet": {
       "introduced_in": "v0.3.52",
+      "category": "extras"
+    },
+    "RTDETR_detect": {
+      "introduced_in": "v0.19.0",
       "category": "extras"
     },
     "RandomCropImages": {
