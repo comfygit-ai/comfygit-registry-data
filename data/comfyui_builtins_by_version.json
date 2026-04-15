@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.14",
-  "generated_at": "2026-04-14T04:40:34.139697+00:00",
+  "version": "2026.04.15",
+  "generated_at": "2026-04-15T04:40:55.187868+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -118,13 +118,14 @@
     "v0.18.3",
     "v0.18.4",
     "v0.18.5",
-    "v0.19.0"
+    "v0.19.0",
+    "v0.19.1"
   ],
   "stats": {
-    "total_builtins": 704,
-    "versions_processed": 117,
-    "newest_version": "v0.19.0",
-    "nodes_added_in_latest": 9
+    "total_builtins": 706,
+    "versions_processed": 118,
+    "newest_version": "v0.19.1",
+    "nodes_added_in_latest": 2
   },
   "builtins": {
     "APG": {
@@ -2390,6 +2391,14 @@
     "SolidMask": {
       "introduced_in": "v0.3.0",
       "category": "extras"
+    },
+    "SoniloTextToMusic": {
+      "introduced_in": "v0.19.1",
+      "category": "api"
+    },
+    "SoniloVideoToMusic": {
+      "introduced_in": "v0.19.1",
+      "category": "api"
     },
     "SplitAudioChannels": {
       "introduced_in": "v0.3.61",
