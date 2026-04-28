@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.24",
-  "generated_at": "2026-04-24T04:50:02.674692+00:00",
+  "version": "2026.04.28",
+  "generated_at": "2026-04-28T05:24:52.715521+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -123,13 +123,15 @@
     "v0.19.2",
     "v0.19.3",
     "v0.19.4",
-    "v0.19.5"
+    "v0.19.5",
+    "v0.20.0",
+    "v0.20.1"
   ],
   "stats": {
-    "total_builtins": 709,
-    "versions_processed": 122,
-    "newest_version": "v0.19.5",
-    "nodes_added_in_latest": 2
+    "total_builtins": 721,
+    "versions_processed": 124,
+    "newest_version": "v0.20.1",
+    "nodes_added_in_latest": 0
   },
   "builtins": {
     "APG": {
@@ -403,6 +405,10 @@
     },
     "ColorToRGBInt": {
       "introduced_in": "v0.12.0",
+      "category": "extras"
+    },
+    "ColorTransfer": {
+      "introduced_in": "v0.20.0",
       "category": "extras"
     },
     "CombineHooks2": {
@@ -805,6 +811,14 @@
       "introduced_in": "v0.3.32",
       "category": "api"
     },
+    "FrameInterpolate": {
+      "introduced_in": "v0.20.0",
+      "category": "extras"
+    },
+    "FrameInterpolationModelLoader": {
+      "introduced_in": "v0.20.0",
+      "category": "extras"
+    },
     "FreSca": {
       "introduced_in": "v0.3.30",
       "category": "extras"
@@ -892,6 +906,22 @@
     "GrowMask": {
       "introduced_in": "v0.3.0",
       "category": "extras"
+    },
+    "HappyHorseImageToVideoApi": {
+      "introduced_in": "v0.20.0",
+      "category": "api"
+    },
+    "HappyHorseReferenceVideoApi": {
+      "introduced_in": "v0.20.0",
+      "category": "api"
+    },
+    "HappyHorseTextToVideoApi": {
+      "introduced_in": "v0.20.0",
+      "category": "api"
+    },
+    "HappyHorseVideoEditApi": {
+      "introduced_in": "v0.20.0",
+      "category": "api"
     },
     "HitPawGeneralImageEnhance": {
       "introduced_in": "v0.12.0",
@@ -2186,6 +2216,22 @@
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "SAM3_Detect": {
+      "introduced_in": "v0.20.0",
+      "category": "extras"
+    },
+    "SAM3_TrackPreview": {
+      "introduced_in": "v0.20.0",
+      "category": "extras"
+    },
+    "SAM3_TrackToMask": {
+      "introduced_in": "v0.20.0",
+      "category": "extras"
+    },
+    "SAM3_VideoTrack": {
+      "introduced_in": "v0.20.0",
+      "category": "extras"
+    },
     "SDPoseDrawKeypoints": {
       "introduced_in": "v0.16.0",
       "category": "extras"
@@ -2208,6 +2254,10 @@
     },
     "SD_4XUpscale_Conditioning": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SUPIRApply": {
+      "introduced_in": "v0.20.0",
       "category": "extras"
     },
     "SV3D_Conditioning": {
