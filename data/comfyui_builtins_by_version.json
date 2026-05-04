@@ -1,6 +1,6 @@
 {
-  "version": "2026.04.28",
-  "generated_at": "2026-04-28T05:24:52.715521+00:00",
+  "version": "2026.05.04",
+  "generated_at": "2026-05-04T05:28:17.082484+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -125,13 +125,14 @@
     "v0.19.4",
     "v0.19.5",
     "v0.20.0",
-    "v0.20.1"
+    "v0.20.1",
+    "v0.20.2"
   ],
   "stats": {
-    "total_builtins": 721,
-    "versions_processed": 124,
-    "newest_version": "v0.20.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 722,
+    "versions_processed": 125,
+    "newest_version": "v0.20.2",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -1763,15 +1764,18 @@
     },
     "MoonvalleyImg2VideoNode": {
       "introduced_in": "v0.3.44",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.20.2"
     },
     "MoonvalleyTxt2VideoNode": {
       "introduced_in": "v0.3.44",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.20.2"
     },
     "MoonvalleyVideo2VideoNode": {
       "introduced_in": "v0.3.44",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.20.2"
     },
     "Morphology": {
       "introduced_in": "v0.3.0",
@@ -2676,6 +2680,10 @@
     },
     "TopazVideoEnhance": {
       "introduced_in": "v0.3.71",
+      "category": "api"
+    },
+    "TopazVideoEnhanceV2": {
+      "introduced_in": "v0.20.2",
       "category": "api"
     },
     "TorchCompileModel": {
