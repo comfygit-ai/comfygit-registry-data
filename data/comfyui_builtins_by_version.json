@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.04",
-  "generated_at": "2026-05-04T05:28:17.082484+00:00",
+  "version": "2026.05.09",
+  "generated_at": "2026-05-09T05:16:02.015531+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -126,13 +126,14 @@
     "v0.19.5",
     "v0.20.0",
     "v0.20.1",
-    "v0.20.2"
+    "v0.20.2",
+    "v0.20.3"
   ],
   "stats": {
-    "total_builtins": 722,
-    "versions_processed": 125,
-    "newest_version": "v0.20.2",
-    "nodes_added_in_latest": 1
+    "total_builtins": 725,
+    "versions_processed": 126,
+    "newest_version": "v0.20.3",
+    "nodes_added_in_latest": 3
   },
   "builtins": {
     "APG": {
@@ -864,6 +865,10 @@
       "introduced_in": "v0.15.1",
       "category": "api"
     },
+    "GeminiNanoBanana2V2": {
+      "introduced_in": "v0.20.3",
+      "category": "api"
+    },
     "GeminiNode": {
       "introduced_in": "v0.3.37",
       "category": "api"
@@ -1518,12 +1523,20 @@
       "introduced_in": "v0.3.32",
       "category": "api"
     },
+    "LumaImageEditNode2": {
+      "introduced_in": "v0.20.3",
+      "category": "api"
+    },
     "LumaImageModifyNode": {
       "introduced_in": "v0.3.32",
       "category": "api"
     },
     "LumaImageNode": {
       "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LumaImageNode2": {
+      "introduced_in": "v0.20.3",
       "category": "api"
     },
     "LumaImageToVideoNode": {
