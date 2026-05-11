@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.09",
-  "generated_at": "2026-05-09T05:16:02.015531+00:00",
+  "version": "2026.05.11",
+  "generated_at": "2026-05-11T05:52:48.028779+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -127,17 +127,22 @@
     "v0.20.0",
     "v0.20.1",
     "v0.20.2",
-    "v0.20.3"
+    "v0.20.3",
+    "v0.21.0"
   ],
   "stats": {
-    "total_builtins": 725,
-    "versions_processed": 126,
-    "newest_version": "v0.20.3",
-    "nodes_added_in_latest": 3
+    "total_builtins": 740,
+    "versions_processed": 127,
+    "newest_version": "v0.21.0",
+    "nodes_added_in_latest": 15
   },
   "builtins": {
     "APG": {
       "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "ARVideoI2V": {
+      "introduced_in": "v0.21.0",
       "category": "extras"
     },
     "AddNoise": {
@@ -660,6 +665,10 @@
     "ElevenLabsVoiceSelector": {
       "introduced_in": "v0.15.0",
       "category": "api"
+    },
+    "EmptyARVideoLatent": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
     },
     "EmptyAceStep1.5LatentAudio": {
       "introduced_in": "v0.12.0",
@@ -1437,6 +1446,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "LoadBackgroundRemovalModel": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
     "LoadImage": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -1838,6 +1851,10 @@
       "introduced_in": "v0.3.64",
       "category": "api"
     },
+    "OpticalFlowLoader": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
     "OptimalStepsScheduler": {
       "introduced_in": "v0.3.28",
       "category": "extras"
@@ -2133,6 +2150,10 @@
       "introduced_in": "v0.3.40",
       "category": "extras"
     },
+    "RemoveBackground": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
     "RenormCFG": {
       "introduced_in": "v0.3.15",
       "category": "extras"
@@ -2283,6 +2304,10 @@
     },
     "SVD_img2vid_Conditioning": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerARVideo": {
+      "introduced_in": "v0.21.0",
       "category": "extras"
     },
     "SamplerCustom": {
@@ -2823,6 +2848,26 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "VOIDInpaintConditioning": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "VOIDQuadmaskPreprocess": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "VOIDSampler": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "VOIDWarpedNoise": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "VOIDWarpedNoiseSource": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
     "VPScheduler": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -2953,6 +2998,22 @@
     },
     "WanContextWindowsManual": {
       "introduced_in": "v0.3.51",
+      "category": "extras"
+    },
+    "WanDancerEncodeAudio": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "WanDancerPadKeyframes": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "WanDancerPadKeyframesList": {
+      "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "WanDancerVideo": {
+      "introduced_in": "v0.21.0",
       "category": "extras"
     },
     "WanFirstLastFrameToVideo": {
