@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.11",
-  "generated_at": "2026-05-11T05:52:48.028779+00:00",
+  "version": "2026.05.14",
+  "generated_at": "2026-05-14T05:41:38.621731+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -128,13 +128,14 @@
     "v0.20.1",
     "v0.20.2",
     "v0.20.3",
-    "v0.21.0"
+    "v0.21.0",
+    "v0.21.1"
   ],
   "stats": {
-    "total_builtins": 740,
-    "versions_processed": 127,
-    "newest_version": "v0.21.0",
-    "nodes_added_in_latest": 15
+    "total_builtins": 750,
+    "versions_processed": 128,
+    "newest_version": "v0.21.1",
+    "nodes_added_in_latest": 10
   },
   "builtins": {
     "APG": {
@@ -286,6 +287,10 @@
       "introduced_in": "v0.3.59",
       "category": "api"
     },
+    "ByteDanceSeedreamNodeV2": {
+      "introduced_in": "v0.21.1",
+      "category": "api"
+    },
     "ByteDanceTextToVideoNode": {
       "introduced_in": "v0.3.58",
       "category": "api"
@@ -409,6 +414,10 @@
     "ChromaRadianceOptions": {
       "introduced_in": "v0.3.60",
       "category": "extras"
+    },
+    "ClaudeNode": {
+      "introduced_in": "v0.21.1",
+      "category": "api"
     },
     "ColorToRGBInt": {
       "introduced_in": "v0.12.0",
@@ -694,6 +703,10 @@
       "introduced_in": "v0.3.72",
       "category": "extras"
     },
+    "EmptyHiDreamO1LatentImage": {
+      "introduced_in": "v0.21.1",
+      "category": "extras"
+    },
     "EmptyHunyuanImageLatent": {
       "introduced_in": "v0.3.58",
       "category": "extras"
@@ -757,6 +770,10 @@
     "FlipSigmas": {
       "introduced_in": "v0.3.0",
       "category": "extras"
+    },
+    "Flux2ImageNode": {
+      "introduced_in": "v0.21.1",
+      "category": "api"
     },
     "Flux2ProImageNode": {
       "introduced_in": "v0.3.72",
@@ -898,6 +915,10 @@
       "introduced_in": "v0.11.1",
       "category": "api"
     },
+    "GrokImageEditNodeV2": {
+      "introduced_in": "v0.21.1",
+      "category": "api"
+    },
     "GrokImageNode": {
       "introduced_in": "v0.11.1",
       "category": "api"
@@ -937,6 +958,14 @@
     "HappyHorseVideoEditApi": {
       "introduced_in": "v0.20.0",
       "category": "api"
+    },
+    "HiDreamO1PatchSeamSmoothing": {
+      "introduced_in": "v0.21.1",
+      "category": "extras"
+    },
+    "HiDreamO1ReferenceImages": {
+      "introduced_in": "v0.21.1",
+      "category": "extras"
     },
     "HitPawGeneralImageEnhance": {
       "introduced_in": "v0.12.0",
@@ -1748,6 +1777,10 @@
       "introduced_in": "v0.3.28",
       "category": "extras"
     },
+    "ModelNoiseScale": {
+      "introduced_in": "v0.21.1",
+      "category": "extras"
+    },
     "ModelPatchLoader": {
       "introduced_in": "v0.3.52",
       "category": "extras"
@@ -1841,6 +1874,10 @@
     },
     "OpenAIGPTImage1": {
       "introduced_in": "v0.3.30",
+      "category": "api"
+    },
+    "OpenAIGPTImageNodeV2": {
+      "introduced_in": "v0.21.1",
       "category": "api"
     },
     "OpenAIInputFiles": {
@@ -2352,6 +2389,10 @@
     },
     "SamplerEulerCFGpp": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SamplerLCM": {
+      "introduced_in": "v0.21.1",
       "category": "extras"
     },
     "SamplerLCMUpscale": {
