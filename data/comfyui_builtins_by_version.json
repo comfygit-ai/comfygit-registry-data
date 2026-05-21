@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.14",
-  "generated_at": "2026-05-14T05:41:38.621731+00:00",
+  "version": "2026.05.21",
+  "generated_at": "2026-05-21T06:03:16.327805+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -129,13 +129,14 @@
     "v0.20.2",
     "v0.20.3",
     "v0.21.0",
-    "v0.21.1"
+    "v0.21.1",
+    "v0.22.0"
   ],
   "stats": {
-    "total_builtins": 750,
-    "versions_processed": 128,
-    "newest_version": "v0.21.1",
-    "nodes_added_in_latest": 10
+    "total_builtins": 758,
+    "versions_processed": 129,
+    "newest_version": "v0.22.0",
+    "nodes_added_in_latest": 8
   },
   "builtins": {
     "APG": {
@@ -281,6 +282,10 @@
     },
     "ByteDanceImageToVideoNode": {
       "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "ByteDanceSeedNode": {
+      "introduced_in": "v0.22.0",
       "category": "api"
     },
     "ByteDanceSeedreamNode": {
@@ -903,6 +908,10 @@
       "introduced_in": "v0.5.0",
       "category": "extras"
     },
+    "GetICLoRAParameters": {
+      "introduced_in": "v0.22.0",
+      "category": "extras"
+    },
     "GetImageSize": {
       "introduced_in": "v0.3.40",
       "category": "extras"
@@ -1513,6 +1522,10 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "LoadMoGeModel": {
+      "introduced_in": "v0.22.0",
+      "category": "extras"
+    },
     "LoadTrainingDataset": {
       "introduced_in": "v0.3.76",
       "category": "extras"
@@ -1696,6 +1709,22 @@
     "MinimaxTextToVideoNode": {
       "introduced_in": "v0.3.32",
       "category": "api"
+    },
+    "MoGeInference": {
+      "introduced_in": "v0.22.0",
+      "category": "extras"
+    },
+    "MoGePanoramaInference": {
+      "introduced_in": "v0.22.0",
+      "category": "extras"
+    },
+    "MoGePointMapToMesh": {
+      "introduced_in": "v0.22.0",
+      "category": "extras"
+    },
+    "MoGeRender": {
+      "introduced_in": "v0.22.0",
+      "category": "extras"
     },
     "ModelComputeDtype": {
       "introduced_in": "v0.3.15",
@@ -2635,6 +2664,10 @@
     },
     "StringContains": {
       "introduced_in": "v0.3.35",
+      "category": "extras"
+    },
+    "StringFormat": {
+      "introduced_in": "v0.22.0",
       "category": "extras"
     },
     "StringLength": {
