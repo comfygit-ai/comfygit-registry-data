@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.21",
-  "generated_at": "2026-05-21T06:03:16.327805+00:00",
+  "version": "2026.05.22",
+  "generated_at": "2026-05-22T05:59:34.606520+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -130,13 +130,14 @@
     "v0.20.3",
     "v0.21.0",
     "v0.21.1",
-    "v0.22.0"
+    "v0.22.0",
+    "v0.22.1"
   ],
   "stats": {
-    "total_builtins": 758,
-    "versions_processed": 129,
-    "newest_version": "v0.22.0",
-    "nodes_added_in_latest": 8
+    "total_builtins": 759,
+    "versions_processed": 130,
+    "newest_version": "v0.22.1",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -1915,6 +1916,10 @@
     },
     "OpenAIVideoSora2": {
       "introduced_in": "v0.3.64",
+      "category": "api"
+    },
+    "OpenRouterLLMNode": {
+      "introduced_in": "v0.22.1",
       "category": "api"
     },
     "OpticalFlowLoader": {
