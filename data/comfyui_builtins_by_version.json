@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.22",
-  "generated_at": "2026-05-22T05:59:34.606520+00:00",
+  "version": "2026.05.23",
+  "generated_at": "2026-05-23T05:34:01.745787+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -131,13 +131,14 @@
     "v0.21.0",
     "v0.21.1",
     "v0.22.0",
-    "v0.22.1"
+    "v0.22.1",
+    "v0.22.2"
   ],
   "stats": {
-    "total_builtins": 759,
-    "versions_processed": 130,
-    "newest_version": "v0.22.1",
-    "nodes_added_in_latest": 1
+    "total_builtins": 761,
+    "versions_processed": 131,
+    "newest_version": "v0.22.2",
+    "nodes_added_in_latest": 2
   },
   "builtins": {
     "APG": {
@@ -2295,6 +2296,14 @@
     },
     "Rodin3D_Gen2": {
       "introduced_in": "v0.3.61",
+      "category": "api"
+    },
+    "Rodin3D_Gen25_Image": {
+      "introduced_in": "v0.22.2",
+      "category": "api"
+    },
+    "Rodin3D_Gen25_Text": {
+      "introduced_in": "v0.22.2",
       "category": "api"
     },
     "Rodin3D_Regular": {
