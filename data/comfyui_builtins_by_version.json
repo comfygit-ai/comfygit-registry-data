@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.23",
-  "generated_at": "2026-05-23T05:34:01.745787+00:00",
+  "version": "2026.05.28",
+  "generated_at": "2026-05-28T06:04:19.056503+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -132,12 +132,13 @@
     "v0.21.1",
     "v0.22.0",
     "v0.22.1",
-    "v0.22.2"
+    "v0.22.2",
+    "v0.22.3"
   ],
   "stats": {
-    "total_builtins": 761,
-    "versions_processed": 131,
-    "newest_version": "v0.22.2",
+    "total_builtins": 763,
+    "versions_processed": 132,
+    "newest_version": "v0.22.3",
     "nodes_added_in_latest": 2
   },
   "builtins": {
@@ -1304,6 +1305,14 @@
     },
     "KlingVirtualTryOnNode": {
       "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "Krea2ImageNode": {
+      "introduced_in": "v0.22.3",
+      "category": "api"
+    },
+    "Krea2StyleReferenceNode": {
+      "introduced_in": "v0.22.3",
       "category": "api"
     },
     "LTXAVTextEncoderLoader": {
