@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.28",
-  "generated_at": "2026-05-28T06:04:19.056503+00:00",
+  "version": "2026.06.02",
+  "generated_at": "2026-06-02T06:29:19.763227+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -133,13 +133,14 @@
     "v0.22.0",
     "v0.22.1",
     "v0.22.2",
-    "v0.22.3"
+    "v0.22.3",
+    "v0.23.0"
   ],
   "stats": {
-    "total_builtins": 763,
-    "versions_processed": 132,
-    "newest_version": "v0.22.3",
-    "nodes_added_in_latest": 2
+    "total_builtins": 797,
+    "versions_processed": 133,
+    "newest_version": "v0.23.0",
+    "nodes_added_in_latest": 34
   },
   "builtins": {
     "APG": {
@@ -229,6 +230,14 @@
     "BatchMasksNode": {
       "introduced_in": "v0.8.0",
       "category": "extras"
+    },
+    "BeebleSwitchXImageEdit": {
+      "introduced_in": "v0.23.0",
+      "category": "api"
+    },
+    "BeebleSwitchXVideoEdit": {
+      "introduced_in": "v0.23.0",
+      "category": "api"
     },
     "BetaSamplingScheduler": {
       "introduced_in": "v0.3.0",
@@ -451,12 +460,24 @@
       "introduced_in": "v0.8.0",
       "category": "extras"
     },
+    "ComfyAndNode": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "ComfyMathExpression": {
       "introduced_in": "v0.16.4",
       "category": "extras"
     },
+    "ComfyNotNode": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "ComfyNumberConvert": {
       "introduced_in": "v0.19.0",
+      "category": "extras"
+    },
+    "ComfyOrNode": {
+      "introduced_in": "v0.23.0",
       "category": "extras"
     },
     "ComfySoftSwitchNode": {
@@ -561,6 +582,10 @@
     },
     "CosmosPredict2ImageToVideoLatent": {
       "introduced_in": "v0.3.41",
+      "category": "extras"
+    },
+    "CreateCameraInfo": {
+      "introduced_in": "v0.23.0",
       "category": "extras"
     },
     "CreateHookKeyframe": {
@@ -775,6 +800,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "File3DToSplat": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "FlipSigmas": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -794,6 +823,10 @@
     "FluxDisableGuidance": {
       "introduced_in": "v0.3.13",
       "category": "extras"
+    },
+    "FluxEraseNode": {
+      "introduced_in": "v0.23.0",
+      "category": "api"
     },
     "FluxGuidance": {
       "introduced_in": "v0.3.0",
@@ -845,6 +878,10 @@
     },
     "FluxProUltraImageNode": {
       "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "FluxVTONode": {
+      "introduced_in": "v0.23.0",
       "category": "api"
     },
     "FrameInterpolate": {
@@ -917,6 +954,10 @@
     },
     "GetImageSize": {
       "introduced_in": "v0.3.40",
+      "category": "extras"
+    },
+    "GetSplatCount": {
+      "introduced_in": "v0.23.0",
       "category": "extras"
     },
     "GetVideoComponents": {
@@ -1533,6 +1574,10 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "LoadMediaPipeFaceLandmarker": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "LoadMoGeModel": {
       "introduced_in": "v0.22.0",
       "category": "extras"
@@ -1665,8 +1710,24 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "MediaPipeFaceLandmarker": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "MediaPipeFaceMask": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "MediaPipeFaceMeshVisualize": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "MergeImageLists": {
       "introduced_in": "v0.3.76",
+      "category": "extras"
+    },
+    "MergeSplat": {
+      "introduced_in": "v0.23.0",
       "category": "extras"
     },
     "MergeTextLists": {
@@ -1880,6 +1941,14 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "MultiGPU_Options": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "MultiGPU_WorkUnits": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "NAGuidance": {
       "introduced_in": "v0.14.0",
       "category": "extras"
@@ -1984,6 +2053,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "PiDConditioning": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "PikaImageToVideoNode2_2": {
       "introduced_in": "v0.3.32",
       "category": "api",
@@ -2045,6 +2118,10 @@
     },
     "Preview3D": {
       "introduced_in": "v0.3.8",
+      "category": "extras"
+    },
+    "Preview3DAdvanced": {
+      "introduced_in": "v0.23.0",
       "category": "extras"
     },
     "Preview3DAnimation": {
@@ -2233,6 +2310,10 @@
     },
     "RemoveBackground": {
       "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "RenderSplat": {
+      "introduced_in": "v0.23.0",
       "category": "extras"
     },
     "RenormCFG": {
@@ -2495,6 +2576,10 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "SaveImageAdvanced": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "SaveImageDataSetToFolder": {
       "introduced_in": "v0.3.76",
       "category": "extras"
@@ -2543,6 +2628,18 @@
     },
     "ScaleROPE": {
       "introduced_in": "v0.3.68",
+      "category": "extras"
+    },
+    "SelectCLIPDevice": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "SelectModelDevice": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "SelectVAEDevice": {
+      "introduced_in": "v0.23.0",
       "category": "extras"
     },
     "SelfAttentionGuidance": {
@@ -2600,6 +2697,14 @@
     "SoniloVideoToMusic": {
       "introduced_in": "v0.19.1",
       "category": "api"
+    },
+    "SplatToFile3D": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "SplatToMesh": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
     },
     "SplitAudioChannels": {
       "introduced_in": "v0.3.61",
@@ -2829,6 +2934,10 @@
       "introduced_in": "v0.3.41",
       "category": "extras"
     },
+    "TransformSplat": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
     "TrimAudioDuration": {
       "introduced_in": "v0.3.61",
       "category": "extras"
@@ -2853,6 +2962,18 @@
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "TripoP1ImageToModelNode": {
+      "introduced_in": "v0.23.0",
+      "category": "api"
+    },
+    "TripoP1MultiviewToModelNode": {
+      "introduced_in": "v0.23.0",
+      "category": "api"
+    },
+    "TripoP1TextToModelNode": {
+      "introduced_in": "v0.23.0",
+      "category": "api"
+    },
     "TripoRefineNode": {
       "introduced_in": "v0.3.37",
       "category": "api"
@@ -2864,6 +2985,18 @@
     "TripoRigNode": {
       "introduced_in": "v0.3.37",
       "category": "api"
+    },
+    "TripoSplatConditioning": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "TripoSplatPreprocessImage": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "TripoSplatSamplingPreview": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
     },
     "TripoTextToModelNode": {
       "introduced_in": "v0.3.37",
@@ -2920,6 +3053,10 @@
     "VAEDecodeTiled": {
       "introduced_in": "v0.3.0",
       "category": "core"
+    },
+    "VAEDecodeTripoSplat": {
+      "introduced_in": "v0.23.0",
+      "category": "extras"
     },
     "VAEEncode": {
       "introduced_in": "v0.3.0",
