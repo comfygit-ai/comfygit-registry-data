@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.02",
-  "generated_at": "2026-06-02T06:29:19.763227+00:00",
+  "version": "2026.06.04",
+  "generated_at": "2026-06-04T06:35:58.705554+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -134,13 +134,14 @@
     "v0.22.1",
     "v0.22.2",
     "v0.22.3",
-    "v0.23.0"
+    "v0.23.0",
+    "v0.24.0"
   ],
   "stats": {
-    "total_builtins": 797,
-    "versions_processed": 133,
-    "newest_version": "v0.23.0",
-    "nodes_added_in_latest": 34
+    "total_builtins": 801,
+    "versions_processed": 134,
+    "newest_version": "v0.24.0",
+    "nodes_added_in_latest": 4
   },
   "builtins": {
     "APG": {
@@ -318,6 +319,10 @@
     },
     "CFGNorm": {
       "introduced_in": "v0.3.45",
+      "category": "extras"
+    },
+    "CFGOverride": {
+      "introduced_in": "v0.24.0",
       "category": "extras"
     },
     "CFGZeroStar": {
@@ -671,6 +676,10 @@
     "DualCLIPLoader": {
       "introduced_in": "v0.3.0",
       "category": "core"
+    },
+    "DualModelGuider": {
+      "introduced_in": "v0.24.0",
+      "category": "extras"
     },
     "EasyCache": {
       "introduced_in": "v0.3.52",
@@ -1064,6 +1073,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "Ideogram4Scheduler": {
+      "introduced_in": "v0.24.0",
+      "category": "extras"
+    },
     "IdeogramV1": {
       "introduced_in": "v0.3.32",
       "category": "api"
@@ -1074,6 +1087,10 @@
     },
     "IdeogramV3": {
       "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "IdeogramV4": {
+      "introduced_in": "v0.24.0",
       "category": "api"
     },
     "ImageAddNoise": {
