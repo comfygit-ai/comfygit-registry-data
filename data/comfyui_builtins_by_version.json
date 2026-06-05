@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.04",
-  "generated_at": "2026-06-04T06:35:58.705554+00:00",
+  "version": "2026.06.05",
+  "generated_at": "2026-06-05T06:15:00.812099+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -135,13 +135,14 @@
     "v0.22.2",
     "v0.22.3",
     "v0.23.0",
-    "v0.24.0"
+    "v0.24.0",
+    "v0.24.1"
   ],
   "stats": {
-    "total_builtins": 801,
-    "versions_processed": 134,
-    "newest_version": "v0.24.0",
-    "nodes_added_in_latest": 4
+    "total_builtins": 804,
+    "versions_processed": 135,
+    "newest_version": "v0.24.1",
+    "nodes_added_in_latest": 3
   },
   "builtins": {
     "APG": {
@@ -254,6 +255,18 @@
     },
     "BriaRemoveVideoBackground": {
       "introduced_in": "v0.14.0",
+      "category": "api"
+    },
+    "BriaTransparentVideoBackground": {
+      "introduced_in": "v0.24.1",
+      "category": "api"
+    },
+    "BriaVideoGreenScreen": {
+      "introduced_in": "v0.24.1",
+      "category": "api"
+    },
+    "BriaVideoReplaceBackground": {
+      "introduced_in": "v0.24.1",
       "category": "api"
     },
     "ByteDance2FirstLastFrameNode": {
