@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.05",
-  "generated_at": "2026-06-05T06:15:00.812099+00:00",
+  "version": "2026.06.16",
+  "generated_at": "2026-06-16T07:18:48.770389+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -136,13 +136,14 @@
     "v0.22.3",
     "v0.23.0",
     "v0.24.0",
-    "v0.24.1"
+    "v0.24.1",
+    "v0.25.0"
   ],
   "stats": {
-    "total_builtins": 804,
-    "versions_processed": 135,
-    "newest_version": "v0.24.1",
-    "nodes_added_in_latest": 3
+    "total_builtins": 819,
+    "versions_processed": 136,
+    "newest_version": "v0.25.0",
+    "nodes_added_in_latest": 15
   },
   "builtins": {
     "APG": {
@@ -240,6 +241,10 @@
     "BeebleSwitchXVideoEdit": {
       "introduced_in": "v0.23.0",
       "category": "api"
+    },
+    "BerniniConditioning": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
     },
     "BetaSamplingScheduler": {
       "introduced_in": "v0.3.0",
@@ -658,6 +663,22 @@
       "introduced_in": "v0.8.0",
       "category": "extras"
     },
+    "DA3GeometryToMesh": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
+    },
+    "DA3GeometryToPointCloud": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
+    },
+    "DA3Inference": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
+    },
+    "DA3Render": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
+    },
     "DCTestNode": {
       "introduced_in": "v0.4.0",
       "category": "extras"
@@ -964,6 +985,10 @@
     },
     "GeminiNode": {
       "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "GeminiNodeV2": {
+      "introduced_in": "v0.25.0",
       "category": "api"
     },
     "GenerateTracks": {
@@ -1570,6 +1595,10 @@
       "introduced_in": "v0.21.0",
       "category": "extras"
     },
+    "LoadDA3Model": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
+    },
     "LoadImage": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -2170,9 +2199,17 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "PreviewGaussianSplat": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
+    },
     "PreviewImage": {
       "introduced_in": "v0.3.0",
       "category": "core"
+    },
+    "PreviewPointCloud": {
+      "introduced_in": "v0.25.0",
+      "category": "extras"
     },
     "PrimitiveBoolean": {
       "introduced_in": "v0.3.27",
@@ -2438,6 +2475,18 @@
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "RunwayAleph2KeyframeNode": {
+      "introduced_in": "v0.25.0",
+      "category": "api"
+    },
+    "RunwayAleph2PromptImageNode": {
+      "introduced_in": "v0.25.0",
+      "category": "api"
+    },
+    "RunwayAleph2VideoToVideoNode": {
+      "introduced_in": "v0.25.0",
+      "category": "api"
+    },
     "RunwayFirstLastFrameNode": {
       "introduced_in": "v0.3.37",
       "category": "api"
@@ -2468,6 +2517,10 @@
     },
     "SAM3_VideoTrack": {
       "introduced_in": "v0.20.0",
+      "category": "extras"
+    },
+    "SCAIL2ColoredMask": {
+      "introduced_in": "v0.25.0",
       "category": "extras"
     },
     "SDPoseDrawKeypoints": {
@@ -2588,6 +2641,10 @@
     },
     "SaveAudio": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "SaveAudioAdvanced": {
+      "introduced_in": "v0.25.0",
       "category": "extras"
     },
     "SaveAudioMP3": {
@@ -2986,6 +3043,10 @@
     },
     "TripoImageToModelNode": {
       "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoImportModelNode": {
+      "introduced_in": "v0.25.0",
       "category": "api"
     },
     "TripoMultiviewToModelNode": {
