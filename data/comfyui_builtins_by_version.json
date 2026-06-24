@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.18",
-  "generated_at": "2026-06-18T06:45:40.273072+00:00",
+  "version": "2026.06.24",
+  "generated_at": "2026-06-24T06:00:33.911166+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -138,13 +138,14 @@
     "v0.24.0",
     "v0.24.1",
     "v0.25.0",
-    "v0.25.1"
+    "v0.25.1",
+    "v0.26.0"
   ],
   "stats": {
-    "total_builtins": 819,
-    "versions_processed": 137,
-    "newest_version": "v0.25.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 829,
+    "versions_processed": 138,
+    "newest_version": "v0.26.0",
+    "nodes_added_in_latest": 10
   },
   "builtins": {
     "APG": {
@@ -1440,6 +1441,10 @@
       "introduced_in": "v0.3.2",
       "category": "extras"
     },
+    "LTXVContextWindows": {
+      "introduced_in": "v0.26.0",
+      "category": "extras"
+    },
     "LTXVCropGuides": {
       "introduced_in": "v0.3.20",
       "category": "extras"
@@ -1580,6 +1585,10 @@
       "introduced_in": "v0.3.8",
       "category": "extras"
     },
+    "Load3DAdvanced": {
+      "introduced_in": "v0.26.0",
+      "category": "extras"
+    },
     "Load3DAnimation": {
       "introduced_in": "v0.3.8",
       "category": "extras",
@@ -1712,6 +1721,34 @@
     },
     "LumaImageToVideoNode": {
       "introduced_in": "v0.3.32",
+      "category": "api"
+    },
+    "LumaRay32ExtendVideoNode": {
+      "introduced_in": "v0.26.0",
+      "category": "api"
+    },
+    "LumaRay32ImageToVideoNode": {
+      "introduced_in": "v0.26.0",
+      "category": "api"
+    },
+    "LumaRay32KeyframeNode": {
+      "introduced_in": "v0.26.0",
+      "category": "api"
+    },
+    "LumaRay32KeyframesToVideoNode": {
+      "introduced_in": "v0.26.0",
+      "category": "api"
+    },
+    "LumaRay32TextToVideoNode": {
+      "introduced_in": "v0.26.0",
+      "category": "api"
+    },
+    "LumaRay32VideoEditNode": {
+      "introduced_in": "v0.26.0",
+      "category": "api"
+    },
+    "LumaRay32VideoReframeNode": {
+      "introduced_in": "v0.26.0",
       "category": "api"
     },
     "LumaReferenceNode": {
@@ -2960,6 +2997,10 @@
     },
     "TextEncodeAceStepAudio1.5": {
       "introduced_in": "v0.12.0",
+      "category": "extras"
+    },
+    "TextEncodeBooguEdit": {
+      "introduced_in": "v0.26.0",
       "category": "extras"
     },
     "TextEncodeHunyuanVideo_ImageToVideo": {
