@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.26",
-  "generated_at": "2026-06-26T06:03:24.631153+00:00",
+  "version": "2026.07.01",
+  "generated_at": "2026-07-01T06:18:45.055539+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -141,13 +141,14 @@
     "v0.25.1",
     "v0.26.0",
     "v0.26.1",
-    "v0.26.2"
+    "v0.26.2",
+    "v0.27.0"
   ],
   "stats": {
-    "total_builtins": 829,
-    "versions_processed": 140,
-    "newest_version": "v0.26.2",
-    "nodes_added_in_latest": 0
+    "total_builtins": 837,
+    "versions_processed": 141,
+    "newest_version": "v0.27.0",
+    "nodes_added_in_latest": 8
   },
   "builtins": {
     "APG": {
@@ -277,6 +278,10 @@
     "BriaVideoReplaceBackground": {
       "introduced_in": "v0.24.1",
       "category": "api"
+    },
+    "BuildJsonPromptIdeogram": {
+      "introduced_in": "v0.27.0",
+      "category": "extras"
     },
     "ByteDance2FirstLastFrameNode": {
       "introduced_in": "v0.19.0",
@@ -527,6 +532,10 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "ConditioningMultiply": {
+      "introduced_in": "v0.27.0",
+      "category": "core"
+    },
     "ConditioningSetArea": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -599,6 +608,14 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "ConvertArrayToString": {
+      "introduced_in": "v0.27.0",
+      "category": "extras"
+    },
+    "ConvertDictionaryToString": {
+      "introduced_in": "v0.27.0",
+      "category": "extras"
+    },
     "ConvertStringToComboNode": {
       "introduced_in": "v0.8.0",
       "category": "extras"
@@ -609,6 +626,10 @@
     },
     "CosmosPredict2ImageToVideoLatent": {
       "introduced_in": "v0.3.41",
+      "category": "extras"
+    },
+    "CreateBoundingBoxes": {
+      "introduced_in": "v0.27.0",
       "category": "extras"
     },
     "CreateCameraInfo": {
@@ -993,6 +1014,10 @@
     },
     "GeminiNodeV2": {
       "introduced_in": "v0.25.0",
+      "category": "api"
+    },
+    "GeminiVideoOmni": {
+      "introduced_in": "v0.27.0",
       "category": "api"
     },
     "GenerateTracks": {
@@ -1933,6 +1958,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "ModelMergeKrea2": {
+      "introduced_in": "v0.27.0",
+      "category": "extras"
+    },
     "ModelMergeLTXV": {
       "introduced_in": "v0.3.6",
       "category": "extras"
@@ -2755,6 +2784,10 @@
     },
     "ScaleROPE": {
       "introduced_in": "v0.3.68",
+      "category": "extras"
+    },
+    "SeedNode": {
+      "introduced_in": "v0.27.0",
       "category": "extras"
     },
     "SelectCLIPDevice": {
