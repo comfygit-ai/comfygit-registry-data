@@ -1,6 +1,6 @@
 {
-  "version": "2026.07.01",
-  "generated_at": "2026-07-01T06:18:45.055539+00:00",
+  "version": "2026.07.09",
+  "generated_at": "2026-07-09T05:57:40.641470+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -142,13 +142,14 @@
     "v0.26.0",
     "v0.26.1",
     "v0.26.2",
-    "v0.27.0"
+    "v0.27.0",
+    "v0.27.1"
   ],
   "stats": {
-    "total_builtins": 837,
-    "versions_processed": 141,
-    "newest_version": "v0.27.0",
-    "nodes_added_in_latest": 8
+    "total_builtins": 838,
+    "versions_processed": 142,
+    "newest_version": "v0.27.1",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -322,6 +323,10 @@
     },
     "ByteDanceImageToVideoNode": {
       "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "ByteDanceSeedAudio": {
+      "introduced_in": "v0.27.1",
       "category": "api"
     },
     "ByteDanceSeedNode": {
@@ -1146,11 +1151,13 @@
     },
     "IdeogramV1": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "IdeogramV2": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "IdeogramV3": {
       "introduced_in": "v0.3.32",
@@ -2888,35 +2895,43 @@
     },
     "StabilityAudioInpaint": {
       "introduced_in": "v0.3.58",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StabilityAudioToAudio": {
       "introduced_in": "v0.3.58",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StabilityStableImageSD_3_5Node": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StabilityStableImageUltraNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StabilityTextToAudio": {
       "introduced_in": "v0.3.58",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StabilityUpscaleConservativeNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StabilityUpscaleCreativeNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StabilityUpscaleFastNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.27.1"
     },
     "StableCascade_EmptyLatentImage": {
       "introduced_in": "v0.3.0",
