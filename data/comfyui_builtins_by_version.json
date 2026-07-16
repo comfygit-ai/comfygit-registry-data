@@ -1,6 +1,6 @@
 {
-  "version": "2026.07.09",
-  "generated_at": "2026-07-09T05:57:40.641470+00:00",
+  "version": "2026.07.16",
+  "generated_at": "2026-07-16T04:54:14.139397+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -143,13 +143,14 @@
     "v0.26.1",
     "v0.26.2",
     "v0.27.0",
-    "v0.27.1"
+    "v0.27.1",
+    "v0.28.0"
   ],
   "stats": {
-    "total_builtins": 838,
-    "versions_processed": 142,
-    "newest_version": "v0.27.1",
-    "nodes_added_in_latest": 1
+    "total_builtins": 850,
+    "versions_processed": 143,
+    "newest_version": "v0.28.0",
+    "nodes_added_in_latest": 12
   },
   "builtins": {
     "APG": {
@@ -2707,6 +2708,10 @@
       "introduced_in": "v0.3.45",
       "category": "extras"
     },
+    "Save3DAdvanced": {
+      "introduced_in": "v0.28.0",
+      "category": "extras"
+    },
     "SaveAnimatedPNG": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -2733,6 +2738,10 @@
     },
     "SaveGLB": {
       "introduced_in": "v0.3.27",
+      "category": "extras"
+    },
+    "SaveGaussianSplat": {
+      "introduced_in": "v0.28.0",
       "category": "extras"
     },
     "SaveImage": {
@@ -2768,6 +2777,10 @@
       "category": "extras",
       "removed_in": "v0.3.76"
     },
+    "SavePointCloud": {
+      "introduced_in": "v0.28.0",
+      "category": "extras"
+    },
     "SaveSVG": {
       "introduced_in": "v0.3.32",
       "category": "api",
@@ -2775,6 +2788,10 @@
     },
     "SaveSVGNode": {
       "introduced_in": "v0.3.34",
+      "category": "extras"
+    },
+    "SaveText": {
+      "introduced_in": "v0.28.0",
       "category": "extras"
     },
     "SaveTrainingDataset": {
@@ -2795,6 +2812,26 @@
     },
     "SeedNode": {
       "introduced_in": "v0.27.0",
+      "category": "extras"
+    },
+    "SeedVR2Conditioning": {
+      "introduced_in": "v0.28.0",
+      "category": "extras"
+    },
+    "SeedVR2PostProcessing": {
+      "introduced_in": "v0.28.0",
+      "category": "extras"
+    },
+    "SeedVR2Preprocess": {
+      "introduced_in": "v0.28.0",
+      "category": "extras"
+    },
+    "SeedVR2TemporalChunk": {
+      "introduced_in": "v0.28.0",
+      "category": "extras"
+    },
+    "SeedVR2TemporalMerge": {
+      "introduced_in": "v0.28.0",
       "category": "extras"
     },
     "SelectCLIPDevice": {
@@ -3001,6 +3038,14 @@
       "introduced_in": "v0.3.0",
       "category": "core"
     },
+    "SyncLipSyncNode": {
+      "introduced_in": "v0.28.0",
+      "category": "api"
+    },
+    "SyncTalkingImageNode": {
+      "introduced_in": "v0.28.0",
+      "category": "api"
+    },
     "T2IAdapterLoader": {
       "introduced_in": "v0.14.0",
       "category": "extras"
@@ -3075,6 +3120,10 @@
     },
     "TextGenerateLTX2Prompt": {
       "introduced_in": "v0.15.0",
+      "category": "extras"
+    },
+    "TextOverlay": {
+      "introduced_in": "v0.28.0",
       "category": "extras"
     },
     "TextToLowercase": {
