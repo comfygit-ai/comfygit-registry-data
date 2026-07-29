@@ -1,6 +1,6 @@
 {
-  "version": "2026.07.23",
-  "generated_at": "2026-07-23T05:18:24.893449+00:00",
+  "version": "2026.07.29",
+  "generated_at": "2026-07-29T05:14:53.135361+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -147,13 +147,14 @@
     "v0.28.0",
     "v0.28.1",
     "v0.28.2",
-    "v0.28.3"
+    "v0.28.3",
+    "v0.29.0"
   ],
   "stats": {
-    "total_builtins": 855,
-    "versions_processed": 146,
-    "newest_version": "v0.28.3",
-    "nodes_added_in_latest": 0
+    "total_builtins": 866,
+    "versions_processed": 147,
+    "newest_version": "v0.29.0",
+    "nodes_added_in_latest": 11
   },
   "builtins": {
     "APG": {
@@ -186,6 +187,10 @@
     },
     "AlignYourStepsScheduler": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "AnimaLLLiteApply": {
+      "introduced_in": "v0.29.0",
       "category": "extras"
     },
     "AudioAdjustVolume": {
@@ -1717,6 +1722,14 @@
       "introduced_in": "v0.3.31",
       "category": "extras"
     },
+    "LoadVideoDataSetFromFolder": {
+      "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
+    "LoadVideoTextDataSetFromFolder": {
+      "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
     "LoraLoader": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -2901,6 +2914,14 @@
       "introduced_in": "v0.3.76",
       "category": "extras"
     },
+    "ShuffleVideoDataset": {
+      "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
+    "ShuffleVideoTextDataset": {
+      "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
     "SkipLayerGuidanceDiT": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -3123,6 +3144,14 @@
     },
     "TextEncodeHunyuanVideo_ImageToVideo": {
       "introduced_in": "v0.3.23",
+      "category": "extras"
+    },
+    "TextEncodeJoyImageEdit": {
+      "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
+    "TextEncodeMageFlowEdit": {
+      "introduced_in": "v0.29.0",
       "category": "extras"
     },
     "TextEncodeQwenImageEdit": {
@@ -3377,8 +3406,20 @@
       "introduced_in": "v0.14.0",
       "category": "extras"
     },
+    "VideoFrameSample": {
+      "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
     "VideoLinearCFGGuidance": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VideoRandomTemporalCrop": {
+      "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
+    "VideoTemporalCrop": {
+      "introduced_in": "v0.29.0",
       "category": "extras"
     },
     "VideoTriangleCFGGuidance": {
@@ -3583,6 +3624,10 @@
     },
     "WanTrackToVideo": {
       "introduced_in": "v0.3.46",
+      "category": "extras"
+    },
+    "WanUni3CControlnetApply": {
+      "introduced_in": "v0.29.0",
       "category": "extras"
     },
     "WanVaceToVideo": {
