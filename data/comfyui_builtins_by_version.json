@@ -1,6 +1,6 @@
 {
-  "version": "2026.07.29",
-  "generated_at": "2026-07-29T05:14:53.135361+00:00",
+  "version": "2026.07.31",
+  "generated_at": "2026-07-31T05:28:58.434062+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -148,13 +148,15 @@
     "v0.28.1",
     "v0.28.2",
     "v0.28.3",
-    "v0.29.0"
+    "v0.29.0",
+    "v0.29.1",
+    "v0.29.2"
   ],
   "stats": {
-    "total_builtins": 866,
-    "versions_processed": 147,
-    "newest_version": "v0.29.0",
-    "nodes_added_in_latest": 11
+    "total_builtins": 870,
+    "versions_processed": 149,
+    "newest_version": "v0.29.2",
+    "nodes_added_in_latest": 4
   },
   "builtins": {
     "APG": {
@@ -1178,6 +1180,10 @@
       "introduced_in": "v0.24.0",
       "category": "extras"
     },
+    "IdeogramPImage": {
+      "introduced_in": "v0.29.2",
+      "category": "api"
+    },
     "IdeogramV1": {
       "introduced_in": "v0.3.32",
       "category": "api",
@@ -1928,6 +1934,18 @@
     },
     "MeshyTextureNode": {
       "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MinimaxHailuo03FirstLastFrameNode": {
+      "introduced_in": "v0.29.2",
+      "category": "api"
+    },
+    "MinimaxHailuo03ReferenceNode": {
+      "introduced_in": "v0.29.2",
+      "category": "api"
+    },
+    "MinimaxHailuo03TextToVideoNode": {
+      "introduced_in": "v0.29.2",
       "category": "api"
     },
     "MinimaxHailuoVideoNode": {
