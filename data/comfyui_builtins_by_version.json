@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.03",
-  "generated_at": "2026-08-03T05:34:44.930968+00:00",
+  "version": "2026.08.05",
+  "generated_at": "2026-08-05T04:58:19.190425+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -152,13 +152,14 @@
     "v0.29.1",
     "v0.29.2",
     "v0.30.0",
-    "v0.30.1"
+    "v0.30.1",
+    "v0.30.2"
   ],
   "stats": {
-    "total_builtins": 874,
-    "versions_processed": 151,
-    "newest_version": "v0.30.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 878,
+    "versions_processed": 152,
+    "newest_version": "v0.30.2",
+    "nodes_added_in_latest": 4
   },
   "builtins": {
     "APG": {
@@ -910,6 +911,18 @@
       "introduced_in": "v0.3.72",
       "category": "extras"
     },
+    "Flux3ImageToVideoNode": {
+      "introduced_in": "v0.30.2",
+      "category": "api"
+    },
+    "Flux3TextToVideoNode": {
+      "introduced_in": "v0.30.2",
+      "category": "api"
+    },
+    "Flux3VideoContinuationNode": {
+      "introduced_in": "v0.30.2",
+      "category": "api"
+    },
     "FluxDisableGuidance": {
       "introduced_in": "v0.3.13",
       "category": "extras"
@@ -1386,19 +1399,23 @@
     },
     "KlingCameraControlI2VNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.30.2"
     },
     "KlingCameraControlT2VNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.30.2"
     },
     "KlingCameraControls": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.30.2"
     },
     "KlingDualCharacterVideoEffectNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.30.2"
     },
     "KlingFirstLastFrameNode": {
       "introduced_in": "v0.13.0",
@@ -1454,7 +1471,8 @@
     },
     "KlingSingleImageVideoEffectNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.30.2"
     },
     "KlingStartEndFrameNode": {
       "introduced_in": "v0.3.32",
@@ -1478,7 +1496,8 @@
     },
     "KlingVirtualTryOnNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.30.2"
     },
     "Krea2ImageNode": {
       "introduced_in": "v0.22.3",
@@ -3232,6 +3251,10 @@
     },
     "TopazImageEnhance": {
       "introduced_in": "v0.3.71",
+      "category": "api"
+    },
+    "TopazImageEnhanceV2": {
+      "introduced_in": "v0.30.2",
       "category": "api"
     },
     "TopazVideoEnhance": {
