@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.05",
-  "generated_at": "2026-08-05T04:58:19.190425+00:00",
+  "version": "2026.08.08",
+  "generated_at": "2026-08-08T03:17:45.830121+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -153,13 +153,14 @@
     "v0.29.2",
     "v0.30.0",
     "v0.30.1",
-    "v0.30.2"
+    "v0.30.2",
+    "v0.31.0"
   ],
   "stats": {
-    "total_builtins": 878,
-    "versions_processed": 152,
-    "newest_version": "v0.30.2",
-    "nodes_added_in_latest": 4
+    "total_builtins": 884,
+    "versions_processed": 153,
+    "newest_version": "v0.31.0",
+    "nodes_added_in_latest": 6
   },
   "builtins": {
     "APG": {
@@ -168,6 +169,10 @@
     },
     "ARVideoI2V": {
       "introduced_in": "v0.21.0",
+      "category": "extras"
+    },
+    "AddLayer": {
+      "introduced_in": "v0.31.0",
       "category": "extras"
     },
     "AddNoise": {
@@ -345,6 +350,10 @@
     },
     "ByteDanceSeedNode": {
       "introduced_in": "v0.22.0",
+      "category": "api"
+    },
+    "ByteDanceSeedreamLayerSeparationNode": {
+      "introduced_in": "v0.31.0",
       "category": "api"
     },
     "ByteDanceSeedreamNode": {
@@ -1249,6 +1258,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "ImageCompositor": {
+      "introduced_in": "v0.31.0",
+      "category": "extras"
+    },
     "ImageCrop": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -1669,6 +1682,10 @@
     },
     "LatentUpscaleModelLoader": {
       "introduced_in": "v0.3.71",
+      "category": "extras"
+    },
+    "LayersFromBoundingBoxes": {
+      "introduced_in": "v0.31.0",
       "category": "extras"
     },
     "LazyCache": {
@@ -3572,6 +3589,14 @@
     "Wan2VideoEditApi": {
       "introduced_in": "v0.18.4",
       "category": "api"
+    },
+    "WanAnimate2Cache": {
+      "introduced_in": "v0.31.0",
+      "category": "extras"
+    },
+    "WanAnimate2ToVideo": {
+      "introduced_in": "v0.31.0",
+      "category": "extras"
     },
     "WanAnimateToVideo": {
       "introduced_in": "v0.3.60",
