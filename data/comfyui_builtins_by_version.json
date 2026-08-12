@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.09",
-  "generated_at": "2026-08-09T03:26:00.254930+00:00",
+  "version": "2026.08.12",
+  "generated_at": "2026-08-12T03:58:09.774581+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -155,13 +155,14 @@
     "v0.30.1",
     "v0.30.2",
     "v0.31.0",
-    "v0.31.1"
+    "v0.31.1",
+    "v0.32.0"
   ],
   "stats": {
-    "total_builtins": 884,
-    "versions_processed": 154,
-    "newest_version": "v0.31.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 894,
+    "versions_processed": 155,
+    "newest_version": "v0.32.0",
+    "nodes_added_in_latest": 10
   },
   "builtins": {
     "APG": {
@@ -1557,6 +1558,14 @@
       "introduced_in": "v0.3.20",
       "category": "extras"
     },
+    "LTXVDualCFGGuider": {
+      "introduced_in": "v0.32.0",
+      "category": "extras"
+    },
+    "LTXVDurationPredictor": {
+      "introduced_in": "v0.32.0",
+      "category": "extras"
+    },
     "LTXVEmptyLatentAudio": {
       "introduced_in": "v0.8.0",
       "category": "extras"
@@ -1573,6 +1582,10 @@
       "introduced_in": "v0.8.0",
       "category": "extras"
     },
+    "LTXVModalityGuidance": {
+      "introduced_in": "v0.32.0",
+      "category": "extras"
+    },
     "LTXVPreprocess": {
       "introduced_in": "v0.3.20",
       "category": "extras"
@@ -1587,6 +1600,10 @@
     },
     "LTXVSeparateAVLatent": {
       "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVSpatioTemporalGuidance": {
+      "introduced_in": "v0.32.0",
       "category": "extras"
     },
     "LaplaceScheduler": {
@@ -1810,6 +1827,18 @@
     "LotusConditioning": {
       "introduced_in": "v0.3.27",
       "category": "extras"
+    },
+    "LtxApi25AudioToVideo": {
+      "introduced_in": "v0.32.0",
+      "category": "api"
+    },
+    "LtxApi25ImageToVideo": {
+      "introduced_in": "v0.32.0",
+      "category": "api"
+    },
+    "LtxApi25TextToVideo": {
+      "introduced_in": "v0.32.0",
+      "category": "api"
     },
     "LtxvApiImageToVideo": {
       "introduced_in": "v0.3.67",
@@ -2037,6 +2066,10 @@
     },
     "MoGeRender": {
       "introduced_in": "v0.22.0",
+      "category": "extras"
+    },
+    "ModelAttentionBackend": {
+      "introduced_in": "v0.32.0",
       "category": "extras"
     },
     "ModelComputeDtype": {
@@ -2440,6 +2473,14 @@
     "QwenImageDiffsynthControlnet": {
       "introduced_in": "v0.3.52",
       "category": "extras"
+    },
+    "QwenImageEditApi": {
+      "introduced_in": "v0.32.0",
+      "category": "api"
+    },
+    "QwenImageTextToImageApi": {
+      "introduced_in": "v0.32.0",
+      "category": "api"
     },
     "RTDETR_detect": {
       "introduced_in": "v0.19.0",
