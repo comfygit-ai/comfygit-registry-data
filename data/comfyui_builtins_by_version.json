@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.12",
-  "generated_at": "2026-08-12T03:58:09.774581+00:00",
+  "version": "2026.08.14",
+  "generated_at": "2026-08-14T03:58:31.690254+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -156,13 +156,15 @@
     "v0.30.2",
     "v0.31.0",
     "v0.31.1",
-    "v0.32.0"
+    "v0.32.0",
+    "v0.33.0",
+    "v0.33.1"
   ],
   "stats": {
-    "total_builtins": 894,
-    "versions_processed": 155,
-    "newest_version": "v0.32.0",
-    "nodes_added_in_latest": 10
+    "total_builtins": 902,
+    "versions_processed": 157,
+    "newest_version": "v0.33.1",
+    "nodes_added_in_latest": 0
   },
   "builtins": {
     "APG": {
@@ -277,8 +279,24 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "BriaEraser": {
+      "introduced_in": "v0.33.0",
+      "category": "api"
+    },
+    "BriaExpandImage": {
+      "introduced_in": "v0.33.0",
+      "category": "api"
+    },
+    "BriaGenFill": {
+      "introduced_in": "v0.33.0",
+      "category": "api"
+    },
     "BriaImageEditNode": {
       "introduced_in": "v0.10.0",
+      "category": "api"
+    },
+    "BriaIncreaseResolution": {
+      "introduced_in": "v0.33.0",
       "category": "api"
     },
     "BriaRemoveImageBackground": {
@@ -872,6 +890,10 @@
     },
     "EmptyMiniMaxH3LatentAV": {
       "introduced_in": "v0.30.0",
+      "category": "extras"
+    },
+    "EmptyMiniMaxMusic3LatentAudio": {
+      "introduced_in": "v0.33.0",
       "category": "extras"
     },
     "EmptyMochiLatentVideo": {
@@ -2020,12 +2042,24 @@
       "introduced_in": "v0.30.0",
       "category": "extras"
     },
+    "MiniMaxMusic3TextEncode": {
+      "introduced_in": "v0.33.0",
+      "category": "extras"
+    },
+    "MinimaxHailuo03ContextIRNode": {
+      "introduced_in": "v0.33.0",
+      "category": "api"
+    },
     "MinimaxHailuo03FirstLastFrameNode": {
       "introduced_in": "v0.29.2",
       "category": "api"
     },
     "MinimaxHailuo03ReferenceNode": {
       "introduced_in": "v0.29.2",
+      "category": "api"
+    },
+    "MinimaxHailuo03RegenerateNode": {
+      "introduced_in": "v0.33.0",
       "category": "api"
     },
     "MinimaxHailuo03TextToVideoNode": {
