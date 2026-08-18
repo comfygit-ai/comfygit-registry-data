@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.14",
-  "generated_at": "2026-08-14T03:58:31.690254+00:00",
+  "version": "2026.08.18",
+  "generated_at": "2026-08-18T02:48:49.528399+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -158,13 +158,14 @@
     "v0.31.1",
     "v0.32.0",
     "v0.33.0",
-    "v0.33.1"
+    "v0.33.1",
+    "v0.33.2"
   ],
   "stats": {
-    "total_builtins": 902,
-    "versions_processed": 157,
-    "newest_version": "v0.33.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 907,
+    "versions_processed": 158,
+    "newest_version": "v0.33.2",
+    "nodes_added_in_latest": 5
   },
   "builtins": {
     "APG": {
@@ -329,6 +330,10 @@
     },
     "ByteDance2ReferenceNode": {
       "introduced_in": "v0.19.0",
+      "category": "api"
+    },
+    "ByteDance2ReferenceNodeV2": {
+      "introduced_in": "v0.33.2",
       "category": "api"
     },
     "ByteDance2TextToVideoNode": {
@@ -927,6 +932,22 @@
     "File3DToSplat": {
       "introduced_in": "v0.23.0",
       "category": "extras"
+    },
+    "FishAudioInstantVoiceClone": {
+      "introduced_in": "v0.33.2",
+      "category": "api"
+    },
+    "FishAudioSpeechToText": {
+      "introduced_in": "v0.33.2",
+      "category": "api"
+    },
+    "FishAudioTextToSpeech": {
+      "introduced_in": "v0.33.2",
+      "category": "api"
+    },
+    "FishAudioVoiceSelector": {
+      "introduced_in": "v0.33.2",
+      "category": "api"
     },
     "FlipSigmas": {
       "introduced_in": "v0.3.0",
