@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.18",
-  "generated_at": "2026-08-18T02:48:49.528399+00:00",
+  "version": "2026.08.21",
+  "generated_at": "2026-08-21T02:55:33.436546+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -159,13 +159,14 @@
     "v0.32.0",
     "v0.33.0",
     "v0.33.1",
-    "v0.33.2"
+    "v0.33.2",
+    "v0.33.3"
   ],
   "stats": {
-    "total_builtins": 907,
-    "versions_processed": 158,
-    "newest_version": "v0.33.2",
-    "nodes_added_in_latest": 5
+    "total_builtins": 909,
+    "versions_processed": 159,
+    "newest_version": "v0.33.3",
+    "nodes_added_in_latest": 2
   },
   "builtins": {
     "APG": {
@@ -387,6 +388,10 @@
     },
     "ByteDanceSeedreamNodeV2": {
       "introduced_in": "v0.21.1",
+      "category": "api"
+    },
+    "ByteDanceSeedreamNodeV3": {
+      "introduced_in": "v0.33.3",
       "category": "api"
     },
     "ByteDanceTextToVideoNode": {
@@ -1039,6 +1044,10 @@
     },
     "FluxVTONode": {
       "introduced_in": "v0.23.0",
+      "category": "api"
+    },
+    "FluxVideoUpscaleNode": {
+      "introduced_in": "v0.33.3",
       "category": "api"
     },
     "FrameInterpolate": {
