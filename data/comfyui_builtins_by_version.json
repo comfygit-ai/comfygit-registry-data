@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.21",
-  "generated_at": "2026-08-21T02:55:33.436546+00:00",
+  "version": "2026.08.25",
+  "generated_at": "2026-08-25T02:51:37.600923+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -160,13 +160,14 @@
     "v0.33.0",
     "v0.33.1",
     "v0.33.2",
-    "v0.33.3"
+    "v0.33.3",
+    "v0.33.4"
   ],
   "stats": {
-    "total_builtins": 909,
-    "versions_processed": 159,
-    "newest_version": "v0.33.3",
-    "nodes_added_in_latest": 2
+    "total_builtins": 913,
+    "versions_processed": 160,
+    "newest_version": "v0.33.4",
+    "nodes_added_in_latest": 4
   },
   "builtins": {
     "APG": {
@@ -396,6 +397,10 @@
     },
     "ByteDanceTextToVideoNode": {
       "introduced_in": "v0.3.58",
+      "category": "api"
+    },
+    "ByteDanceVideoEnhanceNode": {
+      "introduced_in": "v0.33.4",
       "category": "api"
     },
     "CFGGuider": {
@@ -2056,6 +2061,10 @@
       "introduced_in": "v0.9.2",
       "category": "api"
     },
+    "MeshyTextureMultiViewNode": {
+      "introduced_in": "v0.33.4",
+      "category": "api"
+    },
     "MeshyTextureNode": {
       "introduced_in": "v0.9.2",
       "category": "api"
@@ -3694,6 +3703,14 @@
     },
     "Wan2VideoEditApi": {
       "introduced_in": "v0.18.4",
+      "category": "api"
+    },
+    "Wan3ImageToVideoApi": {
+      "introduced_in": "v0.33.4",
+      "category": "api"
+    },
+    "Wan3ReferenceToVideoApi": {
+      "introduced_in": "v0.33.4",
       "category": "api"
     },
     "WanAnimate2Cache": {
