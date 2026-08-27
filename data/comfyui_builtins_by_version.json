@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.26",
-  "generated_at": "2026-08-26T02:57:28.922018+00:00",
+  "version": "2026.08.27",
+  "generated_at": "2026-08-27T12:12:36.097481+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -162,13 +162,14 @@
     "v0.33.2",
     "v0.33.3",
     "v0.33.4",
-    "v0.34.0"
+    "v0.34.0",
+    "v0.34.1"
   ],
   "stats": {
-    "total_builtins": 954,
-    "versions_processed": 161,
-    "newest_version": "v0.34.0",
-    "nodes_added_in_latest": 41
+    "total_builtins": 955,
+    "versions_processed": 162,
+    "newest_version": "v0.34.1",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -2736,6 +2737,10 @@
       "introduced_in": "v0.3.32",
       "category": "api"
     },
+    "RecraftV4CreateStyleNode": {
+      "introduced_in": "v0.34.1",
+      "category": "api"
+    },
     "RecraftV4TextToImageNode": {
       "introduced_in": "v0.14.1",
       "category": "api"
@@ -3753,7 +3758,8 @@
     },
     "VeoVideoGenerationNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.1"
     },
     "Video Slice": {
       "introduced_in": "v0.14.0",
