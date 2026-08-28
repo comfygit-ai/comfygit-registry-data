@@ -1,6 +1,6 @@
 {
-  "version": "2026.08.27",
-  "generated_at": "2026-08-27T12:12:36.097481+00:00",
+  "version": "2026.08.28",
+  "generated_at": "2026-08-28T13:37:52.668041+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -163,12 +163,13 @@
     "v0.33.3",
     "v0.33.4",
     "v0.34.0",
-    "v0.34.1"
+    "v0.34.1",
+    "v0.34.2"
   ],
   "stats": {
-    "total_builtins": 955,
-    "versions_processed": 162,
-    "newest_version": "v0.34.1",
+    "total_builtins": 956,
+    "versions_processed": 163,
+    "newest_version": "v0.34.2",
     "nodes_added_in_latest": 1
   },
   "builtins": {
@@ -1155,6 +1156,10 @@
     },
     "GeminiVideoOmni": {
       "introduced_in": "v0.27.0",
+      "category": "api"
+    },
+    "GeminiVideoOmniV2": {
+      "introduced_in": "v0.34.2",
       "category": "api"
     },
     "GenerateTracks": {
