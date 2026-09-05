@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.03",
-  "generated_at": "2026-09-03T06:43:08.317232+00:00",
+  "version": "2026.09.05",
+  "generated_at": "2026-09-05T06:33:29.732163+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -165,13 +165,15 @@
     "v0.34.0",
     "v0.34.1",
     "v0.34.2",
-    "v0.34.3"
+    "v0.34.3",
+    "v0.34.4",
+    "v0.34.5"
   ],
   "stats": {
-    "total_builtins": 956,
-    "versions_processed": 164,
-    "newest_version": "v0.34.3",
-    "nodes_added_in_latest": 0
+    "total_builtins": 968,
+    "versions_processed": 166,
+    "newest_version": "v0.34.5",
+    "nodes_added_in_latest": 4
   },
   "builtins": {
     "APG": {
@@ -582,6 +584,22 @@
     "ComfyAndNode": {
       "introduced_in": "v0.23.0",
       "category": "extras"
+    },
+    "ComfyCloudFlux2TextToImageNode": {
+      "introduced_in": "v0.34.5",
+      "category": "api"
+    },
+    "ComfyCloudMageFlowTextToImageNode": {
+      "introduced_in": "v0.34.5",
+      "category": "api"
+    },
+    "ComfyCloudMageFlowTurboTextToImageNode": {
+      "introduced_in": "v0.34.5",
+      "category": "api"
+    },
+    "ComfyCloudZImageTurboNode": {
+      "introduced_in": "v0.34.5",
+      "category": "api"
     },
     "ComfyMathExpression": {
       "introduced_in": "v0.16.4",
@@ -2133,6 +2151,14 @@
       "introduced_in": "v0.9.2",
       "category": "api"
     },
+    "MetaMuseImageEditApi": {
+      "introduced_in": "v0.34.4",
+      "category": "api"
+    },
+    "MetaMuseImageTextToImageApi": {
+      "introduced_in": "v0.34.4",
+      "category": "api"
+    },
     "MiniMaxH3AddGuide": {
       "introduced_in": "v0.34.0",
       "category": "extras"
@@ -3581,12 +3607,24 @@
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "TripoEditMultiviewNode": {
+      "introduced_in": "v0.34.4",
+      "category": "api"
+    },
     "TripoImageToModelNode": {
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "TripoImageToMultiviewNode": {
+      "introduced_in": "v0.34.4",
+      "category": "api"
+    },
     "TripoImportModelNode": {
       "introduced_in": "v0.25.0",
+      "category": "api"
+    },
+    "TripoMeshCompleteNode": {
+      "introduced_in": "v0.34.4",
       "category": "api"
     },
     "TripoMultiviewToModelNode": {
@@ -3614,8 +3652,20 @@
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "TripoRetopologyNode": {
+      "introduced_in": "v0.34.4",
+      "category": "api"
+    },
+    "TripoRigCheckNode": {
+      "introduced_in": "v0.34.4",
+      "category": "api"
+    },
     "TripoRigNode": {
       "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoSegmentNode": {
+      "introduced_in": "v0.34.4",
       "category": "api"
     },
     "TripoSplatConditioning": {
