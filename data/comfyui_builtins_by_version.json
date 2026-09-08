@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.05",
-  "generated_at": "2026-09-05T06:33:29.732163+00:00",
+  "version": "2026.09.08",
+  "generated_at": "2026-09-08T06:47:05.596086+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -167,13 +167,14 @@
     "v0.34.2",
     "v0.34.3",
     "v0.34.4",
-    "v0.34.5"
+    "v0.34.5",
+    "v0.34.6"
   ],
   "stats": {
     "total_builtins": 968,
-    "versions_processed": 166,
-    "newest_version": "v0.34.5",
-    "nodes_added_in_latest": 4
+    "versions_processed": 167,
+    "newest_version": "v0.34.6",
+    "nodes_added_in_latest": 0
   },
   "builtins": {
     "APG": {
@@ -387,11 +388,13 @@
     },
     "ByteDanceImageNode": {
       "introduced_in": "v0.3.57",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.6"
     },
     "ByteDanceImageReferenceNode": {
       "introduced_in": "v0.3.58",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.6"
     },
     "ByteDanceImageToVideoNode": {
       "introduced_in": "v0.3.58",
@@ -1626,7 +1629,8 @@
     },
     "KlingVideoExtendNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.6"
     },
     "KlingVideoNode": {
       "introduced_in": "v0.13.0",
@@ -1965,11 +1969,13 @@
     },
     "LtxvApiImageToVideo": {
       "introduced_in": "v0.3.67",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.6"
     },
     "LtxvApiTextToVideo": {
       "introduced_in": "v0.3.67",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.6"
     },
     "LumaConceptsNode": {
       "introduced_in": "v0.3.32",
@@ -2424,11 +2430,13 @@
     },
     "OpenAIDalle2": {
       "introduced_in": "v0.3.30",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.6"
     },
     "OpenAIDalle3": {
       "introduced_in": "v0.3.30",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.34.6"
     },
     "OpenAIGPTImage1": {
       "introduced_in": "v0.3.30",
