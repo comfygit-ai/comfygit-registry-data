@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.08",
-  "generated_at": "2026-09-08T06:47:05.596086+00:00",
+  "version": "2026.09.09",
+  "generated_at": "2026-09-09T06:56:05.809876+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -168,13 +168,14 @@
     "v0.34.3",
     "v0.34.4",
     "v0.34.5",
-    "v0.34.6"
+    "v0.34.6",
+    "v0.35.0"
   ],
   "stats": {
-    "total_builtins": 968,
-    "versions_processed": 167,
-    "newest_version": "v0.34.6",
-    "nodes_added_in_latest": 0
+    "total_builtins": 981,
+    "versions_processed": 168,
+    "newest_version": "v0.35.0",
+    "nodes_added_in_latest": 13
   },
   "builtins": {
     "APG": {
@@ -303,6 +304,10 @@
     },
     "BetaSamplingScheduler": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "BlockSparseAttention": {
+      "introduced_in": "v0.35.0",
       "category": "extras"
     },
     "BriaEraser": {
@@ -1188,6 +1193,10 @@
       "introduced_in": "v0.5.0",
       "category": "extras"
     },
+    "Get3DComponents": {
+      "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
     "GetICLoRAParameters": {
       "introduced_in": "v0.22.0",
       "category": "extras"
@@ -1368,6 +1377,10 @@
     },
     "ImageBlur": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "ImageColorSpace": {
+      "introduced_in": "v0.35.0",
       "category": "extras"
     },
     "ImageColorToMask": {
@@ -1653,8 +1666,16 @@
       "introduced_in": "v0.8.0",
       "category": "extras"
     },
+    "LTXVAddGeneratedKeyframes": {
+      "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
     "LTXVAddGuide": {
       "introduced_in": "v0.3.20",
+      "category": "extras"
+    },
+    "LTXVAddLatentGuide": {
+      "introduced_in": "v0.35.0",
       "category": "extras"
     },
     "LTXVAudioVAEDecode": {
@@ -1697,6 +1718,14 @@
       "introduced_in": "v0.8.0",
       "category": "extras"
     },
+    "LTXVFreezeLatent": {
+      "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
+    "LTXVGeneratedKeyframesToGuides": {
+      "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
     "LTXVImgToVideo": {
       "introduced_in": "v0.3.2",
       "category": "extras"
@@ -1727,6 +1756,10 @@
     },
     "LTXVSeparateAVLatent": {
       "introduced_in": "v0.8.0",
+      "category": "extras"
+    },
+    "LTXVSeparateGeneratedKeyframes": {
+      "introduced_in": "v0.35.0",
       "category": "extras"
     },
     "LTXVSpatioTemporalGuidance": {
@@ -2169,6 +2202,10 @@
       "introduced_in": "v0.34.0",
       "category": "extras"
     },
+    "MiniMaxH3FunControlNetApply": {
+      "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
     "MiniMaxH3ImageToVideo": {
       "introduced_in": "v0.30.0",
       "category": "extras"
@@ -2555,6 +2592,10 @@
     },
     "Pixal3DConditioning": {
       "introduced_in": "v0.34.0",
+      "category": "extras"
+    },
+    "Pixal3DMultiViewConditioning": {
+      "introduced_in": "v0.35.0",
       "category": "extras"
     },
     "PixverseImageToVideoNode": {
@@ -3247,6 +3288,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "SenseNovaSamplingOptions": {
+      "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
     "SetClipHooks": {
       "introduced_in": "v0.3.7",
       "category": "extras"
@@ -3829,6 +3874,10 @@
       "introduced_in": "v0.14.0",
       "category": "extras"
     },
+    "VideoCrop": {
+      "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
     "VideoFrameSample": {
       "introduced_in": "v0.29.0",
       "category": "extras"
@@ -3847,6 +3896,10 @@
     },
     "VideoTriangleCFGGuidance": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VideoTrim": {
+      "introduced_in": "v0.35.0",
       "category": "extras"
     },
     "Vidu2ImageToVideoNode": {
