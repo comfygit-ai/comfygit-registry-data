@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.09",
-  "generated_at": "2026-09-09T06:56:05.809876+00:00",
+  "version": "2026.09.11",
+  "generated_at": "2026-09-11T06:52:11.034333+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -169,13 +169,14 @@
     "v0.34.4",
     "v0.34.5",
     "v0.34.6",
-    "v0.35.0"
+    "v0.35.0",
+    "v0.35.1"
   ],
   "stats": {
-    "total_builtins": 981,
-    "versions_processed": 168,
-    "newest_version": "v0.35.0",
-    "nodes_added_in_latest": 13
+    "total_builtins": 986,
+    "versions_processed": 169,
+    "newest_version": "v0.35.1",
+    "nodes_added_in_latest": 5
   },
   "builtins": {
     "APG": {
@@ -2491,6 +2492,10 @@
       "introduced_in": "v0.3.64",
       "category": "api"
     },
+    "OpenRouterImageNode": {
+      "introduced_in": "v0.35.1",
+      "category": "api"
+    },
     "OpenRouterLLMNode": {
       "introduced_in": "v0.22.1",
       "category": "api"
@@ -3668,6 +3673,10 @@
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "TripoImageToModelNodeV2": {
+      "introduced_in": "v0.35.1",
+      "category": "api"
+    },
     "TripoImageToMultiviewNode": {
       "introduced_in": "v0.34.4",
       "category": "api"
@@ -3721,6 +3730,10 @@
       "introduced_in": "v0.34.4",
       "category": "api"
     },
+    "TripoSmartSegmentNode": {
+      "introduced_in": "v0.35.1",
+      "category": "api"
+    },
     "TripoSplatConditioning": {
       "introduced_in": "v0.23.0",
       "category": "extras"
@@ -3737,8 +3750,16 @@
       "introduced_in": "v0.3.37",
       "category": "api"
     },
+    "TripoTextToModelNodeV2": {
+      "introduced_in": "v0.35.1",
+      "category": "api"
+    },
     "TripoTextureNode": {
       "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "TripoTextureNodeV2": {
+      "introduced_in": "v0.35.1",
       "category": "api"
     },
     "TruncateText": {
