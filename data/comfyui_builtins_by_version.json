@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.11",
-  "generated_at": "2026-09-11T06:52:11.034333+00:00",
+  "version": "2026.09.15",
+  "generated_at": "2026-09-15T07:01:10.332738+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -170,13 +170,14 @@
     "v0.34.5",
     "v0.34.6",
     "v0.35.0",
-    "v0.35.1"
+    "v0.35.1",
+    "v0.35.2"
   ],
   "stats": {
-    "total_builtins": 986,
-    "versions_processed": 169,
-    "newest_version": "v0.35.1",
-    "nodes_added_in_latest": 5
+    "total_builtins": 997,
+    "versions_processed": 170,
+    "newest_version": "v0.35.2",
+    "nodes_added_in_latest": 11
   },
   "builtins": {
     "APG": {
@@ -311,6 +312,18 @@
       "introduced_in": "v0.35.0",
       "category": "extras"
     },
+    "BriaAddObject": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
+    "BriaEraseByText": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
+    "BriaEraseForeground": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
     "BriaEraser": {
       "introduced_in": "v0.33.0",
       "category": "api"
@@ -331,6 +344,10 @@
       "introduced_in": "v0.33.0",
       "category": "api"
     },
+    "BriaRelight": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
     "BriaRemoveImageBackground": {
       "introduced_in": "v0.14.0",
       "category": "api"
@@ -339,8 +356,28 @@
       "introduced_in": "v0.14.0",
       "category": "api"
     },
+    "BriaReplaceImageBackground": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
+    "BriaReplaceObject": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
+    "BriaReseason": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
+    "BriaRestorePhoto": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
     "BriaTransparentVideoBackground": {
       "introduced_in": "v0.24.1",
+      "category": "api"
+    },
+    "BriaVideoEraser": {
+      "introduced_in": "v0.35.2",
       "category": "api"
     },
     "BriaVideoGreenScreen": {
@@ -1114,6 +1151,10 @@
       "introduced_in": "v0.23.0",
       "category": "api"
     },
+    "FluxVideoEditNode": {
+      "introduced_in": "v0.35.2",
+      "category": "api"
+    },
     "FluxVideoUpscaleNode": {
       "introduced_in": "v0.33.3",
       "category": "api"
@@ -1180,6 +1221,10 @@
     },
     "GeminiNodeV2": {
       "introduced_in": "v0.25.0",
+      "category": "api"
+    },
+    "GeminiNodeV3": {
+      "introduced_in": "v0.35.2",
       "category": "api"
     },
     "GeminiVideoOmni": {
