@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.15",
-  "generated_at": "2026-09-15T07:01:10.332738+00:00",
+  "version": "2026.09.16",
+  "generated_at": "2026-09-16T07:02:16.402977+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -171,13 +171,14 @@
     "v0.34.6",
     "v0.35.0",
     "v0.35.1",
-    "v0.35.2"
+    "v0.35.2",
+    "v0.36.0"
   ],
   "stats": {
-    "total_builtins": 997,
-    "versions_processed": 170,
-    "newest_version": "v0.35.2",
-    "nodes_added_in_latest": 11
+    "total_builtins": 1016,
+    "versions_processed": 171,
+    "newest_version": "v0.36.0",
+    "nodes_added_in_latest": 19
   },
   "builtins": {
     "APG": {
@@ -671,6 +672,10 @@
       "introduced_in": "v0.4.0",
       "category": "extras"
     },
+    "ConcatenateVideo": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
     "ConditioningAverage": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -682,6 +687,10 @@
     "ConditioningConcat": {
       "introduced_in": "v0.3.0",
       "category": "core"
+    },
+    "ConditioningLoader": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
     },
     "ConditioningMultiply": {
       "introduced_in": "v0.27.0",
@@ -1019,6 +1028,14 @@
       "introduced_in": "v0.34.0",
       "category": "extras"
     },
+    "EmptyYuE2LatentAudio": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
+    "EndLoop": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
     "Epsilon Scaling": {
       "introduced_in": "v0.3.63",
       "category": "extras"
@@ -1249,6 +1266,10 @@
     },
     "GetImageSize": {
       "introduced_in": "v0.3.40",
+      "category": "extras"
+    },
+    "GetItemFromList": {
+      "introduced_in": "v0.36.0",
       "category": "extras"
     },
     "GetMeshInfo": {
@@ -2002,6 +2023,18 @@
       "introduced_in": "v0.29.0",
       "category": "extras"
     },
+    "LoopIteration": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
+    "LoopProgress": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
+    "LoopResult": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
     "LoraLoader": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -2146,6 +2179,10 @@
     },
     "ManualSigmas": {
       "introduced_in": "v0.7.0",
+      "category": "extras"
+    },
+    "MarigoldV2PostProcess": {
+      "introduced_in": "v0.36.0",
       "category": "extras"
     },
     "MarkdownNote": {
@@ -2756,6 +2793,14 @@
       "introduced_in": "v0.3.32",
       "category": "extras"
     },
+    "PrunaImageToVideoNode": {
+      "introduced_in": "v0.36.0",
+      "category": "api"
+    },
+    "PrunaTextToVideoNode": {
+      "introduced_in": "v0.36.0",
+      "category": "api"
+    },
     "QuadrupleCLIPLoader": {
       "introduced_in": "v0.3.29",
       "category": "extras"
@@ -3224,6 +3269,10 @@
       "introduced_in": "v0.3.35",
       "category": "extras"
     },
+    "SaveConditioning": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
     "SaveGLB": {
       "introduced_in": "v0.3.27",
       "category": "extras"
@@ -3362,6 +3411,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "SheetSage2AudioToABC": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
     "ShuffleDataset": {
       "introduced_in": "v0.3.76",
       "category": "extras"
@@ -3492,6 +3545,10 @@
     },
     "StableZero123_Conditioning_Batched": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "StartLoop": {
+      "introduced_in": "v0.36.0",
       "category": "extras"
     },
     "StringCompare": {
@@ -3748,6 +3805,18 @@
     },
     "TripoP1TextToModelNode": {
       "introduced_in": "v0.23.0",
+      "category": "api"
+    },
+    "TripoPSeriesImageToModelNode": {
+      "introduced_in": "v0.36.0",
+      "category": "api"
+    },
+    "TripoPSeriesMultiviewToModelNode": {
+      "introduced_in": "v0.36.0",
+      "category": "api"
+    },
+    "TripoPSeriesTextToModelNode": {
+      "introduced_in": "v0.36.0",
       "category": "api"
     },
     "TripoRefineNode": {
@@ -4206,6 +4275,14 @@
     },
     "WeldVertices": {
       "introduced_in": "v0.34.0",
+      "category": "extras"
+    },
+    "YuE2GenerateABC": {
+      "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
+    "YuE2GenerateMusic": {
+      "introduced_in": "v0.36.0",
       "category": "extras"
     },
     "ZImageFunControlnet": {
