@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.16",
-  "generated_at": "2026-09-16T07:02:16.402977+00:00",
+  "version": "2026.09.21",
+  "generated_at": "2026-09-21T07:28:25.259984+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -172,13 +172,14 @@
     "v0.35.0",
     "v0.35.1",
     "v0.35.2",
-    "v0.36.0"
+    "v0.36.0",
+    "v0.37.0"
   ],
   "stats": {
-    "total_builtins": 1016,
-    "versions_processed": 171,
-    "newest_version": "v0.36.0",
-    "nodes_added_in_latest": 19
+    "total_builtins": 1018,
+    "versions_processed": 172,
+    "newest_version": "v0.37.0",
+    "nodes_added_in_latest": 2
   },
   "builtins": {
     "APG": {
@@ -2813,6 +2814,10 @@
       "introduced_in": "v0.18.0",
       "category": "api"
     },
+    "QwenImage21Cache": {
+      "introduced_in": "v0.37.0",
+      "category": "extras"
+    },
     "QwenImageDiffsynthControlnet": {
       "introduced_in": "v0.3.52",
       "category": "extras"
@@ -3665,6 +3670,10 @@
     },
     "TextEncodeMageFlowEdit": {
       "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
+    "TextEncodeQwenImage21": {
+      "introduced_in": "v0.37.0",
       "category": "extras"
     },
     "TextEncodeQwenImageEdit": {
