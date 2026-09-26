@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.24",
-  "generated_at": "2026-09-24T07:00:06.318030+00:00",
+  "version": "2026.09.26",
+  "generated_at": "2026-09-26T06:55:23.544646+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -175,12 +175,14 @@
     "v0.36.0",
     "v0.37.0",
     "v0.37.1",
-    "v0.37.2"
+    "v0.37.2",
+    "v0.37.3",
+    "v0.37.4"
   ],
   "stats": {
-    "total_builtins": 1020,
-    "versions_processed": 174,
-    "newest_version": "v0.37.2",
+    "total_builtins": 1023,
+    "versions_processed": 176,
+    "newest_version": "v0.37.4",
     "nodes_added_in_latest": 0
   },
   "builtins": {
@@ -400,6 +402,10 @@
       "introduced_in": "v0.34.0",
       "category": "extras"
     },
+    "ByteDance2DraftToFinalVideoNode": {
+      "introduced_in": "v0.37.3",
+      "category": "api"
+    },
     "ByteDance2FirstLastFrameNode": {
       "introduced_in": "v0.19.0",
       "category": "api"
@@ -457,6 +463,10 @@
     },
     "ByteDanceSeedreamLayerSeparationNode": {
       "introduced_in": "v0.31.0",
+      "category": "api"
+    },
+    "ByteDanceSeedreamLayerSeparationNodeV2": {
+      "introduced_in": "v0.37.3",
       "category": "api"
     },
     "ByteDanceSeedreamNode": {
@@ -3681,6 +3691,11 @@
     "TextEncodeMageFlowEdit": {
       "introduced_in": "v0.29.0",
       "category": "extras"
+    },
+    "TextEncodeMingImageEdit": {
+      "introduced_in": "v0.37.3",
+      "category": "extras",
+      "removed_in": "v0.37.4"
     },
     "TextEncodeQwenImage21": {
       "introduced_in": "v0.37.0",
