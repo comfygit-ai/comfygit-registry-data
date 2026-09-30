@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.26",
-  "generated_at": "2026-09-26T06:55:23.544646+00:00",
+  "version": "2026.09.30",
+  "generated_at": "2026-09-30T07:46:43.053346+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -177,13 +177,14 @@
     "v0.37.1",
     "v0.37.2",
     "v0.37.3",
-    "v0.37.4"
+    "v0.37.4",
+    "v0.38.0"
   ],
   "stats": {
     "total_builtins": 1023,
-    "versions_processed": 176,
-    "newest_version": "v0.37.4",
-    "nodes_added_in_latest": 0
+    "versions_processed": 177,
+    "newest_version": "v0.38.0",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -2593,7 +2594,8 @@
     },
     "OpenAIVideoSora2": {
       "introduced_in": "v0.3.64",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.38.0"
     },
     "OpenRouterImageNode": {
       "introduced_in": "v0.35.1",
@@ -3695,7 +3697,10 @@
     "TextEncodeMingImageEdit": {
       "introduced_in": "v0.37.3",
       "category": "extras",
-      "removed_in": "v0.37.4"
+      "present_in": [
+        "v0.37.3-v0.37.3",
+        "v0.38.0+"
+      ]
     },
     "TextEncodeQwenImage21": {
       "introduced_in": "v0.37.0",
