@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.30",
-  "generated_at": "2026-09-30T07:46:43.053346+00:00",
+  "version": "2026.10.01",
+  "generated_at": "2026-10-01T08:05:42.235374+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -178,13 +178,14 @@
     "v0.37.2",
     "v0.37.3",
     "v0.37.4",
-    "v0.38.0"
+    "v0.38.0",
+    "v0.38.1"
   ],
   "stats": {
-    "total_builtins": 1023,
-    "versions_processed": 177,
-    "newest_version": "v0.38.0",
-    "nodes_added_in_latest": 1
+    "total_builtins": 1028,
+    "versions_processed": 178,
+    "newest_version": "v0.38.1",
+    "nodes_added_in_latest": 5
   },
   "builtins": {
     "APG": {
@@ -1354,6 +1355,14 @@
       "introduced_in": "v0.28.1",
       "category": "api"
     },
+    "HeyGenImageToVideoNode": {
+      "introduced_in": "v0.38.1",
+      "category": "api"
+    },
+    "HeyGenReferenceToVideoNode": {
+      "introduced_in": "v0.38.1",
+      "category": "api"
+    },
     "HeyGenTalkingPhotoNode": {
       "introduced_in": "v0.28.1",
       "category": "api"
@@ -1430,8 +1439,20 @@
       "introduced_in": "v0.24.0",
       "category": "extras"
     },
+    "IdeogramEditApi": {
+      "introduced_in": "v0.38.1",
+      "category": "api"
+    },
     "IdeogramPImage": {
       "introduced_in": "v0.29.2",
+      "category": "api"
+    },
+    "IdeogramPreciseEditApi": {
+      "introduced_in": "v0.38.1",
+      "category": "api"
+    },
+    "IdeogramTextToImageApi": {
+      "introduced_in": "v0.38.1",
       "category": "api"
     },
     "IdeogramV1": {
