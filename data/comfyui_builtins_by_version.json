@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.01",
-  "generated_at": "2026-10-01T08:05:42.235374+00:00",
+  "version": "2026.10.02",
+  "generated_at": "2026-10-02T07:47:55.603199+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -179,13 +179,14 @@
     "v0.37.3",
     "v0.37.4",
     "v0.38.0",
-    "v0.38.1"
+    "v0.38.1",
+    "v0.38.2"
   ],
   "stats": {
-    "total_builtins": 1028,
-    "versions_processed": 178,
-    "newest_version": "v0.38.1",
-    "nodes_added_in_latest": 5
+    "total_builtins": 1029,
+    "versions_processed": 179,
+    "newest_version": "v0.38.2",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -1106,6 +1107,10 @@
     "Flux2Scheduler": {
       "introduced_in": "v0.3.72",
       "category": "extras"
+    },
+    "Flux3ImageNode": {
+      "introduced_in": "v0.38.2",
+      "category": "api"
     },
     "Flux3ImageToVideoNode": {
       "introduced_in": "v0.30.2",
