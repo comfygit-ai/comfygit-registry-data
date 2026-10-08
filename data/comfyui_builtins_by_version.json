@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.07",
-  "generated_at": "2026-10-07T07:59:20.707665+00:00",
+  "version": "2026.10.08",
+  "generated_at": "2026-10-08T08:13:28.017995+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -182,13 +182,14 @@
     "v0.38.1",
     "v0.38.2",
     "v0.39.0",
-    "v0.39.1"
+    "v0.39.1",
+    "v0.39.2"
   ],
   "stats": {
-    "total_builtins": 1029,
-    "versions_processed": 181,
-    "newest_version": "v0.39.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 1035,
+    "versions_processed": 182,
+    "newest_version": "v0.39.2",
+    "nodes_added_in_latest": 6
   },
   "builtins": {
     "APG": {
@@ -617,6 +618,10 @@
     "ChromaRadianceOptions": {
       "introduced_in": "v0.3.60",
       "category": "extras"
+    },
+    "ClarityCrystalUpscaleNode": {
+      "introduced_in": "v0.39.2",
+      "category": "api"
     },
     "ClaudeNode": {
       "introduced_in": "v0.21.1",
@@ -1757,6 +1762,10 @@
       "introduced_in": "v0.5.0",
       "category": "api"
     },
+    "KlingTryOnNode": {
+      "introduced_in": "v0.39.2",
+      "category": "api"
+    },
     "KlingVideoExtendNode": {
       "introduced_in": "v0.3.32",
       "category": "api",
@@ -2860,8 +2869,16 @@
       "introduced_in": "v0.18.0",
       "category": "api"
     },
+    "QuiverImageToSVGNodeV2": {
+      "introduced_in": "v0.39.2",
+      "category": "api"
+    },
     "QuiverTextToSVGNode": {
       "introduced_in": "v0.18.0",
+      "category": "api"
+    },
+    "QuiverTextToSVGNodeV2": {
+      "introduced_in": "v0.39.2",
       "category": "api"
     },
     "QwenImage21Cache": {
@@ -4130,6 +4147,14 @@
     },
     "Vidu3TextToVideoNode": {
       "introduced_in": "v0.12.0",
+      "category": "api"
+    },
+    "Vidu4ImageToVideoNode": {
+      "introduced_in": "v0.39.2",
+      "category": "api"
+    },
+    "Vidu4ReferenceVideoNode": {
+      "introduced_in": "v0.39.2",
       "category": "api"
     },
     "ViduExtendVideoNode": {
