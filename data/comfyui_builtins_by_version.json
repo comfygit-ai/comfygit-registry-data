@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.08",
-  "generated_at": "2026-10-08T08:13:28.017995+00:00",
+  "version": "2026.10.14",
+  "generated_at": "2026-10-14T06:56:18.352003+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -183,13 +183,14 @@
     "v0.38.2",
     "v0.39.0",
     "v0.39.1",
-    "v0.39.2"
+    "v0.39.2",
+    "v0.40.0"
   ],
   "stats": {
-    "total_builtins": 1035,
-    "versions_processed": 182,
-    "newest_version": "v0.39.2",
-    "nodes_added_in_latest": 6
+    "total_builtins": 1040,
+    "versions_processed": 183,
+    "newest_version": "v0.40.0",
+    "nodes_added_in_latest": 5
   },
   "builtins": {
     "APG": {
@@ -590,6 +591,10 @@
     "CLIPVisionLoader": {
       "introduced_in": "v0.3.0",
       "category": "core"
+    },
+    "CameraAngle": {
+      "introduced_in": "v0.40.0",
+      "category": "extras"
     },
     "Canny": {
       "introduced_in": "v0.3.0",
@@ -1395,6 +1400,10 @@
       "introduced_in": "v0.21.1",
       "category": "extras"
     },
+    "HiggsfieldMotionTransferNode": {
+      "introduced_in": "v0.40.0",
+      "category": "api"
+    },
     "HitPawGeneralImageEnhance": {
       "introduced_in": "v0.12.0",
       "category": "api"
@@ -1960,6 +1969,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "LatentOperationBlend": {
+      "introduced_in": "v0.40.0",
+      "category": "extras"
+    },
     "LatentOperationSharpen": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -2057,6 +2070,14 @@
     "LoadLatent": {
       "introduced_in": "v0.3.0",
       "category": "core"
+    },
+    "LoadLoraModel": {
+      "introduced_in": "v0.40.0",
+      "category": "extras"
+    },
+    "LoadLoraTextEncoder": {
+      "introduced_in": "v0.40.0",
+      "category": "extras"
     },
     "LoadMediaPipeFaceLandmarker": {
       "introduced_in": "v0.23.0",
