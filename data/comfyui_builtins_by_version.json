@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.14",
-  "generated_at": "2026-10-14T06:56:18.352003+00:00",
+  "version": "2026.10.16",
+  "generated_at": "2026-10-16T06:36:43.444329+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -184,13 +184,16 @@
     "v0.39.0",
     "v0.39.1",
     "v0.39.2",
-    "v0.40.0"
+    "v0.40.0",
+    "v0.41.0",
+    "v0.41.1",
+    "v0.41.2"
   ],
   "stats": {
-    "total_builtins": 1040,
-    "versions_processed": 183,
-    "newest_version": "v0.40.0",
-    "nodes_added_in_latest": 5
+    "total_builtins": 1046,
+    "versions_processed": 186,
+    "newest_version": "v0.41.2",
+    "nodes_added_in_latest": 0
   },
   "builtins": {
     "APG": {
@@ -1128,6 +1131,10 @@
       "introduced_in": "v0.30.2",
       "category": "api"
     },
+    "Flux3LayoutPrompt": {
+      "introduced_in": "v0.41.0",
+      "category": "extras"
+    },
     "Flux3TextToVideoNode": {
       "introduced_in": "v0.30.2",
       "category": "api"
@@ -1292,6 +1299,10 @@
       "introduced_in": "v0.35.0",
       "category": "extras"
     },
+    "GetAudioLatentSize": {
+      "introduced_in": "v0.41.0",
+      "category": "extras"
+    },
     "GetICLoRAParameters": {
       "introduced_in": "v0.22.0",
       "category": "extras"
@@ -1302,6 +1313,10 @@
     },
     "GetItemFromList": {
       "introduced_in": "v0.36.0",
+      "category": "extras"
+    },
+    "GetLatentSize": {
+      "introduced_in": "v0.41.0",
       "category": "extras"
     },
     "GetMeshInfo": {
@@ -1594,6 +1609,10 @@
       "introduced_in": "v0.3.44",
       "category": "extras"
     },
+    "ImageSDRToHDR": {
+      "introduced_in": "v0.41.0",
+      "category": "extras"
+    },
     "ImageScale": {
       "introduced_in": "v0.3.0",
       "category": "core"
@@ -1795,6 +1814,10 @@
     },
     "Krea2StyleReferenceNode": {
       "introduced_in": "v0.22.3",
+      "category": "api"
+    },
+    "Krea3ImageNode": {
+      "introduced_in": "v0.41.1",
       "category": "api"
     },
     "LTXAVTextEncoderLoader": {
@@ -3024,6 +3047,10 @@
     },
     "ReferenceLatent": {
       "introduced_in": "v0.3.42",
+      "category": "extras"
+    },
+    "ReferenceMultiLatent": {
+      "introduced_in": "v0.41.0",
       "category": "extras"
     },
     "ReferenceTimbreAudio": {
