@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.17",
-  "generated_at": "2026-10-17T06:25:37.678051+00:00",
+  "version": "2026.10.19",
+  "generated_at": "2026-10-19T07:09:37.159606+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -188,12 +188,14 @@
     "v0.41.0",
     "v0.41.1",
     "v0.41.2",
-    "v0.41.3"
+    "v0.41.3",
+    "v0.42.0",
+    "v0.42.1"
   ],
   "stats": {
-    "total_builtins": 1046,
-    "versions_processed": 187,
-    "newest_version": "v0.41.3",
+    "total_builtins": 1047,
+    "versions_processed": 189,
+    "newest_version": "v0.42.1",
     "nodes_added_in_latest": 0
   },
   "builtins": {
@@ -2252,6 +2254,10 @@
     "LumaVideoNode": {
       "introduced_in": "v0.3.32",
       "category": "api"
+    },
+    "MOSSImageLayoutPrompt": {
+      "introduced_in": "v0.42.0",
+      "category": "extras"
     },
     "MagnificImageRelightNode": {
       "introduced_in": "v0.11.0",
