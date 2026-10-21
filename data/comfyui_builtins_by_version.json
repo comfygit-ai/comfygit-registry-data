@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.19",
-  "generated_at": "2026-10-19T07:09:37.159606+00:00",
+  "version": "2026.10.21",
+  "generated_at": "2026-10-21T06:50:50.839768+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -190,13 +190,15 @@
     "v0.41.2",
     "v0.41.3",
     "v0.42.0",
-    "v0.42.1"
+    "v0.42.1",
+    "v0.42.2",
+    "v0.42.3"
   ],
   "stats": {
-    "total_builtins": 1047,
-    "versions_processed": 189,
-    "newest_version": "v0.42.1",
-    "nodes_added_in_latest": 0
+    "total_builtins": 1054,
+    "versions_processed": 191,
+    "newest_version": "v0.42.3",
+    "nodes_added_in_latest": 3
   },
   "builtins": {
     "APG": {
@@ -357,6 +359,10 @@
     },
     "BriaImageEditNode": {
       "introduced_in": "v0.10.0",
+      "category": "api"
+    },
+    "BriaImageGenerate": {
+      "introduced_in": "v0.42.3",
       "category": "api"
     },
     "BriaIncreaseResolution": {
@@ -632,6 +638,10 @@
     },
     "ClarityCrystalUpscaleNode": {
       "introduced_in": "v0.39.2",
+      "category": "api"
+    },
+    "ClarityCrystalVideoUpscaleNode": {
+      "introduced_in": "v0.42.2",
       "category": "api"
     },
     "ClaudeNode": {
@@ -1138,6 +1148,14 @@
       "introduced_in": "v0.41.0",
       "category": "extras"
     },
+    "Flux3MaxImageToVideoNode": {
+      "introduced_in": "v0.42.2",
+      "category": "api"
+    },
+    "Flux3MaxTextToVideoNode": {
+      "introduced_in": "v0.42.2",
+      "category": "api"
+    },
     "Flux3TextToVideoNode": {
       "introduced_in": "v0.30.2",
       "category": "api"
@@ -1408,6 +1426,14 @@
     },
     "HeyGenVideoTranslateNode": {
       "introduced_in": "v0.28.1",
+      "category": "api"
+    },
+    "HeyGenVoiceCloneNode": {
+      "introduced_in": "v0.42.3",
+      "category": "api"
+    },
+    "HeyGenVoiceTextToSpeechNode": {
+      "introduced_in": "v0.42.3",
       "category": "api"
     },
     "HiDreamO1PatchSeamSmoothing": {
@@ -2254,6 +2280,10 @@
     "LumaVideoNode": {
       "introduced_in": "v0.3.32",
       "category": "api"
+    },
+    "MOSSImageControl": {
+      "introduced_in": "v0.42.2",
+      "category": "extras"
     },
     "MOSSImageLayoutPrompt": {
       "introduced_in": "v0.42.0",
