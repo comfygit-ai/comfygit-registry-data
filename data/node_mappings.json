@@ -1,12 +1,12 @@
 {
-  "version": "2026.10.21",
-  "generated_at": "2026-10-21T07:01:21.838563",
+  "version": "2026.10.22",
+  "generated_at": "2026-10-22T07:03:54.721584",
   "stats": {
-    "packages": 8627,
+    "packages": 8646,
     "signatures": 69712,
     "total_nodes": 73034,
     "augmented": true,
-    "augmentation_date": "2026-10-21T07:01:25.566063",
+    "augmentation_date": "2026-10-22T07:03:58.257164",
     "nodes_from_manager": 42262,
     "nodes_from_community": 4,
     "synthetic_packages": 2360
@@ -699472,7 +699472,7 @@
       "display_name": "ComfyUI-AstralAnimator",
       "description": "A custom node for ComfyUI that enables smooth, keyframe-based animations for image generation. Create dynamic sequences with control over motion, zoom, rotation, and easing effects. Ideal for AI-assisted animation and video content creation.",
       "repository": "https://github.com/shmuelronen/comfyui-astralanimator",
-      "github_stars": 18,
+      "github_stars": 19,
       "versions": {}
     },
     "Cyber-BCat_ComfyUI_Auto_Caption": {
@@ -707958,8 +707958,13 @@
       "display_name": "ComfyUI-Inpaint-CropAndStitch",
       "description": "The '\u2702\ufe0f Inpaint Crop' and '\u2702\ufe0f Inpaint Stitch' nodes enable inpainting only on masked area very easily: crop the image around the masked area with the Crop node, then use any standard workflow for sampling, then connect the sampled image to the Stitch node, which will put it back in place in the original image. These nodes enable faster sampling of smaller areas and take care of downsampling and upsampling to fit specific model and resource needs.",
       "repository": "https://github.com/lquesada/comfyui-inpaint-cropandstitch",
-      "github_stars": 1205,
+      "github_stars": 1206,
       "versions": {
+        "3.0.20": {
+          "version": "3.0.20",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lquesada/comfyui-inpaint-cropandstitch/3.0.20/node.zip"
+        },
         "3.0.19": {
           "version": "3.0.19",
           "deprecated": false,
@@ -708815,6 +708820,11 @@
       "repository": "https://github.com/1hew/comfyui-1hewnodes",
       "github_stars": 35,
       "versions": {
+        "4.0.0": {
+          "version": "4.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/wangyihe1127/ComfyUI-1hewNodes/4.0.0/node.zip"
+        },
         "3.30.1": {
           "version": "3.30.1",
           "deprecated": false,
@@ -711680,7 +711690,7 @@
       "display_name": "CG Use Everywhere",
       "description": "A set of nodes that allow data to be 'broadcast' to some or all unconnected inputs. Greatly reduces link spaghetti.",
       "repository": "https://github.com/chrisgoringe/cg-use-everywhere",
-      "github_stars": 1041,
+      "github_stars": 1042,
       "versions": {
         "7.8.0": {
           "version": "7.8.0",
@@ -712895,7 +712905,7 @@
       "display_name": "ComfyUI-Florence2",
       "description": "Nodes to use Florence2 VLM for image vision tasks: object detection, captioning, segmentation and ocr",
       "repository": "https://github.com/kijai/comfyui-florence2",
-      "github_stars": 1755,
+      "github_stars": 1758,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -714701,7 +714711,7 @@
       "display_name": "comfyui_controlnet_aux",
       "description": "Plug-and-play ComfyUI node sets for making ControlNet hint images",
       "repository": "https://github.com/fannovel16/comfyui_controlnet_aux",
-      "github_stars": 4226,
+      "github_stars": 4241,
       "versions": {
         "1.1.6": {
           "version": "1.1.6",
@@ -716205,6 +716215,11 @@
       "repository": "https://github.com/doubletwisted/comfyui-deadline-distributed",
       "github_stars": 9,
       "versions": {
+        "1.1.0": {
+          "version": "1.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/doubletwisted/comfyui-deadline-distributed/1.1.0/node.zip"
+        },
         "1.0.3": {
           "version": "1.0.3",
           "deprecated": false,
@@ -719416,10 +719431,15 @@
     },
     "ComfyUI_Fens_Simple_Nodes": {
       "display_name": "Fens-Simple-Nodes",
-      "description": "Simple nodes for ComfyUI - Token Counter - Optimal Empty Latent",
+      "description": "Simple nodes for ComfyUI - Token Counter - Optimal Empty Latent - Anima LoRA Remap",
       "repository": "https://github.com/taithrah/comfyui_fens_simple_nodes",
       "github_stars": 8,
       "versions": {
+        "1.7.2": {
+          "version": "1.7.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/taithrah/ComfyUI_Fens_Simple_Nodes/1.7.2/node.zip"
+        },
         "1.7.1": {
           "version": "1.7.1",
           "deprecated": false,
@@ -719613,7 +719633,7 @@
       "display_name": "ComfyUI-AutoCropFaces",
       "description": "Use RetinaFace to detect and automatically crop faces.",
       "repository": "https://github.com/liusida/comfyui-autocropfaces",
-      "github_stars": 165,
+      "github_stars": 166,
       "versions": {}
     },
     "ComfyUI_FluxAttentionMask": {
@@ -719788,7 +719808,7 @@
       "display_name": "Hugging Face Download & Backup",
       "description": "ComfyUI tools to auto-download missing workflow models from Hugging Face and backup or restore ComfyUI data.",
       "repository": "https://github.com/jnxmx/comfyui_huggingface_downloader",
-      "github_stars": 30,
+      "github_stars": 32,
       "versions": {
         "1.34.23": {
           "version": "1.34.23",
@@ -723504,7 +723524,7 @@
       "display_name": "ComfyUI_Fill-Nodes",
       "description": "Fill-Nodes is a versatile collection of custom nodes for ComfyUI that extends functionality across multiple domains. Features include advanced image processing (pixelation, slicing, masking), visual effects generation (glitch, halftone, pixel art), comprehensive file handling (PDF creation/extraction, Google Drive integration), AI model interfaces (GPT, DALL-E, Hugging Face), utility nodes for workflow enhancement, and specialized tools for video processing, captioning, and batch operations. The pack provides both practical workflow solutions and creative tools within a unified node collection.",
       "repository": "https://github.com/filliptm/comfyui_fill-nodes",
-      "github_stars": 650,
+      "github_stars": 651,
       "versions": {
         "2.32.0": {
           "version": "2.32.0",
@@ -725083,7 +725103,7 @@
       "display_name": "ComfyUI Prompt Control",
       "description": "Nodes for prompt editing and LoRA scheduling, advanced regional prompting (including attention masking) and advanced prompt encoding, all controlled through your text prompt. Feature keywords: comfyui-prompt-control, schedule, macros, attention couple, loractl, A1111",
       "repository": "https://github.com/asagi4/comfyui-prompt-control",
-      "github_stars": 436,
+      "github_stars": 437,
       "versions": {
         "3.0.0-beta.10": {
           "version": "3.0.0-beta.10",
@@ -728702,8 +728722,13 @@
       "display_name": "Easygoing Nodes",
       "description": "Capture workflow screenshots, Model Load and Save Image nodes, HDR Effects with LAB adjusts, Image Difference checker nodes by easygoing0114",
       "repository": "https://github.com/easygoing0114/comfyui-easygoing-nodes",
-      "github_stars": 8,
+      "github_stars": 9,
       "versions": {
+        "2.1.9": {
+          "version": "2.1.9",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/easygoing0114/comfyui-easygoing-nodes/2.1.9/node.zip"
+        },
         "2.1.8": {
           "version": "2.1.8",
           "deprecated": false,
@@ -732386,7 +732411,7 @@
       "display_name": "ComfyUI-ArtGallery",
       "description": "Prompt Visualization | Art Gallery\n[w/WARN: Installation requires 2GB of space, and it will involve a long download time.]",
       "repository": "https://github.com/zho-zho-zho/comfyui-artgallery",
-      "github_stars": 559,
+      "github_stars": 560,
       "versions": {}
     },
     "ComfyUI-Phi-3-mini": {
@@ -739312,7 +739337,7 @@
       "display_name": "comfyui-tooling-nodes",
       "description": "Provides nodes and server API extensions geared towards using ComfyUI as a backend for external tools.",
       "repository": "https://github.com/acly/comfyui-tooling-nodes",
-      "github_stars": 676,
+      "github_stars": 677,
       "versions": {
         "3.4.0": {
           "version": "3.4.0",
@@ -745814,8 +745839,13 @@
       "display_name": "ComfyUI-ppm",
       "description": "Attention Couple for SDXL and Anima; NegPiP (negative weights in prompts) for SDXL, Anima and MOSS-Image; etc.",
       "repository": "https://github.com/pamparamm/comfyui-ppm",
-      "github_stars": 272,
+      "github_stars": 275,
       "versions": {
+        "1.1.16": {
+          "version": "1.1.16",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pamparamm/comfyui-ppm/1.1.16/node.zip"
+        },
         "1.1.15": {
           "version": "1.1.15",
           "deprecated": false,
@@ -756947,8 +756977,23 @@
       "display_name": "CRT-Nodes",
       "description": "CRT-Nodes is a collection of custom nodes for ComfyUI",
       "repository": "https://github.com/pgcrt/crt-nodes",
-      "github_stars": 152,
+      "github_stars": 153,
       "versions": {
+        "2.24.0": {
+          "version": "2.24.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/crt/crt-nodes/2.24.0/node.zip"
+        },
+        "2.23.0": {
+          "version": "2.23.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/crt/crt-nodes/2.23.0/node.zip"
+        },
+        "2.22.0": {
+          "version": "2.22.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/crt/crt-nodes/2.22.0/node.zip"
+        },
         "2.21.0": {
           "version": "2.21.0",
           "deprecated": false,
@@ -758360,6 +758405,11 @@
       "repository": "https://github.com/silveroxides/comfyui-modelutils",
       "github_stars": 17,
       "versions": {
+        "0.9.6": {
+          "version": "0.9.6",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/silveroxides/ComfyUI-ModelUtils/0.9.6/node.zip"
+        },
         "0.9.5": {
           "version": "0.9.5",
           "deprecated": false,
@@ -768669,7 +768719,7 @@
       "display_name": "ComfyUI_MieNodes",
       "description": "Offering a series of utility nodes designed to simplify workflows and enhance efficiency",
       "repository": "https://github.com/miemieeeee/comfyui-mienodes",
-      "github_stars": 273,
+      "github_stars": 274,
       "versions": {
         "1.4.3": {
           "version": "1.4.3",
@@ -775169,6 +775219,11 @@
       "repository": "https://github.com/hayden-cn/comfyui-model-manager",
       "github_stars": 215,
       "versions": {
+        "2.8.6": {
+          "version": "2.8.6",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/hayden/comfyui-model-manager/2.8.6/node.zip"
+        },
         "2.8.5": {
           "version": "2.8.5",
           "deprecated": false,
@@ -783907,6 +783962,11 @@
       "repository": "https://github.com/starnodes2024/comfyui_starnodes",
       "github_stars": 111,
       "versions": {
+        "3.4.1": {
+          "version": "3.4.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/starnodes/comfyui_starnodes/3.4.1/node.zip"
+        },
         "3.4.0": {
           "version": "3.4.0",
           "deprecated": false,
@@ -790311,6 +790371,11 @@
       "repository": "https://github.com/azeluslightvale/comfyui-arg-toolkit",
       "github_stars": 2,
       "versions": {
+        "2.3.5": {
+          "version": "2.3.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/azeluslightvale/arg-toolkit/2.3.5/node.zip"
+        },
         "2.3.4": {
           "version": "2.3.4",
           "deprecated": false,
@@ -792996,6 +793061,11 @@
       "repository": "https://github.com/tmode-1960/ta-comfyui-nodes-pack",
       "github_stars": 8,
       "versions": {
+        "2.2.2": {
+          "version": "2.2.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/tmode-1960/TA-ComfyUI-Nodes-Pack/2.2.2/node.zip"
+        },
         "2.2.1": {
           "version": "2.2.1",
           "deprecated": false,
@@ -796347,7 +796417,7 @@
       "display_name": "Maya1 TTS",
       "description": "ComfyUI node for Maya1 TTS - Expressive voice generation with 20+ emotions, voice design, and SNAC neural codec",
       "repository": "https://github.com/saganaki22/comfyui-maya1_tts",
-      "github_stars": 65,
+      "github_stars": 64,
       "versions": {
         "1.0.6": {
           "version": "1.0.6",
@@ -796793,7 +796863,7 @@
       "display_name": "ComfyUI-piFlow",
       "description": "ComfyUI Nodes for AsymFlow and pi-Flow.",
       "repository": "https://github.com/lakonik/comfyui-piflow",
-      "github_stars": 189,
+      "github_stars": 190,
       "versions": {
         "1.3.6": {
           "version": "1.3.6",
@@ -814891,7 +814961,7 @@
       "display_name": "ComfyUI-Magic-Assistant",
       "description": "Say goodbye to clutter! \ud83d\ude80 Integrated Nodes to simplify workflow. \ud83e\udd16 AI Node: Role-play & rules with one-click presets! \ud83e\udde0 Programmable Logic: Edit logic in ONE node\u2014no complex wiring! \ud83c\udf10 Bilaingual: Real-time Chinese/English switching! \ud83d\udce6 SDNQ: Low-VRAM model loader & sampler! \u26a1 Versatile cache acceleration node integrating TeaCache and WaveSpeed! \ud83d\udcddSuper versatile prompt editor with real-time Danbooru tag lookup! \ud83d\udd2eExclusive Nunchaku-flux2Klein9b loading node! \ud83c\udfa8 More nodes await! \u544a\u522b\u7410\u788e\u8fde\u7ebf\uff01\ud83d\ude80 \u591a\u529f\u80fd\u96c6\u6210\u8282\u70b9\u3002\ud83e\udd16 AI\u8282\u70b9\uff1a\u89d2\u8272\u626e\u6f14+\u89c4\u5219\uff0c\u4e00\u952e\u9884\u8bbe\uff01\ud83e\udde0 \u903b\u8f91\u8ba1\u7b97\uff1a\u4e00\u8282\u70b9\u641e\u5b9a\u8fd0\u7b97\u4e0e\u6bd4\u8f83\uff01\ud83c\udf10 \u53cc\u8bed\uff1a\u5b9e\u65f6\u4e2d\u82f1\u5207\u6362\uff01\ud83d\udce6 SDNQ\uff1a\u4f4e\u663e\u5b58\u6a21\u578b\u52a0\u8f7d\u4e0e\u91c7\u6837\uff01\u26a1\u878d\u5408\u4e86TeaCache\u548cWaveSpeed\u7684\u591a\u529f\u80fd\u7f13\u5b58\u52a0\u901f\u8282\u70b9\uff01\ud83d\udcdd\u62e5\u6709\u5b9e\u65f6\u67e5\u627edanbooru\u63d0\u793a\u8bcd\u7684\u8d85\u5f3a\u4e07\u7528\u63d0\u793a\u8bcd\u7f16\u8f91\u5668\uff01\ud83d\udd2e\u72ec\u5bb6\u7684nunchaku-flux2klein9b\u52a0\u8f7d\u8282\u70b9\uff01\ud83c\udfa8 \u66f4\u591a\u8282\u70b9\u7b49\u4f60\u53d1\u73b0\uff01",
       "repository": "https://github.com/shigjfg/comfyui-magic-assistant",
-      "github_stars": 46,
+      "github_stars": 48,
       "versions": {
         "1.4.6": {
           "version": "1.4.6",
@@ -816674,7 +816744,7 @@
       "display_name": "ComfyUI-Prompt-Manager",
       "description": "A comprehensive prompt management system for ComfyUI that saves complete workflow recipes including prompts, LoRAs, and their settings. Features AI-powered prompt generation, prompt extraction from ComfyUI/A1111 images and videos, and Dual LoRA Stack support for Wan workflows.",
       "repository": "https://github.com/franckyb/comfyui-prompt-manager",
-      "github_stars": 165,
+      "github_stars": 168,
       "versions": {
         "2.8.0": {
           "version": "2.8.0",
@@ -818387,7 +818457,7 @@
       "display_name": "NovaSR",
       "description": "ComfyUI node for NovaSR - Ultra-fast audio super resolution (3600x realtime, 50KB model)",
       "repository": "https://github.com/saganaki22/comfyui-novasr",
-      "github_stars": 35,
+      "github_stars": 36,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -819555,6 +819625,11 @@
       "repository": "https://github.com/demonalone/demonalone-nodes-comfyui",
       "github_stars": 6,
       "versions": {
+        "5.3.1": {
+          "version": "5.3.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/demonalone/demonalone-nodes-comfyui/5.3.1/node.zip"
+        },
         "5.3.0": {
           "version": "5.3.0",
           "deprecated": false,
@@ -820670,10 +820745,20 @@
     },
     "xz3r0-nodes": {
       "display_name": "ComfyUI-Xz3r0-Nodes",
-      "description": "Custom ComfyUI nodes: XAudioSave, XImageSave, XLatentLoad, XLatentSave, XMarkdownSave, XVideoSave, XWorkflowSave, XAnyGate10, XAnyToString, XAudioProcess, XController, XControlPanel, XDateTimeString, XImageCompare, XImagePreview, XImageResize, XKleinRefConditioning, XKleinRefListConditioning, XLinker, XListCreate, XListPull, XListRestore, XListToPipe, XMath, XMemoryCleanup, XPipe, XPipeGate, XPipeRecursive, XPrimitiveCombo, XResolution, XSeed, XStringGroup, XStringWrap, XAudioGet, XDataSave, XImageGet, XLoraGet, XStringGet, XVideoGet. Custom ComfyUI extensions: XDataHub, XFitView",
+      "description": "Custom ComfyUI nodes: XAudioSave, XImageSave, XLatentLoad, XLatentSave, XMarkdownSave, XVideoSave, XWorkflowSave, XAnyGate10, XAnyToString, XAudioProcess, XController, XControlPanel, XDateTimeString, XImageCompare, XImagePreview, XImageResize, XKleinRefConditioning, XKleinRefListConditioning, XLinker, XListCreate, XListPull, XListRestore, XListToPipe, XMath, XMemoryCleanup, XPipe, XPipeGate, XPipeRecursive, XPrimitiveCombo, XResolution, XSeed, XStringGroup, XStringWrap, XAudioGet, XDataSave, XImageGet, XLoraGet, XMediaListGet, XStringGet, XVideoGet. Custom ComfyUI extensions: XDataHub, XFitView",
       "repository": "https://github.com/xz3r0-m/comfyui-xz3r0-nodes",
       "github_stars": 17,
       "versions": {
+        "2.9.1": {
+          "version": "2.9.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xz3r0/xz3r0-nodes/2.9.1/node.zip"
+        },
+        "2.9.0": {
+          "version": "2.9.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xz3r0/xz3r0-nodes/2.9.0/node.zip"
+        },
         "2.8.0": {
           "version": "2.8.0",
           "deprecated": false,
@@ -827301,6 +827386,56 @@
       "repository": "https://github.com/loz2754/aun-comfyui-nodes",
       "github_stars": 7,
       "versions": {
+        "2.34.12": {
+          "version": "2.34.12",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.12/node.zip"
+        },
+        "2.34.11": {
+          "version": "2.34.11",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.11/node.zip"
+        },
+        "2.34.10": {
+          "version": "2.34.10",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.10/node.zip"
+        },
+        "2.34.9": {
+          "version": "2.34.9",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.9/node.zip"
+        },
+        "2.34.8": {
+          "version": "2.34.8",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.8/node.zip"
+        },
+        "2.34.7": {
+          "version": "2.34.7",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.7/node.zip"
+        },
+        "2.34.6": {
+          "version": "2.34.6",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.6/node.zip"
+        },
+        "2.34.5": {
+          "version": "2.34.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.5/node.zip"
+        },
+        "2.34.4": {
+          "version": "2.34.4",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.4/node.zip"
+        },
+        "2.34.3": {
+          "version": "2.34.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/loz2754/aun-comfyui-nodes/2.34.3/node.zip"
+        },
         "2.34.2": {
           "version": "2.34.2",
           "deprecated": false,
@@ -829596,7 +829731,7 @@
       "display_name": "ComfyUI-PM-Manager",
       "description": "ComfyUI\u8282\u70b9",
       "repository": "https://github.com/pixel-magician/comfyui-pm-manager",
-      "github_stars": 0,
+      "github_stars": 1,
       "versions": {
         "0.0.10": {
           "version": "0.0.10",
@@ -832707,6 +832842,16 @@
       "repository": "https://github.com/pixixai/comfyui-creativelab",
       "github_stars": 21,
       "versions": {
+        "0.9.4": {
+          "version": "0.9.4",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pixixai/CreativeLab/0.9.4/node.zip"
+        },
+        "0.9.3": {
+          "version": "0.9.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pixixai/CreativeLab/0.9.3/node.zip"
+        },
         "0.9.2": {
           "version": "0.9.2",
           "deprecated": false,
@@ -832928,7 +833073,7 @@
       "display_name": "Fish Audio S2 TTS",
       "description": "ComfyUI custom nodes for Fish Audio S2-Pro TTS | voice clone, multi-speaker, and text-to-speech",
       "repository": "https://github.com/saganaki22/comfyui-fishaudios2",
-      "github_stars": 299,
+      "github_stars": 301,
       "versions": {
         "0.5.3": {
           "version": "0.5.3",
@@ -834059,7 +834204,7 @@
       "display_name": "Foundation-1",
       "description": "ComfyUI custom nodes for Foundation-1 | structured text-to-sample generation for music production",
       "repository": "https://github.com/saganaki22/comfyui-foundation-1",
-      "github_stars": 111,
+      "github_stars": 110,
       "versions": {
         "0.1.6": {
           "version": "0.1.6",
@@ -834815,8 +834960,28 @@
       "display_name": "ComfyUI-BFSNodes",
       "description": "Custom ComfyUI nodes for reference-guided video: BFS Sampler (guide-driven IC-LoRAs, auto crop, mask inpainting, temporal chunking), LTX Multiple Controls / Identity Transfer / Edit Anything, Head-Swap and Anime2Real conditioning, MiniMax-H3 latent guides, RoPE layouts and loaders, LoRA Surgery, and Shot Planner / Shot Loop (tabbed panel): split long videos into shots at camera cuts, face-tracked cast, SAM 3 mask per shot with full frame, paste, mask, crop and crop + mask generation modes, optional translucent Colored Mark overlay for manually selected regions, optional Qwen3-VL to suggest settings, describe references ({details}) and the person to replace ({target}), continuity between shots, H3 conditioning with an optional duet and prompt writer, join with the original timing, audio and a side-by-side comparison. H3 Duet: pin a source clip beside the video, training-free.",
       "repository": "https://github.com/alisson-anjos/comfyui-bfsnodes",
-      "github_stars": 126,
+      "github_stars": 128,
       "versions": {
+        "1.115.5": {
+          "version": "1.115.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/alisson-anjos/bfsnodes/1.115.5/node.zip"
+        },
+        "1.115.4": {
+          "version": "1.115.4",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/alisson-anjos/bfsnodes/1.115.4/node.zip"
+        },
+        "1.115.3": {
+          "version": "1.115.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/alisson-anjos/bfsnodes/1.115.3/node.zip"
+        },
+        "1.115.2": {
+          "version": "1.115.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/alisson-anjos/bfsnodes/1.115.2/node.zip"
+        },
         "1.115.1": {
           "version": "1.115.1",
           "deprecated": false,
@@ -838531,6 +838696,16 @@
       "repository": "https://github.com/xeinherjer-dev/comfyui-xenodes",
       "github_stars": 5,
       "versions": {
+        "1.9.1": {
+          "version": "1.9.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xeinherjer-dev/xenodes/1.9.1/node.zip"
+        },
+        "1.9.0": {
+          "version": "1.9.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xeinherjer-dev/xenodes/1.9.0/node.zip"
+        },
         "1.8.4": {
           "version": "1.8.4",
           "deprecated": false,
@@ -839005,10 +839180,15 @@
     },
     "comfyui-enhancement-utils": {
       "display_name": "Enhancement Utils",
-      "description": "A curated set of ComfyUI enhancements built on the V3 API with full subgraph support: real-time resource monitor (CPU/RAM/GPU/VRAM/temp), node execution profiler with per-node timing badges, graph auto-layout (Quick/Dagre/ELK), node navigation with Follow Execution, Play Sound, System Notification, Execution Gate (lazy conditional pass-through), and an image loader with recursive subfolder scanning, custom-folder loading, and metadata extraction. A modern, well-organized alternative to ComfyUI-Custom-Scripts and Crystools.",
+      "description": "Quality-of-life tools for ComfyUI, built on the V3 API with full subgraph and Nodes 2.0 support: a Flow Visualizer that shows how data flows through a workflow and replays the last run (what ran, was cached, skipped, failed, or changed since), a resource monitor (CPU/RAM/GPU/VRAM/temp/power with history graphs), per-node timing badges, node search with jump-to-node and Follow Execution, graph auto-arrange (Quick/dagre/ELK), and handy nodes: Profiler Timing, Load Image (With Subfolders), Parse JSON, Execution Gate, Play Sound and System Notification. A modern alternative to ComfyUI-Custom-Scripts and Crystools.",
       "repository": "https://github.com/phazei/comfyui-enhancement-utils",
-      "github_stars": 39,
+      "github_stars": 41,
       "versions": {
+        "1.9.0": {
+          "version": "1.9.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/phazei/comfyui-enhancement-utils/1.9.0/node.zip"
+        },
         "1.8.0": {
           "version": "1.8.0",
           "deprecated": false,
@@ -840457,7 +840637,7 @@
       "display_name": "LongCat AudioDiT TTS",
       "description": "ComfyUI custom nodes for LongCat-AudioDiT TTS - zero-shot and voice cloning diffusion TTS",
       "repository": "https://github.com/saganaki22/comfyui-longcat-audiodit-tts",
-      "github_stars": 139,
+      "github_stars": 140,
       "versions": {
         "0.1.9": {
           "version": "0.1.9",
@@ -840530,6 +840710,16 @@
       "repository": "https://github.com/pixaroma/comfyui-pixaroma",
       "github_stars": 448,
       "versions": {
+        "1.4.228": {
+          "version": "1.4.228",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pixaroma/ComfyUI-Pixaroma/1.4.228/node.zip"
+        },
+        "1.4.227": {
+          "version": "1.4.227",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pixaroma/ComfyUI-Pixaroma/1.4.227/node.zip"
+        },
         "1.4.226": {
           "version": "1.4.226",
           "deprecated": false,
@@ -842545,7 +842735,7 @@
       "display_name": "OmniVoice TTS",
       "description": "ComfyUI custom nodes for OmniVoice TTS | voice clone, multi-speaker, voice design, text-to-speech",
       "repository": "https://github.com/saganaki22/comfyui-omnivoice-tts",
-      "github_stars": 558,
+      "github_stars": 562,
       "versions": {
         "0.4.7": {
           "version": "0.4.7",
@@ -843949,8 +844139,13 @@
       "display_name": "ComfyUI-DaSiWa-Nodes",
       "description": "DaSiWa Custom Nodes Collection",
       "repository": "https://github.com/darksidewalker/comfyui-dasiwa-nodes",
-      "github_stars": 160,
+      "github_stars": 163,
       "versions": {
+        "0.5.33": {
+          "version": "0.5.33",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/darksidewalker/ComfyUI-DaSiWa-Nodes/0.5.33/node.zip"
+        },
         "0.5.32": {
           "version": "0.5.32",
           "deprecated": false,
@@ -844637,7 +844832,7 @@
       "display_name": "ComfyUI-VoxCPM2",
       "description": "VoxCPM2 TTS for ComfyUI. 30 languages, voice design, controllable cloning, 48kHz audio, and LoRA training",
       "repository": "https://github.com/saganaki22/comfyui-voxcpm2",
-      "github_stars": 201,
+      "github_stars": 202,
       "versions": {
         "0.3.1": {
           "version": "0.3.1",
@@ -846525,7 +846720,7 @@
       "display_name": "Woosh",
       "description": "ComfyUI custom nodes for Woosh Sound Effect Foundation Model by Sony AI \u2014 text-to-audio, video-to-audio generation",
       "repository": "https://github.com/saganaki22/comfyui-woosh",
-      "github_stars": 133,
+      "github_stars": 134,
       "versions": {
         "0.2.7": {
           "version": "0.2.7",
@@ -846962,8 +847157,13 @@
       "display_name": "DemonAlone-StyleSelector-ComfyUI",
       "description": "Prompt Style Selector with Preview, Multiple Selecting, Search and Local Base for ComfyUI.",
       "repository": "https://github.com/demonalone/demonalone-styleselector-comfyui",
-      "github_stars": 4,
+      "github_stars": 5,
       "versions": {
+        "2.2.7": {
+          "version": "2.2.7",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/demonalone/demonalone-styleselector-comfyui/2.2.7/node.zip"
+        },
         "2.2.6": {
           "version": "2.2.6",
           "deprecated": false,
@@ -849732,6 +849932,16 @@
       "repository": "https://github.com/raykosan/comfyui_raykostudio",
       "github_stars": 85,
       "versions": {
+        "0.51.2": {
+          "version": "0.51.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/raykosan/ComfyUI_RaykoStudio/0.51.2/node.zip"
+        },
+        "0.51.1": {
+          "version": "0.51.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/raykosan/ComfyUI_RaykoStudio/0.51.1/node.zip"
+        },
         "0.51.0": {
           "version": "0.51.0",
           "deprecated": false,
@@ -850294,7 +850504,7 @@
       "display_name": "ComfyUI-Ranking",
       "description": "ComfyUI-Ranking\u7cbe\u9009\u793e\u533a\uff0c\u4e00\u4e2a\u6392\u884c\u699c\u5de5\u5177",
       "repository": "https://github.com/a63976659/comfyui-ranking",
-      "github_stars": 33,
+      "github_stars": 31,
       "versions": {
         "3.1.2": {
           "version": "3.1.2",
@@ -851162,7 +851372,7 @@
       "display_name": "ComfyUI_Gear",
       "description": "VFX-oriented nodes for ComfyUI: HDR LogC3 decode, EXR I/O, and an interactive ACEScct color grading panel powered by exr-viewer.",
       "repository": "https://github.com/oumad/comfyui_gear",
-      "github_stars": 8,
+      "github_stars": 9,
       "versions": {
         "0.1.3": {
           "version": "0.1.3",
@@ -856784,7 +856994,7 @@
       "display_name": "Pixal3D",
       "description": "ComfyUI custom nodes for TencentARC Pixal3D image-to-3D generation with GLB export, FlashAttention 2/3 selection, and ComfyUI DynamicVRAM/Aimdo integration",
       "repository": "https://github.com/saganaki22/pixal3d-comfyui",
-      "github_stars": 216,
+      "github_stars": 220,
       "versions": {
         "0.2.4": {
           "version": "0.2.4",
@@ -856957,7 +857167,7 @@
       "display_name": "ComfyUI-ThinkingLLM",
       "description": "A multimodal ComfyUI AI node with Qwen3.5, Qwen3-VL, Qwen2.5-VL, Qwen3, and Gemma 4 integrations. Features live thinking in the terminal to see what the LLM is doing in real time.",
       "repository": "https://github.com/goodguy1963/comfyui-thinkingllm",
-      "github_stars": 28,
+      "github_stars": 29,
       "versions": {
         "2.5.8": {
           "version": "2.5.8",
@@ -857825,6 +858035,11 @@
       "repository": "https://github.com/haroonaslam/workflowx-configurator",
       "github_stars": 11,
       "versions": {
+        "2.1.16": {
+          "version": "2.1.16",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/haxzero/workflowx-configurator/2.1.16/node.zip"
+        },
         "2.1.15": {
           "version": "2.1.15",
           "deprecated": false,
@@ -860780,7 +860995,7 @@
       "display_name": "ComfyUI-PlagueKind-Nodes",
       "description": "Custom ComfyUI nodes providing unified image and mask resizing with multiple scaling modes, aspect-ratio preservation, center crop alignment, and stable tensor-based mask transformations, lora loaders and more.",
       "repository": "https://github.com/plaguekind/comfyui-plaguekind-nodes",
-      "github_stars": 204,
+      "github_stars": 208,
       "versions": {
         "1.5.6": {
           "version": "1.5.6",
@@ -861420,7 +861635,7 @@
       "display_name": "Anima Sampler",
       "description": "Cosmos-style rectified-flow sampler nodes for Anima models in ComfyUI.",
       "repository": "https://github.com/keithz117/comfyui-anima-sampler",
-      "github_stars": 61,
+      "github_stars": 62,
       "versions": {
         "0.1.0": {
           "version": "0.1.0",
@@ -862150,7 +862365,7 @@
       "display_name": "Anima-Tools",
       "description": "ComfyUI nodes for anime artist, character, clothing, background, random prompt composition, and Anima LoRA search, download, and loading workflows",
       "repository": "https://github.com/nregret/comfyui-anima-tools",
-      "github_stars": 371,
+      "github_stars": 381,
       "versions": {
         "3.3.1": {
           "version": "3.3.1",
@@ -863021,7 +863236,7 @@
       "display_name": "ComfyUI Switchboard",
       "description": "ComfyUI Switchboard - toggle ComfyUI groups or individual nodes on/off (bypass or mute), manually or from a wired boolean. A more flexible take on rgthree's Fast Group Bypasser.",
       "repository": "https://github.com/oratorian/comfyui-switchboard",
-      "github_stars": 14,
+      "github_stars": 15,
       "versions": {
         "1.1.7": {
           "version": "1.1.7",
@@ -865009,7 +865224,7 @@
       "display_name": "ComfyUI-mflux-AnyModel",
       "description": "Run any mflux/MLX model in ComfyUI on Apple Silicon, with a capability registry that forwards only the parameters each model accepts.",
       "repository": "https://github.com/fxd0h/comfyui-mflux-anymodel",
-      "github_stars": 15,
+      "github_stars": 16,
       "versions": {
         "0.10.0": {
           "version": "0.10.0",
@@ -865998,7 +866213,7 @@
       "display_name": "ComfyTV",
       "description": "LibTV-style Canvas pipeline for ComfyUI",
       "repository": "https://github.com/jtydhr88/comfytv",
-      "github_stars": 1075,
+      "github_stars": 1131,
       "versions": {
         "1.10.0": {
           "version": "1.10.0",
@@ -867768,7 +867983,7 @@
       "display_name": "ComfyUI-SCAIL-Pose2",
       "description": "ComfyUI SCAIL/SCAIL-2 pose preprocessing and WanVideoWrapper adapter nodes.",
       "repository": "https://github.com/rookiestar28/comfyui-scail-pose2",
-      "github_stars": 15,
+      "github_stars": 16,
       "versions": {
         "1.1.5": {
           "version": "1.1.5",
@@ -871645,6 +871860,11 @@
       "repository": "https://github.com/n0va39/comfyui-easyuseanima",
       "github_stars": 36,
       "versions": {
+        "1.7.0": {
+          "version": "1.7.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/n0va39/comfyui-easyuse-anima/1.7.0/node.zip"
+        },
         "1.6.0": {
           "version": "1.6.0",
           "deprecated": false,
@@ -872075,7 +872295,7 @@
       "display_name": "ComfyUI-PromptChain",
       "description": "Prompt-authoring and image-iteration suite for ComfyUI: structured prompts, 3D posing, model awareness, regional control, and layered editing.",
       "repository": "https://github.com/mobcat40/comfyui-promptchain",
-      "github_stars": 34,
+      "github_stars": 35,
       "versions": {
         "0.1.13": {
           "version": "0.1.13",
@@ -872169,7 +872389,7 @@
       "display_name": "ComfyUI-WD-Timm-Tagger",
       "description": "WD Tagger node for ComfyUI using timm",
       "repository": "https://github.com/bedovyy/comfyui-wd-timm-tagger",
-      "github_stars": 24,
+      "github_stars": 26,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -873268,7 +873488,7 @@
       "display_name": "APP Mode MCP",
       "description": "a ComfyUI plugin to transform APP Mode workflow to MCP",
       "repository": "https://github.com/luo-lotus/comfyui-app-mcp",
-      "github_stars": 28,
+      "github_stars": 29,
       "versions": {
         "2.0.7": {
           "version": "2.0.7",
@@ -874216,6 +874436,21 @@
       "repository": "https://github.com/stillfront/comfyui-sf-nodes",
       "github_stars": 1,
       "versions": {
+        "1.6.1": {
+          "version": "1.6.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sf/comfyui-sf-nodes/1.6.1/node.zip"
+        },
+        "1.6.0": {
+          "version": "1.6.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sf/comfyui-sf-nodes/1.6.0/node.zip"
+        },
+        "1.5.0": {
+          "version": "1.5.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sf/comfyui-sf-nodes/1.5.0/node.zip"
+        },
         "1.4.0": {
           "version": "1.4.0",
           "deprecated": false,
@@ -876777,6 +877012,11 @@
       "repository": "https://github.com/setmaster/comfyui-llamacpp",
       "github_stars": 9,
       "versions": {
+        "0.4.0": {
+          "version": "0.4.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/setmaster/comfyui-llamacpp/0.4.0/node.zip"
+        },
         "0.3.0": {
           "version": "0.3.0",
           "deprecated": false,
@@ -877065,7 +877305,7 @@
       "display_name": "camera-comfyUI",
       "description": "Custom ComfyUI nodes for camera projections (pinhole/fisheye/equirectangular), depth, point clouds, camera trajectories, and 3D/4D Gaussian splatting \u2014 including video-to-4D-world workflows.",
       "repository": "https://github.com/alexankharin/camera-comfyui",
-      "github_stars": 40,
+      "github_stars": 41,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -877083,8 +877323,23 @@
       "display_name": "ComfyUI-TJ_NODE_STUDIO_ONE",
       "description": "TJ Node ONE Studio \u2014 all-in-one generation nodes for Flux2 Klein, Z-Image, Krea2, Qwen, SDXL, Anima, MiniMax H3 video, and MusicMaker (Ace-Step 1.5 / MiniMax Music 3) with unified config/preset management and an optional OpenRouter LLM backend.",
       "repository": "https://github.com/designloves2/comfyui-tj_node_studio_one",
-      "github_stars": 35,
+      "github_stars": 41,
       "versions": {
+        "1.46.0": {
+          "version": "1.46.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/designloves2/comfyui-tj_node_studio_one/1.46.0/node.zip"
+        },
+        "1.45.0": {
+          "version": "1.45.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/designloves2/comfyui-tj_node_studio_one/1.45.0/node.zip"
+        },
+        "1.44.0": {
+          "version": "1.44.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/designloves2/comfyui-tj_node_studio_one/1.44.0/node.zip"
+        },
         "1.43.0": {
           "version": "1.43.0",
           "deprecated": false,
@@ -877489,8 +877744,13 @@
       "display_name": "ComfyUI-TJ_NODE",
       "description": "Large Scale Wireless Workflow Architecture Toolkit for ComfyUI \u2014 wireless routing, batch/preview/save pipelines, LLM prompt workflow, LoRA analysis, and Krea2 TQD dataset scoring.",
       "repository": "https://github.com/designloves2/comfyui-tj_node",
-      "github_stars": 16,
+      "github_stars": 17,
       "versions": {
+        "2.25.0": {
+          "version": "2.25.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/designloves2/comfyui-tj_node/2.25.0/node.zip"
+        },
         "2.24.0": {
           "version": "2.24.0",
           "deprecated": false,
@@ -877811,7 +878071,7 @@
       "display_name": "ComfyUI_UniBlockSwap",
       "description": "A universal swap node that supports ComfyUI native workflow, allowing 4_6G users to experience Klein9B or other large models",
       "repository": "https://github.com/smthemex/comfyui_uniblockswap",
-      "github_stars": 145,
+      "github_stars": 147,
       "versions": {
         "1.1.1": {
           "version": "1.1.1",
@@ -878605,7 +878865,7 @@
       "display_name": "ComfyUI-xiaozhuguang - \u5c0f\u73e0\u5149\u63d2\u4ef6",
       "description": "\u5c0f\u73e0\u5149 - ComfyUI\u8282\u70b9\u7f8e\u5316\u589e\u5f3a\u63d2\u4ef6\uff0c\u63d0\u4f9b\u8282\u70b9\u6536\u85cf\u3001\u5de5\u4f5c\u6d41\u7ba1\u7406\u3001\u4e3b\u9898\u7f8e\u5316\u3001\u7530\u5b57\u683c\u5bf9\u9f50\u3001\u89c6\u89c9\u7f16\u7ec4\u7b49\u529f\u80fd",
       "repository": "https://github.com/xiaozhuguang/comfyui-xiaozhuguang",
-      "github_stars": 111,
+      "github_stars": 112,
       "versions": {
         "27.0.0": {
           "version": "27.0.0",
@@ -879558,7 +879818,7 @@
       "display_name": "NKD Basic Tools",
       "description": "Everyday utility nodes for ComfyUI: inpaint crop & stitch, upright face crop & stitch with automatic masks, a live face rig for portrait expressions, hand-drawn vector masks, a paint canvas for scribbles and ControlNet guides, path and field blur, mask painting and cleanup, colour grading, gradients, noise and grain \u2014 each with a live preview in the node.",
       "repository": "https://github.com/nekodificador/comfyui-nkd-basic-tools",
-      "github_stars": 175,
+      "github_stars": 179,
       "versions": {
         "1.24.3": {
           "version": "1.24.3",
@@ -879867,8 +880127,18 @@
       "display_name": "ComfyUI Comic Creator",
       "description": "A manga page creation SPA for ComfyUI: templates, layered image editor, speech balloons, font manager, AI image generation (Nanobanana), script management, and halftone/manga-effect tools.",
       "repository": "https://github.com/ketle-man/comfyui-comic-creator",
-      "github_stars": 28,
+      "github_stars": 29,
       "versions": {
+        "1.59.0": {
+          "version": "1.59.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/statsu/comfyui-comic-creator/1.59.0/node.zip"
+        },
+        "1.58.1": {
+          "version": "1.58.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/statsu/comfyui-comic-creator/1.58.1/node.zip"
+        },
         "1.58.0": {
           "version": "1.58.0",
           "deprecated": false,
@@ -880315,7 +880585,7 @@
       "display_name": "Krea 2 Ostris Edit",
       "description": "Krea 2 edit (reference image) nodes for LoRAs trained with ai-toolkit. Encodes prompts + reference images through the Krea 2 Qwen3-VL text encoder and patches the model to consume reference latents, with optional KV-cache conditioning.",
       "repository": "https://github.com/ostris/comfyui-krea2-ostris-edit",
-      "github_stars": 355,
+      "github_stars": 361,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -880828,6 +881098,11 @@
       "repository": "https://github.com/demonalone/demonalone-js_addon-comfyui",
       "github_stars": 2,
       "versions": {
+        "3.2.6": {
+          "version": "3.2.6",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/demonalone/demonalone-js_addon-comfyui/3.2.6/node.zip"
+        },
         "3.2.1": {
           "version": "3.2.1",
           "deprecated": false,
@@ -881209,9 +881484,9 @@
     },
     "comfyui-applesilicon-fp8": {
       "display_name": "ComfyUI-AppleSilicon-FP8",
-      "description": "Run FP8 and INT8 quantized models (FLUX, SD3.5, Ideogram 4, Krea2) on Apple Silicon / MPS \u2014 compatibility fixes plus bit-exact fp8/int8 Metal matmul kernels, plus a psutil fix for recent macOS betas.",
+      "description": "Run FP8/INT8/INT4 quantized models (FLUX, SD3.5, Ideogram 4, Krea2) on Apple Silicon / MPS - compatibility fixes plus fp8/int8/int4 optimizations for M-series Apple computers.",
       "repository": "https://github.com/pawel-mazurkiewicz/comfyui-applesilicon-fp8",
-      "github_stars": 146,
+      "github_stars": 150,
       "versions": {
         "1.3.4": {
           "version": "1.3.4",
@@ -881681,6 +881956,31 @@
       "repository": "https://github.com/winnougan/nougan_nodes",
       "github_stars": 6,
       "versions": {
+        "1.1.5": {
+          "version": "1.1.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/winnougan/nougan_nodes/1.1.5/node.zip"
+        },
+        "1.1.4": {
+          "version": "1.1.4",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/winnougan/nougan_nodes/1.1.4/node.zip"
+        },
+        "1.1.3": {
+          "version": "1.1.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/winnougan/nougan_nodes/1.1.3/node.zip"
+        },
+        "1.1.2": {
+          "version": "1.1.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/winnougan/nougan_nodes/1.1.2/node.zip"
+        },
+        "1.1.1": {
+          "version": "1.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/winnougan/nougan_nodes/1.1.1/node.zip"
+        },
         "1.1.0": {
           "version": "1.1.0",
           "deprecated": false,
@@ -882296,7 +882596,7 @@
       "display_name": "ComfyUI-Muye-nodes",
       "description": "Image captioning, prompt engineering, face processing and utility nodes for ComfyUI.",
       "repository": "https://github.com/muyexiuluo/comfyui-muye-nodes",
-      "github_stars": 93,
+      "github_stars": 95,
       "versions": {
         "1.0.17": {
           "version": "1.0.17",
@@ -882914,7 +883214,7 @@
       "display_name": "ComfyUI-Autocomplete-Aaalice",
       "description": "Autocomplete and Related Tag display for ComfyUI",
       "repository": "https://github.com/aaalice233/comfyui-autocomplete-aaalice",
-      "github_stars": 16,
+      "github_stars": 19,
       "versions": {
         "1.13.8": {
           "version": "1.13.8",
@@ -883526,7 +883826,7 @@
       "display_name": "LinkSpotlight",
       "description": "Alt+H spotlight for ComfyUI: hide or dim every link that doesn't touch the selected node. Frontend-only, zero nodes, zero dependencies.",
       "repository": "https://github.com/ding-sl/comfyui-linkspotlight",
-      "github_stars": 18,
+      "github_stars": 19,
       "versions": {
         "1.3.0": {
           "version": "1.3.0",
@@ -884007,10 +884307,15 @@
     },
     "comfyui-bart-nodes": {
       "display_name": "Bart's ComfyUI Nodes",
-      "description": "Random/sequential pickers (local directory, booru tag search across five sites, 52prompts.com text prompts), an Ollama-based anatomy defect filter for images, an Ollama-based MiniMax H3 video prompt generator, an image loader with an on-node crop editor, and a YuE2-3B music generation wrapper.",
+      "description": "Random/sequential pickers (local directory, booru tag search across five sites, 52prompts.com text prompts), an Ollama-based anatomy defect filter for images, an Ollama-based MiniMax H3 video prompt generator, an image loader with an on-node crop editor, a touch-friendly image picker for the input folder, and a YuE2-3B music generation wrapper.",
       "repository": "https://github.com/bartenevve/comfyui-bart-nodes",
       "github_stars": 1,
       "versions": {
+        "0.11.0": {
+          "version": "0.11.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/bartenevve/comfyui-bart-nodes/0.11.0/node.zip"
+        },
         "0.10.3": {
           "version": "0.10.3",
           "deprecated": false,
@@ -884705,6 +885010,11 @@
       "repository": "https://github.com/zoltar358-comfyui/comfyui-universal-model-loader",
       "github_stars": 3,
       "versions": {
+        "1.3.2": {
+          "version": "1.3.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/zoltar358-comfyui/universal-model-loader/1.3.2/node.zip"
+        },
         "1.3.1": {
           "version": "1.3.1",
           "deprecated": false,
@@ -885148,7 +885458,7 @@
       "display_name": "ComfyUI-FolderBatch",
       "description": "Folder-based batch queue helpers for ComfyUI",
       "repository": "https://github.com/aiai-r/comfyui-folderbatch",
-      "github_stars": 7,
+      "github_stars": 8,
       "versions": {
         "1.0.4": {
           "version": "1.0.4",
@@ -885199,7 +885509,7 @@
       "display_name": "RedNode Studio",
       "description": "A studio rig for ComfyUI: a tabbed workspace panel, painting with auto masks, wireless control panels, LoRA management, grading and prompt tooling, plus Krea 2 moodboard and identity editing.",
       "repository": "https://github.com/rednodeai/comfyui-rednodestudio",
-      "github_stars": 11,
+      "github_stars": 14,
       "versions": {
         "1.7.0": {
           "version": "1.7.0",
@@ -885739,8 +886049,13 @@
       "display_name": "ComfyUI GGUF (molbal's fork)",
       "description": "Actively maintained fork of ComfyUI-GGUF node pack with support for new models, INT8/INT4 GGUFs and optionally ComfyUI Dynamic VRAM",
       "repository": "https://github.com/molbal/comfyui-gguf",
-      "github_stars": 93,
+      "github_stars": 100,
       "versions": {
+        "26.10.21": {
+          "version": "26.10.21",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/molbal/comfyui-gguf-reboot/26.10.21/node.zip"
+        },
         "26.10.18": {
           "version": "26.10.18",
           "deprecated": false,
@@ -886641,7 +886956,7 @@
       "display_name": "MiniMax-H3 Tools",
       "description": "ComfyUI loaders for MiniMax-H3 NF4 weights, plus prompt, canvas, audio reroll, and AV latent tools.",
       "repository": "https://github.com/rinne414/comfyui-minimaxh3-tools",
-      "github_stars": 13,
+      "github_stars": 12,
       "versions": {
         "0.1.0": {
           "version": "0.1.0",
@@ -886654,7 +886969,7 @@
       "display_name": "ComfyUI-MiniMaxH3-Easy",
       "description": "A streamlined MiniMax H3 workflow for text-to-video, image-to-video, and reference-to-video generation in ComfyUI.",
       "repository": "https://github.com/nkxx188/comfyui-minimaxh3-easy",
-      "github_stars": 839,
+      "github_stars": 854,
       "versions": {
         "1.3.3": {
           "version": "1.3.3",
@@ -886788,7 +887103,7 @@
       "display_name": "MiniMax H3",
       "description": "MiniMax H3 video and audio generation nodes for ComfyUI",
       "repository": "https://github.com/xiaolibai-sys/comfyui-minimaxh3",
-      "github_stars": 12,
+      "github_stars": 13,
       "versions": {
         "1.4.0": {
           "version": "1.4.0",
@@ -887903,6 +888218,11 @@
       "repository": "https://github.com/softbytelabs/sbl",
       "github_stars": 1,
       "versions": {
+        "1.0.7": {
+          "version": "1.0.7",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sbl/SBL/1.0.7/node.zip"
+        },
         "1.0.6": {
           "version": "1.0.6",
           "deprecated": false,
@@ -888473,6 +888793,11 @@
       "repository": "https://github.com/craftingmod/comfyui-controlpanel",
       "github_stars": 2,
       "versions": {
+        "1.3.10": {
+          "version": "1.3.10",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/alyac/comfyui-controlpanel/1.3.10/node.zip"
+        },
         "1.3.9": {
           "version": "1.3.9",
           "deprecated": false,
@@ -890662,7 +890987,7 @@
       "display_name": "Herrgotts-H3-Infinite-Continuation-Suite",
       "description": "MiniMax H3 FL2VA long-video continuation for ComfyUI with freeze-safe native masked video context, independent audio-tail preservation, flexible Qwen conditioning, and memory-bounded stitching",
       "repository": "https://github.com/herrgottmargott/herrgotts-h3-infinite-continuation-suite",
-      "github_stars": 81,
+      "github_stars": 82,
       "versions": {
         "1.4.0": {
           "version": "1.4.0",
@@ -890697,6 +891022,21 @@
       "repository": "https://github.com/hallettvisual/comfyui-smart-upscaler",
       "github_stars": 29,
       "versions": {
+        "1.3.4": {
+          "version": "1.3.4",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/hallettvisual/comfyui-smart-upscaler/1.3.4/node.zip"
+        },
+        "1.3.3": {
+          "version": "1.3.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/hallettvisual/comfyui-smart-upscaler/1.3.3/node.zip"
+        },
+        "1.3.2": {
+          "version": "1.3.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/hallettvisual/comfyui-smart-upscaler/1.3.2/node.zip"
+        },
         "1.3.1": {
           "version": "1.3.1",
           "deprecated": false,
@@ -891394,7 +891734,7 @@
       "display_name": "ComfyUI-GGUF-Loader",
       "description": "\ud83d\ude80 CCTech GGUF loaders for ComfyUI \u2014 UNET / CLIP quantization, dual VAE, ClipProj, Scenema Audio, MiniMax Music 3, stem separation, MiniMax H3 prompt writing, LTX-2.3 A/V, Krea2 Control, Qwen-Image ControlNet, Flux Klein, local LM Studio prompting, Qwen3-TTS, TripoSG image-to-3D, UniRig auto-rigging and TRELLIS.2 / Pixal3D per-stage loaders.",
       "repository": "https://github.com/chriscoletech/comfyui-gguf-loader",
-      "github_stars": 23,
+      "github_stars": 25,
       "versions": {
         "2.20.0": {
           "version": "2.20.0",
@@ -893115,7 +893455,7 @@
       "display_name": "ComfyUI-LTX2.5-MSR",
       "description": "Multi-reference image and optional AVref audio conditioning nodes for LTX-2.5 in ComfyUI.",
       "repository": "https://github.com/liconstudio/comfyui-ltx2.5-msr",
-      "github_stars": 39,
+      "github_stars": 41,
       "versions": {
         "1.2.2": {
           "version": "1.2.2",
@@ -894272,7 +894612,7 @@
       "display_name": "CCollins' CiviScribe",
       "description": "Make every ComfyUI image Civitai-ready. CiviScribe saves PNG, JPEG, and WebP with your prompts, generation settings, model, LoRAs, hashes, and only the resources actually used. PNG files can also carry a reloadable workflow, so your uploads keep their creation details without manual metadata work.",
       "repository": "https://github.com/chriscollins500/ccollins-civiscribe",
-      "github_stars": 4,
+      "github_stars": 5,
       "versions": {
         "2.0.8": {
           "version": "2.0.8",
@@ -894574,8 +894914,18 @@
       "display_name": "AusBoss",
       "description": "ComfyUI-AusBoss (AusBoss nodes): image and video nodes with compact controls: Image and Video Crop + Rotate + Pad (frame or clip), Load Image + Pad, Image Folder (run a workflow on a folder of pictures), Image Resize, Align Image, Image Size, Color Match, Image Compare A/B, Realign to Source (experimental), Save Image (PNG, lossless WebP/JXL, captions), Load Video, Save Video, Select Frame, Frame Interpolate, Mask Refine, Mask by Name and Mask by Touch (type a name or click a thing, get its mask), LaMa Inpaint, Crop For Inpaint, Stitch Inpaint, Tiled Upscale and Tiled Upscale Stitch (upscale in tiles), LoRA Loader, Krea 2 Encode and Outpaint Model Patch, Latent Size, Layout Boxes (draw where things and words go), Seed, Select Every Nth, Split Batch, Merge Batches, Text, Integer, Float, Math Expression, Show Text, Free Memory, Workflow Note, Callout (a note with arrows), Workflow Switches, and Run Timer. Example workflows for Qwen Image 2.1, Krea 2, Klein 9B and LTX 2.3.",
       "repository": "https://github.com/ausboss/comfyui-ausboss",
-      "github_stars": 68,
+      "github_stars": 77,
       "versions": {
+        "2.18.1": {
+          "version": "2.18.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ausboss/ausboss-nodes/2.18.1/node.zip"
+        },
+        "2.18.0": {
+          "version": "2.18.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ausboss/ausboss-nodes/2.18.0/node.zip"
+        },
         "2.17.0": {
           "version": "2.17.0",
           "deprecated": false,
@@ -895260,7 +895610,7 @@
       "display_name": "ComfyUI Smart Model Loader",
       "description": "Complete ComfyUI diffusion pipeline with secure model loading, text conditioning, pipe sampling, and verified downloads.",
       "repository": "https://github.com/r-vage/comfyui_smartmodelloader",
-      "github_stars": 4,
+      "github_stars": 5,
       "versions": {
         "1.0.30": {
           "version": "1.0.30",
@@ -896711,7 +897061,7 @@
       "display_name": "MiniMax H3 Audio T8",
       "description": "MiniMax H3 joint AV, audio refine, long-video, reference control, motion analysis, temporal restoration, and acceleration nodes for ComfyUI",
       "repository": "https://github.com/t8mars/comfyui-minimax-h3-audio-t8",
-      "github_stars": 1187,
+      "github_stars": 1208,
       "versions": {
         "1.101.0": {
           "version": "1.101.0",
@@ -897562,6 +897912,16 @@
       "repository": "https://github.com/art-xmaster/comfyui-agsoft",
       "github_stars": 32,
       "versions": {
+        "2.2.3": {
+          "version": "2.2.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/agsoft/comfyui-AGSoft/2.2.3/node.zip"
+        },
+        "2.2.2": {
+          "version": "2.2.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/agsoft/comfyui-AGSoft/2.2.2/node.zip"
+        },
         "2.2.1": {
           "version": "2.2.1",
           "deprecated": false,
@@ -898331,7 +898691,7 @@
       "display_name": "MiniMax H3 RAVEN Streaming",
       "description": "Streaming text-to-video-and-audio (T2VA) nodes for MiniMax H3: a RAVEN model loader and a chunk-major RAVEN streaming sampler, built on ComfyUI's official H3 support.",
       "repository": "https://github.com/yanzuolu/comfyui-minimax-h3-raven-streaming",
-      "github_stars": 9,
+      "github_stars": 10,
       "versions": {
         "0.1.0": {
           "version": "0.1.0",
@@ -899005,7 +899365,7 @@
       "display_name": "Photoshoot",
       "description": "Build a person once, then shoot a whole series: framing, pose, placement, expression and aspect ratio vary while the person stays the same.",
       "repository": "https://github.com/ralksta/comfyui-photoshoot",
-      "github_stars": 153,
+      "github_stars": 154,
       "versions": {
         "2.6.0": {
           "version": "2.6.0",
@@ -899443,7 +899803,7 @@
       "display_name": "ComfyUI-QueueControl",
       "description": "A ComfyUI extension helper for the bult-in Queue Manager that gives you more control over the job queue. You can pause/resume, change the run order, hold individual items, and manually save/load the entire queue to disk for backup that survives a restart/reboot. It also auto-saves/restores the current running queue in case of unintended crashes. This extension does not load any new dependencies.",
       "repository": "https://github.com/seeker-ktf/comfyui-queuecontrol",
-      "github_stars": 14,
+      "github_stars": 15,
       "versions": {
         "1.4.0": {
           "version": "1.4.0",
@@ -900361,7 +900721,7 @@
       "display_name": "ComfyUI_CineStyle",
       "description": "A set of ComfyUI custom nodes for video workflows.",
       "repository": "https://github.com/chflame163/comfyui_cinestyle",
-      "github_stars": 80,
+      "github_stars": 81,
       "versions": {
         "1.0.34": {
           "version": "1.0.34",
@@ -900616,7 +900976,7 @@
       "display_name": "Flux FaceIR",
       "description": "ComfyUI extension for FLUX FaceIR aligned-face and whole-image restoration.",
       "repository": "https://github.com/cosmicrealm/comfyui-flux-faceir",
-      "github_stars": 65,
+      "github_stars": 66,
       "versions": {
         "0.1.0": {
           "version": "0.1.0",
@@ -901871,8 +902231,13 @@
       "display_name": "Breeze TTS 2",
       "description": "Breeze TTS 2 nodes for ComfyUI: voice clone, voice design, and voice direction with INT8 ConvRot support.",
       "repository": "https://github.com/saganaki22/comfyui-breeze-tts-2",
-      "github_stars": 92,
+      "github_stars": 99,
       "versions": {
+        "1.4.7": {
+          "version": "1.4.7",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/saganaki22/comfyui-breeze-tts-2/1.4.7/node.zip"
+        },
         "1.4.6": {
           "version": "1.4.6",
           "deprecated": false,
@@ -902435,7 +902800,7 @@
       "display_name": "H3 Fun ControlNet",
       "description": "ControlNet for MiniMax-H3. Drive an H3 generation with a depth, canny, pose, HED or MLSD control video, built on ComfyUI's own H3 blocks.",
       "repository": "https://github.com/wyzborrero/comfyui-h3-funcontrol",
-      "github_stars": 47,
+      "github_stars": 48,
       "versions": {
         "0.1.2": {
           "version": "0.1.2",
@@ -903069,10 +903434,15 @@
     },
     "skkut-utils": {
       "display_name": "Skkut Utils",
-      "description": "A collection of small utilities for ComfyUI: Auto Dark Mode, Detailed Job Status timer, Save Compressed Weppy (WebP with embedded prompt/workflow metadata), Skutils Resolution Calculator, Skutils Scale Image to Total Pixels (the built-in resize node with an optional image input), and Skutils Text Preview (text persisted in the saved workflow JSON).",
+      "description": "A collection of small utilities for ComfyUI: Auto Dark Mode, Detailed Job Status timer, Save Compressed Weppy (WebP with embedded prompt/workflow metadata), Skutils Resolution Calculator, Skutils Scale Image to Total Pixels (the built-in resize node with an optional image input), Skutils Text Preview (text persisted in the saved workflow JSON), and Skutils Style Selector (a bundled 434-style visual picker with positive/negative prompt output, combine/batch modes, and custom styles).",
       "repository": "https://github.com/skkut/comfyui-skkut-utils",
       "github_stars": 1,
       "versions": {
+        "0.4.0": {
+          "version": "0.4.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/skkut/skkut-utils/0.4.0/node.zip"
+        },
         "0.3.2": {
           "version": "0.3.2",
           "deprecated": false,
@@ -904468,7 +904838,7 @@
       "display_name": "ComfyUI-VDN-H3",
       "description": "VDN-H3 (Video Delta Net) hybrid attention for MiniMax-H3",
       "repository": "https://github.com/saganaki22/comfyui-vdn-h3",
-      "github_stars": 240,
+      "github_stars": 241,
       "versions": {
         "1.5.2": {
           "version": "1.5.2",
@@ -904730,6 +905100,11 @@
       "repository": "https://github.com/yuyuki/comfyui-minimax_h3_novel_pipeline",
       "github_stars": 3,
       "versions": {
+        "2.0.0": {
+          "version": "2.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/yuyuki/minimax_h3_novel_pipeline/2.0.0/node.zip"
+        },
         "1.10.7": {
           "version": "1.10.7",
           "deprecated": false,
@@ -904906,8 +905281,13 @@
       "display_name": "MiniMax H3 Flow-Aligned Regenerate",
       "description": "H3-native flow-aligned and progressive-resolution regeneration for ComfyUI",
       "repository": "https://github.com/xmarre/minimax-h3-flow-aligned-regenerate",
-      "github_stars": 21,
+      "github_stars": 22,
       "versions": {
+        "0.3.15": {
+          "version": "0.3.15",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xmarre/comfyui-minimax-h3-flow-aligned-regenerate/0.3.15/node.zip"
+        },
         "0.3.14": {
           "version": "0.3.14",
           "deprecated": false,
@@ -905053,7 +905433,7 @@
       "display_name": "Housekeeper",
       "description": "A browser-only ComfyUI extension for aligning, arranging, resizing, and coloring workflow nodes",
       "repository": "https://github.com/joanna910225/comfyui-housekeeper",
-      "github_stars": 34,
+      "github_stars": 35,
       "versions": {
         "0.9.1": {
           "version": "0.9.1",
@@ -905186,7 +905566,7 @@
       "display_name": "Majoor OmniCam",
       "description": "Interactive 3D camera authoring and proxy-reference playblasts for ComfyUI video models.",
       "repository": "https://github.com/majoorwaldi/comfyui-majoor-omnicam",
-      "github_stars": 86,
+      "github_stars": 89,
       "versions": {
         "0.4.1": {
           "version": "0.4.1",
@@ -905268,10 +905648,15 @@
     },
     "wextraui": {
       "display_name": "WextraUI",
-      "description": "Extra nodes for ComfyUI, from the Winteraction workbench. Time works for you: WextraUI nodes have a control after generate and the carry that links them, so a queue of runs changes checkpoint, LoRA, sampler, scheduler, seed, frame and prompt on its own, and WSave Image puts every image in the right place with a file name built from parts. One press of Run and the machine never stops. Twenty-one nodes: WCheckpoint, WLoRA, WSampler, WScheduler, WInt, WFloat, WSwitch, WRoute, WDifference, WFrame, WReso, WPrompt Rows for any workflow, and under WextraUI/H3 the seven nodes of the H3 scene loop (WScene, WLoop) for MiniMax H3 Sync Sound: a film as a list of scenes with continuous audio.",
+      "description": "Extra nodes for ComfyUI, from the Winteraction workbench. Time works for you: WextraUI nodes have a control after generate and the carry that links them, so a queue of runs changes checkpoint, LoRA, sampler, scheduler, seed, frame and prompt on its own, and WSave Image puts every image in the right place with a file name built from parts. One press of Run and the machine never stops. Thirty nodes: WCheckpoint, WLoRA, WSampler, WScheduler, WInt, WFloat, WSwitch, WRoute, WDifference, WFrame, WReso, WPrompt Rows for any workflow; under WextraUI/H3 the seven nodes of the H3 scene loop (WScene, WLoop) for MiniMax H3 Sync Sound, a film as a list of scenes with continuous audio; under WextraUI/Video, Audio and Foley the nine for the sound of a video: WExtractor, WMount, WCutScene, WAudio Prompts, the Foley loop (LTX-2.3 video-to-audio, a prompt per scene, in one Run), WMixer, a timeline mixer inside the node, and WAonV, the sound on the picture. No ffmpeg to install.",
       "repository": "https://github.com/sickbraintwo/wextraui",
       "github_stars": 1,
       "versions": {
+        "0.9.0": {
+          "version": "0.9.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sickbraintwo/wextraui/0.9.0/node.zip"
+        },
         "0.8.0": {
           "version": "0.8.0",
           "deprecated": false,
@@ -905668,7 +906053,7 @@
       "display_name": "ComfyUI-Viggle-Animate-H3",
       "description": "ComfyUI nodes for Viggle-Animate (MiniMax-H3 ref2va finetune): character replacement in video from a driving clip and a reference still",
       "repository": "https://github.com/saganaki22/comfyui-viggle-animate-h3",
-      "github_stars": 128,
+      "github_stars": 131,
       "versions": {
         "1.3.2": {
           "version": "1.3.2",
@@ -907260,6 +907645,11 @@
       "repository": "https://github.com/xmarre/comfyui-vdn-h3-plus",
       "github_stars": 25,
       "versions": {
+        "1.5.11": {
+          "version": "1.5.11",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xmarre/comfyui-vdn-h3-plus/1.5.11/node.zip"
+        },
         "1.5.10": {
           "version": "1.5.10",
           "deprecated": false,
@@ -908101,7 +908491,7 @@
       "display_name": "ComfyUI-AuK",
       "description": "AuK speech generation and editing with local Qwen conditioning and ComfyUI model management",
       "repository": "https://github.com/saganaki22/comfyui-auk",
-      "github_stars": 46,
+      "github_stars": 47,
       "versions": {
         "1.1.0": {
           "version": "1.1.0",
@@ -908364,7 +908754,7 @@
       "display_name": "Open Manager",
       "description": "A manager for the whole ComfyUI workspace: custom nodes, themes, models, downloads, a resource monitor and a desktop.",
       "repository": "https://github.com/wasasquatch/open-manager-comfyui",
-      "github_stars": 17,
+      "github_stars": 18,
       "versions": {
         "0.5.3": {
           "version": "0.5.3",
@@ -909261,8 +909651,13 @@
       "display_name": "comfyui-obvpm",
       "description": "Bundle multiple wires into one wire. Create customizable Presets nodes. Compose ref images in one node. ComfyUI nodes to save time and keep your workflows tidy.",
       "repository": "https://github.com/chanon/comfyui-obvpm",
-      "github_stars": 107,
+      "github_stars": 112,
       "versions": {
+        "0.2.18": {
+          "version": "0.2.18",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/chanon/comfyui-obvpm/0.2.18/node.zip"
+        },
         "0.2.17": {
           "version": "0.2.17",
           "deprecated": false,
@@ -910790,8 +911185,13 @@
       "display_name": "H3 LongTake",
       "description": "Long MiniMax H3 videos clip by clip with continuity: motion/identity transfer (Ref2VA) and style transfer / retexture (guide latent + StyleTransfer LoRA), resumable, one clip in VRAM at a time.",
       "repository": "https://github.com/mark9009/comfyui-h3-longtake",
-      "github_stars": 29,
+      "github_stars": 30,
       "versions": {
+        "1.4.0": {
+          "version": "1.4.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/mark9009/comfyui-h3-longtake/1.4.0/node.zip"
+        },
         "1.3.7": {
           "version": "1.3.7",
           "deprecated": false,
@@ -911369,6 +911769,16 @@
       "repository": "https://github.com/a63976659/comfyui-any-path-repair",
       "github_stars": 13,
       "versions": {
+        "2.3.0": {
+          "version": "2.3.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/a63976659/ComfyUI-Any-Path-Repair/2.3.0/node.zip"
+        },
+        "2.1.1": {
+          "version": "2.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/a63976659/ComfyUI-Any-Path-Repair/2.1.1/node.zip"
+        },
         "2.0.1": {
           "version": "2.0.1",
           "deprecated": false,
@@ -911840,8 +912250,13 @@
       "display_name": "ComfyUI LC MaskMaker Nodes",
       "description": "ComfyUI LC MaskMaker Nodes by lonecatone23: on-node Outpaint and Create Mask, background removal, Segment Anything, Smart Detailer (SAM 3, replaces SEGS / Impact detailers), person masks, mask refine, image blend, auto adjust, depth and normal maps. Models load on demand and are labelled with their licenses. Companion to ComfyUI_LC123_nodes; separate Registry name.",
       "repository": "https://github.com/lonecatone23/comfyui_lc_maskmaker_nodes",
-      "github_stars": 8,
+      "github_stars": 9,
       "versions": {
+        "0.25.1": {
+          "version": "0.25.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lonecatone23/ComfyUI_LC_MaskMaker_nodes/0.25.1/node.zip"
+        },
         "0.25.0": {
           "version": "0.25.0",
           "deprecated": false,
@@ -912061,6 +912476,11 @@
       "repository": "https://github.com/uiiiaiii/uiiiaiii_toolkit",
       "github_stars": 0,
       "versions": {
+        "1.3.7": {
+          "version": "1.3.7",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/uiiiaiii/uiiiaiii-toolkit/1.3.7/node.zip"
+        },
         "1.3.6": {
           "version": "1.3.6",
           "deprecated": false,
@@ -912253,6 +912673,16 @@
       "repository": "https://github.com/licyk/comfyui-model-hub",
       "github_stars": 2,
       "versions": {
+        "0.1.24": {
+          "version": "0.1.24",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/licyk/comfyui-model-hub/0.1.24/node.zip"
+        },
+        "0.1.23": {
+          "version": "0.1.23",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/licyk/comfyui-model-hub/0.1.23/node.zip"
+        },
         "0.1.22": {
           "version": "0.1.22",
           "deprecated": false,
@@ -913405,7 +913835,7 @@
       "display_name": "ComfyUI-MiniMaxH3RefLoRA",
       "description": "One .safetensors holding a MiniMax H3 LoRA and its RefMod references.",
       "repository": "https://github.com/malcolmamal/comfyui-minimaxh3reflora",
-      "github_stars": 9,
+      "github_stars": 10,
       "versions": {
         "0.1.0": {
           "version": "0.1.0",
@@ -913556,6 +913986,16 @@
       "repository": "https://github.com/aihaipan/comfyui-universal_prompt_optimizer",
       "github_stars": 2,
       "versions": {
+        "0.6.1": {
+          "version": "0.6.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/haiphan/universal-prompt-optimizer/0.6.1/node.zip"
+        },
+        "0.6.0": {
+          "version": "0.6.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/haiphan/universal-prompt-optimizer/0.6.0/node.zip"
+        },
         "0.5.0": {
           "version": "0.5.0",
           "deprecated": false,
@@ -914146,6 +914586,11 @@
       "repository": "https://github.com/eros-craft/comfyui-qwen21-adult-policy",
       "github_stars": 1,
       "versions": {
+        "1.1.5": {
+          "version": "1.1.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/generate-ai-1/comfyui-qwen21-adult-policy/1.1.5/node.zip"
+        },
         "1.1.4": {
           "version": "1.1.4",
           "deprecated": false,
@@ -914731,7 +915176,7 @@
       "display_name": "Prompt Studio",
       "description": "Multimodal prompt studio for ComfyUI. Write and refine prompts for image, video and audio models using local or API-based LLMs.",
       "repository": "https://github.com/tngklp/comfyui-prompt-studio",
-      "github_stars": 40,
+      "github_stars": 42,
       "versions": {
         "1.1.7": {
           "version": "1.1.7",
@@ -915085,6 +915530,11 @@
       "repository": "https://github.com/licyk/comfyui-image-browser",
       "github_stars": 3,
       "versions": {
+        "0.1.16": {
+          "version": "0.1.16",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/licyk/comfy-image-browser/0.1.16/node.zip"
+        },
         "0.1.15": {
           "version": "0.1.15",
           "deprecated": false,
@@ -915484,7 +915934,7 @@
       "display_name": "ComfyUI-TypedDecision",
       "description": "Typed decisions (noul / choice / score) with calibrated probabilities, on ComfyUI's text-encoder engine. Supports imajev, d3 and Clef-flash.",
       "repository": "https://github.com/nomadoor/comfyui-typeddecision",
-      "github_stars": 10,
+      "github_stars": 11,
       "versions": {
         "0.2.0": {
           "version": "0.2.0",
@@ -916705,6 +917155,11 @@
           "deprecated": false,
           "download_url": "https://cdn.comfy.org/perfectmodelslab/comfyui-perfectlab/1.2.0/node.zip"
         },
+        "1.1.14": {
+          "version": "1.1.14",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/perfectmodelslab/comfyui-perfectlab/1.1.14/node.zip"
+        },
         "1.1.1": {
           "version": "1.1.1",
           "deprecated": false,
@@ -916779,6 +917234,11 @@
       "repository": "https://github.com/xwide/comfyui-preset-switch-plus",
       "github_stars": 3,
       "versions": {
+        "0.12.66": {
+          "version": "0.12.66",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xwide/preset-switch-plus/0.12.66/node.zip"
+        },
         "0.12.40": {
           "version": "0.12.40",
           "deprecated": false,
@@ -916848,7 +917308,7 @@
       "display_name": "Veda Sparse Attention (MiniMax H3)",
       "description": "Veda learned sparse attention for MiniMax-H3 in ComfyUI: ~2-3x faster T2VA / FL2VA / R2VA video+audio generation, LoRA-compatible. NVIDIA (Triton INT8, SM80 and newer, Linux / Windows) and Apple silicon (MLX).",
       "repository": "https://github.com/veda-sparse/veda-on-comfyui",
-      "github_stars": 161,
+      "github_stars": 191,
       "versions": {
         "0.3.1": {
           "version": "0.3.1",
@@ -918655,7 +919115,7 @@
       "display_name": "OmniVoice",
       "description": "A native dependency-free port of the OmniVoice TTS model (Qwen3 LLM + HiggsAudioV2 codec) for ComfyUI.",
       "repository": "https://github.com/aero-ex/comfyui-omnivoice",
-      "github_stars": 1,
+      "github_stars": 3,
       "versions": {
         "1.0.4": {
           "version": "1.0.4",
@@ -918803,6 +919263,11 @@
       "repository": "https://github.com/ey4o/comfyui-model-librarian",
       "github_stars": 0,
       "versions": {
+        "1.19.0": {
+          "version": "1.19.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/looneth/comfyui-model-librarian/1.19.0/node.zip"
+        },
         "1.18.0": {
           "version": "1.18.0",
           "deprecated": false,
@@ -919122,6 +919587,11 @@
       "repository": "https://github.com/ooizj/comfyui-h3-long-video",
       "github_stars": 8,
       "versions": {
+        "0.11.1": {
+          "version": "0.11.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/misaka/comfyui-h3-long-video/0.11.1/node.zip"
+        },
         "0.11.0": {
           "version": "0.11.0",
           "deprecated": false,
@@ -919183,6 +919653,11 @@
       "repository": "https://github.com/supelement/comfyui-element_tileupscale",
       "github_stars": 0,
       "versions": {
+        "0.4.5": {
+          "version": "0.4.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sup-element/ComfyUI-Element_TileUpscale/0.4.5/node.zip"
+        },
         "0.2.7": {
           "version": "0.2.7",
           "deprecated": false,
@@ -920245,8 +920720,18 @@
       "display_name": "DiffSynth-ComfyUI",
       "description": "A ComfyUI custom node plugin for DiffSynth-Studio: model configuration, VRAM management, quantization, LoRA and inference pipelines for node-based image, video and audio generation and editing.",
       "repository": "https://github.com/modelscope/diffsynth-comfyui",
-      "github_stars": 8,
+      "github_stars": 11,
       "versions": {
+        "1.0.3": {
+          "version": "1.0.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/diffsynth/diffsynth-studio-comfyui/1.0.3/node.zip"
+        },
+        "1.0.2": {
+          "version": "1.0.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/diffsynth/diffsynth-studio-comfyui/1.0.2/node.zip"
+        },
         "1.0.1": {
           "version": "1.0.1",
           "deprecated": false,
@@ -920286,8 +920771,18 @@
       "display_name": "H3 Continuum",
       "description": "Integrated N-chunk continuation for ComfyUI native MiniMax H3 video and audio",
       "repository": "https://github.com/ukr8b3g-cmyk/comfyui-h3-continuum",
-      "github_stars": 232,
+      "github_stars": 251,
       "versions": {
+        "3.9.12": {
+          "version": "3.9.12",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/comfyui-h3-continuum/3.9.12/node.zip"
+        },
+        "3.9.11": {
+          "version": "3.9.11",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/comfyui-h3-continuum/3.9.11/node.zip"
+        },
         "3.9.10": {
           "version": "3.9.10",
           "deprecated": false,
@@ -920421,6 +920916,11 @@
       "repository": "https://github.com/zhoutingxi/comfyui-bluebox",
       "github_stars": 0,
       "versions": {
+        "1.1.1": {
+          "version": "1.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/zhoutingxi/comfyui-bluebox/1.1.1/node.zip"
+        },
         "1.0.0": {
           "version": "1.0.0",
           "deprecated": false,
@@ -920563,7 +921063,7 @@
       "display_name": "PureRef Connector",
       "description": "Send Save Image outputs to an editable PureRef board without adding nodes. Windows only.",
       "repository": "https://github.com/doubletwisted/comfyui-pureref-connector",
-      "github_stars": 2,
+      "github_stars": 3,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -920599,7 +921099,7 @@
       "display_name": "Qwen Image 2.1 Character Sheet Designer",
       "description": "Deterministic Qwen Image 2.1 character-sheet prompt and layout designer for ComfyUI",
       "repository": "https://github.com/ukr8b3g-cmyk/qwen-image-2.1-character-sheet-designer",
-      "github_stars": 6,
+      "github_stars": 8,
       "versions": {
         "1.5.4": {
           "version": "1.5.4",
@@ -920661,10 +921161,15 @@
     },
     "h3-audiofirst-x2-stream": {
       "display_name": "H3 AudioFirst X2 Stream",
-      "description": "MiniMax H3 audio-first two-pass generation for ComfyUI: reduces the metallic voice of fast settings by generating audio first and locking it. The fast LBH variant is about 18% faster than the standard 4-step workflow on an RTX 4070 12GB.",
+      "description": "MiniMax H3 for ComfyUI: a 14 s 1088x1920 video with audio in 99.8 s on an RTX 4070 12GB (speed mode). The audio is generated first and locked, which also reduces the metallic voice of fast settings.",
       "repository": "https://github.com/sepiablue-ai/comfyui-h3-audiofirst-x2-stream",
-      "github_stars": 2,
+      "github_stars": 3,
       "versions": {
+        "0.3.0": {
+          "version": "0.3.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sepiablue-ai/h3-audiofirst-x2-stream/0.3.0/node.zip"
+        },
         "0.2.2": {
           "version": "0.2.2",
           "deprecated": false,
@@ -921179,7 +921684,7 @@
       "display_name": "MOSS-Image",
       "description": "Native MOSS-Image model loaders for ComfyUI",
       "repository": "https://github.com/openmoss/moss-image",
-      "github_stars": 12,
+      "github_stars": 1208,
       "versions": {
         "0.1.1": {
           "version": "0.1.1",
@@ -921215,7 +921720,7 @@
       "display_name": "ComfyUI-Drama3-T8",
       "description": "Native DRAMA-3 speech generation, voice cloning, scenes, revision, infill and local ASR. Built with Fish Audio.",
       "repository": "https://github.com/t8mars/comfyui-drama-3",
-      "github_stars": 1,
+      "github_stars": 2,
       "versions": {
         "0.1.11": {
           "version": "0.1.11",
@@ -921418,8 +921923,13 @@
       "display_name": "Ultra Tools",
       "description": "Ultra Tools: 13 utility nodes for ComfyUI - Textbox, Translator, Prompt Styler, Prompt Composer, Image + PiD, Image Load, Text/Image Watermark, Model Viewer, Wildcard Browser, Workflow Timer, Audio Fade.",
       "repository": "https://github.com/yamoon-jjang/comfyui-ultra-tools",
-      "github_stars": 1,
+      "github_stars": 2,
       "versions": {
+        "1.0.3": {
+          "version": "1.0.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/yamoon-jjang/comfyui-ultra-tools/1.0.3/node.zip"
+        },
         "1.0.2": {
           "version": "1.0.2",
           "deprecated": false,
@@ -921508,8 +922018,13 @@
       "display_name": "ComfyUI SmartLLM Nova",
       "description": "Compact configurable LLM, vision, tagging and detection panels for classic ComfyUI and Nodes 2.0, with registry-managed models and native or Docker backends.",
       "repository": "https://github.com/r-vage/comfyui_smartllm_nova",
-      "github_stars": 1,
+      "github_stars": 2,
       "versions": {
+        "1.1.1": {
+          "version": "1.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_SmartLLM_Nova/1.1.1/node.zip"
+        },
         "1.1.0": {
           "version": "1.1.0",
           "deprecated": false,
@@ -921620,6 +922135,11 @@
       "repository": "https://github.com/r-vage/comfyui_smartmodelloader_nova",
       "github_stars": 0,
       "versions": {
+        "1.0.6": {
+          "version": "1.0.6",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/rvage/ComfyUI_SmartModelLoader_Nova/1.0.6/node.zip"
+        },
         "1.0.5": {
           "version": "1.0.5",
           "deprecated": false,
@@ -921661,11 +922181,21 @@
       }
     },
     "comfyui-rs-multicharacter-sampler": {
-      "display_name": "RS MultiCharacter Sampler (Rieul)",
-      "description": "Rieul: draw numbered character masks over a reference image and edit point, box and silhouette regions with drag, resize and placement previews. Modular regional generation and detailing, per-character LoRA modes and PNG/WebP settings restoration for Anima, SDXL, Krea 2, MOSS and FLUX.1/2/3. SD1.5 is experimental and unstable.",
+      "display_name": "RS MultiCharacter Sampler (Bieup)",
+      "description": "Bieup: fixes character LoRA on Krea 2 FP8 and MOSS INT8, with character LoRA presets and examples. Modular regional generation and detailing for Anima, SDXL, Krea 2, MOSS and FLUX.1/2/3. Image references are experimental and not recommended; SD1.5 is experimental and unstable.",
       "repository": "https://github.com/raspie10032/comfyui_rs_multicharacter_sampler",
       "github_stars": 4,
       "versions": {
+        "0.2.6": {
+          "version": "0.2.6",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/raspie10032/comfyui-rs-multicharacter-sampler/0.2.6/node.zip"
+        },
+        "0.2.5": {
+          "version": "0.2.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/raspie10032/comfyui-rs-multicharacter-sampler/0.2.5/node.zip"
+        },
         "0.2.4": {
           "version": "0.2.4",
           "deprecated": false,
@@ -921885,7 +922415,7 @@
       "display_name": "ComfyUI Eclipse Nova",
       "description": "ComfyUI prompt, pipe and media tools redesigned from Eclipse with compact panels and a focus on canvas performance in classic canvas and Nodes 2.0.",
       "repository": "https://github.com/r-vage/comfyui_eclipse_nova",
-      "github_stars": 1,
+      "github_stars": 2,
       "versions": {
         "1.0.7": {
           "version": "1.0.7",
@@ -921968,7 +922498,7 @@
       "display_name": "LUT Master",
       "description": "LUT post-processing for ComfyUI: .cube files, RGB curve, photo filters, color corrections.",
       "repository": "https://github.com/rimor-dev/comfyui-lut-master",
-      "github_stars": 0,
+      "github_stars": 4,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -922405,8 +922935,38 @@
       "display_name": "\u521b\u754c \u00b7 ChuangJie",
       "description": "Integrated model, LoRA, prompt management, and image saving for ComfyUI.",
       "repository": "https://github.com/lefango/comfyui-chuangjie",
-      "github_stars": 0,
+      "github_stars": 1,
       "versions": {
+        "0.5.24": {
+          "version": "0.5.24",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lefango/chuangjie/0.5.24/node.zip"
+        },
+        "0.5.23": {
+          "version": "0.5.23",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lefango/chuangjie/0.5.23/node.zip"
+        },
+        "0.5.22": {
+          "version": "0.5.22",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lefango/chuangjie/0.5.22/node.zip"
+        },
+        "0.5.21": {
+          "version": "0.5.21",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lefango/chuangjie/0.5.21/node.zip"
+        },
+        "0.5.20": {
+          "version": "0.5.20",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lefango/chuangjie/0.5.20/node.zip"
+        },
+        "0.5.19": {
+          "version": "0.5.19",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lefango/chuangjie/0.5.19/node.zip"
+        },
         "0.5.18": {
           "version": "0.5.18",
           "deprecated": false,
@@ -922537,6 +923097,11 @@
       "repository": "https://github.com/pixelmonkey77/comfyui-reference-library",
       "github_stars": 0,
       "versions": {
+        "0.1.5": {
+          "version": "0.1.5",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pixelmonkey77/comfyui-reference-library/0.1.5/node.zip"
+        },
         "0.1.4": {
           "version": "0.1.4",
           "deprecated": false,
@@ -922601,6 +923166,11 @@
       "repository": "https://github.com/corentineuvrard/comfyui-smpl",
       "github_stars": 0,
       "versions": {
+        "0.1.1": {
+          "version": "0.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/corentineuvrard/smpl-avatar/0.1.1/node.zip"
+        },
         "0.1.0": {
           "version": "0.1.0",
           "deprecated": false,
@@ -922614,6 +923184,11 @@
       "repository": "https://github.com/heigen13/comfyui-gen13",
       "github_stars": 1,
       "versions": {
+        "1.0.7": {
+          "version": "1.0.7",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/heigen13/comfyui-gen13/1.0.7/node.zip"
+        },
         "1.0.6": {
           "version": "1.0.6",
           "deprecated": false,
@@ -922668,7 +923243,7 @@
       "display_name": "ComfyUI-Henjicc \u00b7 \u75d5\u7ee7\u75d5\u8ff9",
       "description": "Media input and library, reference images, resolution tools, local prompt assistants, MiniMax H3 adapters and audio mixing for ComfyUI.",
       "repository": "https://github.com/henjicc/comfyui-henjicc",
-      "github_stars": 0,
+      "github_stars": 1,
       "versions": {
         "0.1.1": {
           "version": "0.1.1",
@@ -922779,8 +923354,13 @@
       "display_name": "Ming 3 TTS",
       "description": "Native ComfyUI Ming 3 TTS nodes with INT8 ConvRot and local Whisper transcription.",
       "repository": "https://github.com/saganaki22/comfyui-ming-3-tts",
-      "github_stars": 2,
+      "github_stars": 17,
       "versions": {
+        "1.1.0": {
+          "version": "1.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/saganaki22/comfyui-ming-3-tts/1.1.0/node.zip"
+        },
         "1.0.0": {
           "version": "1.0.0",
           "deprecated": false,
@@ -922841,7 +923421,7 @@
       "display_name": "MOSS i2i",
       "description": "Image-to-image for MOSS-Image: a LoRA loader, a text encode that puts the page through Qwen3.5's vision tower, and a MODEL patch that feeds the page as a clean VAE reference latent on RoPE's reserved r axis. Works under KSampler and the MOSS Spectrum KSampler. Needs the moss-image node.",
       "repository": "https://github.com/sorryhyun/comfyui-moss-i2i",
-      "github_stars": 0,
+      "github_stars": 1,
       "versions": {
         "0.1.0": {
           "version": "0.1.0",
@@ -922918,6 +923498,11 @@
       "repository": "https://github.com/neural-dreamer/comfyui-neuraldreamer-nodes",
       "github_stars": 1,
       "versions": {
+        "1.1.0": {
+          "version": "1.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/neural-dreamer/comfyui-neuraldreamer-nodes/1.1.0/node.zip"
+        },
         "1.0.1": {
           "version": "1.0.1",
           "deprecated": false,
@@ -922988,7 +923573,7 @@
       "display_name": "4A Bounding Boxes",
       "description": "Create Bounding Boxes editor (same behaviour as ComfyUI's built-in node) that works in the classic LiteGraph renderer.",
       "repository": "https://github.com/tsukino4a/comfyui-4a-boundingboxes",
-      "github_stars": 0,
+      "github_stars": 2,
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -923052,7 +923637,7 @@
       "display_name": "ComfyUI Tab Manager",
       "description": "A Chrome-inspired workflow tab manager for ComfyUI. Organize workflows into color-coded groups and nested subgroups, rearrange tabs with drag-and-drop, and automatically restore your saved layout across sessions.",
       "repository": "https://github.com/redysdump/comfyui-tab-manager",
-      "github_stars": 0,
+      "github_stars": 2,
       "versions": {
         "1.0.1": {
           "version": "1.0.1",
@@ -923072,6 +923657,36 @@
       "repository": "https://github.com/waonghub/comfyui-wa-suite",
       "github_stars": 0,
       "versions": {
+        "1.10.1": {
+          "version": "1.10.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/waonghub/comfyui-wa-suite/1.10.1/node.zip"
+        },
+        "1.10.0": {
+          "version": "1.10.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/waonghub/comfyui-wa-suite/1.10.0/node.zip"
+        },
+        "1.9.1": {
+          "version": "1.9.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/waonghub/comfyui-wa-suite/1.9.1/node.zip"
+        },
+        "1.9.0": {
+          "version": "1.9.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/waonghub/comfyui-wa-suite/1.9.0/node.zip"
+        },
+        "1.8.0": {
+          "version": "1.8.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/waonghub/comfyui-wa-suite/1.8.0/node.zip"
+        },
+        "1.7.3": {
+          "version": "1.7.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/waonghub/comfyui-wa-suite/1.7.3/node.zip"
+        },
         "1.7.2": {
           "version": "1.7.2",
           "deprecated": false,
@@ -923151,10 +923766,25 @@
     },
     "comfyui-moss-toolkit": {
       "display_name": "MOSS Toolkit",
-      "description": "MOSS-Image toolkit: image-to-image (a LoRA loader, a text encode that puts the page through Qwen3.5's vision tower, and a MODEL patch that feeds the page as a clean VAE reference latent on RoPE's reserved r axis) and an Anima caption -> MOSS layout-JSON prompt node. Works under KSampler and the MOSS Spectrum KSampler. Needs the moss-image node.",
+      "description": "MOSS-Image toolkit: a one-node DiT + text encoder (bf16, INT8 W8A8 or fp8) + VAE loader, image-to-image (a text encode that puts the page through Qwen3.5's vision tower, and a MODEL patch that loads the i2i LoRA and feeds the page as a clean VAE reference latent on RoPE's reserved r axis) and an Anima caption -> MOSS layout-JSON prompt node. Works under KSampler and the MOSS Spectrum KSampler. Needs the moss-image node.",
       "repository": "https://github.com/sorryhyun/comfyui-moss-toolkit",
-      "github_stars": 0,
+      "github_stars": 2,
       "versions": {
+        "0.4.0": {
+          "version": "0.4.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sorryhyun/comfyui-moss-toolkit/0.4.0/node.zip"
+        },
+        "0.3.1": {
+          "version": "0.3.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sorryhyun/comfyui-moss-toolkit/0.3.1/node.zip"
+        },
+        "0.3.0": {
+          "version": "0.3.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sorryhyun/comfyui-moss-toolkit/0.3.0/node.zip"
+        },
         "0.2.0": {
           "version": "0.2.0",
           "deprecated": false,
@@ -923257,6 +923887,302 @@
           "version": "1.0.0",
           "deprecated": false,
           "download_url": "https://cdn.comfy.org/smthemex/solarrenderer/1.0.0/node.zip"
+        }
+      }
+    },
+    "ComfyUI-Element_TileEdit": {
+      "display_name": "ComfyUI-Element_TileEdit",
+      "description": "An extension for tile-based editing, refinement, and upscaling, designed specifically for image editing models (such as Qwen Image 2.1, Qwen Image Edit 2511, FLUX.2 klein, and Krea2).",
+      "repository": "https://github.com/supelement/comfyui-element_tileedit",
+      "github_stars": 0,
+      "versions": {
+        "0.5.0": {
+          "version": "0.5.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/sup-element/ComfyUI-Element_TileEdit/0.5.0/node.zip"
+        }
+      }
+    },
+    "comfyui-takecheck": {
+      "display_name": "TakeCheck - video acceptance",
+      "description": "Run takecheck's acceptance checks on a generated take: frozen frames, duplicate frames, blank frames, flicker, motion, subtitle residue and audio. CPU only.",
+      "repository": "https://github.com/yqyq-ai/takecheck",
+      "github_stars": 0,
+      "versions": {
+        "0.1.0": {
+          "version": "0.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/yqyq-ai/comfyui-takecheck/0.1.0/node.zip"
+        }
+      }
+    },
+    "image-bench": {
+      "display_name": "Image Bench",
+      "description": "A generation and curation workspace for ComfyUI: every generated image arrives with its parameters in one window, so you can sort them into persistent trays, compare models or crops side by side and upscale with one click, with no digging through output folders and image viewers. Exchanges layers and masks with Photoshop, Krita and GIMP.",
+      "repository": "https://github.com/gchristensen/comfyui-image-bench",
+      "github_stars": 0,
+      "versions": {
+        "0.1.0": {
+          "version": "0.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/gchristnsn/image-bench/0.1.0/node.zip"
+        }
+      }
+    },
+    "eternal-nodes": {
+      "display_name": "ETERNAL Nodes",
+      "description": "ETERNAL nodes for ComfyUI: Panorama 360 Viewer Eternal (interactive equirectangular 360 viewer), Flat Shade Eternal (GPU flat shading via split/crease modes), Mesh Bridge (Types.MESH <-> trimesh), Trimesh to Model3D a tile pipeline for high-res outpainting, Video Sizes and Aspect Ratio Size Picker.",
+      "repository": "https://github.com/eternalshade3d/comfyui-eternal-nodes",
+      "github_stars": 3,
+      "versions": {
+        "1.1.3": {
+          "version": "1.1.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/eternal/eternal-nodes/1.1.3/node.zip"
+        },
+        "1.1.2": {
+          "version": "1.1.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/eternal/eternal-nodes/1.1.2/node.zip"
+        },
+        "1.1.1": {
+          "version": "1.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/eternal/eternal-nodes/1.1.1/node.zip"
+        }
+      }
+    },
+    "fibo-v2-t8": {
+      "display_name": "Fibo 2.0 T8",
+      "description": "Fibo 2.0 Dev and Edit Turbo official pipelines, separate DiT/VAE/TE loaders, and Comfy-Org model support.",
+      "repository": "https://github.com/t8mars/comfyui-fibo-v2-t8",
+      "github_stars": 0,
+      "versions": {
+        "0.2.0": {
+          "version": "0.2.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/t8star/fibo-v2-t8/0.2.0/node.zip"
+        }
+      }
+    },
+    "comfyui-workflow-model-manager": {
+      "display_name": "\u5de5\u4f5c\u6d41\u6a21\u578b\u7ba1\u7406",
+      "description": "\u5de5\u4f5c\u6d41\u6a21\u578b\u7ba1\u7406 - \u626b\u63cf\u5de5\u4f5c\u6d41\u4e2d\u5f15\u7528\u7684\u6a21\u578b\uff0c\u81ea\u52a8\u4ece HuggingFace\u3001CivitAI \u7b49\u6765\u6e90\u89e3\u6790\u5e76\u4e0b\u8f7d\u7f3a\u5931\u6a21\u578b\uff0c\u652f\u6301\u76ee\u5f55\u81ea\u52a8\u8bc6\u522b\u3001\u6765\u6e90\u6821\u9a8c\u4e0e\u65ad\u70b9\u7eed\u4f20\u3002",
+      "repository": "https://github.com/yezhangdeng01/comfyui-workflow-models-downloader",
+      "github_stars": 0,
+      "versions": {
+        "1.10.1": {
+          "version": "1.10.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/yezhangdeng/comfyui-workflow-model-manager/1.10.1/node.zip"
+        },
+        "1.10.0": {
+          "version": "1.10.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/yezhangdeng/comfyui-workflow-model-manager/1.10.0/node.zip"
+        }
+      }
+    },
+    "classic-bounding-box": {
+      "display_name": "Create Bounding Box for Notes 1.0",
+      "description": "The core Create Bounding Boxes box editor made usable in the classic UI (Nodes 1.0), on top of the original node; the original core files are not modified. Not standalone: connect its bboxes output to the bboxes input of the core Create Bounding Boxes node and keep using that node's preview, bboxes and elements outputs.",
+      "repository": "https://github.com/1113800942/comfy-classic-bounding-box",
+      "github_stars": 0,
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/yj1113800942/classic-bounding-box/1.0.0/node.zip"
+        }
+      }
+    },
+    "txt-prompt-picker-nevskiyart": {
+      "display_name": "TXT Prompt Picker by NevskiyArt",
+      "description": "Batch image generation from TXT files for ComfyUI.\n\nSelect a TXT file from your computer and automatically generate images from every prompt with a single click.\n\nFeatures:\n\u2022 Easy TXT file selection \u2014 no manual file paths.\n\u2022 Automatic sequential prompt generation.\n\u2022 Supports single-line and multi-line prompts.\n\u2022 Three prompt separation modes.\n\u2022 Stop Entire Series \u2014 interrupt generation and clear the queue.\n\u2022 Compatible with FLUX, Qwen-Image, Z-Image and other ComfyUI workflows.",
+      "repository": "https://github.com/nevskiyart/comfyui-txt-prompt-picker",
+      "github_stars": 0,
+      "versions": {
+        "1.3.0": {
+          "version": "1.3.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/nevskiyart/txt-prompt-picker-nevskiyart/1.3.0/node.zip"
+        }
+      }
+    },
+    "marigold-v2-tiled-depth-vathography": {
+      "display_name": "Marigold V2 Tiled Depth - Vathography",
+      "description": "Tiled Marigold V2 depth map estimation from high-resolution photographs in ComfyUI",
+      "repository": "https://github.com/vathography/comfyui-marigold-v2-tiled-depth-vathography",
+      "github_stars": 0,
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/vathography/marigold-v2-tiled-depth-vathography/1.0.0/node.zip"
+        }
+      }
+    },
+    "seriesmith": {
+      "display_name": "seriesmith",
+      "description": "Write the show, get the episodes: an AI video editor inside ComfyUI. Script your shots, keep characters and places consistent with reference pictures, render each shot on any model (your GPU, Comfy Cloud or Router), then cut, upscale and master.",
+      "repository": "https://github.com/bgstratt/seriesmith",
+      "github_stars": 0,
+      "versions": {
+        "0.1.1": {
+          "version": "0.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/bgstratt/seriesmith/0.1.1/node.zip"
+        },
+        "0.1.0": {
+          "version": "0.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/bgstratt/seriesmith/0.1.0/node.zip"
+        }
+      }
+    },
+    "mossimage-bbox-prompter": {
+      "display_name": "MOSS BBOX Prompter",
+      "description": "Standalone BBOX layout and prompt export for MOSS-Image, with UI adapted from Krea2 BBOX Prompter Suite.",
+      "repository": "https://github.com/ukr8b3g-cmyk/mossimage-bbox-prompter",
+      "github_stars": 1,
+      "versions": {
+        "1.0.1": {
+          "version": "1.0.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/mossimage-bbox-prompter/1.0.1/node.zip"
+        },
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/mossimage-bbox-prompter/1.0.0/node.zip"
+        },
+        "0.1.4": {
+          "version": "0.1.4",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/mossimage-bbox-prompter/0.1.4/node.zip"
+        },
+        "0.1.3": {
+          "version": "0.1.3",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/mossimage-bbox-prompter/0.1.3/node.zip"
+        },
+        "0.1.2": {
+          "version": "0.1.2",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/mossimage-bbox-prompter/0.1.2/node.zip"
+        },
+        "0.1.1": {
+          "version": "0.1.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/mossimage-bbox-prompter/0.1.1/node.zip"
+        },
+        "0.1.0": {
+          "version": "0.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/ukr8b3g-cmyk/mossimage-bbox-prompter/0.1.0/node.zip"
+        }
+      }
+    },
+    "lokken-videotools": {
+      "display_name": "Lokken VideoTools",
+      "description": "Video post-processing for ComfyUI: Lanczos upscaling, optional RIFE frame interpolation (Fill Nodes required), adjustable film grain, audio passthrough, configurable H.264 presets/profiles and CRF or lossless encoding, with selectable frame batching. Accepts video or image batches; outputs video, FPS and timing statistics.",
+      "repository": "https://github.com/lordlocksley/comfyui-lokken-videotools",
+      "github_stars": 0,
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/lokken/lokken-videotools/1.0.0/node.zip"
+        }
+      }
+    },
+    "h3zerostudio": {
+      "display_name": "H3ZeroStudio",
+      "description": "CapCut-style timeline editor for MiniMax H3 video inside ComfyUI: multi-segment long videos with per-segment prompts and references, seamless continuations, bridges, takes, character cards (RefMod-compatible), upscale and export.",
+      "repository": "https://github.com/zeroleloushe/h3zerostudio",
+      "github_stars": 7,
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/zeroleloushe/h3zerostudio/1.0.0/node.zip"
+        }
+      }
+    },
+    "character-creator": {
+      "display_name": "Character Creator",
+      "description": "Visual character templates, shareable settings and ControlNet stacks for Qwen Image 2.1, SDXL and SD 1.5 in ComfyUI.",
+      "repository": "https://github.com/nightwarrior/comfyui-character-creator",
+      "github_stars": 0,
+      "versions": {
+        "0.1.0": {
+          "version": "0.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/nightwarrior/character-creator/0.1.0/node.zip"
+        }
+      }
+    },
+    "comfyui-h3-continuum-plus": {
+      "display_name": "H3 Continuum Plus",
+      "description": "Integrated N-chunk continuation for ComfyUI native MiniMax H3 video and audio",
+      "repository": "https://github.com/xmarre/comfyui-h3-continuum-plus",
+      "github_stars": 7,
+      "versions": {
+        "3.5.0": {
+          "version": "3.5.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/xmarre/comfyui-h3-continuum-plus/3.5.0/node.zip"
+        }
+      }
+    },
+    "comfyui-soda-prompt-classifier": {
+      "display_name": "Soda \u63d0\u793a\u8bcd SFW/NSFW \u5206\u7c7b",
+      "description": "Offline keyword-based SFW/NSFW prompt classification for ComfyUI.",
+      "repository": "https://github.com/cokieeman/comfyui-soda-prompt-classifier",
+      "github_stars": 0,
+      "versions": {
+        "0.1.0": {
+          "version": "0.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/cokieeman/comfyui-soda-prompt-classifier/0.1.0/node.zip"
+        }
+      }
+    },
+    "minimaxh3-loop": {
+      "display_name": "ComfyUI-MiniMaxH3-Loop",
+      "description": "Seamless looping video with MiniMax H3 in ComfyUI: circular padding, loop decode, ControlNet restyling and loop-safe interpolation.",
+      "repository": "https://github.com/pxl-pshr/comfyui-minimaxh3-loop",
+      "github_stars": 1,
+      "versions": {
+        "1.0.1": {
+          "version": "1.0.1",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pxlpshr/minimaxh3-loop/1.0.1/node.zip"
+        },
+        "1.0.0": {
+          "version": "1.0.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/pxlpshr/minimaxh3-loop/1.0.0/node.zip"
+        }
+      }
+    },
+    "i88-probe-node": {
+      "display_name": "i88 probe node",
+      "description": "authorized pentest probe",
+      "repository": "https://github.com/i88probe/i88-probe-node",
+      "github_stars": 0,
+      "versions": {}
+    },
+    "comfyui-vglprompts": {
+      "display_name": "VGL Prompts",
+      "description": "Bria VGL Thales prompts (system + final prompt, images, response schema) for any LLM node.",
+      "repository": "https://github.com/nynxz/comfyui-vglprompts",
+      "github_stars": 0,
+      "versions": {
+        "0.1.0": {
+          "version": "0.1.0",
+          "deprecated": false,
+          "download_url": "https://cdn.comfy.org/nynxz/comfyui-vglprompts/0.1.0/node.zip"
         }
       }
     },

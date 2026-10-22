@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.21",
-  "generated_at": "2026-10-21T06:50:50.839768+00:00",
+  "version": "2026.10.22",
+  "generated_at": "2026-10-22T06:54:15.766465+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -192,13 +192,14 @@
     "v0.42.0",
     "v0.42.1",
     "v0.42.2",
-    "v0.42.3"
+    "v0.42.3",
+    "v0.42.4"
   ],
   "stats": {
-    "total_builtins": 1054,
-    "versions_processed": 191,
-    "newest_version": "v0.42.3",
-    "nodes_added_in_latest": 3
+    "total_builtins": 1061,
+    "versions_processed": 192,
+    "newest_version": "v0.42.4",
+    "nodes_added_in_latest": 7
   },
   "builtins": {
     "APG": {
@@ -2485,6 +2486,14 @@
       "introduced_in": "v0.3.32",
       "category": "api"
     },
+    "MireloTextToSFX": {
+      "introduced_in": "v0.42.4",
+      "category": "api"
+    },
+    "MireloVideoToSFX": {
+      "introduced_in": "v0.42.4",
+      "category": "api"
+    },
     "MoGeGeometryToFOV": {
       "introduced_in": "v0.34.0",
       "category": "extras"
@@ -4160,6 +4169,26 @@
     "VaeDecodeTextureTrellis": {
       "introduced_in": "v0.34.0",
       "category": "extras"
+    },
+    "VeedCleanAudioNode": {
+      "introduced_in": "v0.42.4",
+      "category": "api"
+    },
+    "VeedCleanVideoAudioNode": {
+      "introduced_in": "v0.42.4",
+      "category": "api"
+    },
+    "VeedFabricNode": {
+      "introduced_in": "v0.42.4",
+      "category": "api"
+    },
+    "VeedLipsyncNode": {
+      "introduced_in": "v0.42.4",
+      "category": "api"
+    },
+    "VeedRemoveVideoBackgroundNode": {
+      "introduced_in": "v0.42.4",
+      "category": "api"
     },
     "Veo3FirstLastFrameNode": {
       "introduced_in": "v0.3.76",
