@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.22",
-  "generated_at": "2026-10-22T06:54:15.766465+00:00",
+  "version": "2026.10.23",
+  "generated_at": "2026-10-23T06:47:44.489670+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -193,12 +193,13 @@
     "v0.42.1",
     "v0.42.2",
     "v0.42.3",
-    "v0.42.4"
+    "v0.42.4",
+    "v0.42.5"
   ],
   "stats": {
-    "total_builtins": 1061,
-    "versions_processed": 192,
-    "newest_version": "v0.42.4",
+    "total_builtins": 1068,
+    "versions_processed": 193,
+    "newest_version": "v0.42.5",
     "nodes_added_in_latest": 7
   },
   "builtins": {
@@ -358,6 +359,10 @@
       "introduced_in": "v0.33.0",
       "category": "api"
     },
+    "BriaGuidedRemoveBackground": {
+      "introduced_in": "v0.42.5",
+      "category": "api"
+    },
     "BriaImageEditNode": {
       "introduced_in": "v0.10.0",
       "category": "api"
@@ -368,6 +373,10 @@
     },
     "BriaIncreaseResolution": {
       "introduced_in": "v0.33.0",
+      "category": "api"
+    },
+    "BriaProductHolding": {
+      "introduced_in": "v0.42.5",
       "category": "api"
     },
     "BriaRelight": {
@@ -412,6 +421,10 @@
     },
     "BriaVideoReplaceBackground": {
       "introduced_in": "v0.24.1",
+      "category": "api"
+    },
+    "BriaVirtualTryOn": {
+      "introduced_in": "v0.42.5",
       "category": "api"
     },
     "BuildJsonPromptIdeogram": {
@@ -1539,6 +1552,14 @@
       "introduced_in": "v0.24.0",
       "category": "api"
     },
+    "IdeogramVectorGenerateApi": {
+      "introduced_in": "v0.42.5",
+      "category": "api"
+    },
+    "IdeogramVectorImageToSVGApi": {
+      "introduced_in": "v0.42.5",
+      "category": "api"
+    },
     "ImageAddNoise": {
       "introduced_in": "v0.3.35",
       "category": "extras"
@@ -2390,6 +2411,10 @@
       "introduced_in": "v0.9.2",
       "category": "api"
     },
+    "MeshyImageToModelSmartTopologyNode": {
+      "introduced_in": "v0.42.5",
+      "category": "api"
+    },
     "MeshyMultiImageToModelNode": {
       "introduced_in": "v0.9.2",
       "category": "api"
@@ -2404,6 +2429,10 @@
     },
     "MeshyTextToModelNode": {
       "introduced_in": "v0.9.2",
+      "category": "api"
+    },
+    "MeshyTextToModelSmartTopologyNode": {
+      "introduced_in": "v0.42.5",
       "category": "api"
     },
     "MeshyTextureMultiViewNode": {
