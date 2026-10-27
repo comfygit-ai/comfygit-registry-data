@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.23",
-  "generated_at": "2026-10-23T06:47:44.489670+00:00",
+  "version": "2026.10.27",
+  "generated_at": "2026-10-27T07:07:57.149345+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -194,13 +194,14 @@
     "v0.42.2",
     "v0.42.3",
     "v0.42.4",
-    "v0.42.5"
+    "v0.42.5",
+    "v0.43.0"
   ],
   "stats": {
-    "total_builtins": 1068,
-    "versions_processed": 193,
-    "newest_version": "v0.42.5",
-    "nodes_added_in_latest": 7
+    "total_builtins": 1077,
+    "versions_processed": 194,
+    "newest_version": "v0.43.0",
+    "nodes_added_in_latest": 9
   },
   "builtins": {
     "APG": {
@@ -333,6 +334,10 @@
     },
     "BlockSparseAttention": {
       "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
+    "BranchNode": {
+      "introduced_in": "v0.43.0",
       "category": "extras"
     },
     "BriaAddObject": {
@@ -1748,6 +1753,22 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "Kling4EditVideoNode": {
+      "introduced_in": "v0.43.0",
+      "category": "api"
+    },
+    "Kling4ImageToVideoNode": {
+      "introduced_in": "v0.43.0",
+      "category": "api"
+    },
+    "Kling4ReferenceToVideoNode": {
+      "introduced_in": "v0.43.0",
+      "category": "api"
+    },
+    "Kling4TextToVideoNode": {
+      "introduced_in": "v0.43.0",
+      "category": "api"
+    },
     "KlingAvatarNode": {
       "introduced_in": "v0.15.0",
       "category": "api"
@@ -2591,6 +2612,10 @@
       "introduced_in": "v0.3.6",
       "category": "extras"
     },
+    "ModelMergeMOSSImage": {
+      "introduced_in": "v0.43.0",
+      "category": "extras"
+    },
     "ModelMergeMochiPreview": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -2767,6 +2792,10 @@
     },
     "OptimalStepsScheduler": {
       "introduced_in": "v0.3.28",
+      "category": "extras"
+    },
+    "PadImageNode": {
+      "introduced_in": "v0.43.0",
       "category": "extras"
     },
     "PaintMesh": {
@@ -3850,12 +3879,20 @@
       "introduced_in": "v0.26.0",
       "category": "extras"
     },
+    "TextEncodeFibo2": {
+      "introduced_in": "v0.43.0",
+      "category": "extras"
+    },
     "TextEncodeHunyuanVideo_ImageToVideo": {
       "introduced_in": "v0.3.23",
       "category": "extras"
     },
     "TextEncodeJoyImageEdit": {
       "introduced_in": "v0.29.0",
+      "category": "extras"
+    },
+    "TextEncodeMOSSImageEdit": {
+      "introduced_in": "v0.43.0",
       "category": "extras"
     },
     "TextEncodeMageFlowEdit": {
