@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.27",
-  "generated_at": "2026-10-27T07:07:57.149345+00:00",
+  "version": "2026.10.28",
+  "generated_at": "2026-10-28T07:46:45.120638+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -195,13 +195,14 @@
     "v0.42.3",
     "v0.42.4",
     "v0.42.5",
-    "v0.43.0"
+    "v0.43.0",
+    "v0.43.1"
   ],
   "stats": {
-    "total_builtins": 1077,
-    "versions_processed": 194,
-    "newest_version": "v0.43.0",
-    "nodes_added_in_latest": 9
+    "total_builtins": 1081,
+    "versions_processed": 195,
+    "newest_version": "v0.43.1",
+    "nodes_added_in_latest": 4
   },
   "builtins": {
     "APG": {
@@ -2826,6 +2827,18 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "PatinaMaterialExtractNode": {
+      "introduced_in": "v0.43.1",
+      "category": "api"
+    },
+    "PatinaMaterialNode": {
+      "introduced_in": "v0.43.1",
+      "category": "api"
+    },
+    "PatinaPBRMapsNode": {
+      "introduced_in": "v0.43.1",
+      "category": "api"
+    },
     "PerpNeg": {
       "introduced_in": "v0.3.0",
       "category": "extras"
@@ -4242,6 +4255,10 @@
     },
     "VeedCleanVideoAudioNode": {
       "introduced_in": "v0.42.4",
+      "category": "api"
+    },
+    "VeedDubbingNode": {
+      "introduced_in": "v0.43.1",
       "category": "api"
     },
     "VeedFabricNode": {
