@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.28",
-  "generated_at": "2026-10-28T07:46:45.120638+00:00",
+  "version": "2026.10.30",
+  "generated_at": "2026-10-30T07:55:52.415043+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -196,13 +196,14 @@
     "v0.42.4",
     "v0.42.5",
     "v0.43.0",
-    "v0.43.1"
+    "v0.43.1",
+    "v0.43.2"
   ],
   "stats": {
-    "total_builtins": 1081,
-    "versions_processed": 195,
-    "newest_version": "v0.43.1",
-    "nodes_added_in_latest": 4
+    "total_builtins": 1082,
+    "versions_processed": 196,
+    "newest_version": "v0.43.2",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -1254,6 +1255,10 @@
     },
     "FluxVideoUpscaleNode": {
       "introduced_in": "v0.33.3",
+      "category": "api"
+    },
+    "FluxVideoUpscaleNodeV2": {
+      "introduced_in": "v0.43.2",
       "category": "api"
     },
     "FrameInterpolate": {
