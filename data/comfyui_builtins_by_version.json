@@ -1,6 +1,6 @@
 {
-  "version": "2026.10.30",
-  "generated_at": "2026-10-30T07:55:52.415043+00:00",
+  "version": "2026.11.04",
+  "generated_at": "2026-11-04T08:22:15.032936+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -197,13 +197,14 @@
     "v0.42.5",
     "v0.43.0",
     "v0.43.1",
-    "v0.43.2"
+    "v0.43.2",
+    "v0.44.0"
   ],
   "stats": {
-    "total_builtins": 1082,
-    "versions_processed": 196,
-    "newest_version": "v0.43.2",
-    "nodes_added_in_latest": 1
+    "total_builtins": 1095,
+    "versions_processed": 197,
+    "newest_version": "v0.44.0",
+    "nodes_added_in_latest": 13
   },
   "builtins": {
     "APG": {
@@ -2482,12 +2483,20 @@
       "introduced_in": "v0.34.0",
       "category": "extras"
     },
+    "MiniMaxH3ContextWindows": {
+      "introduced_in": "v0.44.0",
+      "category": "extras"
+    },
     "MiniMaxH3FunControlNetApply": {
       "introduced_in": "v0.35.0",
       "category": "extras"
     },
     "MiniMaxH3ImageToVideo": {
       "introduced_in": "v0.30.0",
+      "category": "extras"
+    },
+    "MiniMaxH3LatentUpscaleWithModel": {
+      "introduced_in": "v0.44.0",
       "category": "extras"
     },
     "MiniMaxH3ReferenceToVideo": {
@@ -2508,6 +2517,30 @@
     },
     "MinimaxHailuo03FirstLastFrameNode": {
       "introduced_in": "v0.29.2",
+      "category": "api"
+    },
+    "MinimaxHailuo03MaxCameraControlNode": {
+      "introduced_in": "v0.44.0",
+      "category": "api"
+    },
+    "MinimaxHailuo03MaxExtendVideoNode": {
+      "introduced_in": "v0.44.0",
+      "category": "api"
+    },
+    "MinimaxHailuo03MaxInsertVideoNode": {
+      "introduced_in": "v0.44.0",
+      "category": "api"
+    },
+    "MinimaxHailuo03MaxLipSyncNode": {
+      "introduced_in": "v0.44.0",
+      "category": "api"
+    },
+    "MinimaxHailuo03MaxRecastNode": {
+      "introduced_in": "v0.44.0",
+      "category": "api"
+    },
+    "MinimaxHailuo03MaxReframeVideoNode": {
+      "introduced_in": "v0.44.0",
       "category": "api"
     },
     "MinimaxHailuo03ReferenceNode": {
@@ -2800,6 +2833,10 @@
       "introduced_in": "v0.3.28",
       "category": "extras"
     },
+    "PH3ImageConditioning": {
+      "introduced_in": "v0.44.0",
+      "category": "extras"
+    },
     "PadImageNode": {
       "introduced_in": "v0.43.0",
       "category": "extras"
@@ -3021,6 +3058,10 @@
     },
     "PrunaImageToVideoNode": {
       "introduced_in": "v0.36.0",
+      "category": "api"
+    },
+    "PrunaPVideoUpscaleNode": {
+      "introduced_in": "v0.44.0",
       "category": "api"
     },
     "PrunaTextToVideoNode": {
@@ -3689,6 +3730,10 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "SoniloMusic15": {
+      "introduced_in": "v0.44.0",
+      "category": "api"
+    },
     "SoniloTextToMusic": {
       "introduced_in": "v0.19.1",
       "category": "api"
@@ -3949,6 +3994,10 @@
       "introduced_in": "v0.15.0",
       "category": "extras"
     },
+    "TextGenerateV2": {
+      "introduced_in": "v0.44.0",
+      "category": "extras"
+    },
     "TextOverlay": {
       "introduced_in": "v0.28.0",
       "category": "extras"
@@ -4168,6 +4217,10 @@
     },
     "UpscaleModelLoader": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VAEComputeDtype": {
+      "introduced_in": "v0.44.0",
       "category": "extras"
     },
     "VAEDecode": {
