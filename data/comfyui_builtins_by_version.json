@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.04",
-  "generated_at": "2026-11-04T08:22:15.032936+00:00",
+  "version": "2026.11.06",
+  "generated_at": "2026-11-06T08:48:20.771228+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -198,13 +198,14 @@
     "v0.43.0",
     "v0.43.1",
     "v0.43.2",
-    "v0.44.0"
+    "v0.44.0",
+    "v0.44.1"
   ],
   "stats": {
-    "total_builtins": 1095,
-    "versions_processed": 197,
-    "newest_version": "v0.44.0",
-    "nodes_added_in_latest": 13
+    "total_builtins": 1101,
+    "versions_processed": 198,
+    "newest_version": "v0.44.1",
+    "nodes_added_in_latest": 6
   },
   "builtins": {
     "APG": {
@@ -2905,15 +2906,35 @@
       "introduced_in": "v0.23.0",
       "category": "extras"
     },
+    "PikaH3FlexReferenceVideoNode": {
+      "introduced_in": "v0.44.1",
+      "category": "api"
+    },
+    "PikaH3FlexVideoNode": {
+      "introduced_in": "v0.44.1",
+      "category": "api"
+    },
     "PikaImageToVideoNode2_2": {
       "introduced_in": "v0.3.32",
       "category": "api",
       "removed_in": "v0.5.0"
     },
+    "PikaMusicNode": {
+      "introduced_in": "v0.44.1",
+      "category": "api"
+    },
+    "PikaSFXNode": {
+      "introduced_in": "v0.44.1",
+      "category": "api"
+    },
     "PikaScenesV2_2": {
       "introduced_in": "v0.3.32",
       "category": "api",
       "removed_in": "v0.5.0"
+    },
+    "PikaSoundtrackNode": {
+      "introduced_in": "v0.44.1",
+      "category": "api"
     },
     "PikaStartEndFrameNode2_2": {
       "introduced_in": "v0.3.32",
@@ -3912,6 +3933,10 @@
     },
     "Tencent3DTextureEditNode": {
       "introduced_in": "v0.14.0",
+      "category": "api"
+    },
+    "TencentHyNode": {
+      "introduced_in": "v0.44.1",
       "category": "api"
     },
     "TencentImageToModelNode": {
