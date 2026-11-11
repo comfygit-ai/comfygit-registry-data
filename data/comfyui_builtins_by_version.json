@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.07",
-  "generated_at": "2026-11-07T08:05:02.248079+00:00",
+  "version": "2026.11.11",
+  "generated_at": "2026-11-11T08:41:22.577426+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -200,12 +200,15 @@
     "v0.43.2",
     "v0.44.0",
     "v0.44.1",
-    "v0.44.2"
+    "v0.44.2",
+    "v0.45.0",
+    "v0.45.1",
+    "v0.45.2"
   ],
   "stats": {
-    "total_builtins": 1101,
-    "versions_processed": 199,
-    "newest_version": "v0.44.2",
+    "total_builtins": 1123,
+    "versions_processed": 202,
+    "newest_version": "v0.45.2",
     "nodes_added_in_latest": 0
   },
   "builtins": {
@@ -293,6 +296,10 @@
       "introduced_in": "v0.34.0",
       "category": "extras"
     },
+    "BakeTextureFromViews": {
+      "introduced_in": "v0.45.0",
+      "category": "extras"
+    },
     "BakeTextureFromVoxel": {
       "introduced_in": "v0.34.0",
       "category": "extras"
@@ -303,6 +310,10 @@
     },
     "BasicScheduler": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "BatchCameras": {
+      "introduced_in": "v0.45.0",
       "category": "extras"
     },
     "BatchImagesMasksLatentsNode": {
@@ -344,6 +355,30 @@
     "BranchNode": {
       "introduced_in": "v0.43.0",
       "category": "extras"
+    },
+    "BreezeTextToSpeech": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
+    },
+    "BreezeVoiceClone": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
+    },
+    "BreezeVoiceDesign": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
+    },
+    "BreezeVoiceLocalize": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
+    },
+    "BreezeVoiceRemix": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
+    },
+    "BreezeVoiceSelector": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
     },
     "BriaAddObject": {
       "introduced_in": "v0.35.2",
@@ -862,6 +897,10 @@
     },
     "CreateCameraInfo": {
       "introduced_in": "v0.23.0",
+      "category": "extras"
+    },
+    "CreateCameraOrbit": {
+      "introduced_in": "v0.45.0",
       "category": "extras"
     },
     "CreateHookKeyframe": {
@@ -2263,6 +2302,22 @@
       "introduced_in": "v0.32.0",
       "category": "api"
     },
+    "LtxApiVideoAlphaGen": {
+      "introduced_in": "v0.45.1",
+      "category": "api"
+    },
+    "LtxApiVideoReframe": {
+      "introduced_in": "v0.45.1",
+      "category": "api"
+    },
+    "LtxApiVideoSdrToHdr": {
+      "introduced_in": "v0.45.1",
+      "category": "api"
+    },
+    "LtxApiVideoUpscale": {
+      "introduced_in": "v0.45.1",
+      "category": "api"
+    },
     "LtxvApiImageToVideo": {
       "introduced_in": "v0.3.67",
       "category": "api",
@@ -2493,6 +2548,10 @@
       "introduced_in": "v0.35.0",
       "category": "extras"
     },
+    "MiniMaxH3ImageConditioning": {
+      "introduced_in": "v0.45.0",
+      "category": "extras"
+    },
     "MiniMaxH3ImageToVideo": {
       "introduced_in": "v0.30.0",
       "category": "extras"
@@ -2512,6 +2571,10 @@
     "MiniMaxMusic3TextEncode": {
       "introduced_in": "v0.33.0",
       "category": "extras"
+    },
+    "MinimaxH3ImageNode": {
+      "introduced_in": "v0.45.1",
+      "category": "api"
     },
     "MinimaxHailuo03ContextIRNode": {
       "introduced_in": "v0.33.0",
@@ -2806,8 +2869,20 @@
       "introduced_in": "v0.3.30",
       "category": "api"
     },
+    "OpenAIGPTImageGIFNode": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
+    },
     "OpenAIGPTImageNodeV2": {
       "introduced_in": "v0.21.1",
+      "category": "api"
+    },
+    "OpenAIGPTImageNodeV3": {
+      "introduced_in": "v0.45.0",
+      "category": "api"
+    },
+    "OpenAIGPTImageSVGNode": {
+      "introduced_in": "v0.45.0",
       "category": "api"
     },
     "OpenAIInputFiles": {
@@ -3252,6 +3327,10 @@
     },
     "RegexReplace": {
       "introduced_in": "v0.3.40",
+      "category": "extras"
+    },
+    "RelayVSRConditioning": {
+      "introduced_in": "v0.45.0",
       "category": "extras"
     },
     "RemeshMesh": {
@@ -4237,6 +4316,10 @@
       "introduced_in": "v0.3.57",
       "category": "extras"
     },
+    "UltraTexConditioning": {
+      "introduced_in": "v0.45.0",
+      "category": "extras"
+    },
     "UnwrapMesh": {
       "introduced_in": "v0.34.0",
       "category": "extras"
@@ -4319,6 +4402,10 @@
     },
     "VPScheduler": {
       "introduced_in": "v0.3.0",
+      "category": "extras"
+    },
+    "VSRDecode": {
+      "introduced_in": "v0.45.0",
       "category": "extras"
     },
     "VaeDecodeShapeTrellis": {
@@ -4641,6 +4728,10 @@
     "WavespeedImageUpscaleNode": {
       "introduced_in": "v0.11.0",
       "category": "api"
+    },
+    "WeVisOneDetect": {
+      "introduced_in": "v0.45.0",
+      "category": "extras"
     },
     "WebcamCapture": {
       "introduced_in": "v0.3.0",
