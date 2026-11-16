@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.13",
-  "generated_at": "2026-11-13T08:56:36.513834+00:00",
+  "version": "2026.11.16",
+  "generated_at": "2026-11-16T08:50:08.349719+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -204,12 +204,13 @@
     "v0.45.0",
     "v0.45.1",
     "v0.45.2",
-    "v0.45.3"
+    "v0.45.3",
+    "v0.45.4"
   ],
   "stats": {
     "total_builtins": 1123,
-    "versions_processed": 203,
-    "newest_version": "v0.45.3",
+    "versions_processed": 204,
+    "newest_version": "v0.45.4",
     "nodes_added_in_latest": 0
   },
   "builtins": {
@@ -2331,7 +2332,8 @@
     },
     "LumaConceptsNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.45.4"
     },
     "LumaImageEditNode2": {
       "introduced_in": "v0.20.3",
@@ -2339,11 +2341,13 @@
     },
     "LumaImageModifyNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.45.4"
     },
     "LumaImageNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.45.4"
     },
     "LumaImageNode2": {
       "introduced_in": "v0.20.3",
@@ -2351,7 +2355,8 @@
     },
     "LumaImageToVideoNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.45.4"
     },
     "LumaRay32ExtendVideoNode": {
       "introduced_in": "v0.26.0",
@@ -2383,11 +2388,13 @@
     },
     "LumaReferenceNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.45.4"
     },
     "LumaVideoNode": {
       "introduced_in": "v0.3.32",
-      "category": "api"
+      "category": "api",
+      "removed_in": "v0.45.4"
     },
     "MOSSImageControl": {
       "introduced_in": "v0.42.2",
