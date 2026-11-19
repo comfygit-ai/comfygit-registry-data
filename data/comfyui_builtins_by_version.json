@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.18",
-  "generated_at": "2026-11-18T09:32:51.520173+00:00",
+  "version": "2026.11.19",
+  "generated_at": "2026-11-19T09:41:55.376149+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -207,12 +207,13 @@
     "v0.45.3",
     "v0.45.4",
     "v0.45.5",
-    "v0.45.6"
+    "v0.45.6",
+    "v0.46.0"
   ],
   "stats": {
-    "total_builtins": 1127,
-    "versions_processed": 206,
-    "newest_version": "v0.45.6",
+    "total_builtins": 1131,
+    "versions_processed": 207,
+    "newest_version": "v0.46.0",
     "nodes_added_in_latest": 4
   },
   "builtins": {
@@ -3797,6 +3798,14 @@
       "introduced_in": "v0.3.0",
       "category": "extras"
     },
+    "SenseNovaConditioning": {
+      "introduced_in": "v0.46.0",
+      "category": "extras"
+    },
+    "SenseNovaInterleaveDecode": {
+      "introduced_in": "v0.46.0",
+      "category": "extras"
+    },
     "SenseNovaSamplingOptions": {
       "introduced_in": "v0.35.0",
       "category": "extras"
@@ -3879,6 +3888,10 @@
     },
     "SplitAudioChannels": {
       "introduced_in": "v0.3.61",
+      "category": "extras"
+    },
+    "SplitImageChannels": {
+      "introduced_in": "v0.46.0",
       "category": "extras"
     },
     "SplitImageToTileList": {
@@ -4489,6 +4502,10 @@
     },
     "VideoCrop": {
       "introduced_in": "v0.35.0",
+      "category": "extras"
+    },
+    "VideoDeflicker": {
+      "introduced_in": "v0.46.0",
       "category": "extras"
     },
     "VideoFrameSample": {
