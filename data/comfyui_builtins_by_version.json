@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.19",
-  "generated_at": "2026-11-19T09:41:55.376149+00:00",
+  "version": "2026.11.20",
+  "generated_at": "2026-11-20T09:29:33.350557+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -208,13 +208,14 @@
     "v0.45.4",
     "v0.45.5",
     "v0.45.6",
-    "v0.46.0"
+    "v0.46.0",
+    "v0.46.1"
   ],
   "stats": {
-    "total_builtins": 1131,
-    "versions_processed": 207,
-    "newest_version": "v0.46.0",
-    "nodes_added_in_latest": 4
+    "total_builtins": 1132,
+    "versions_processed": 208,
+    "newest_version": "v0.46.1",
+    "nodes_added_in_latest": 1
   },
   "builtins": {
     "APG": {
@@ -4301,6 +4302,10 @@
     },
     "TripoSmartSegmentNode": {
       "introduced_in": "v0.35.1",
+      "category": "api"
+    },
+    "TripoSmartUVNode": {
+      "introduced_in": "v0.46.1",
       "category": "api"
     },
     "TripoSplatConditioning": {
