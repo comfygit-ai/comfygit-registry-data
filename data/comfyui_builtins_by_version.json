@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.20",
-  "generated_at": "2026-11-20T09:29:33.350557+00:00",
+  "version": "2026.11.21",
+  "generated_at": "2026-11-21T09:00:20.759723+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -209,13 +209,14 @@
     "v0.45.5",
     "v0.45.6",
     "v0.46.0",
-    "v0.46.1"
+    "v0.46.1",
+    "v0.46.2"
   ],
   "stats": {
-    "total_builtins": 1132,
-    "versions_processed": 208,
-    "newest_version": "v0.46.1",
-    "nodes_added_in_latest": 1
+    "total_builtins": 1142,
+    "versions_processed": 209,
+    "newest_version": "v0.46.2",
+    "nodes_added_in_latest": 10
   },
   "builtins": {
     "APG": {
@@ -945,6 +946,18 @@
       "introduced_in": "v0.3.31",
       "category": "extras"
     },
+    "CreatifyAurora2AvatarNode": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
+    "CreatifyBorealH3ReferenceVideoNode": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
+    "CreatifyBorealH3VideoNode": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
     "CropByBBoxes": {
       "introduced_in": "v0.16.0",
       "category": "extras"
@@ -1345,6 +1358,22 @@
       "introduced_in": "v0.15.0",
       "category": "extras"
     },
+    "GeminiDecisionChoice": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
+    "GeminiDecisionPickImage": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
+    "GeminiDecisionScore": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
+    "GeminiDecisionYesNo": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
     "GeminiImage2Node": {
       "introduced_in": "v0.3.71",
       "category": "api"
@@ -1487,6 +1516,18 @@
     },
     "HeyGenCreateAvatarNode": {
       "introduced_in": "v0.28.1",
+      "category": "api"
+    },
+    "HeyGenDecisionChoice": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
+    "HeyGenDecisionScore": {
+      "introduced_in": "v0.46.2",
+      "category": "api"
+    },
+    "HeyGenDecisionYesNo": {
+      "introduced_in": "v0.46.2",
       "category": "api"
     },
     "HeyGenImageToVideoNode": {
