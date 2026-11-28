@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.24",
-  "generated_at": "2026-11-24T11:52:18.288149+00:00",
+  "version": "2026.11.28",
+  "generated_at": "2026-11-28T09:39:21.503813+00:00",
   "comfyui_versions_processed": [
     "v0.3.0",
     "v0.3.1",
@@ -211,13 +211,14 @@
     "v0.46.0",
     "v0.46.1",
     "v0.46.2",
-    "v0.46.3"
+    "v0.46.3",
+    "v0.46.4"
   ],
   "stats": {
-    "total_builtins": 1151,
-    "versions_processed": 210,
-    "newest_version": "v0.46.3",
-    "nodes_added_in_latest": 9
+    "total_builtins": 1155,
+    "versions_processed": 211,
+    "newest_version": "v0.46.4",
+    "nodes_added_in_latest": 4
   },
   "builtins": {
     "APG": {
@@ -2470,6 +2471,18 @@
       "introduced_in": "v0.42.0",
       "category": "extras"
     },
+    "Magi2ImageToVideoApi": {
+      "introduced_in": "v0.46.4",
+      "category": "api"
+    },
+    "Magi2ReferenceToVideoApi": {
+      "introduced_in": "v0.46.4",
+      "category": "api"
+    },
+    "Magi2TextToVideoApi": {
+      "introduced_in": "v0.46.4",
+      "category": "api"
+    },
     "MagnificImageRelightNode": {
       "introduced_in": "v0.11.0",
       "category": "api"
@@ -2935,6 +2948,10 @@
     },
     "OpenAIChatNode": {
       "introduced_in": "v0.3.37",
+      "category": "api"
+    },
+    "OpenAIChatNodeV2": {
+      "introduced_in": "v0.46.4",
       "category": "api"
     },
     "OpenAIDalle2": {
